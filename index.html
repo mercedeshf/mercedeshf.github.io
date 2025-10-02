@@ -67,10 +67,18 @@
         <figure id="Location1"></figure>
 
         <p>
-            This is my first graph
+            This is the first chart I publish (not mine)
         </p>
         
         <figure id="Location2"></figure>
+
+        <p>
+
+        Now here's a map!
+            
+        </p>
+
+        <figure id="Location3"></figure>
             
             <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
@@ -102,6 +110,14 @@
                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location2', figure_2_spec)
+
+        //here im going to insert a map!!!
+
+        let figure_3_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-06-06-fixing-britain-how-can-left-behind-regions-catch-up/visualisation/fig6_map_debt-demographics.json"; // We're storing the URL of the graph we want to display in a variable
+                                                                                                                    // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location3', figure_3_spec)
+    
         
     </script>
 
