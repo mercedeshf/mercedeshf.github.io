@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "Turnout of elections in Mexico (1946-2024)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/main/vdem_turnout_vega.csv"
+  },
+  "mark": {"type": "point", "opacity": 0.8},
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "year",
+      "scale": {"domain": [1940, 2025]},
+      "axis": {"format": "d"}
+    },
+    "y": {
+      "field": "turnout",
+      "type": "quantitative",
+      "title": "turnout (%)",
+      "scale": {"domain": [40, 100]}
+    }
+  },
+  "config": {}
+}
