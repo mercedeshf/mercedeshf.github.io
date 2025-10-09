@@ -95,6 +95,14 @@
 
         <figure id="Location5"></figure>
 
+        <p>
+
+        Vega lite chart 1 with ONS data
+            
+        </p>
+
+         <figure id="Location6"></figure>
+
 
             
             <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -144,6 +152,10 @@
         let figure_5_spec = "fig1_steel-price.json"; 
 
         vegaEmbed('#Location5', figure_5_spec)
+
+        let figure_6_spec = "visualization.vl.json"; 
+
+        vegaEmbed('#Location6', figure_6_spec)
 
         
     </script>
