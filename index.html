@@ -103,6 +103,14 @@
 
          <figure id="Location6"></figure>
 
+        <p>
+
+        The following scatterplot shows turnout in elections in Mexico from 1946 to 2024, using information from VDem.
+            
+        </p>
+
+         <figure id="Location7"></figure>
+
 
             
             <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -156,6 +164,10 @@
         let figure_6_spec = "visualization.vl.json"; 
 
         vegaEmbed('#Location6', figure_6_spec)
+
+        let figure_7_spec = "mexico-turnout.json"; 
+
+        vegaEmbed('#Location7', figure_7_spec)
 
         
     </script>
