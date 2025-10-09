@@ -111,6 +111,14 @@
 
          <figure id="Location7"></figure>
 
+        <p>
+
+        The following scatterplot shows turnout in elections in Mexico and the United Kingdom in a comparative manner, from 1945 to 2024, using information from VDem.
+            
+        </p>
+
+         <figure id="Location8"></figure>
+
 
             
             <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -168,6 +176,10 @@
         let figure_7_spec = "mexico-turnout.json"; 
 
         vegaEmbed('#Location7', figure_7_spec)
+
+         let figure_8_spec = "vdem_turnout_mexvsuk.json"; 
+
+        vegaEmbed('#Location8', figure_8_spec)
 
         
     </script>
