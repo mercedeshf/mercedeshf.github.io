@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Second best votes in elections in Mexico",
+    "subtitle": "What vote share has the second best party won?"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/vdem_434_1.csv"
+  },
+  "mark": {"type": "line", "point": "true"},
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "axis": {"format": "d", "title": "Years"}
+    },
+    "y": {"field": "vote", "type": "quantitative", "title": "Vote (%)"}
+  },
+  "config": {}
+}
