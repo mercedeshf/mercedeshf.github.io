@@ -126,6 +126,24 @@
 
          <figure id="Location9"></figure>
 
+        <p>
+
+        New chart            
+        </p>
+
+         <figure id="Location10"></figure>
+
+
+        <p>
+
+        This is my first chart made with an API from the World Bank Data!            
+        </p>
+
+         <figure id="Location11"></figure>
+
+
+    
+
 
             
             <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -190,6 +208,14 @@
             let figure_9_spec = "vdem_434_1.json"; 
 
         vegaEmbed('#Location9', figure_9_spec)
+
+        let figure_10_spec = "shiller_pe_ratio_chart.json"; 
+
+        vegaEmbed('#Location10', figure_10_spec)
+
+        let figure_11_spec = "firstapi_fertility.json"; 
+
+        vegaEmbed('#Location11', figure_11_spec)
 
         
     </script>

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "mark": "line",
+  "title": {
+    "text": "Mexico's fertility rate",
+    "subtitle": "Source: World Bank"
+  },
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/mex/indicator/SP.DYN.TFRT.IN?date=1980:2023&format=json",
+    "format": {"property": "[1]"}
+  },
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": ""},
+    "y": {"field": "value", "type": "quantitative", "title": "fertility rate"}
+  },
+  "config": {}
+}
