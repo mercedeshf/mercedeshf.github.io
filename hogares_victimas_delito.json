@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "mark": "line",
+  "title": {
+    "text": "Percentage of households that are victims of crime",
+    "subtitle": "Source: INEGI"
+  },
+  "data": {
+    "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009721/es/0/false/BISE/2.0/2c0f0633-fe2e-fe3d-c4fb-2e051f589c93?type=json",
+    "format": {"type": "json", "property": "Series[0].OBSERVATIONS"}
+  },
+  "transform": [{"filter": "datum.COBER_GEO == '0'"}],
+  "encoding": {
+    "x": {"field": "TIME_PERIOD", "type": "temporal", "title": ""},
+    "y": {
+      "field": "OBS_VALUE",
+      "type": "quantitative",
+      "title": "households (%)",
+      "scale": {"domain": [0, 60]}
+    }
+  },
+  "config": {}
+}
