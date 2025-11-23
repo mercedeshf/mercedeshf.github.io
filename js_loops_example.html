@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Loops and Variables Example</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            text-align: center;
+            margin: 2em;
+        }
+        h1 {
+            margin-bottom: 1em;
+        }
+        pre {
+            text-align: left;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Variables and Loops</h1>
+    <pre id="output"></pre>
+    <script>
+        // String variable: text
+        let name = "Alice";
+        console.log(name);
+        // Number variable
+        let age = 30; // int
+        let height = 175.6; // float
+        console.log(age);
+        console.log(height);
+
+        // Array (list) variable
+        let cities = ["Aarhus", "Berlin", "Chicago", "Dubai", "Edmonton", "Fes"];
+        console.log(cities);
+        // Accessing list items by index
+        console.log(cities[0]);  // First item
+        console.log(cities[3]);  // Fourth item
+        console.log(cities[cities.length - 1]);  // Last item
+        // Length of the list
+        console.log(cities.length);
+
+        // Object (dict) variable
+        let capitals = {
+            "Estonia": "Tallinn",
+            "Denmark": "Copenhagen",
+            "Brazil": "Brasília",
+            "Angola": "Luanda",
+            "Canada": "Ottawa"
+        };
+        // Accessing dict values by key
+        let angola_capital = capitals["Angola"];
+        console.log("The capital of Angola is", angola_capital);
+
+        // Dict with lists as values (object with arrays)
+        let leaders = {
+            "UK": ["Blair", "Brown", "Cameron", "Johnson", "May", "Truss", "Sunak", "Starmer"],
+            "France": ["Mitterrand", "Chirac", "Sarkozy", "Hollande", "Macron"],
+            "Russia": ["Yeltsin", "Putin", "Medvedev", "Putin"]
+        };
+        console.log(leaders["France"][0]); // First leader of France
+        console.log(leaders["UK"][leaders["UK"].length - 1]); // Last leader of UK
+
+        // Array of objects with nested arrays and objects
+        let countries = [
+            {
+                name: "UK",
+                cities: [
+                    { name: "London", population: 9000000 },
+                    { name: "Birmingham", population: 1100000 },
+                    { name: "Manchester", population: 550000 },
+                    { name: "Glasgow", population: 635000 }
+                ]
+            },
+            {
+                name: "Germany",
+                cities: [
+                    { name: "Berlin", population: 3600000 },
+                    { name: "Hamburg", population: 1900000 },
+                    { name: "Munich", population: 1500000 },
+                    { name: "Cologne", population: 1100000 }
+                ]
+            }
+        ];
+        // What is Germany's biggest city?
+        console.log(countries[1].cities[0].name);
+        // What's the population of Germany's biggest city?
+        console.log(countries[1].cities[0].population);
+
+        // Looping over an array
+        for (let city of cities) {
+            console.log(city);
+        }
+
+        // Looping using range (for loop with index)
+        for (let i = 0; i < 5; i++) {
+            console.log(i);
+        }
+
+        // Show that console.log is like print in Python
+        console.log("console.log is like print in Python");
+    </script>
+</body>
+</html>
