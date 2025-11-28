@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html> 
+    <!-- HTML is heirarchial: tags like this define elements on the page. 
+    Each tag does something different. For example:
+        - The <html> tag defines the whole document.
+        - The <h1> tag defines a large heading
+        - The <p> tag defines a paragraph
+        - Tags appear as an opening <div> and closing </div> pair
+    -->
 
+<head>    
+    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+
+    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
+    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        #chartGrid {
+            display: flex;
+        }
+        
+    </style>
+</head>
+
+<body> 
+<!-- The body tag contains the elements that visitors to our page will see. -->
+    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
+        <!-- This is a header, it is the largest text on the page -->
+        Mercedes Hernández Ferrer
+    </h1>
+    <p style="margin-top: 0px; color: darkblue">
+        <!-- we're setting the margin to 0px so the header and authour name are close together -->
+        Mercedes Hernández | <a href="https://www.linkedin.com/in/mercedeshf/">LinkedIn</a> | <a
+            href="https://github.com/mercedeshf">GitHub</a>
+    </p>
+    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+        This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
+    </h3>
+
+    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+    <section>
+        <div class="chart-description">
+            <h2>Tasks</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                This is my portfolio of tasks for Automated Data Visualization course at the London School of Economics and Political Science!
+            </p>
+        </div>
+          <!-- <figure id="Location1"></figure>
+
+        <p>
+            This is the first chart I publish (not mine)
+        </p>
+        
+        <figure id="Location2"></figure>
+
+
+    </section>
+
+    <!-- Do you want to add more sections? -->
+        <!-- Try copying pasting the section above -->
+        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
+        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
+
+
+    <!-- This is a script, it's a way to run JavaScript code on the page -->
+     <!-- <script>
+        // This is a comment in JavaScript - it's a different language to HTML and CSS
+
+        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
+                                                                                                                    // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+
+        //important: there is an id location 1 and then theres a figure 1 spec. seems excessive, but the point is: location1 is the id we used above, to show where the chart should be placed within our site. figure 1 spec is helping us name our actual chart and tell it where to get it from (the link after
+
+        
+
+
+        console.log("0")
+        console.log("1")
+        console.log("2")
+        console.log("3")
+
+        for (let i = 0; i < 4; i ++) //the i ++ basically tells us to add 1 to the variable. if we left it in "null" instead of "i ++" then it would print 0 a million times.
+            console.log(i) // esto lo hice nada mas para ver live en console como se veria.... aun no lo he actualizado en github!
+    
+
+
+    </script>
+
+   
+
+</body>
+    
+</html>
