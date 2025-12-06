@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Crime in Mexican municipalities",
+  "width": 350,
+  "height": 450,
+  "params": [
+    {
+      "name": "zoom_level",
+      "value": 1,
+      "bind": {
+        "input": "range",
+        "min": 700,
+        "max": 3000,
+        "step": 0.5,
+        "name": "Zoom: "
+      }
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/mexico-municipal.json",
+    "format": {"type": "topojson", "feature": "mexico-municipal"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.CVEGEO",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crimen_mun_final.csv"
+        },
+        "key": "clave_mun",
+        "fields": ["municipio", "crime_rate_per_100k"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": null, "strokeWidth": 0},
+  "encoding": {
+    "color": {
+      "field": "crime_rate_per_100k",
+      "type": "quantitative",
+      "scale": {"type": "sqrt", "scheme": "viridis"},
+      "title": "Crime per 100,000 inhabitants"
+    },
+    "tooltip": [
+      {"field": "municipio", "type": "nominal", "title": "Municipality name"},
+      {
+        "field": "crime_rate_per_100k",
+        "type": "quantitative",
+        "title": "Crimes per 100,000 inhabitants",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "projection": {"type": "mercator"},
+  "config": {}
+}
