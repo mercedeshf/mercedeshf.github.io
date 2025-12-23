@@ -67,26 +67,22 @@
         
         // Task 2 charts
        let figure_3_spec = "nuclear_power_japan.json"; 
-fetch(figure_3_spec)
-    .then(response => response.json())
-    .then(spec => {
-        // Override the problematic settings
-        spec.width = 400;
+      fetch(figure_3_spec)
+          .then(response => response.json())
+          .then(spec => {
+        spec.width = 400;  // Changed from 600 - adjust this number to your preference
         delete spec.autosize;
         vegaEmbed('#Location3', spec);
-    })
-    .catch(error => console.error('Chart 3 error:', error));
+    });
 
-let figure_4_spec = "refugees_ukraine.json";
-fetch(figure_4_spec)
-    .then(response => response.json())
-    .then(spec => {
-        // Override the problematic settings
-        spec.width = 400;
+      let figure_4_spec = "refugees_ukraine.json";
+      fetch(figure_4_spec)
+       .then(response => response.json())
+       .then(spec => {
+        spec.width = 400;  // Changed from 600
         delete spec.autosize;
         vegaEmbed('#Location4', spec);
-    })
-    .catch(error => console.error('Chart 4 error:', error));
+    });
     </script>
 </body>
 </html>
