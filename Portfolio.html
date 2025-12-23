@@ -49,11 +49,15 @@
 </section>
 
    <script>
-     let figure_1_spec = "life_expectancy_ecoobs.json";  // Just the filename
-vegaEmbed('#Location1', figure_1_spec);
+     let figure_1_spec = "life_expectancy_ecoobs.json";
+vegaEmbed('#Location1', figure_1_spec)
+    .then(() => console.log("✅ Chart 1 loaded successfully"))
+    .catch(error => console.error("❌ Chart 1 error:", error));
 
-let figure_2_spec = "life_expectancy_2_ecoobs.json";  // Just the filename
-vegaEmbed('#Location2', figure_2_spec);
+let figure_2_spec = "life_expectancy_2_ecoobs.json";
+vegaEmbed('#Location2', figure_2_spec)
+    .then(() => console.log("✅ Chart 2 loaded successfully"))
+    .catch(error => console.error("❌ Chart 2 error:", error));
 
         console.log("0")
         console.log("1")
