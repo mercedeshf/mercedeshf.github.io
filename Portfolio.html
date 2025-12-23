@@ -67,10 +67,16 @@
         
         // Task 2 charts
        let figure_3_spec = "nuclear_power_japan.json"; 
-      vegaEmbed('#Location3', figure_3_spec, {width: 600});
+      vegaEmbed('#Location3', figure_3_spec, {
+       width: 600,
+       actions: false  // optional: hides the menu
+      }).catch(error => console.error('Chart 3 error:', error));
 
       let figure_4_spec = "refugees_ukraine.json";
-      vegaEmbed('#Location4', figure_4_spec, {width: 600});
+      vegaEmbed('#Location4', figure_4_spec, {
+       width: 600,
+       actions: false
+      }).catch(error => console.error('Chart 4 error:', error));
     </script>
 </body>
 </html>
