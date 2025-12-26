@@ -21,7 +21,7 @@
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         Mercedes Hernández | <a href="https://www.linkedin.com/in/mercedeshf/">LinkedIn</a> | 
-            href="https://github.com/mercedeshf">GitHub</a>
+            <a href="https://github.com/mercedeshf">GitHub</a>
     </p>
     <h3 class="small">
         This is my portfolio of tasks for Automated Data Visualization course at the London School of Economics and Political Science!  
@@ -58,74 +58,76 @@
         <figure id="Location4"></figure>
     </section>
 
-<!-- TASK 3 -->
-<section>
-    <div class="chart-description">
-        <h2>Task 3</h2>
-        <p> 
-Policy debate: Has Mexico improved public security overall, or do falling property crimes mask the persistence of high impact violent crime?
-        </p>
-    </div>
-    
-    <div style="display: flex; gap: 20px;">
-        <div>
-            <p>Chart 1: Theft Crimes</p>
-            <figure id="Location5"></figure>
+    <!-- TASK 3 -->
+    <section>
+        <div class="chart-description">
+            <h2>Task 3</h2>
+            <p> 
+    Policy debate: Has Mexico improved public security overall, or do falling property crimes mask the persistence of high impact violent crime?
+            </p>
         </div>
         
-        <div>
-            <p>Chart 2: 'High Impact' Crime Trends</p>
-            <figure id="Location6"></figure>
+        <div style="display: flex; gap: 20px;">
+            <div>
+                <p>Chart 1: Theft Crimes</p>
+                <figure id="Location5"></figure>
+            </div>
+            
+            <div>
+                <p>Chart 2: 'High Impact' Crime Trends</p>
+                <figure id="Location6"></figure>
+            </div>
         </div>
-    </div>
-    
-    <p> 
-Commentary: Theft and kidnapping declined below 2015 levels, but homicide, extortion, and feminicide remain elevated, challenging claims of broad improvements in public security.
-    </p> 
-</section>
+        
+        <p> 
+    Commentary: Theft and kidnapping declined below 2015 levels, but homicide, extortion, and feminicide remain elevated, challenging claims of broad improvements in public security.
+        </p> 
+    </section>
 
     
     <script>
         // Task 1 charts
-        let figure_1_spec = "life_expectancy_ecoobs.json"; //this I hosted on my own repository, downloading the json file from the Economics Observatory
+        let figure_1_spec = "life_expectancy_ecoobs.json";
         vegaEmbed('#Location1', figure_1_spec);
         
-        let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; //this I am redirecting to the raw json file of the Economics Observatory, please don't delete it!
+        let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
         vegaEmbed('#Location2', figure_2_spec);
         
-        // Task 2 charts: I was having some issues displaying these charts due to a size issue, so instead of changing the json files I modified the width here.
-       let figure_3_spec = "nuclear_power_japan.json"; 
-      fetch(figure_3_spec)
-          .then(response => response.json())
-          .then(spec => {
-        spec.width = 400;  
-        delete spec.autosize;
-        vegaEmbed('#Location3', spec);
-    });
+        // Task 2 charts
+        let figure_3_spec = "nuclear_power_japan.json"; 
+        fetch(figure_3_spec)
+            .then(response => response.json())
+            .then(spec => {
+                spec.width = 400;  
+                delete spec.autosize;
+                vegaEmbed('#Location3', spec);
+            });
 
-      let figure_4_spec = "refugees_ukraine.json";
-      fetch(figure_4_spec)
-       .then(response => response.json())
-       .then(spec => {
-        spec.width = 400;  
-        delete spec.autosize;
-        vegaEmbed('#Location4', spec);
+        let figure_4_spec = "refugees_ukraine.json";
+        fetch(figure_4_spec)
+            .then(response => response.json())
+            .then(spec => {
+                spec.width = 400;  
+                delete spec.autosize;
+                vegaEmbed('#Location4', spec);
+            });
 
-     let figure_5_spec = "theft_crimes_mex.json"; 
-fetch(figure_5_spec)
-    .then(response => response.json())
-    .then(spec => {
-        spec.width = 400;
-        vegaEmbed('#Location5', spec);
-    });
+        // Task 3 charts
+        let figure_5_spec = "theft_crimes_mex.json"; 
+        fetch(figure_5_spec)
+            .then(response => response.json())
+            .then(spec => {
+                spec.width = 400;
+                vegaEmbed('#Location5', spec);
+            });
 
-let figure_6_spec = "crime_trends_mex.json";
-fetch(figure_6_spec)
-    .then(response => response.json())
-    .then(spec => {
-        spec.width = 500;
-        vegaEmbed('#Location6', spec);
-    });
+        let figure_6_spec = "crime_trends_mex.json";
+        fetch(figure_6_spec)
+            .then(response => response.json())
+            .then(spec => {
+                spec.width = 500;
+                vegaEmbed('#Location6', spec);
+            });
     </script>
 </body>
 </html>
