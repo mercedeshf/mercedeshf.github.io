@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "description": "Crime data comparison",
   "title": {
-    "text": "Crime Trends in Mexico",
+    "text": "'High Impact' Crime Trends in Mexico",
     "subtitle": "Comparing kidnapping, extortion, homicide, and feminicide, 2015-2024",
     "subtitleColor": "#2E294E",
     "fontSize": 18,
