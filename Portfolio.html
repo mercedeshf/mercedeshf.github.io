@@ -57,7 +57,7 @@
         <figure id="Location4"></figure>
     </section>
 
-    <!-- TASK 3: IN PROCESS -->
+    <!-- TASK 3 -->
     <section>
         <div class="chart-description">
             <h2>Task 3</h2>
@@ -71,6 +71,7 @@
         <p>Chart 2: xxx</p>
         <figure id="Location6"></figure>
     </section>
+
     
     <script>
         // Task 1 charts
@@ -85,7 +86,7 @@
       fetch(figure_3_spec)
           .then(response => response.json())
           .then(spec => {
-        spec.width = 400;  // Changed from 600 - adjust this number to your preference
+        spec.width = 400;  
         delete spec.autosize;
         vegaEmbed('#Location3', spec);
     });
@@ -94,9 +95,12 @@
       fetch(figure_4_spec)
        .then(response => response.json())
        .then(spec => {
-        spec.width = 400;  // Changed from 600
+        spec.width = 400;  
         delete spec.autosize;
         vegaEmbed('#Location4', spec);
+
+      let figure_5_spec = "theft_crime_mex"; //this is information I got from
+        vegaEmbed('#Location1', figure_1_spec);
     });
     </script>
 </body>
