@@ -113,21 +113,32 @@
             });
 
         // Task 3 charts
-        let figure_5_spec = "theft_crimes_mex.json"; 
-        fetch(figure_5_spec)
-            .then(response => response.json())
-            .then(spec => {
-                spec.width = 200;
-                vegaEmbed('#Location5', spec);
-            });
+        // Task 3 charts
+let figure_5_spec = "theft_crimes_mex.json"; 
+fetch(figure_5_spec)
+    .then(response => response.json())
+    .then(spec => {
+        spec.vconcat[0].width = 450;
+        spec.vconcat[0].height = 400;
+        spec.vconcat[1].width = 450;
+        vegaEmbed('#Location5', spec);
+    });
 
-        let figure_6_spec = "crime_trends_mex.json";
-        fetch(figure_6_spec)
-            .then(response => response.json())
-            .then(spec => {
-                spec.width = 150;
-                vegaEmbed('#Location6', spec);
-            });
+let figure_6_spec = "crime_trends_mex.json";
+fetch(figure_6_spec)
+    .then(response => response.json())
+    .then(spec => {
+        spec.vconcat[0].hconcat[0].width = 225;
+        spec.vconcat[0].hconcat[0].height = 200;
+        spec.vconcat[0].hconcat[1].width = 225;
+        spec.vconcat[0].hconcat[1].height = 200;
+        spec.vconcat[1].hconcat[0].width = 225;
+        spec.vconcat[1].hconcat[0].height = 200;
+        spec.vconcat[1].hconcat[1].width = 225;
+        spec.vconcat[1].hconcat[1].height = 200;
+        spec.vconcat[2].width = 470;
+        vegaEmbed('#Location6', spec);
+    });
     </script>
 </body>
 </html>
