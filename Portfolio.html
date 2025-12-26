@@ -111,11 +111,20 @@ Commentary: Theft and kidnapping declined below 2015 levels, but homicide, extor
         delete spec.autosize;
         vegaEmbed('#Location4', spec);
 
-      let figure_5_spec = "theft_crimes_mex.json"; 
-        vegaEmbed('#Location5', figure_5_spec);
+     let figure_5_spec = "theft_crimes_mex.json"; 
+fetch(figure_5_spec)
+    .then(response => response.json())
+    .then(spec => {
+        spec.width = 400;
+        vegaEmbed('#Location5', spec);
+    });
 
-      let figure_6_spec = "crime_trends_mex.json";
-          vegaEmbed('#Location6', figure_6_spec);
+let figure_6_spec = "crime_trends_mex.json";
+fetch(figure_6_spec)
+    .then(response => response.json())
+    .then(spec => {
+        spec.width = 500;
+        vegaEmbed('#Location6', spec);
     });
     </script>
 </body>
