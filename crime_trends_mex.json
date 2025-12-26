@@ -180,6 +180,37 @@
           }
         }
       ]
+    },
+    {
+      "width": 600,
+      "height": 20,
+      "layer": [
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": 5,
+            "fontSize": 10,
+            "color": "#2E294E",
+            "text": "Source:"
+          }
+        },
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": 47,
+            "fontSize": 10,
+            "fontStyle": "italic",
+            "color": "#2E294E",
+            "text": "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública de México"
+          }
+        }
+      ]
     }
   ],
   "config": {"view": {"stroke": null}}
