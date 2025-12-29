@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html> 
-<head>    
-   
+<html>
+
+<head>
+
     <link rel="stylesheet" type="text/css" href="index.css">
-    <title>My Portfolio</title> 
+    <title>My Portfolio</title>
     <!-- This is a link to the vega-lite which we're using to make graphs -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -12,49 +13,53 @@
         #chartGrid {
             display: flex;
         }
-        
     </style>
 </head>
-<body> 
+
+<body>
     <h1 class="big" style="margin-bottom: 0px;">
         Mercedes Hernández Ferrer
     </h1>
     <p style="margin-top: 0px; color: darkblue">
-        Mercedes Hernández | <a href="https://www.linkedin.com/in/mercedeshf/">LinkedIn</a> | 
-            <a href="https://github.com/mercedeshf">GitHub</a>
+        Mercedes Hernández | <a href="https://www.linkedin.com/in/mercedeshf/">LinkedIn</a> |
+        <a href="https://github.com/mercedeshf">GitHub</a>
     </p>
     <h3 class="small">
-        This is my portfolio of tasks for Automated Data Visualization course at the London School of Economics and Political Science!  
+        This is my portfolio of tasks for Automated Data Visualization course at the London School of Economics and
+        Political Science!
     </h3>
-    
+
     <!-- TASK 1 -->
     <section>
         <div class="chart-description">
             <h2>Task 1</h2>
-            <p> 
-            My first two charts, taken from the Economics Observatory (economicsobservatory.com), about GDP and life expectancy! 
+            <p>
+                My first two charts, taken from the Economics Observatory (economicsobservatory.com), about GDP and life
+                expectancy!
             </p>
         </div>
-        <p>Chart 1: Trends in life expectancy and fertility</p>   
+        <p>Chart 1: Trends in life expectancy and fertility</p>
         <figure id="Location1"></figure>
 
-        
+
         <p>Chart 2:</p>
         <figure id="Location2"></figure>
     </section>
-    
+
     <!-- TASK 2 -->
     <section>
         <div class="chart-description">
             <h2>Task 2</h2>
-            <p> 
-            These two charts were created using the Economics Observatory "create" tool. 
+            <p>
+                These two charts were created using the Economics Observatory "create" tool.
             </p>
         </div>
-        <p>Chart 1: Nuclear power in Japan. I found this interesting because after the Fukushima Disaster in 2011, Japan almost stopped nuclear power generation.</p>
+        <p>Chart 1: Nuclear power in Japan. I found this interesting because after the Fukushima Disaster in 2011, Japan
+            almost stopped nuclear power generation.</p>
         <figure id="Location3"></figure>
-        
-        <p>Chart 2: Ukrainian refugees. I found this interesting because after Russia invaded Ukraine, there was clearly a spike in refugees.</p>
+
+        <p>Chart 2: Ukrainian refugees. I found this interesting because after Russia invaded Ukraine, there was clearly
+            a spike in refugees.</p>
         <figure id="Location4"></figure>
     </section>
 
@@ -62,43 +67,67 @@
     <section>
         <div class="chart-description">
             <h2>Task 3</h2>
-            <p> 
-    Policy debate: Has Mexico improved public security overall, or do falling property crimes mask the persistence of high impact violent crime?
+            <p>
+                Policy debate: Has Mexico improved public security overall, or do falling property crimes mask the
+                persistence of high impact violent crime?
             </p>
         </div>
-        
+
         <div style="display: flex; gap: 20px;">
             <div>
                 <p>Chart 1: Theft Crimes</p>
                 <figure id="Location5"></figure>
             </div>
-            
+
             <div>
                 <p>Chart 2: 'High Impact' Crime Trends</p>
                 <figure id="Location6"></figure>
             </div>
         </div>
-        
-        <p> 
-    Commentary: Theft and kidnapping declined below 2015 levels, but homicide, extortion, and feminicide remain elevated, challenging claims of broad improvements in public security.
-        </p> 
+
+        <p>
+            Commentary: Theft and kidnapping declined below 2015 levels, but homicide, extortion, and feminicide remain
+            elevated, challenging claims of broad improvements in public security.
+        </p>
     </section>
 
-    
+    <!-- TASK 4 -->
+
+    <section>
+
+        <div class="chart-description">
+            <h2>Task 4</h2>
+            <p>
+                The original chart I want to improve is the Mexican national statistics office (INEGI) chart on
+                homicides per 100,000 inhabitants. This information is crucial and is very hard to find in a dataframe
+                format, so I'll make a new, nicer chart with the information displayed.
+            </p>
+        </div>
+
+        </div>
+        <p>Chart 1: Homicides per 100,000 inhabitants, 1990-2024, by INEGI</p>
+        <img src="Tasa_bruta_homicidios_100milhabitantes_mex.png" alt="Homicides per 100,000 inhabitants in Mexico, 1990-2024">
+
+        <p>Chart 2: Homicides per 100,000 inhabitants, 1990-2024</p>
+        <figure id="Location8"></figure>
+
+    </section>
+
+
     <script>
         // Task 1 charts
         let figure_1_spec = "life_expectancy_ecoobs.json";
         vegaEmbed('#Location1', figure_1_spec);
-        
+
         let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
         vegaEmbed('#Location2', figure_2_spec);
-        
+
         // Task 2 charts
-        let figure_3_spec = "nuclear_power_japan.json"; 
+        let figure_3_spec = "nuclear_power_japan.json";
         fetch(figure_3_spec)
             .then(response => response.json())
             .then(spec => {
-                spec.width = 400;  
+                spec.width = 400;
                 delete spec.autosize;
                 vegaEmbed('#Location3', spec);
             });
@@ -107,25 +136,26 @@
         fetch(figure_4_spec)
             .then(response => response.json())
             .then(spec => {
-                spec.width = 400;  
+                spec.width = 400;
                 delete spec.autosize;
                 vegaEmbed('#Location4', spec);
             });
 
-        // Task 3 charts
-        // Task 3 charts
-// Task 3 charts
-let figure_5_spec = "theft_crimes_mex.json"; 
-vegaEmbed('#Location5', figure_5_spec).then(() => {
-    document.querySelector('#Location5').style.transform = 'scale(0.6)';
-    document.querySelector('#Location5').style.transformOrigin = 'top left';
-});
 
-let figure_6_spec = "crime_trends_mex.json";
-vegaEmbed('#Location6', figure_6_spec).then(() => {
-    document.querySelector('#Location6').style.transform = 'scale(0.6)';
-    document.querySelector('#Location6').style.transformOrigin = 'top left';
-});
+        // Task 3 charts
+        let figure_5_spec = "theft_crimes_mex.json";
+        vegaEmbed('#Location5', figure_5_spec);
+
+        let figure_6_spec = "crime_trends_mex.json";
+        vegaEmbed('#Location6', figure_6_spec);
+
+
+        // Task 4 charts
+        // chart 7 is an image so it doesn't need script space!
+        let figure_8_spec = "homicides";
+        vegaEmbed('#Location8', figure_8_spec);
+
     </script>
 </body>
+
 </html>
