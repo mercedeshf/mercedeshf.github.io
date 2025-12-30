@@ -1,0 +1,236 @@
+[
+    {
+        "page": 1,
+        "pages": 1,
+        "per_page": 1000,
+        "total": 14,
+        "sourceid": "2",
+        "lastupdated": "2025-12-19"
+    },
+    [
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2023",
+            "value": 6.34829073035101,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2022",
+            "value": 6.80201256720408,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2021",
+            "value": 4.65658124495601,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2020",
+            "value": 5.75613878004137,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2019",
+            "value": 4.81306553520039,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2018",
+            "value": 4.36665251518391,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2017",
+            "value": 4.19745439747334,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2016",
+            "value": 3.39405749254204,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2015",
+            "value": 2.32163505387454,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2014",
+            "value": 2.4518317226161,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2013",
+            "value": 3.14355060592079,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2012",
+            "value": 2.47729352143792,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2011",
+            "value": 3.66532251337043,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "VC.IHR.PSRC.P5",
+                "value": "Intentional homicides (per 100,000 people)"
+            },
+            "country": {
+                "id": "CL",
+                "value": "Chile"
+            },
+            "countryiso3code": "CHL",
+            "date": "2010",
+            "value": 3.14874215608169,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        }
+    ]
+]
