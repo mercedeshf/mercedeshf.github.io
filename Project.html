@@ -1,1 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <title>Mexican Crime Data Visualization | Mercedes Hernández Ferrer</title>
+    
+    <!-- Vega-Lite for charts -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="index.html" class="nav-back">← Portfolio</a>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#visualizations">Visualizations</a>
+                <a href="#findings">Findings</a>
+                <a href="#methodology">Methodology</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Title Section -->
+    <section class="title-section">
+        <div class="title-grid">
+            <div class="title-block rosa-block"></div>
+            <div class="title-content">
+                <h1 class="project-title">Crime and Security in Mexico</h1>
+                <p class="project-subtitle">An analysis of crime trends and public security challenges, 2010-2024</p>
+            </div>
+            <div class="title-block jade-block"></div>
+        </div>
+        <div class="author-bar">
+            <p>Mercedes Hernández Ferrer | LSE Data Visualization Project</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <!-- Overview Section -->
+        <section id="overview" class="content-section">
+            <div class="section-header">
+                <div class="header-accent"></div>
+                <h2>Project Overview</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
+                    This project examines Mexico's public security landscape through comprehensive data visualization, addressing the critical question: <strong>Has Mexico improved public security overall, or do falling property crimes mask the persistence of high-impact violent crime?</strong>
+                </p>
+            </div>
+
+            <div class="grid-3">
+                <div class="info-card">
+                    <div class="card-accent rosa-accent"></div>
+                    <h3>Crime Trends</h3>
+                    <p>How have different categories of crime evolved over the past decade?</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-accent jade-accent"></div>
+                    <h3>International Context</h3>
+                    <p>How does Mexico compare to other countries in the region and globally?</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-accent maiz-accent"></div>
+                    <h3>Policy Impact</h3>
+                    <p>What do the data reveal about public security policy effectiveness?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visualizations Section -->
+        <section id="visualizations" class="content-section">
+            <div class="section-header">
+                <div class="header-accent jade-accent"></div>
+                <h2>Data Visualizations</h2>
+            </div>
+
+            <!-- Viz 1 -->
+            <article class="viz-article">
+                <div class="viz-number rosa-bg">01</div>
+                <div class="viz-content">
+                    <h3>International Homicide Rate Comparison</h3>
+                    <p class="viz-description">
+                        Comparing intentional homicide rates per 100,000 people across global regions and select countries (2010-2023). Data sourced from the World Bank API.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="viz1"></figure>
+                    </div>
+                    <div class="insights-box">
+                        <h4>Key Insights</h4>
+                        <ul>
+                            <li>Mexico's homicide rate peaked around 2018-2019</li>
+                            <li>Colombia shows a declining trend over the period</li>
+                            <li>Latin America & Caribbean region remains above global average</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Viz 2 -->
+            <article class="viz-article">
+                <div class="viz-number jade-bg">02</div>
+                <div class="viz-content">
+                    <h3>Theft Crime Trends in Mexico</h3>
+                    <p class="viz-description">
+                        Annual reported theft incidents from 2015-2024, showing a significant decline in property crimes.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="viz2"></figure>
+                    </div>
+                    <div class="insights-box">
+                        <h4>Key Insights</h4>
+                        <ul>
+                            <li>Peak theft incidents occurred in 2017-2018 (over 800,000 annually)</li>
+                            <li>Steady decline from 2019 onwards</li>
+                            <li>2024 shows theft crimes at approximately 540,000 incidents</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Viz 3 -->
+            <article class="viz-article">
+                <div class="viz-number maiz-bg">03</div>
+                <div class="viz-content">
+                    <h3>High-Impact Crime Trends</h3>
+                    <p class="viz-description">
+                        Tracking homicides, extortion, kidnapping, and feminicide—crimes with the most severe impact on public security and wellbeing.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="viz3"></figure>
+                    </div>
+                    <div class="insights-box">
+                        <h4>Key Insights</h4>
+                        <ul>
+                            <li>Homicides remain elevated compared to 2015 baseline</li>
+                            <li>Feminicide shows persistent high levels</li>
+                            <li>Kidnapping has declined significantly</li>
+                            <li>Extortion trends remain concerning</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Viz 4 -->
+            <article class="viz-article">
+                <div class="viz-number indigo-bg">04</div>
+                <div class="viz-content">
+                    <h3>Long-Term Homicide Trends (1990-2024)</h3>
+                    <p class="viz-description">
+                        Historical perspective on homicide rates per 100,000 inhabitants in Mexico, showing cycles of violence over three decades.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="viz4"></figure>
+                    </div>
+                    <div class="insights-box">
+                        <h4>Key Insights</h4>
+                        <ul>
+                            <li>Sharp decline in the 1990s from peak levels</li>
+                            <li>Historic low around 2007</li>
+                            <li>Dramatic increase starting 2008 ("drug war" period)</li>
+                            <li>Recent years show rates similar to early 1990s</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Findings Section -->
+        <section id="findings" class="content-section">
+            <div class="section-header">
+                <div class="header-accent rosa-accent"></div>
+                <h2>Key Findings</h2>
+            </div>
+
+            <div class="findings-grid">
+                <article class="finding-box">
+                    <div class="finding-label rosa-bg">01</div>
+                    <h3>The Paradox of Progress</h3>
+                    <p>
+                        While property crimes like theft have declined significantly since their 2017-2018 peak, high-impact violent crimes remain elevated. This creates a misleading narrative where aggregate crime statistics may suggest improvement while the most severe public safety challenges persist.
+                    </p>
+                </article>
+
+                <article class="finding-box">
+                    <div class="finding-label jade-bg">02</div>
+                    <h3>Regional Context Matters</h3>
+                    <p>
+                        Mexico's homicide rate, while showing some recent decline, remains significantly higher than the global average and comparable to other Latin American countries with serious security challenges. The regional context reveals systemic issues that transcend individual country policies.
+                    </p>
+                </article>
+
+                <article class="finding-box">
+                    <div class="finding-label maiz-bg">03</div>
+                    <h3>Historical Cycles</h3>
+                    <p>
+                        The long-term data (1990-2024) reveals cyclical patterns of violence in Mexico, with current homicide rates comparable to levels seen in the early 1990s. This historical perspective suggests that recent changes may be part of longer-term patterns rather than fundamental shifts in public security.
+                    </p>
+                </article>
+            </div>
+
+            <div class="conclusion-panel">
+                <div class="conclusion-stripe"></div>
+                <div class="conclusion-content">
+                    <h3>Conclusion</h3>
+                    <p>
+                        The data challenge simple narratives about Mexico's public security. While declining property crimes represent genuine progress, the persistence of high-impact violent crimes—particularly homicides and feminicides—indicates that fundamental security challenges remain unresolved. Effective policy must address these violent crimes specifically rather than relying on aggregate statistics that may obscure ongoing crises.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Section -->
+        <section id="methodology" class="content-section">
+            <div class="section-header">
+                <div class="header-accent indigo-accent"></div>
+                <h2>Methodology & Data Sources</h2>
+            </div>
+
+            <div class="method-grid">
+                <article class="method-box">
+                    <div class="method-icon jade-bg">API</div>
+                    <h3>World Bank Open Data API</h3>
+                    <p>
+                        International homicide rate comparisons sourced from the World Bank's Development Indicators database. The API provides standardized data across countries, enabling reliable cross-national analysis.
+                    </p>
+                    <div class="method-details">
+                        <p><strong>Indicator:</strong> VC.IHR.PSRC.P5 (Intentional homicides per 100,000 people)</p>
+                        <p><strong>Time Period:</strong> 2010-2023</p>
+                        <p><strong>Countries/Regions:</strong> World, Mexico, Colombia, Brazil, Chile, United Kingdom, Latin America & Caribbean</p>
+                    </div>
+                </article>
+
+                <article class="method-box">
+                    <div class="method-icon rosa-bg">DATA</div>
+                    <h3>INEGI</h3>
+                    <p>
+                        Domestic crime statistics from Mexico's official statistical agency (Instituto Nacional de Estadística y Geografía), providing detailed breakdowns of crime types and long-term historical data.
+                    </p>
+                    <div class="method-details">
+                        <p><strong>Dataset:</strong> Incidencia Delictiva (Crime Incidence)</p>
+                        <p><strong>Time Period:</strong> 1990-2024</p>
+                        <p><strong>Crime Categories:</strong> Theft, homicide, extortion, kidnapping, feminicide</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="tools-section">
+                <h3>Tools & Technologies</h3>
+                <div class="tools-grid">
+                    <div class="tool-badge rosa-border">Vega-Lite</div>
+                    <div class="tool-badge jade-border">Python</div>
+                    <div class="tool-badge maiz-border">Web APIs</div>
+                    <div class="tool-badge indigo-border">GitHub Pages</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-line"></div>
+        <div class="footer-content">
+            <p><strong>Mercedes Hernández Ferrer</strong> | Data Visualization Project</p>
+            <p>
+                <a href="index.html">Portfolio</a> · 
+                <a href="https://www.linkedin.com/in/mercedeshf/" target="_blank">LinkedIn</a> · 
+                <a href="https://github.com/mercedeshf" target="_blank">GitHub</a>
+            </p>
+            <p class="footer-note">London School of Economics and Political Science | 2025</p>
+        </div>
+    </footer>
+
+    <script>
+        // Load visualizations
+        vegaEmbed('#viz1', 'homicides_100k_compare_wb.json');
+        vegaEmbed('#viz2', 'theft_crimes_mex.json');
+        vegaEmbed('#viz3', 'crime_trends_mex.json');
+        vegaEmbed('#viz4', 'homicides_100k_new.json');
+    </script>
+</body>
+
+</html>

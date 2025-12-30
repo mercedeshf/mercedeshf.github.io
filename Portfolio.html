@@ -1,144 +1,301 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>My Portfolio</title>
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <title>Mercedes Hernández Ferrer - Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <style>
-        #chartGrid {
-            display: flex;
-        }
-    </style>
 </head>
 
 <body>
-    <h1 class="big" style="margin-bottom: 0px;">
-        Mercedes Hernández Ferrer
-    </h1>
-    <p style="margin-top: 0px; color: darkblue">
-        Mercedes Hernández | <a href="https://www.linkedin.com/in/mercedeshf/">LinkedIn</a> |
-        <a href="https://github.com/mercedeshf">GitHub</a>
-    </p>
-    <h3 class="small">
-        This is my portfolio of tasks for Automated Data Visualization course at the London School of Economics and
-        Political Science!
-    </h3>
+    <!-- HEADER -->
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="#" class="nav-back">← HOME</a>
+            <div class="nav-links">
+                <a href="#task1">Task 1</a>
+                <a href="#task2">Task 2</a>
+                <a href="#task3">Task 3</a>
+                <a href="#task4">Task 4</a>
+                <a href="#task5">Task 5</a>
+            </div>
+        </nav>
+    </header>
 
-    <!-- TASK 1 -->
-    <section>
-        <div class="chart-description">
-            <h2>Task 1</h2>
-            <p>
-                My first two charts, taken from the Economics Observatory (economicsobservatory.com), about GDP and life
-                expectancy!
-            </p>
+    <!-- TITLE SECTION -->
+    <section class="title-section">
+        <div class="title-grid">
+            <div class="title-block rosa-block"></div>
+            <div class="title-content">
+                <h1 class="project-title">Data Visualization Portfolio</h1>
+                <p class="project-subtitle">Automated Data Visualization Course</p>
+            </div>
+            <div class="title-block jade-block"></div>
         </div>
-        <p>Chart 1: Trends in life expectancy and fertility</p>
-        <figure id="Location1"></figure>
-
-
-        <p>Chart 2:</p>
-        <figure id="Location2"></figure>
+        <div class="author-bar">
+            <p><strong>Mercedes Hernández Ferrer</strong> | London School of Economics and Political Science | 
+            <a href="https://www.linkedin.com/in/mercedeshf/">LinkedIn</a> | 
+            <a href="https://github.com/mercedeshf">GitHub</a></p>
+        </div>
     </section>
 
-    <!-- TASK 2 -->
-    <section>
-        <div class="chart-description">
-            <h2>Task 2</h2>
-            <p>
-                These two charts were created using the Economics Observatory "create" tool.
-            </p>
-        </div>
-        <p>Chart 1: Nuclear power in Japan. I found this interesting because after the Fukushima Disaster in 2011, Japan
-            almost stopped nuclear power generation.</p>
-        <figure id="Location3"></figure>
+    <!-- MAIN CONTENT -->
+    <main class="container">
 
-        <p>Chart 2: Ukrainian refugees. I found this interesting because after Russia invaded Ukraine, there was clearly
-            a spike in refugees.</p>
-        <figure id="Location4"></figure>
-    </section>
+        <!-- TASK 1 -->
+        <section id="task1" class="content-section">
+            <div class="section-header">
+                <div class="header-accent rosa-accent"></div>
+                <h2>CC1. Hosting. Display charts in your own site</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
+                    These first two charts are from the 
+                    <strong>Economics Observatory</strong> (economicsobservatory.com), exploring GDP and life expectancy trends.
+                </p>
+            </div>
 
-    <!-- TASK 3 -->
-    <section>
-        <div class="chart-description">
-            <h2>Task 3</h2>
-            <p>
+            <div class="viz-article">
+                <div class="viz-number rosa-bg">01</div>
+                <div class="viz-content">
+                    <h3>Trends in Life Expectancy and Fertility</h3>
+                    <div class="viz-frame">
+                        <figure id="Location1"></figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="viz-article">
+                <div class="viz-number rosa-bg">02</div>
+                <div class="viz-content">
+                    <h3>GDP and Life Expectancy</h3>
+                    <div class="viz-frame">
+                        <figure id="Location2"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TASK 2 -->
+        <section id="task2" class="content-section">
+            <div class="section-header">
+                <div class="header-accent jade-accent"></div>
+                <h2>CC2. Building. Create your own visualizations</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
+                   These charts were created using the 
+                    <strong>Economics Observatory "create" tool</strong>.
+                </p>
+            </div>
+
+            <div class="viz-article">
+                <div class="viz-number jade-bg">01</div>
+                <div class="viz-content">
+                    <h3>Nuclear Power in Japan</h3>
+                    <p class="viz-description">
+                        After the Fukushima nuclear disaster, Japan almost stopped production of nuclear energy.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location3"></figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="viz-article">
+                <div class="viz-number jade-bg">02</div>
+                <div class="viz-content">
+                    <h3>Ukrainian Refugees</h3>
+                    <p class="viz-description">
+                        Following Russia's invasion of Ukraine, there was a dramatic spike in refugees, 
+                        creating one of Europe's largest humanitarian crises since World War II.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location4"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TASK 3 -->
+        <section id="task3" class="content-section">
+            <div class="section-header">
+                <div class="header-accent maiz-accent"></div>
+                <h2>CC3. Debate. Use a visualisation in policy commentary</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
                 Policy debate: Has Mexico improved public security overall, or do falling property crimes mask the
                 persistence of high impact violent crime?
-            </p>
-        </div>
-
-        <div style="display: flex; gap: 20px;">
-            <div>
-                <p>Chart 1: Theft Crimes</p>
-                <figure id="Location5"></figure>
+                </p>
             </div>
 
-            <div>
-                <p>Chart 2: 'High Impact' Crime Trends</p>
-                <figure id="Location6"></figure>
+            <div class="findings-grid">
+                <div class="finding-box">
+                    <div class="finding-label jade-bg">A</div>
+                    <h3>Theft Crimes</h3>
+                    <div class="viz-frame">
+                        <figure id="Location5"></figure>
+                    </div>
+                </div>
+
+                <div class="finding-box">
+                    <div class="finding-label rosa-bg">B</div>
+                    <h3>'High Impact' Crime Trends</h3>
+                    <div class="viz-frame">
+                        <figure id="Location6"></figure>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <p>
-            Commentary: Theft and kidnapping declined below 2015 levels, but homicide, extortion, and feminicide remain
-            elevated, challenging claims of broad improvements in public security.
-        </p>
-    </section>
+            <div class="conclusion-panel">
+                <div class="conclusion-stripe"></div>
+                <div class="conclusion-content">
+                    <h3>Analysis</h3>
+                    <p>
+                        Theft and kidnapping declined below 2015 levels, but homicide, extortion, and feminicide remain 
+                        elevated, challenging claims of broad improvements in public security.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <!-- TASK 4 -->
-
-    <section>
-
-        <div class="chart-description">
-            <h2>Task 4</h2>
-            <p>
-                The original chart I want to improve is the Mexican national statistics office (INEGI) chart on
+        <!-- TASK 4 -->
+        <section id="task4" class="content-section">
+            <div class="section-header">
+                <div class="header-accent indigo-accent"></div>
+                <h2>CC4. Replication. Re-create, then improve, someone else's chart</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
+The original chart I want to improve is the Mexican national statistics office (INEGI) chart on
                 homicides per 100,000 inhabitants. This information is crucial and is very hard to find in a dataframe
                 format, so I'll make a new, nicer chart with the information displayed.
-            </p>
-        </div>
+                </p>
+            </div>
 
-        </div>
-        <p>Image: Homicides per 100,000 inhabitants, 1990-2024, by INEGI</p>
-        <img src="Tasa_bruta_homicidios_100milhabitantes_mex.png" alt="Homicides per 100,000 inhabitants in Mexico, 1990-2024">
+            <div class="viz-article">
+                <div class="viz-number indigo-bg">01</div>
+                <div class="viz-content">
+                    <h3>Original INEGI Chart</h3>
+                    <p class="viz-description">
+                        Homicides per 100,000 inhabitants, 1990-2024. Source: 
+                        <a href="https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/DH2024_RR_Ene-dic.pdf" target="_blank">INEGI</a>
+                    </p>
+                    <div class="viz-frame">
+                        <img src="Tasa_bruta_homicidios_100milhabitantes_mex.png" 
+                             alt="Original INEGI homicides chart" 
+                             style="width: 100%; height: auto;">
+                    </div>
+                </div>
+            </div>
 
-       <p> This chart was taken from: https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/DH2024_RR_Ene-dic.pdf </p>
-        
-       <p>Chart 1: Homicides per 100,000 inhabitants, 1990-2024, copied from INEGI</p>
-        <figure id="Location7"></figure>
+            <div class="viz-article">
+                <div class="viz-number indigo-bg">02</div>
+                <div class="viz-content">
+                    <h3>Replicated Version</h3>
+                    <p class="viz-description">
+                        Exact replication of the INEGI data visualization.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location7"></figure>
+                    </div>
+                </div>
+            </div>
 
-        <p>Chart 2: Homicides per 100,000 inhabitants, 1990-2024</p>
-        <figure id="Location8"></figure>
+            <div class="viz-article">
+                <div class="viz-number indigo-bg">03</div>
+                <div class="viz-content">
+                    <h3>Improved Version</h3>
+                    <p class="viz-description">
+                        Enhanced visualization with improved clarity and design.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location8"></figure>
+                    </div>
+                    <div class="insights-box">
+                        <h4>Key Insights</h4>
+                        <ul>
+                            <li>The improved version enhances readability and visual hierarchy while avoiding saturation</li>
+                            <li>Data points are more clearly distinguished</li>
+                            <li>The temporal trends are easier to interpret</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    </section>
+        <!-- TASK 5 -->
+        <section id="task5" class="content-section">
+            <div class="section-header">
+                <div class="header-accent rosa-accent"></div>
+                <h2>CC5. Accessing data: Scraper and API</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
+                    Accessing data through <strong>Scraper and API</strong> methods.
+                </p>
+            </div>
 
-    <!-- TASK 5 -->
+            <div class="viz-article">
+                <div class="viz-number rosa-bg">01</div>
+                <div class="viz-content">
+                    <h3>World Bank Data API</h3>
+                    <p class="viz-description">
+                        Homicides per 100,000 inhabitants, 2010-2023, accessed via the World Bank Data API.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location9"></figure>
+                    </div>
+                    
+                    <div class="method-details">
+                        <p><strong>Base URL:</strong> https://api.worldbank.org/v2/country/</p>
+                        <p><strong>Elements:</strong> The API URL appends a list of specific country/region codes separated by semicolons (wld;mex;col;gbr;chl;bra;lcn) followed by the specific indicator code (VC.IHR.PSRC.P5, which represents Intentional Homicides per 100,000 people). It uses query parameters to filter the date range (2010:2023), set the response format to JSON, and increase the per_page limit to 200 to ensure all data points are captured.</p>
+                        <p><strong>Parameters:</strong> Query parameters filter the date range (2010:2023), set the response format to JSON, and increase the per_page limit to 200.</p>
+                        <p><strong>Full URL:</strong> https://api.worldbank.org/v2/country/wld;mex;col;gbr;chl;bra;lcn/indicator/VC.IHR.PSRC.P5?date=2010:2023&format=json&per_page=200</p>
+                    </div>
+                </div>
+            </div>
 
-    <section>
+            <div class="viz-article">
+                <div class="viz-number rosa-bg">02</div>
+                <div class="viz-content">
+                    <h3>Web Scraper Data</h3>
+                    <p class="viz-description">
+                        Data collected through web scraping on Wikipedia page: PONER LINK.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location10"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="chart-description">
-            <h2>Task 5</h2>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-line"></div>
+        <div class="footer-content">
+            <p><strong>Mercedes Hernández Ferrer</strong></p>
+            <p>London School of Economics and Political Science</p>
+            <p>Automated Data Visualization Course Portfolio</p>
             <p>
-                xxx
+                <a href="https://www.linkedin.com/in/mercedeshf/">LinkedIn</a> | 
+                <a href="https://github.com/mercedeshf">GitHub</a>
             </p>
+            <p class="footer-note">2025</p>
         </div>
-
-        </div>
-        
-       <p>Chart 1: Homicides per 100,000 inhabitants, 2010-2023, from World Bank Data API</p>
-        <figure id="Location9"></figure>
-
-        <p>Chart 2: xxx scraper</p>
-        <figure id="Location10"></figure>
-
-    </section>
-
+    </footer>
 
     <script>
         // Task 1 charts
@@ -167,14 +324,12 @@
                 vegaEmbed('#Location4', spec);
             });
 
-
         // Task 3 charts
         let figure_5_spec = "theft_crimes_mex.json";
         vegaEmbed('#Location5', figure_5_spec);
 
         let figure_6_spec = "crime_trends_mex.json";
         vegaEmbed('#Location6', figure_6_spec);
-
 
         // Task 4 charts
         let figure_7_spec = "homicides_100k_inegi.json";
@@ -189,7 +344,6 @@
 
         let figure_10_spec = "xxx";
         vegaEmbed('#Location10', figure_10_spec);
-
     </script>
 </body>
 
