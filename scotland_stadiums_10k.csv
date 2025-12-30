@@ -1,4 +1,4 @@
-Stadium Name,Capacity,Longitude,Latitude
+Stadium Name,Capacity,Latitude,Longitude
 Murrayfield Stadium,67144,55.9424462384331,-3.24105627975486
 Celtic Park,60411,55.84972,-4.20556
 Hampden Park,51866,55.82583,-4.25194
@@ -15,4 +15,4 @@ East End Park,11480,56.07528,-3.44194
 McDiarmid Park,10696,56.40972,-3.47694
 Somerset Park,10185,55.46944,-4.62000
 Firhill Stadium,10102,55.88139,-4.26944
-Excelsior Stadium,10101,55.85972,3.95972
+Excelsior Stadium,10101,55.85972,-3.95972
