@@ -323,26 +323,52 @@ The original chart I want to improve is the Mexican national statistics office (
                         <a href="https://colab.research.google.com/drive/1VSKioduOGoPHN4YuCWOBHaZABTnGKTZE?usp=sharing" target="_blank"> Click here! </a>
                     </div>
 
-                    <!-- HASTA AQUI NO HE EDITADO MI TEXTO-->
-                    <div class="method-details">
-                        <p><strong>Base URL:</strong> https://api.worldbank.org/v2/country/</p>
-                        <p><strong>Elements:</strong> The API URL appends a list of specific country/region codes separated by semicolons (wld;mex;col;gbr;chl;bra;lcn) followed by the specific indicator code (VC.IHR.PSRC.P5, which represents Intentional Homicides per 100,000 people). It uses query parameters to filter the date range (2010:2023), set the response format to JSON, and increase the per_page limit to 200 to ensure all data points are captured.</p>
-                        <p><strong>Parameters:</strong> Query parameters filter the date range (2010:2023), set the response format to JSON, and increase the per_page limit to 200.</p>
-                        <p><strong>Full URL:</strong> https://api.worldbank.org/v2/country/wld;mex;col;gbr;chl;bra;lcn/indicator/VC.IHR.PSRC.P5?date=2010:2023&format=json&per_page=200</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TASK 7 -->
+        <section id="task7" class="content-section">
+            <div class="section-header">
+                <div class="header-accent rosa-accent"></div>
+                <h2>CC7. Maps. Base maps and chloropleths</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
+                    xxxx
+                </p>
+            </div>
+
+            <div class="viz-article">
+                <div class="viz-number rosa-bg">01</div>
+                <div class="viz-content">
+                    <h3>Map of Scotland's Stadiums</h3>
+                    <p class="viz-description">
+                        Scotland's Stadiums with over 10k people capacity, according to Wikipedia
+                    </p>
+                           <a href="https://en.wikipedia.org/wiki/List_of_football_stadiums_in_Scotland" target="_blank"> Original Wikipedia article </a>
+                    <div class="viz-frame">
+                        <figure id="Location17"></figure>
+
                     </div>
+
                 </div>
             </div>
 
             <div class="viz-article">
-                <div class="viz-number rosa-bg">02</div>
+                <div class="viz-number rosa-bg">01</div>
                 <div class="viz-content">
-                    <h3>Web Scraper Data</h3>
+                    <h3>Map of Wales Unemployment Rate</h3>
                     <p class="viz-description">
-                        Data collected through web scraping on Wikipedia page: PONER LINK.
+                        Chloropleth of Wales unemployment rate, 2025, according to StatsWales.
                     </p>
+                           <a href="https://statswales.gov.wales/Catalogue/Business-Economy-and-Labour-Market/People-and-Work/Unemployment/ILO-Unemployment/ilounemploymentrates-by-welshlocalareas-year" target="_blank"> StatsWales information </a>
                     <div class="viz-frame">
-                        <figure id="Location10"></figure>
+                        <figure id="Location18"></figure>
+
                     </div>
+
                 </div>
             </div>
         </section>
@@ -412,9 +438,7 @@ The original chart I want to improve is the Mexican national statistics office (
         let figure_10_spec = "mexico_governors_2025.json";
         vegaEmbed('#Location10', figure_10_spec);
 
-        // Task 6 charts
-
-
+        // Task 6 charts: loops!
 
         const gridcharts = [
             {
@@ -448,7 +472,12 @@ The original chart I want to improve is the Mexican national statistics office (
             vegaEmbed(chart.id,chart.file)
         })
 
+        // Task 7 charts
+        let figure_17_spec = "scotland_stadiums.json";
+        vegaEmbed('#Location17', figure_17_spec);
 
+        let figure_18_spec = "wales_unemployment_2025.json";
+        vegaEmbed('#Location18', figure_18_spec);
 
     </script>
 </body>
