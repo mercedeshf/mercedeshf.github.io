@@ -1,0 +1,93 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Intentional Homicides (per 100,000 people)",
+    "subtitle": "Comparing global regions and select countries, 2010-2023",
+    "subtitleColor": "#2E294E",
+    "fontSize": 18,
+    "font": "sans-serif",
+    "anchor": "start",
+    "offset": 20
+  },
+  "background": "#F5F2EB",
+  "width": 600,
+  "height": 400,
+  "layer": [
+    {
+      "data": {
+        "url": "https://api.worldbank.org/v2/country/wld;mex;col;gbr;chl;bra;lcn/indicator/VC.IHR.PSRC.P5?date=2010:2023&format=json&per_page=200",
+        "format": {"type": "json", "property": "1"}
+      },
+      "mark": {
+        "type": "line",
+        "point": {"filled": true, "size": 60},
+        "strokeWidth": 3,
+        "tooltip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "title": "Year",
+          "axis": {
+            "format": "%Y",
+            "labelFontSize": 10,
+            "titleFontSize": 11,
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Homicide Rate",
+          "axis": {
+            "labelFontSize": 10,
+            "titleFontSize": 11,
+            "grid": true,
+            "gridColor": "#2E294E",
+            "gridOpacity": 0.1
+          }
+        },
+        "color": {
+          "field": "country.value",
+          "type": "nominal",
+          "title": "Region / Country",
+          "scale": {
+            "range": [
+              "#E4007C",
+              "#2E294E",
+              "#1B998B",
+              "#F1BF3A",
+              "#C1666B",
+              "#4ECDC4",
+              "#D4A574"
+            ]
+          },
+          "legend": {
+            "titleFontSize": 11,
+            "labelFontSize": 10,
+            "symbolSize": 100,
+            "symbolStrokeWidth": 3
+          }
+        }
+      }
+    },
+    {
+      "data": {"values": [{}]},
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "x": 800,
+        "y": 450,
+        "fontSize": 10,
+        "color": "#2E294E"
+      },
+      "encoding": {
+        "text": {
+          "value": "Source: World Bank - Intentional homicides (per 100,000 people)"
+        }
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}, "font": "sans-serif"}
+}

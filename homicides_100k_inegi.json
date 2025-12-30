@@ -1,0 +1,169 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "background": "white",
+  "spacing": 2,
+  "padding": {"left": 50, "right": 20, "bottom": 20, "top": 10},
+  "config": {
+    "view": {"stroke": null},
+    "axis": {
+      "domainColor": "black",
+      "tickColor": "black",
+      "labelColor": "black",
+      "title": null,
+      "domain": false
+    }
+  },
+  "vconcat": [
+    {
+      "width": 800,
+      "height": 23,
+      "data": {"values": [{}]},
+      "mark": {
+        "type": "text",
+        "fontSize": 26,
+        "fontWeight": "normal",
+        "color": "#4C535C",
+        "align": "center"
+      },
+      "encoding": {
+        "text": {"value": "Gráfica 2"},
+        "x": {"value": 700},
+        "y": {"value": 12}
+      }
+    },
+    {
+      "width": 800,
+      "height": 18,
+      "data": {"values": [{}]},
+      "mark": {
+        "type": "text",
+        "fontSize": 28,
+        "fontWeight": "bold",
+        "color": "#003057",
+        "align": "center"
+      },
+      "encoding": {
+        "text": {
+          "value": "Tasa bruta de homicidios por cada 100 mil habitantes a nivel nacional ¹/"
+        },
+        "x": {"value": 700},
+        "y": {"value": 7}
+      }
+    },
+    {
+      "width": 800,
+      "height": 18,
+      "data": {"values": [{}]},
+      "mark": {
+        "type": "text",
+        "fontSize": 24,
+        "fontWeight": "normal",
+        "color": "#090200",
+        "align": "center"
+      },
+      "encoding": {
+        "text": {"value": "1990 a 2024"},
+        "x": {"value": 700},
+        "y": {"value": 7}
+      }
+    },
+    {
+      "width": 800,
+      "height": 14,
+      "data": {"values": [{}]},
+      "mark": {
+        "type": "text",
+        "fontSize": 24,
+        "fontWeight": "normal",
+        "color": "#090200",
+        "align": "center"
+      },
+      "encoding": {
+        "text": {"value": "(homicidios/población)"},
+        "x": {"value": 700},
+        "y": {"value": 7}
+      }
+    },
+    {
+      "width": 1400,
+      "height": 580,
+      "view": {"stroke": "black", "strokeWidth": 1.5},
+      "layer": [
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/Homicides%20per%20100k_INEGI.csv"
+          },
+          "mark": {"type": "line", "color": "#00D6CD", "strokeWidth": 3.5},
+          "encoding": {
+            "x": {
+              "field": "Year",
+              "type": "quantitative",
+              "scale": {"domain": [1990, 2025]},
+              "axis": {
+                "format": "d",
+                "labelAngle": -45,
+                "labelFontSize": 17,
+                "grid": false,
+                "tickCount": 36,
+                "labelExpr": "datum.value == 2025 ? '' : datum.label"
+              }
+            },
+            "y": {
+              "field": "Homicides 100",
+              "type": "quantitative",
+              "scale": {"domain": [0, 35]},
+              "axis": {
+                "format": ".1f",
+                "grid": true,
+                "labelFontSize": 17,
+                "labelFontWeight": 500,
+                "gridColor": "#D3D3D3",
+                "gridWidth": 2.5,
+                "tickCount": 7
+              }
+            }
+          }
+        },
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "rect",
+            "fill": null,
+            "stroke": "black",
+            "strokeWidth": 3,
+            "clip": false
+          },
+          "encoding": {
+            "x": {"value": -55},
+            "x2": {"value": 1430},
+            "y": {"value": -30},
+            "y2": {"value": 640}
+          }
+        }
+      ]
+    },
+    {
+      "width": 800,
+      "height": 40,
+      "data": {"values": [{}]},
+      "mark": {
+        "type": "text",
+        "fontSize": 18,
+        "color": "#444444",
+        "align": "left",
+        "baseline": "top",
+        "lineHeight": 18
+      },
+      "encoding": {
+        "text": {
+          "value": [
+            "¹/ Información preliminar.",
+            "Fuente: INEGI. Estadísticas de Defunciones Registradas (EDR), 1990-2024."
+          ]
+        },
+        "x": {"value": -60},
+        "y": {"value": 5}
+      }
+    }
+  ]
+}

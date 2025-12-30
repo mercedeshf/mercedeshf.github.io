@@ -105,11 +105,37 @@
         </div>
 
         </div>
-        <p>Chart 1: Homicides per 100,000 inhabitants, 1990-2024, by INEGI</p>
+        <p>Image: Homicides per 100,000 inhabitants, 1990-2024, by INEGI</p>
         <img src="Tasa_bruta_homicidios_100milhabitantes_mex.png" alt="Homicides per 100,000 inhabitants in Mexico, 1990-2024">
+
+       <p> This chart was taken from: https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/DH2024_RR_Ene-dic.pdf </p>
+        
+       <p>Chart 1: Homicides per 100,000 inhabitants, 1990-2024, copied from INEGI</p>
+        <figure id="Location7"></figure>
 
         <p>Chart 2: Homicides per 100,000 inhabitants, 1990-2024</p>
         <figure id="Location8"></figure>
+
+    </section>
+
+    <!-- TASK 5 -->
+
+    <section>
+
+        <div class="chart-description">
+            <h2>Task 5</h2>
+            <p>
+                xxx
+            </p>
+        </div>
+
+        </div>
+        
+       <p>Chart 1: Homicides per 100,000 inhabitants, 2010-2023, from World Bank Data API</p>
+        <figure id="Location9"></figure>
+
+        <p>Chart 2: xxx scraper</p>
+        <figure id="Location10"></figure>
 
     </section>
 
@@ -151,9 +177,18 @@
 
 
         // Task 4 charts
-        // chart 7 is an image so it doesn't need script space!
-        let figure_8_spec = "homicides";
+        let figure_7_spec = "homicides_100k_inegi.json";
+        vegaEmbed('#Location7', figure_7_spec);
+
+        let figure_8_spec = "homicides_100k_new.json";
         vegaEmbed('#Location8', figure_8_spec);
+
+        // Task 5 charts
+        let figure_9_spec = "homicides_100k_compare_wb.json";
+        vegaEmbed('#Location9', figure_9_spec);
+
+        let figure_10_spec = "xxx";
+        vegaEmbed('#Location10', figure_10_spec);
 
     </script>
 </body>
