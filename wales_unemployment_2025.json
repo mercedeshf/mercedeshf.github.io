@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "vconcat": [
+    {
+      "title": {"text": "Wales Unemployment Rate", "subtitle": "March 2025"},
+      "width": 350,
+      "height": 450,
+      "data": {
+        "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
+        "format": {"type": "topojson", "feature": "object_name"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.LAD25NM",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/wales_uneployment_march_2025.csv"
+            },
+            "key": "Locality",
+            "fields": ["March 2025"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+      "encoding": {
+        "color": {
+          "field": "March 2025",
+          "type": "quantitative",
+          "scale": {"scheme": "blues"},
+          "title": "Rate (%)"
+        },
+        "tooltip": [
+          {
+            "field": "properties.LAD25NM",
+            "type": "nominal",
+            "title": "Local Authority District"
+          },
+          {
+            "field": "March 2025",
+            "type": "quantitative",
+            "title": "March 2025",
+            "format": ".0f"
+          }
+        ]
+      },
+      "projection": {"type": "mercator"}
+    },
+    {
+      "width": 350,
+      "height": 20,
+      "layer": [
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 10,
+            "color": "#2E294E",
+            "text": "Source:"
+          },
+          "encoding": {"x": {"value": 60}}
+        },
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 10,
+            "fontStyle": "normal",
+            "color": "#2E294E",
+            "text": "StatsWales - ILO unemployment rates by Welsh local areas and year"
+          },
+          "encoding": {"x": {"value": 100}}
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
