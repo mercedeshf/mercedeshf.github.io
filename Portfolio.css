@@ -670,3 +670,25 @@ html {
 .content-section {
     scroll-margin-top: 80px;
 }
+
+/* === SCROLL BEHAVIOR === */
+html {
+    scroll-behavior: smooth;
+}
+
+.content-section {
+    scroll-margin-top: 80px;
+}
+
+/* === GRID LAYOUT FOR TASK 6 CHARTS === */
+#task6 .viz-article:first-of-type .viz-frame {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 1.5rem;
+}
+
+#task6 .viz-article:first-of-type .viz-frame figure {
+    margin: 0;
+    width: 100%;
+}

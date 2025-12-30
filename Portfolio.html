@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://cdn.tailwindcss.com"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Portfolio.css">
@@ -280,6 +281,63 @@ The original chart I want to improve is the Mexican national statistics office (
             </div>
         </section>
 
+        <!-- TASK 6 -->
+        <section id="task6" class="content-section">
+            <div class="section-header">
+                <div class="header-accent rosa-accent"></div>
+                <h2>CC6. Loops. Build a dashboard</h2>
+            </div>
+            
+            <div class="content-box">
+                <p class="lead-text">
+                    xxxx
+                </p>
+            </div>
+
+            <div class="viz-article">
+                <div class="viz-number rosa-bg">01</div>
+                <div class="viz-content">
+                    <h3>Intentional homicides per 100k people through World Bank API</h3>
+                    <p class="viz-description">
+                        Homicides per 100,000 people, LATAM comparison, 2010-2023, accessed via the World Bank Data API.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location11"></figure>
+                        <figure id="Location12"></figure>
+                        <figure id="Location13"></figure>
+                        <figure id="Location14"></figure>
+                        <figure id="Location15"></figure>
+                        <figure id="Location16"></figure>
+
+                        <p> These charts were created through an API loop that can be found in the following Google Colab notebook: </p>
+
+                        <a href="https://colab.research.google.com/drive/1VSKioduOGoPHN4YuCWOBHaZABTnGKTZE?usp=sharing" target="_blank"> Click here! </a>
+                    </div>
+
+                    <!-- HASTA AQUI NO HE EDITADO MI TEXTO-->
+                    <div class="method-details">
+                        <p><strong>Base URL:</strong> https://api.worldbank.org/v2/country/</p>
+                        <p><strong>Elements:</strong> The API URL appends a list of specific country/region codes separated by semicolons (wld;mex;col;gbr;chl;bra;lcn) followed by the specific indicator code (VC.IHR.PSRC.P5, which represents Intentional Homicides per 100,000 people). It uses query parameters to filter the date range (2010:2023), set the response format to JSON, and increase the per_page limit to 200 to ensure all data points are captured.</p>
+                        <p><strong>Parameters:</strong> Query parameters filter the date range (2010:2023), set the response format to JSON, and increase the per_page limit to 200.</p>
+                        <p><strong>Full URL:</strong> https://api.worldbank.org/v2/country/wld;mex;col;gbr;chl;bra;lcn/indicator/VC.IHR.PSRC.P5?date=2010:2023&format=json&per_page=200</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="viz-article">
+                <div class="viz-number rosa-bg">02</div>
+                <div class="viz-content">
+                    <h3>Web Scraper Data</h3>
+                    <p class="viz-description">
+                        Data collected through web scraping on Wikipedia page: PONER LINK.
+                    </p>
+                    <div class="viz-frame">
+                        <figure id="Location10"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -344,6 +402,45 @@ The original chart I want to improve is the Mexican national statistics office (
 
         let figure_10_spec = "xxx";
         vegaEmbed('#Location10', figure_10_spec);
+
+        // Task 6 charts
+
+
+
+        const gridcharts = [
+            {
+                id: "#Location11",
+                file: "homicides_mexico_wb_api.json"
+            },
+            {
+                id: "#Location12",
+                file: "homicides_colombia_wb_api.json"
+            },
+            {
+                id: "#Location13",
+                file: "homicides_latam_wb_api.json"
+            },
+            {
+                id: "#Location14",
+                file: "homicides_brazil_wb_api.json"
+            },
+            {
+                id: "#Location15",
+                file: "homicides_chile_wb_api.json"
+            },
+            {
+                id: "#Location16",
+                file: "homicides_world_wb_api.json"
+            }
+
+        ];
+
+        gridcharts.forEach(function(chart) {
+            vegaEmbed(chart.id,chart.file)
+        })
+
+
+
     </script>
 </body>
 
