@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Intentional homicides trends - LATAM",
+  "title": {
+    "text": "Intentional homicides - LATAM & Caribbean",
+    "subtitle": "Homicides per 100,000 people, 2010-2023",
+    "subtitleColor": "#2E294E",
+    "fontSize": 18,
+    "font": "sans-serif",
+    "anchor": "start",
+    "offset": 20
+  },
+  "background": "#F5F2EB",
+  "spacing": 20,
+  "vconcat": [
+    {
+      "width": 400,
+      "height": 300,
+      "data": {
+        "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/Latam_homicides_WB_API.json",
+        "format": {"type": "json", "property": "1"}
+      },
+      "mark": {
+        "type": "line",
+        "point": {"filled": true, "size": 60, "color": "#C1666B"},
+        "strokeWidth": 3,
+        "color": "#C1666B"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "quantitative",
+          "title": "Year",
+          "axis": {
+            "format": "d",
+            "labelFontSize": 10,
+            "titleFontSize": 11,
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Rate per 100k",
+          "scale": {"domain": [0, 40]},
+          "axis": {
+            "labelFontSize": 10,
+            "titleFontSize": 11,
+            "grid": true,
+            "gridColor": "#2E294E",
+            "gridOpacity": 0.1
+          }
+        }
+      }
+    },
+    {
+      "width": 400,
+      "height": 20,
+      "layer": [
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": 70,
+            "fontSize": 10,
+            "color": "#2E294E",
+            "text": "Source:"
+          }
+        },
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": 110,
+            "fontSize": 10,
+            "fontStyle": "italic",
+            "color": "#2E294E",
+            "text": "World Bank Data API"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
