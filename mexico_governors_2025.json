@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "State Governors in Mexico",
+    "subtitle": "Political Party Distribution, 2025",
+    "subtitleColor": "#2E294E",
+    "fontSize": 18,
+    "font": "sans-serif",
+    "anchor": "start",
+    "offset": 20,
+    "color": "#2E294E"
+  },
+  "background": "#F5F2EB",
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/mexico_governors_2025.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "cornerRadiusEnd": 4, "tooltip": true},
+      "encoding": {
+        "x": {
+          "aggregate": "count",
+          "type": "quantitative",
+          "title": "Number of States",
+          "axis": {
+            "labelFontSize": 10,
+            "titleFontSize": 11,
+            "grid": true,
+            "gridColor": "#2E294E",
+            "gridOpacity": 0.1,
+            "tickCount": 10
+          }
+        },
+        "y": {
+          "field": "Party",
+          "type": "nominal",
+          "sort": "-x",
+          "title": null,
+          "axis": {
+            "labelFontSize": 11,
+            "labelFontWeight": "bold",
+            "titleFontSize": 11,
+            "grid": false
+          }
+        },
+        "color": {
+          "field": "Party",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Morena",
+              "PAN",
+              "PRI",
+              "MC",
+              "PVEM",
+              "PT",
+              "PRD",
+              "Independent"
+            ],
+            "range": [
+              "maroon",
+              "#004A8F",
+              "#D32C21",
+              "#FF8200",
+              "#50B747",
+              "#DA251D",
+              "#FFD200",
+              "#808080"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "data": {"values": [{}]},
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "bottom",
+        "x": 600,
+        "y": 420,
+        "fontSize": 10,
+        "color": "#2E294E",
+        "dy": 30
+      },
+      "encoding": {
+        "text": {"value": "Source: Wikipedia - List of current state governors"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 5,
+        "fontSize": 11,
+        "color": "#2E294E"
+      },
+      "encoding": {
+        "y": {"field": "Party", "type": "nominal", "sort": "-x"},
+        "x": {"aggregate": "count", "type": "quantitative"},
+        "text": {"aggregate": "count", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "font": "sans-serif",
+    "axis": {"labelColor": "#2E294E", "titleColor": "#2E294E"}
+  }
+}
