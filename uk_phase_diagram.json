@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The Shift in UK Inflation Stability",
+    "subtitle": "Advanced Analytics: Layered Histogram with Era Means (1989-2025)",
+    "anchor": "start"
+  },
+  "width": 500,
+  "height": 350,
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/uk_phase_diagram.csv"
+  },
+  "transform": [
+    {"calculate": "datum.Year < 2010 ? '1989-2009' : '2010-2025'", "as": "Era"}
+  ],
+  "layer": [
+    {
+      "description": "The Histogram Bars",
+      "mark": {"type": "bar", "opacity": 0.5, "binSpacing": 1},
+      "encoding": {
+        "x": {
+          "field": "Inflation",
+          "type": "quantitative",
+          "bin": {"maxbins": 40},
+          "title": "Inflation Rate (%)"
+        },
+        "y": {
+          "aggregate": "count",
+          "type": "quantitative",
+          "title": "Frequency (Number of Months)",
+          "stack": null
+        },
+        "color": {
+          "field": "Era",
+          "type": "nominal",
+          "scale": {"range": ["#1f77b4", "#e31a1c"]},
+          "legend": {"orient": "top-right"}
+        }
+      }
+    },
+    {
+      "description": "Vertical Mean Lines",
+      "mark": {"type": "rule", "strokeWidth": 3},
+      "encoding": {
+        "x": {
+          "aggregate": "mean",
+          "field": "Inflation",
+          "type": "quantitative"
+        },
+        "color": {"field": "Era", "type": "nominal"},
+        "tooltip": [
+          {"field": "Era", "type": "nominal"},
+          {
+            "aggregate": "mean",
+            "field": "Inflation",
+            "title": "Average Inflation (%)",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}, "axis": {"grid": false}}
+}
