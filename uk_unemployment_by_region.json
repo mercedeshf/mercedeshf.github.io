@@ -1,0 +1,76 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/uk_unemployment_by_region.csv"
+  },
+  "title": {
+    "text": "UK Regional Unemployment Rates (2015-2025)",
+    "subtitle": "Interactive selection via dropdown menu. Source: ONS",
+    "anchor": "start"
+  },
+  "width": 500,
+  "height": 300,
+  "params": [
+    {
+      "name": "selectRegion",
+      "select": {"type": "point", "fields": ["Region"]},
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North East",
+          "North West",
+          "Yorkshire and the Humber",
+          "East Midlands",
+          "West Midlands",
+          "East",
+          "London",
+          "South East",
+          "South West"
+        ],
+        "labels": [
+          "Show All Regions",
+          "North East",
+          "North West",
+          "Yorkshire and the Humber",
+          "East Midlands",
+          "West Midlands",
+          "East",
+          "London",
+          "South East",
+          "South West"
+        ],
+        "name": "Region: "
+      }
+    }
+  ],
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "quantitative",
+      "title": "Year",
+      "axis": {"format": "d"}
+    },
+    "y": {
+      "field": "Unemployment_Rate",
+      "type": "quantitative",
+      "title": "Unemployment Rate (%)"
+    },
+    "color": {"field": "Region", "type": "nominal"},
+    "opacity": {
+      "condition": {"param": "selectRegion", "value": 1},
+      "value": 0.1
+    },
+    "tooltip": [
+      {"field": "Region", "type": "nominal"},
+      {"field": "Year", "type": "quantitative"},
+      {
+        "field": "Unemployment_Rate",
+        "type": "quantitative",
+        "title": "Rate (%)"
+      }
+    ]
+  },
+  "config": {}
+}
