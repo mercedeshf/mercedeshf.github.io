@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "background": "white",
-  "spacing": 2,
-  "padding": {"left": 50, "right": 20, "bottom": 20, "top": 10},
+  "spacing": 1,
+  "padding": {"left": 25, "right": 10, "bottom": 10, "top": 5},
   "config": {
     "view": {"stroke": null},
     "axis": {
@@ -15,29 +15,29 @@
   },
   "vconcat": [
     {
-      "width": 800,
-      "height": 23,
+      "width": 400,
+      "height": 11.5,
       "data": {"values": [{}]},
       "mark": {
         "type": "text",
-        "fontSize": 26,
+        "fontSize": 13,
         "fontWeight": "normal",
         "color": "#4C535C",
         "align": "center"
       },
       "encoding": {
         "text": {"value": "Gráfica 2"},
-        "x": {"value": 700},
-        "y": {"value": 12}
+        "x": {"value": 350},
+        "y": {"value": 6}
       }
     },
     {
-      "width": 800,
-      "height": 18,
+      "width": 400,
+      "height": 9,
       "data": {"values": [{}]},
       "mark": {
         "type": "text",
-        "fontSize": 28,
+        "fontSize": 14,
         "fontWeight": "bold",
         "color": "#003057",
         "align": "center"
@@ -46,54 +46,54 @@
         "text": {
           "value": "Tasa bruta de homicidios por cada 100 mil habitantes a nivel nacional ¹/"
         },
-        "x": {"value": 700},
-        "y": {"value": 7}
+        "x": {"value": 350},
+        "y": {"value": 3.5}
       }
     },
     {
-      "width": 800,
-      "height": 18,
+      "width": 400,
+      "height": 9,
       "data": {"values": [{}]},
       "mark": {
         "type": "text",
-        "fontSize": 24,
+        "fontSize": 12,
         "fontWeight": "normal",
         "color": "#090200",
         "align": "center"
       },
       "encoding": {
         "text": {"value": "1990 a 2024"},
-        "x": {"value": 700},
-        "y": {"value": 7}
+        "x": {"value": 350},
+        "y": {"value": 3.5}
       }
     },
     {
-      "width": 800,
-      "height": 14,
+      "width": 400,
+      "height": 7,
       "data": {"values": [{}]},
       "mark": {
         "type": "text",
-        "fontSize": 24,
+        "fontSize": 12,
         "fontWeight": "normal",
         "color": "#090200",
         "align": "center"
       },
       "encoding": {
         "text": {"value": "(homicidios/población)"},
-        "x": {"value": 700},
-        "y": {"value": 7}
+        "x": {"value": 350},
+        "y": {"value": 3.5}
       }
     },
     {
-      "width": 1400,
-      "height": 580,
-      "view": {"stroke": "black", "strokeWidth": 1.5},
+      "width": 700,
+      "height": 290,
+      "view": {"stroke": "black", "strokeWidth": 0.75},
       "layer": [
         {
           "data": {
             "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/Homicides%20per%20100k_INEGI.csv"
           },
-          "mark": {"type": "line", "color": "#00D6CD", "strokeWidth": 3.5},
+          "mark": {"type": "line", "color": "#00D6CD", "strokeWidth": 1.75},
           "encoding": {
             "x": {
               "field": "Year",
@@ -102,7 +102,7 @@
               "axis": {
                 "format": "d",
                 "labelAngle": -45,
-                "labelFontSize": 17,
+                "labelFontSize": 8.5,
                 "grid": false,
                 "tickCount": 36,
                 "labelExpr": "datum.value == 2025 ? '' : datum.label"
@@ -115,10 +115,10 @@
               "axis": {
                 "format": ".1f",
                 "grid": true,
-                "labelFontSize": 17,
+                "labelFontSize": 8.5,
                 "labelFontWeight": 500,
                 "gridColor": "#D3D3D3",
-                "gridWidth": 2.5,
+                "gridWidth": 1.25,
                 "tickCount": 7
               }
             }
@@ -130,29 +130,29 @@
             "type": "rect",
             "fill": null,
             "stroke": "black",
-            "strokeWidth": 3,
+            "strokeWidth": 1.5,
             "clip": false
           },
           "encoding": {
-            "x": {"value": -55},
-            "x2": {"value": 1430},
-            "y": {"value": -30},
-            "y2": {"value": 640}
+            "x": {"value": -27.5},
+            "x2": {"value": 715},
+            "y": {"value": -15},
+            "y2": {"value": 320}
           }
         }
       ]
     },
     {
-      "width": 800,
-      "height": 40,
+      "width": 400,
+      "height": 20,
       "data": {"values": [{}]},
       "mark": {
         "type": "text",
-        "fontSize": 18,
+        "fontSize": 9,
         "color": "#444444",
         "align": "left",
         "baseline": "top",
-        "lineHeight": 18
+        "lineHeight": 9
       },
       "encoding": {
         "text": {
@@ -161,8 +161,8 @@
             "Fuente: INEGI. Estadísticas de Defunciones Registradas (EDR), 1990-2024."
           ]
         },
-        "x": {"value": -60},
-        "y": {"value": 5}
+        "x": {"value": -30},
+        "y": {"value": 2.5}
       }
     }
   ]
