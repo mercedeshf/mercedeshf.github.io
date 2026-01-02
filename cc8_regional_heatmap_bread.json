@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Regional Bread Price Heatmap",
+    "subtitle": "Annual average price by region. Source: LRPD (Davies, 2021)"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/cc8_regional_heatmap_bread.csv"
+  },
+  "width": 600,
+  "height": 400,
+  "mark": "rect",
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": "Year"},
+    "y": {"field": "region_s", "type": "nominal", "title": "UK Region"},
+    "color": {
+      "field": "price",
+      "type": "quantitative",
+      "title": "Avg Price (£)",
+      "scale": {"scheme": "magma"}
+    },
+    "tooltip": [
+      {"field": "year", "type": "ordinal"},
+      {"field": "region_s", "type": "nominal"},
+      {"field": "price", "type": "quantitative", "format": ".2f"}
+    ]
+  },
+  "config": {}
+}
