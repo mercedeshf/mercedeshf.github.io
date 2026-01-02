@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Comparison of Inflation Distributions",
+    "subtitle": ["UK, 1989-2025"],
+    "fontSize": 18,
+    "anchor": "start"
+  },
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/cpi_comparison_data.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "opacity": 0.5, "binSpacing": 0},
+      "encoding": {
+        "x": {
+          "bin": {"maxbins": 40},
+          "field": "Value",
+          "title": "CPI Annual Rate (%)"
+        },
+        "y": {
+          "aggregate": "count",
+          "stack": null,
+          "title": "Frequency (Number of Months)"
+        },
+        "color": {
+          "field": "Era",
+          "type": "nominal",
+          "scale": {"range": ["#4c78a8", "#e15759"]},
+          "title": "Period"
+        }
+      }
+    },
+    {
+      "mark": {"type": "rule", "strokeWidth": 2, "strokeDash": [5, 5]},
+      "encoding": {
+        "x": {"aggregate": "mean", "field": "Value", "type": "quantitative"},
+        "color": {
+          "field": "Era",
+          "type": "nominal",
+          "scale": {"range": ["#4c78a8", "#e15759"]}
+        }
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+}
