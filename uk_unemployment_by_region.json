@@ -1,15 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {
-    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/uk_unemployment_by_region.csv"
-  },
+  "background": "#F5F2EB",
+  "padding": {"left": 20, "top": 10, "right": 10, "bottom": 10},
   "title": {
     "text": "UK Regional Unemployment Rates (2015-2025)",
     "subtitle": "Interactive selection via dropdown menu. Source: ONS",
-    "anchor": "start"
+    "subtitleColor": "#2E294E",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 10,
+    "offset": 15
   },
-  "width": 500,
-  "height": 300,
+  "width": 400,
+  "height": 250,
+  "data": {
+    "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/uk_unemployment_by_region.csv"
+  },
   "params": [
     {
       "name": "selectRegion",
@@ -44,20 +50,58 @@
       }
     }
   ],
-  "mark": {"type": "line", "point": true},
+  "mark": {"type": "line", "point": {"size": 30}, "strokeWidth": 2.5},
   "encoding": {
     "x": {
       "field": "Year",
       "type": "quantitative",
       "title": "Year",
-      "axis": {"format": "d"}
+      "axis": {
+        "format": "d",
+        "grid": false,
+        "labelFontSize": 10,
+        "titleFontSize": 11,
+        "labelColor": "#2E294E",
+        "titleColor": "#2E294E"
+      }
     },
     "y": {
       "field": "Unemployment_Rate",
       "type": "quantitative",
-      "title": "Unemployment Rate (%)"
+      "title": "Rate (%)",
+      "axis": {
+        "grid": true,
+        "gridColor": "#2E294E",
+        "gridOpacity": 0.1,
+        "labelFontSize": 10,
+        "titleFontSize": 11,
+        "labelColor": "#2E294E",
+        "titleColor": "#2E294E"
+      }
     },
-    "color": {"field": "Region", "type": "nominal"},
+    "color": {
+      "field": "Region",
+      "type": "nominal",
+      "scale": {
+        "range": [
+          "#E4007C",
+          "#2E294E",
+          "#AACC00",
+          "#F1BF3A",
+          "#C1666B",
+          "#4ECDC4",
+          "#D4A574",
+          "#7B2CBF",
+          "#1B998B"
+        ]
+      },
+      "legend": {
+        "titleFontSize": 10,
+        "labelFontSize": 9,
+        "labelColor": "#2E294E",
+        "titleColor": "#2E294E"
+      }
+    },
     "opacity": {
       "condition": {"param": "selectRegion", "value": 1},
       "value": 0.1
@@ -68,9 +112,17 @@
       {
         "field": "Unemployment_Rate",
         "type": "quantitative",
-        "title": "Rate (%)"
+        "title": "Rate (%)",
+        "format": ".1f"
       }
     ]
   },
-  "config": {}
+  "config": {
+    "view": {"stroke": null},
+    "axis": {
+      "domainColor": "#2E294E",
+      "domainOpacity": 0.3,
+      "tickColor": "#2E294E"
+    }
+  }
 }
