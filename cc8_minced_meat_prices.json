@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK Price Trend: Home Killed Beef-Lean Mince (1988-2025)",
+    "subtitle": "Average Price per KG in GBP (£)",
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/valternunez/mercedeshf.github.io/refs/heads/main/cc8_minced_meat_prices.csv"
+  },
+  "mark": {
+    "type": "line",
+    "color": "firebrick",
+    "strokeWidth": 2,
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "calendar_date",
+      "type": "temporal",
+      "title": "Year",
+      "axis": {"grid": false, "format": "%Y"}
+    },
+    "y": {
+      "field": "price",
+      "type": "quantitative",
+      "title": "Average Price (£)",
+      "scale": {"zero": false}
+    },
+    "tooltip": [
+      {
+        "field": "calendar_date",
+        "type": "temporal",
+        "title": "Date",
+        "format": "%B %Y"
+      },
+      {
+        "field": "price",
+        "type": "quantitative",
+        "title": "Price (£)",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "view": {"stroke": "transparent"},
+    "axis": {"domainColor": "#ddd", "tickColor": "#ddd"}
+  }
+}
