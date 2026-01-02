@@ -1,23 +1,57 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#F5F2EB",
+  "padding": {"left": 20, "top": 10, "right": 10, "bottom": 10},
   "title": {
     "text": "Regional Bread Price Heatmap",
-    "subtitle": "Annual average price by region of white unsliced bread loaf. Source: LRPD (Davies, 2021)"
+    "subtitle": "Annual average price by region of white unsliced bread loaf. Source: LRPD (Davies, 2021)",
+    "subtitleColor": "#2E294E",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 10,
+    "offset": 15
   },
   "data": {
     "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/cc8_regional_heatmap_bread.csv"
   },
-  "width": 600,
-  "height": 400,
+  "width": 400,
+  "height": 250,
   "mark": "rect",
   "encoding": {
-    "x": {"field": "year", "type": "ordinal", "title": "Year"},
-    "y": {"field": "region_s", "type": "nominal", "title": "UK Region"},
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {
+        "labelAngle": -45,
+        "labelFontSize": 9,
+        "titleFontSize": 10,
+        "labelColor": "#2E294E",
+        "titleColor": "#2E294E"
+      }
+    },
+    "y": {
+      "field": "region_s",
+      "type": "nominal",
+      "title": "UK Region",
+      "axis": {
+        "labelFontSize": 9,
+        "titleFontSize": 10,
+        "labelColor": "#2E294E",
+        "titleColor": "#2E294E"
+      }
+    },
     "color": {
       "field": "price",
       "type": "quantitative",
       "title": "Avg Price (£)",
-      "scale": {"scheme": "magma"}
+      "scale": {"range": ["#FDE7F3", "#E4007C"]},
+      "legend": {
+        "titleFontSize": 9,
+        "labelFontSize": 8,
+        "titleColor": "#2E294E",
+        "labelColor": "#2E294E"
+      }
     },
     "tooltip": [
       {"field": "year", "type": "ordinal"},
@@ -25,5 +59,8 @@
       {"field": "price", "type": "quantitative", "format": ".2f"}
     ]
   },
-  "config": {}
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"domain": false, "ticks": false}
+  }
 }

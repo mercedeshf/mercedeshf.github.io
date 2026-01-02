@@ -1,20 +1,25 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#F5F2EB",
+  "padding": {"left": 20, "top": 10, "right": 10, "bottom": 10},
   "title": {
     "text": "UK Price Trend: Home Killed Beef-Lean Mince (1988-2025)",
     "subtitle": "Average Price per KG in GBP (£)",
+    "subtitleColor": "#2E294E",
     "anchor": "start",
-    "color": "black"
+    "fontSize": 16,
+    "subtitleFontSize": 10,
+    "offset": 15
   },
-  "width": 600,
-  "height": 400,
+  "width": 400,
+  "height": 250,
   "data": {
     "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/cc8_minced_meat_prices.csv"
   },
   "mark": {
     "type": "line",
-    "color": "firebrick",
-    "strokeWidth": 2,
+    "color": "#E4007C",
+    "strokeWidth": 2.5,
     "interpolate": "monotone"
   },
   "encoding": {
@@ -22,13 +27,29 @@
       "field": "calendar_date",
       "type": "temporal",
       "title": "Year",
-      "axis": {"grid": false, "format": "%Y"}
+      "axis": {
+        "grid": false,
+        "format": "%Y",
+        "labelFontSize": 10,
+        "titleFontSize": 11,
+        "labelColor": "#2E294E",
+        "titleColor": "#2E294E"
+      }
     },
     "y": {
       "field": "price",
       "type": "quantitative",
-      "title": "Average Price (£)",
-      "scale": {"zero": false}
+      "title": "Price (£)",
+      "scale": {"zero": false},
+      "axis": {
+        "grid": true,
+        "gridColor": "#2E294E",
+        "gridOpacity": 0.1,
+        "labelFontSize": 10,
+        "titleFontSize": 11,
+        "labelColor": "#2E294E",
+        "titleColor": "#2E294E"
+      }
     },
     "tooltip": [
       {
@@ -46,7 +67,12 @@
     ]
   },
   "config": {
-    "view": {"stroke": "transparent"},
-    "axis": {"domainColor": "#ddd", "tickColor": "#ddd"}
+    "view": {"stroke": null},
+    "axis": {
+      "domainColor": "#2E294E",
+      "domainOpacity": 0.3,
+      "tickColor": "#2E294E",
+      "tickOpacity": 0.3
+    }
   }
 }
