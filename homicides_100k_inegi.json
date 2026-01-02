@@ -102,7 +102,7 @@
               "axis": {
                 "format": "d",
                 "labelAngle": -45,
-                "labelFontSize": 8.5,
+                "labelFontSize": 8.7,
                 "grid": false,
                 "tickCount": 36,
                 "labelExpr": "datum.value == 2025 ? '' : datum.label"
@@ -115,7 +115,7 @@
               "axis": {
                 "format": ".1f",
                 "grid": true,
-                "labelFontSize": 8.5,
+                "labelFontSize": 12,
                 "labelFontWeight": 500,
                 "gridColor": "#D3D3D3",
                 "gridWidth": 1.25,
@@ -134,7 +134,7 @@
             "clip": false
           },
           "encoding": {
-            "x": {"value": -27.5},
+            "x": {"value": -37.5},
             "x2": {"value": 715},
             "y": {"value": -15},
             "y2": {"value": 320}
