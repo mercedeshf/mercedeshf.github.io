@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Regional Bread Price Heatmap",
-    "subtitle": "Annual average price by region. Source: LRPD (Davies, 2021)"
+    "subtitle": "Annual average price by region of white unsliced bread loaf. Source: LRPD (Davies, 2021)"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/cc8_regional_heatmap_bread.csv"
