@@ -19,7 +19,7 @@
       "data": {
         "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/theftdata_peryear.csv"
       },
-      "transform": [{"filter": "datum['Año'] >= 2015 && datum['Año'] <= 2024"}],
+      "transform": [{"filter": "datum['year'] >= 2015 && datum['year'] <= 2024"}],
       "mark": {
         "type": "line",
         "point": {"filled": true, "size": 80, "color": "#E4007C"},
@@ -28,7 +28,7 @@
       },
       "encoding": {
         "x": {
-          "field": "Año",
+          "field": "year",
           "type": "quantitative",
           "title": "Year",
           "axis": {
