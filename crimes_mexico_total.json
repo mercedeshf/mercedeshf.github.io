@@ -65,7 +65,7 @@
             "type": "text",
             "align": "left",
             "baseline": "top",
-            "dx": 5,
+            "dx": -60,
             "fontSize": 10,
             "color": "#2E294E",
             "text": "Source:"
@@ -77,7 +77,7 @@
             "type": "text",
             "align": "left",
             "baseline": "top",
-            "dx": 47,
+            "dx": -20,
             "fontSize": 10,
             "fontStyle": "italic",
             "color": "#2E294E",
