@@ -1,0 +1,3521 @@
+year,state,type_of_crime,is_high_impact,total
+2015,Aguascalientes,Otros Delitos Contra el Patrimonio,0,13735
+2015,Aguascalientes,Otros Delitos,0,7135
+2015,Aguascalientes,Robo con violencia,1,838
+2015,Aguascalientes,Narcomenudeo,1,614
+2015,Aguascalientes,Violencia familiar,1,481
+2015,Aguascalientes,Homicidio,1,211
+2015,Aguascalientes,Delitos Sexuales,0,154
+2015,Aguascalientes,Extorsión,1,39
+2015,Aguascalientes,Secuestro,1,5
+2015,Aguascalientes,Feminicidio,1,0
+2015,Baja California,Otros Delitos Contra el Patrimonio,0,55364
+2015,Baja California,Otros Delitos,0,42534
+2015,Baja California,Robo con violencia,1,9250
+2015,Baja California,Violencia familiar,1,8892
+2015,Baja California,Delitos Sexuales,0,2443
+2015,Baja California,Homicidio,1,1219
+2015,Baja California,Extorsión,1,221
+2015,Baja California,Secuestro,1,11
+2015,Baja California,Feminicidio,1,10
+2015,Baja California,Narcomenudeo,1,0
+2015,Baja California Sur,Otros Delitos Contra el Patrimonio,0,11561
+2015,Baja California Sur,Otros Delitos,0,6365
+2015,Baja California Sur,Violencia familiar,1,1691
+2015,Baja California Sur,Robo con violencia,1,698
+2015,Baja California Sur,Narcomenudeo,1,604
+2015,Baja California Sur,Delitos Sexuales,0,246
+2015,Baja California Sur,Homicidio,1,201
+2015,Baja California Sur,Extorsión,1,49
+2015,Baja California Sur,Feminicidio,1,0
+2015,Baja California Sur,Secuestro,1,0
+2015,Campeche,Otros Delitos Contra el Patrimonio,0,963
+2015,Campeche,Otros Delitos,0,412
+2015,Campeche,Robo con violencia,1,185
+2015,Campeche,Homicidio,1,118
+2015,Campeche,Delitos Sexuales,0,88
+2015,Campeche,Narcomenudeo,1,58
+2015,Campeche,Extorsión,1,34
+2015,Campeche,Violencia familiar,1,18
+2015,Campeche,Secuestro,1,6
+2015,Campeche,Feminicidio,1,4
+2015,Chiapas,Otros Delitos,0,6774
+2015,Chiapas,Robo con violencia,1,5767
+2015,Chiapas,Otros Delitos Contra el Patrimonio,0,4259
+2015,Chiapas,Homicidio,1,1552
+2015,Chiapas,Violencia familiar,1,1251
+2015,Chiapas,Delitos Sexuales,0,1028
+2015,Chiapas,Narcomenudeo,1,724
+2015,Chiapas,Extorsión,1,217
+2015,Chiapas,Feminicidio,1,36
+2015,Chiapas,Secuestro,1,10
+2015,Chihuahua,Otros Delitos Contra el Patrimonio,0,24978
+2015,Chihuahua,Otros Delitos,0,15283
+2015,Chihuahua,Violencia familiar,1,12273
+2015,Chihuahua,Narcomenudeo,1,3064
+2015,Chihuahua,Robo con violencia,1,2241
+2015,Chihuahua,Delitos Sexuales,0,2138
+2015,Chihuahua,Homicidio,1,1286
+2015,Chihuahua,Extorsión,1,11
+2015,Chihuahua,Secuestro,1,6
+2015,Chihuahua,Feminicidio,1,0
+2015,Ciudad de México,Otros Delitos Contra el Patrimonio,0,85512
+2015,Ciudad de México,Otros Delitos,0,38129
+2015,Ciudad de México,Robo con violencia,1,23710
+2015,Ciudad de México,Violencia familiar,1,16103
+2015,Ciudad de México,Delitos Sexuales,0,2390
+2015,Ciudad de México,Homicidio,1,1585
+2015,Ciudad de México,Narcomenudeo,1,1522
+2015,Ciudad de México,Extorsión,1,639
+2015,Ciudad de México,Feminicidio,1,56
+2015,Ciudad de México,Secuestro,1,55
+2015,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,22667
+2015,Coahuila de Zaragoza,Otros Delitos,0,16100
+2015,Coahuila de Zaragoza,Narcomenudeo,1,2331
+2015,Coahuila de Zaragoza,Robo con violencia,1,2221
+2015,Coahuila de Zaragoza,Violencia familiar,1,2154
+2015,Coahuila de Zaragoza,Homicidio,1,535
+2015,Coahuila de Zaragoza,Delitos Sexuales,0,484
+2015,Coahuila de Zaragoza,Extorsión,1,36
+2015,Coahuila de Zaragoza,Secuestro,1,25
+2015,Coahuila de Zaragoza,Feminicidio,1,16
+2015,Colima,Otros Delitos Contra el Patrimonio,0,2915
+2015,Colima,Otros Delitos,0,1891
+2015,Colima,Violencia familiar,1,549
+2015,Colima,Narcomenudeo,1,493
+2015,Colima,Robo con violencia,1,418
+2015,Colima,Homicidio,1,222
+2015,Colima,Delitos Sexuales,0,50
+2015,Colima,Extorsión,1,14
+2015,Colima,Feminicidio,1,5
+2015,Colima,Secuestro,1,5
+2015,Durango,Otros Delitos Contra el Patrimonio,0,13908
+2015,Durango,Otros Delitos,0,8501
+2015,Durango,Violencia familiar,1,3521
+2015,Durango,Robo con violencia,1,1890
+2015,Durango,Homicidio,1,494
+2015,Durango,Delitos Sexuales,0,390
+2015,Durango,Narcomenudeo,1,314
+2015,Durango,Extorsión,1,62
+2015,Durango,Secuestro,1,6
+2015,Durango,Feminicidio,1,2
+2015,Guanajuato,Otros Delitos Contra el Patrimonio,0,38624
+2015,Guanajuato,Otros Delitos,0,32883
+2015,Guanajuato,Violencia familiar,1,10298
+2015,Guanajuato,Robo con violencia,1,6549
+2015,Guanajuato,Narcomenudeo,1,3060
+2015,Guanajuato,Homicidio,1,2398
+2015,Guanajuato,Delitos Sexuales,0,1938
+2015,Guanajuato,Feminicidio,1,16
+2015,Guanajuato,Extorsión,1,8
+2015,Guanajuato,Secuestro,1,8
+2015,Guerrero,Otros Delitos,0,14686
+2015,Guerrero,Otros Delitos Contra el Patrimonio,0,12819
+2015,Guerrero,Robo con violencia,1,3383
+2015,Guerrero,Homicidio,1,2721
+2015,Guerrero,Violencia familiar,1,2022
+2015,Guerrero,Delitos Sexuales,0,577
+2015,Guerrero,Narcomenudeo,1,349
+2015,Guerrero,Extorsión,1,144
+2015,Guerrero,Secuestro,1,81
+2015,Guerrero,Feminicidio,1,1
+2015,Hidalgo,Otros Delitos Contra el Patrimonio,0,12436
+2015,Hidalgo,Otros Delitos,0,9931
+2015,Hidalgo,Violencia familiar,1,2294
+2015,Hidalgo,Robo con violencia,1,1390
+2015,Hidalgo,Homicidio,1,651
+2015,Hidalgo,Delitos Sexuales,0,630
+2015,Hidalgo,Narcomenudeo,1,111
+2015,Hidalgo,Extorsión,1,42
+2015,Hidalgo,Secuestro,1,19
+2015,Hidalgo,Feminicidio,1,0
+2015,Jalisco,Otros Delitos Contra el Patrimonio,0,38852
+2015,Jalisco,Otros Delitos,0,31767
+2015,Jalisco,Violencia familiar,1,8543
+2015,Jalisco,Robo con violencia,1,6376
+2015,Jalisco,Narcomenudeo,1,5045
+2015,Jalisco,Delitos Sexuales,0,2099
+2015,Jalisco,Homicidio,1,1736
+2015,Jalisco,Extorsión,1,831
+2015,Jalisco,Feminicidio,1,62
+2015,Jalisco,Secuestro,1,20
+2015,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,14198
+2015,Michoacán de Ocampo,Otros Delitos,0,7681
+2015,Michoacán de Ocampo,Robo con violencia,1,4207
+2015,Michoacán de Ocampo,Homicidio,1,2041
+2015,Michoacán de Ocampo,Narcomenudeo,1,1136
+2015,Michoacán de Ocampo,Violencia familiar,1,921
+2015,Michoacán de Ocampo,Delitos Sexuales,0,629
+2015,Michoacán de Ocampo,Extorsión,1,43
+2015,Michoacán de Ocampo,Secuestro,1,31
+2015,Michoacán de Ocampo,Feminicidio,1,12
+2015,Morelos,Otros Delitos Contra el Patrimonio,0,20824
+2015,Morelos,Otros Delitos,0,14990
+2015,Morelos,Robo con violencia,1,6736
+2015,Morelos,Violencia familiar,1,4034
+2015,Morelos,Delitos Sexuales,0,857
+2015,Morelos,Homicidio,1,851
+2015,Morelos,Narcomenudeo,1,734
+2015,Morelos,Extorsión,1,172
+2015,Morelos,Secuestro,1,32
+2015,Morelos,Feminicidio,1,15
+2015,México,Otros Delitos,0,116780
+2015,México,Otros Delitos Contra el Patrimonio,0,105798
+2015,México,Robo con violencia,1,88064
+2015,México,Violencia familiar,1,4722
+2015,México,Homicidio,1,3097
+2015,México,Delitos Sexuales,0,2302
+2015,México,Extorsión,1,1580
+2015,México,Narcomenudeo,1,959
+2015,México,Secuestro,1,163
+2015,México,Feminicidio,1,60
+2015,Nayarit,Otros Delitos,0,2879
+2015,Nayarit,Otros Delitos Contra el Patrimonio,0,2272
+2015,Nayarit,Narcomenudeo,1,538
+2015,Nayarit,Robo con violencia,1,369
+2015,Nayarit,Violencia familiar,1,298
+2015,Nayarit,Homicidio,1,147
+2015,Nayarit,Delitos Sexuales,0,135
+2015,Nayarit,Secuestro,1,12
+2015,Nayarit,Extorsión,1,1
+2015,Nayarit,Feminicidio,1,0
+2015,Nuevo León,Otros Delitos Contra el Patrimonio,0,23176
+2015,Nuevo León,Otros Delitos,0,22823
+2015,Nuevo León,Violencia familiar,1,17062
+2015,Nuevo León,Robo con violencia,1,4148
+2015,Nuevo León,Narcomenudeo,1,1849
+2015,Nuevo León,Delitos Sexuales,0,1773
+2015,Nuevo León,Homicidio,1,988
+2015,Nuevo León,Extorsión,1,509
+2015,Nuevo León,Secuestro,1,21
+2015,Nuevo León,Feminicidio,1,1
+2015,Oaxaca,Otros Delitos,0,2029
+2015,Oaxaca,Otros Delitos Contra el Patrimonio,0,1979
+2015,Oaxaca,Robo con violencia,1,814
+2015,Oaxaca,Violencia familiar,1,618
+2015,Oaxaca,Homicidio,1,416
+2015,Oaxaca,Delitos Sexuales,0,177
+2015,Oaxaca,Narcomenudeo,1,36
+2015,Oaxaca,Extorsión,1,33
+2015,Oaxaca,Secuestro,1,17
+2015,Oaxaca,Feminicidio,1,8
+2015,Puebla,Otros Delitos Contra el Patrimonio,0,25876
+2015,Puebla,Otros Delitos,0,19016
+2015,Puebla,Robo con violencia,1,9133
+2015,Puebla,Violencia familiar,1,5024
+2015,Puebla,Narcomenudeo,1,3133
+2015,Puebla,Homicidio,1,1206
+2015,Puebla,Delitos Sexuales,0,699
+2015,Puebla,Extorsión,1,273
+2015,Puebla,Secuestro,1,33
+2015,Puebla,Feminicidio,1,6
+2015,Querétaro,Otros Delitos Contra el Patrimonio,0,19263
+2015,Querétaro,Otros Delitos,0,7857
+2015,Querétaro,Robo con violencia,1,3455
+2015,Querétaro,Violencia familiar,1,942
+2015,Querétaro,Delitos Sexuales,0,596
+2015,Querétaro,Homicidio,1,447
+2015,Querétaro,Narcomenudeo,1,224
+2015,Querétaro,Secuestro,1,19
+2015,Querétaro,Feminicidio,1,8
+2015,Querétaro,Extorsión,1,6
+2015,Quintana Roo,Otros Delitos Contra el Patrimonio,0,17051
+2015,Quintana Roo,Otros Delitos,0,8393
+2015,Quintana Roo,Violencia familiar,1,3058
+2015,Quintana Roo,Robo con violencia,1,1721
+2015,Quintana Roo,Delitos Sexuales,0,1024
+2015,Quintana Roo,Homicidio,1,571
+2015,Quintana Roo,Narcomenudeo,1,557
+2015,Quintana Roo,Extorsión,1,116
+2015,Quintana Roo,Secuestro,1,5
+2015,Quintana Roo,Feminicidio,1,0
+2015,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,9113
+2015,San Luis Potosí,Otros Delitos,0,6776
+2015,San Luis Potosí,Violencia familiar,1,2924
+2015,San Luis Potosí,Robo con violencia,1,1288
+2015,San Luis Potosí,Delitos Sexuales,0,615
+2015,San Luis Potosí,Homicidio,1,392
+2015,San Luis Potosí,Narcomenudeo,1,142
+2015,San Luis Potosí,Extorsión,1,141
+2015,San Luis Potosí,Secuestro,1,21
+2015,San Luis Potosí,Feminicidio,1,7
+2015,Sinaloa,Otros Delitos Contra el Patrimonio,0,10483
+2015,Sinaloa,Otros Delitos,0,6521
+2015,Sinaloa,Robo con violencia,1,3506
+2015,Sinaloa,Violencia familiar,1,2387
+2015,Sinaloa,Homicidio,1,1404
+2015,Sinaloa,Narcomenudeo,1,939
+2015,Sinaloa,Delitos Sexuales,0,418
+2015,Sinaloa,Extorsión,1,128
+2015,Sinaloa,Feminicidio,1,14
+2015,Sinaloa,Secuestro,1,12
+2015,Sonora,Otros Delitos Contra el Patrimonio,0,10831
+2015,Sonora,Otros Delitos,0,8945
+2015,Sonora,Narcomenudeo,1,2587
+2015,Sonora,Robo con violencia,1,2569
+2015,Sonora,Violencia familiar,1,2231
+2015,Sonora,Homicidio,1,983
+2015,Sonora,Delitos Sexuales,0,461
+2015,Sonora,Feminicidio,1,24
+2015,Sonora,Extorsión,1,20
+2015,Sonora,Secuestro,1,8
+2015,Tabasco,Otros Delitos,0,28867
+2015,Tabasco,Otros Delitos Contra el Patrimonio,0,13702
+2015,Tabasco,Robo con violencia,1,9278
+2015,Tabasco,Violencia familiar,1,4230
+2015,Tabasco,Homicidio,1,685
+2015,Tabasco,Delitos Sexuales,0,432
+2015,Tabasco,Extorsión,1,171
+2015,Tabasco,Secuestro,1,78
+2015,Tabasco,Feminicidio,1,8
+2015,Tabasco,Narcomenudeo,1,1
+2015,Tamaulipas,Otros Delitos Contra el Patrimonio,0,17603
+2015,Tamaulipas,Otros Delitos,0,15589
+2015,Tamaulipas,Robo con violencia,1,5716
+2015,Tamaulipas,Violencia familiar,1,2394
+2015,Tamaulipas,Homicidio,1,1383
+2015,Tamaulipas,Narcomenudeo,1,854
+2015,Tamaulipas,Delitos Sexuales,0,584
+2015,Tamaulipas,Secuestro,1,230
+2015,Tamaulipas,Extorsión,1,174
+2015,Tamaulipas,Feminicidio,1,0
+2015,Tlaxcala,Otros Delitos Contra el Patrimonio,0,4332
+2015,Tlaxcala,Otros Delitos,0,2145
+2015,Tlaxcala,Robo con violencia,1,1331
+2015,Tlaxcala,Homicidio,1,322
+2015,Tlaxcala,Delitos Sexuales,0,77
+2015,Tlaxcala,Narcomenudeo,1,68
+2015,Tlaxcala,Violencia familiar,1,24
+2015,Tlaxcala,Extorsión,1,9
+2015,Tlaxcala,Secuestro,1,8
+2015,Tlaxcala,Feminicidio,1,1
+2015,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,21802
+2015,Veracruz de Ignacio de la Llave,Otros Delitos,0,13433
+2015,Veracruz de Ignacio de la Llave,Robo con violencia,1,5171
+2015,Veracruz de Ignacio de la Llave,Violencia familiar,1,3572
+2015,Veracruz de Ignacio de la Llave,Homicidio,1,1008
+2015,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,210
+2015,Veracruz de Ignacio de la Llave,Extorsión,1,126
+2015,Veracruz de Ignacio de la Llave,Secuestro,1,97
+2015,Veracruz de Ignacio de la Llave,Narcomenudeo,1,80
+2015,Veracruz de Ignacio de la Llave,Feminicidio,1,40
+2015,Yucatán,Otros Delitos,0,19316
+2015,Yucatán,Otros Delitos Contra el Patrimonio,0,11998
+2015,Yucatán,Violencia familiar,1,2158
+2015,Yucatán,Delitos Sexuales,0,662
+2015,Yucatán,Robo con violencia,1,230
+2015,Yucatán,Narcomenudeo,1,179
+2015,Yucatán,Homicidio,1,104
+2015,Yucatán,Extorsión,1,68
+2015,Yucatán,Feminicidio,1,1
+2015,Yucatán,Secuestro,1,0
+2015,Zacatecas,Otros Delitos Contra el Patrimonio,0,8349
+2015,Zacatecas,Otros Delitos,0,4479
+2015,Zacatecas,Robo con violencia,1,1871
+2015,Zacatecas,Violencia familiar,1,735
+2015,Zacatecas,Homicidio,1,357
+2015,Zacatecas,Delitos Sexuales,0,186
+2015,Zacatecas,Narcomenudeo,1,93
+2015,Zacatecas,Extorsión,1,91
+2015,Zacatecas,Secuestro,1,18
+2015,Zacatecas,Feminicidio,1,0
+2016,Aguascalientes,Otros Delitos Contra el Patrimonio,0,13429
+2016,Aguascalientes,Otros Delitos,0,7599
+2016,Aguascalientes,Robo con violencia,1,883
+2016,Aguascalientes,Narcomenudeo,1,717
+2016,Aguascalientes,Violencia familiar,1,645
+2016,Aguascalientes,Homicidio,1,233
+2016,Aguascalientes,Delitos Sexuales,0,151
+2016,Aguascalientes,Extorsión,1,70
+2016,Aguascalientes,Secuestro,1,2
+2016,Aguascalientes,Feminicidio,1,0
+2016,Baja California,Otros Delitos Contra el Patrimonio,0,51423
+2016,Baja California,Otros Delitos,0,33290
+2016,Baja California,Robo con violencia,1,10360
+2016,Baja California,Violencia familiar,1,8315
+2016,Baja California,Delitos Sexuales,0,2254
+2016,Baja California,Narcomenudeo,1,1763
+2016,Baja California,Homicidio,1,1503
+2016,Baja California,Extorsión,1,175
+2016,Baja California,Secuestro,1,14
+2016,Baja California,Feminicidio,1,12
+2016,Baja California Sur,Otros Delitos Contra el Patrimonio,0,14351
+2016,Baja California Sur,Otros Delitos,0,6043
+2016,Baja California Sur,Violencia familiar,1,2099
+2016,Baja California Sur,Robo con violencia,1,827
+2016,Baja California Sur,Narcomenudeo,1,462
+2016,Baja California Sur,Delitos Sexuales,0,413
+2016,Baja California Sur,Homicidio,1,272
+2016,Baja California Sur,Extorsión,1,139
+2016,Baja California Sur,Feminicidio,1,0
+2016,Baja California Sur,Secuestro,1,0
+2016,Campeche,Otros Delitos Contra el Patrimonio,0,1218
+2016,Campeche,Otros Delitos,0,407
+2016,Campeche,Delitos Sexuales,0,172
+2016,Campeche,Homicidio,1,167
+2016,Campeche,Robo con violencia,1,137
+2016,Campeche,Narcomenudeo,1,66
+2016,Campeche,Violencia familiar,1,43
+2016,Campeche,Extorsión,1,18
+2016,Campeche,Secuestro,1,6
+2016,Campeche,Feminicidio,1,3
+2016,Chiapas,Otros Delitos Contra el Patrimonio,0,5796
+2016,Chiapas,Robo con violencia,1,5701
+2016,Chiapas,Otros Delitos,0,5530
+2016,Chiapas,Violencia familiar,1,1964
+2016,Chiapas,Homicidio,1,1480
+2016,Chiapas,Delitos Sexuales,0,1071
+2016,Chiapas,Narcomenudeo,1,436
+2016,Chiapas,Extorsión,1,164
+2016,Chiapas,Feminicidio,1,32
+2016,Chiapas,Secuestro,1,15
+2016,Chihuahua,Otros Delitos Contra el Patrimonio,0,22569
+2016,Chihuahua,Otros Delitos,0,13313
+2016,Chihuahua,Violencia familiar,1,11960
+2016,Chihuahua,Narcomenudeo,1,4791
+2016,Chihuahua,Delitos Sexuales,0,2100
+2016,Chihuahua,Robo con violencia,1,1592
+2016,Chihuahua,Homicidio,1,1547
+2016,Chihuahua,Extorsión,1,23
+2016,Chihuahua,Secuestro,1,9
+2016,Chihuahua,Feminicidio,1,0
+2016,Ciudad de México,Otros Delitos Contra el Patrimonio,0,93847
+2016,Ciudad de México,Otros Delitos,0,39640
+2016,Ciudad de México,Robo con violencia,1,21483
+2016,Ciudad de México,Violencia familiar,1,18426
+2016,Ciudad de México,Delitos Sexuales,0,2625
+2016,Ciudad de México,Homicidio,1,1594
+2016,Ciudad de México,Narcomenudeo,1,1405
+2016,Ciudad de México,Extorsión,1,608
+2016,Ciudad de México,Feminicidio,1,46
+2016,Ciudad de México,Secuestro,1,46
+2016,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,21001
+2016,Coahuila de Zaragoza,Otros Delitos,0,18059
+2016,Coahuila de Zaragoza,Violencia familiar,1,6885
+2016,Coahuila de Zaragoza,Narcomenudeo,1,2488
+2016,Coahuila de Zaragoza,Robo con violencia,1,1466
+2016,Coahuila de Zaragoza,Delitos Sexuales,0,809
+2016,Coahuila de Zaragoza,Homicidio,1,476
+2016,Coahuila de Zaragoza,Extorsión,1,24
+2016,Coahuila de Zaragoza,Secuestro,1,21
+2016,Coahuila de Zaragoza,Feminicidio,1,13
+2016,Colima,Otros Delitos Contra el Patrimonio,0,7561
+2016,Colima,Otros Delitos,0,2665
+2016,Colima,Robo con violencia,1,1061
+2016,Colima,Homicidio,1,597
+2016,Colima,Violencia familiar,1,582
+2016,Colima,Narcomenudeo,1,527
+2016,Colima,Delitos Sexuales,0,140
+2016,Colima,Extorsión,1,67
+2016,Colima,Feminicidio,1,22
+2016,Colima,Secuestro,1,4
+2016,Durango,Otros Delitos Contra el Patrimonio,0,15133
+2016,Durango,Otros Delitos,0,8928
+2016,Durango,Violencia familiar,1,5272
+2016,Durango,Robo con violencia,1,1180
+2016,Durango,Narcomenudeo,1,610
+2016,Durango,Delitos Sexuales,0,534
+2016,Durango,Homicidio,1,464
+2016,Durango,Extorsión,1,49
+2016,Durango,Secuestro,1,11
+2016,Durango,Feminicidio,1,2
+2016,Guanajuato,Otros Delitos Contra el Patrimonio,0,40625
+2016,Guanajuato,Otros Delitos,0,38124
+2016,Guanajuato,Violencia familiar,1,11133
+2016,Guanajuato,Robo con violencia,1,8497
+2016,Guanajuato,Narcomenudeo,1,3684
+2016,Guanajuato,Homicidio,1,2572
+2016,Guanajuato,Delitos Sexuales,0,1604
+2016,Guanajuato,Feminicidio,1,14
+2016,Guanajuato,Secuestro,1,8
+2016,Guanajuato,Extorsión,1,4
+2016,Guerrero,Otros Delitos,0,15383
+2016,Guerrero,Otros Delitos Contra el Patrimonio,0,10857
+2016,Guerrero,Robo con violencia,1,4089
+2016,Guerrero,Homicidio,1,2844
+2016,Guerrero,Violencia familiar,1,2183
+2016,Guerrero,Delitos Sexuales,0,497
+2016,Guerrero,Narcomenudeo,1,416
+2016,Guerrero,Extorsión,1,199
+2016,Guerrero,Secuestro,1,72
+2016,Guerrero,Feminicidio,1,21
+2016,Hidalgo,Otros Delitos Contra el Patrimonio,0,14878
+2016,Hidalgo,Otros Delitos,0,11873
+2016,Hidalgo,Violencia familiar,1,3078
+2016,Hidalgo,Robo con violencia,1,2126
+2016,Hidalgo,Delitos Sexuales,0,843
+2016,Hidalgo,Homicidio,1,653
+2016,Hidalgo,Narcomenudeo,1,187
+2016,Hidalgo,Extorsión,1,80
+2016,Hidalgo,Feminicidio,1,22
+2016,Hidalgo,Secuestro,1,14
+2016,Jalisco,Otros Delitos Contra el Patrimonio,0,71430
+2016,Jalisco,Otros Delitos,0,38299
+2016,Jalisco,Violencia familiar,1,11431
+2016,Jalisco,Robo con violencia,1,7494
+2016,Jalisco,Delitos Sexuales,0,3155
+2016,Jalisco,Narcomenudeo,1,2245
+2016,Jalisco,Homicidio,1,2027
+2016,Jalisco,Extorsión,1,675
+2016,Jalisco,Feminicidio,1,48
+2016,Jalisco,Secuestro,1,16
+2016,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,13841
+2016,Michoacán de Ocampo,Otros Delitos,0,8469
+2016,Michoacán de Ocampo,Robo con violencia,1,5367
+2016,Michoacán de Ocampo,Homicidio,1,2355
+2016,Michoacán de Ocampo,Narcomenudeo,1,1101
+2016,Michoacán de Ocampo,Violencia familiar,1,787
+2016,Michoacán de Ocampo,Delitos Sexuales,0,569
+2016,Michoacán de Ocampo,Feminicidio,1,26
+2016,Michoacán de Ocampo,Secuestro,1,25
+2016,Michoacán de Ocampo,Extorsión,1,18
+2016,Morelos,Otros Delitos Contra el Patrimonio,0,20305
+2016,Morelos,Otros Delitos,0,12206
+2016,Morelos,Robo con violencia,1,5769
+2016,Morelos,Violencia familiar,1,4516
+2016,Morelos,Narcomenudeo,1,843
+2016,Morelos,Delitos Sexuales,0,838
+2016,Morelos,Homicidio,1,833
+2016,Morelos,Extorsión,1,67
+2016,Morelos,Secuestro,1,41
+2016,Morelos,Feminicidio,1,30
+2016,México,Otros Delitos,0,138324
+2016,México,Otros Delitos Contra el Patrimonio,0,113560
+2016,México,Robo con violencia,1,58336
+2016,México,Violencia familiar,1,5474
+2016,México,Delitos Sexuales,0,3916
+2016,México,Homicidio,1,2899
+2016,México,Extorsión,1,1452
+2016,México,Narcomenudeo,1,766
+2016,México,Secuestro,1,254
+2016,México,Feminicidio,1,57
+2016,Nayarit,Otros Delitos,0,1394
+2016,Nayarit,Otros Delitos Contra el Patrimonio,0,1258
+2016,Nayarit,Violencia familiar,1,476
+2016,Nayarit,Narcomenudeo,1,188
+2016,Nayarit,Robo con violencia,1,167
+2016,Nayarit,Delitos Sexuales,0,93
+2016,Nayarit,Homicidio,1,84
+2016,Nayarit,Extorsión,1,5
+2016,Nayarit,Secuestro,1,3
+2016,Nayarit,Feminicidio,1,0
+2016,Nuevo León,Otros Delitos Contra el Patrimonio,0,30762
+2016,Nuevo León,Otros Delitos,0,24955
+2016,Nuevo León,Violencia familiar,1,17773
+2016,Nuevo León,Robo con violencia,1,5935
+2016,Nuevo León,Delitos Sexuales,0,1883
+2016,Nuevo León,Narcomenudeo,1,1611
+2016,Nuevo León,Homicidio,1,1171
+2016,Nuevo León,Extorsión,1,626
+2016,Nuevo León,Secuestro,1,27
+2016,Nuevo León,Feminicidio,1,3
+2016,Oaxaca,Otros Delitos Contra el Patrimonio,0,13287
+2016,Oaxaca,Otros Delitos,0,9322
+2016,Oaxaca,Violencia familiar,1,3353
+2016,Oaxaca,Robo con violencia,1,2758
+2016,Oaxaca,Homicidio,1,1541
+2016,Oaxaca,Delitos Sexuales,0,874
+2016,Oaxaca,Narcomenudeo,1,324
+2016,Oaxaca,Feminicidio,1,67
+2016,Oaxaca,Extorsión,1,53
+2016,Oaxaca,Secuestro,1,28
+2016,Puebla,Otros Delitos Contra el Patrimonio,0,19369
+2016,Puebla,Otros Delitos,0,14200
+2016,Puebla,Robo con violencia,1,9249
+2016,Puebla,Violencia familiar,1,5586
+2016,Puebla,Homicidio,1,1206
+2016,Puebla,Delitos Sexuales,0,767
+2016,Puebla,Narcomenudeo,1,518
+2016,Puebla,Extorsión,1,122
+2016,Puebla,Secuestro,1,32
+2016,Puebla,Feminicidio,1,12
+2016,Querétaro,Otros Delitos Contra el Patrimonio,0,26405
+2016,Querétaro,Otros Delitos,0,10664
+2016,Querétaro,Robo con violencia,1,2927
+2016,Querétaro,Violencia familiar,1,965
+2016,Querétaro,Narcomenudeo,1,826
+2016,Querétaro,Delitos Sexuales,0,668
+2016,Querétaro,Homicidio,1,421
+2016,Querétaro,Secuestro,1,12
+2016,Querétaro,Extorsión,1,11
+2016,Querétaro,Feminicidio,1,1
+2016,Quintana Roo,Otros Delitos Contra el Patrimonio,0,9928
+2016,Quintana Roo,Otros Delitos,0,4540
+2016,Quintana Roo,Violencia familiar,1,1524
+2016,Quintana Roo,Robo con violencia,1,1419
+2016,Quintana Roo,Delitos Sexuales,0,638
+2016,Quintana Roo,Narcomenudeo,1,582
+2016,Quintana Roo,Homicidio,1,278
+2016,Quintana Roo,Extorsión,1,41
+2016,Quintana Roo,Secuestro,1,8
+2016,Quintana Roo,Feminicidio,1,0
+2016,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,11801
+2016,San Luis Potosí,Otros Delitos,0,9612
+2016,San Luis Potosí,Violencia familiar,1,3930
+2016,San Luis Potosí,Robo con violencia,1,1590
+2016,San Luis Potosí,Delitos Sexuales,0,704
+2016,San Luis Potosí,Homicidio,1,500
+2016,San Luis Potosí,Narcomenudeo,1,224
+2016,San Luis Potosí,Extorsión,1,218
+2016,San Luis Potosí,Secuestro,1,26
+2016,San Luis Potosí,Feminicidio,1,8
+2016,Sinaloa,Otros Delitos Contra el Patrimonio,0,8517
+2016,Sinaloa,Otros Delitos,0,5295
+2016,Sinaloa,Robo con violencia,1,3454
+2016,Sinaloa,Violencia familiar,1,2371
+2016,Sinaloa,Homicidio,1,1516
+2016,Sinaloa,Delitos Sexuales,0,445
+2016,Sinaloa,Narcomenudeo,1,386
+2016,Sinaloa,Extorsión,1,104
+2016,Sinaloa,Feminicidio,1,39
+2016,Sinaloa,Secuestro,1,14
+2016,Sonora,Otros Delitos Contra el Patrimonio,0,12739
+2016,Sonora,Otros Delitos,0,11661
+2016,Sonora,Robo con violencia,1,7642
+2016,Sonora,Violencia familiar,1,3595
+2016,Sonora,Narcomenudeo,1,1838
+2016,Sonora,Homicidio,1,1068
+2016,Sonora,Delitos Sexuales,0,703
+2016,Sonora,Extorsión,1,142
+2016,Sonora,Feminicidio,1,30
+2016,Sonora,Secuestro,1,5
+2016,Tabasco,Otros Delitos,0,24471
+2016,Tabasco,Otros Delitos Contra el Patrimonio,0,17754
+2016,Tabasco,Robo con violencia,1,10331
+2016,Tabasco,Violencia familiar,1,5406
+2016,Tabasco,Homicidio,1,699
+2016,Tabasco,Delitos Sexuales,0,457
+2016,Tabasco,Extorsión,1,148
+2016,Tabasco,Secuestro,1,85
+2016,Tabasco,Narcomenudeo,1,56
+2016,Tabasco,Feminicidio,1,27
+2016,Tamaulipas,Otros Delitos Contra el Patrimonio,0,17572
+2016,Tamaulipas,Otros Delitos,0,16692
+2016,Tamaulipas,Violencia familiar,1,6378
+2016,Tamaulipas,Robo con violencia,1,4894
+2016,Tamaulipas,Homicidio,1,1513
+2016,Tamaulipas,Delitos Sexuales,0,739
+2016,Tamaulipas,Narcomenudeo,1,477
+2016,Tamaulipas,Secuestro,1,155
+2016,Tamaulipas,Extorsión,1,107
+2016,Tamaulipas,Feminicidio,1,1
+2016,Tlaxcala,Otros Delitos Contra el Patrimonio,0,3659
+2016,Tlaxcala,Robo con violencia,1,1590
+2016,Tlaxcala,Otros Delitos,0,1037
+2016,Tlaxcala,Homicidio,1,361
+2016,Tlaxcala,Delitos Sexuales,0,65
+2016,Tlaxcala,Narcomenudeo,1,50
+2016,Tlaxcala,Violencia familiar,1,6
+2016,Tlaxcala,Secuestro,1,5
+2016,Tlaxcala,Feminicidio,1,2
+2016,Tlaxcala,Extorsión,1,0
+2016,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,17685
+2016,Veracruz de Ignacio de la Llave,Otros Delitos,0,11934
+2016,Veracruz de Ignacio de la Llave,Robo con violencia,1,5402
+2016,Veracruz de Ignacio de la Llave,Violencia familiar,1,4771
+2016,Veracruz de Ignacio de la Llave,Homicidio,1,1817
+2016,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,262
+2016,Veracruz de Ignacio de la Llave,Extorsión,1,192
+2016,Veracruz de Ignacio de la Llave,Secuestro,1,132
+2016,Veracruz de Ignacio de la Llave,Narcomenudeo,1,59
+2016,Veracruz de Ignacio de la Llave,Feminicidio,1,58
+2016,Yucatán,Otros Delitos,0,19751
+2016,Yucatán,Otros Delitos Contra el Patrimonio,0,11050
+2016,Yucatán,Violencia familiar,1,2270
+2016,Yucatán,Delitos Sexuales,0,664
+2016,Yucatán,Narcomenudeo,1,270
+2016,Yucatán,Robo con violencia,1,114
+2016,Yucatán,Homicidio,1,110
+2016,Yucatán,Extorsión,1,57
+2016,Yucatán,Feminicidio,1,1
+2016,Yucatán,Secuestro,1,1
+2016,Zacatecas,Otros Delitos Contra el Patrimonio,0,8629
+2016,Zacatecas,Otros Delitos,0,4720
+2016,Zacatecas,Robo con violencia,1,1599
+2016,Zacatecas,Violencia familiar,1,1075
+2016,Zacatecas,Homicidio,1,609
+2016,Zacatecas,Delitos Sexuales,0,259
+2016,Zacatecas,Narcomenudeo,1,116
+2016,Zacatecas,Extorsión,1,81
+2016,Zacatecas,Secuestro,1,37
+2016,Zacatecas,Feminicidio,1,11
+2017,Aguascalientes,Otros Delitos Contra el Patrimonio,0,19931
+2017,Aguascalientes,Otros Delitos,0,9910
+2017,Aguascalientes,Robo con violencia,1,1122
+2017,Aguascalientes,Violencia familiar,1,1102
+2017,Aguascalientes,Narcomenudeo,1,842
+2017,Aguascalientes,Homicidio,1,258
+2017,Aguascalientes,Delitos Sexuales,0,256
+2017,Aguascalientes,Extorsión,1,121
+2017,Aguascalientes,Secuestro,1,6
+2017,Aguascalientes,Feminicidio,1,0
+2017,Baja California,Otros Delitos Contra el Patrimonio,0,50390
+2017,Baja California,Otros Delitos,0,29604
+2017,Baja California,Robo con violencia,1,12544
+2017,Baja California,Violencia familiar,1,8554
+2017,Baja California,Narcomenudeo,1,5745
+2017,Baja California,Homicidio,1,2430
+2017,Baja California,Delitos Sexuales,0,2233
+2017,Baja California,Extorsión,1,198
+2017,Baja California,Secuestro,1,13
+2017,Baja California,Feminicidio,1,11
+2017,Baja California Sur,Otros Delitos Contra el Patrimonio,0,13624
+2017,Baja California Sur,Otros Delitos,0,5532
+2017,Baja California Sur,Violencia familiar,1,1982
+2017,Baja California Sur,Robo con violencia,1,1037
+2017,Baja California Sur,Homicidio,1,693
+2017,Baja California Sur,Narcomenudeo,1,644
+2017,Baja California Sur,Delitos Sexuales,0,432
+2017,Baja California Sur,Extorsión,1,227
+2017,Baja California Sur,Secuestro,1,3
+2017,Baja California Sur,Feminicidio,1,0
+2017,Campeche,Otros Delitos Contra el Patrimonio,0,922
+2017,Campeche,Otros Delitos,0,406
+2017,Campeche,Delitos Sexuales,0,190
+2017,Campeche,Narcomenudeo,1,152
+2017,Campeche,Robo con violencia,1,150
+2017,Campeche,Homicidio,1,142
+2017,Campeche,Violencia familiar,1,65
+2017,Campeche,Extorsión,1,22
+2017,Campeche,Secuestro,1,6
+2017,Campeche,Feminicidio,1,1
+2017,Chiapas,Otros Delitos Contra el Patrimonio,0,7113
+2017,Chiapas,Otros Delitos,0,6262
+2017,Chiapas,Robo con violencia,1,5268
+2017,Chiapas,Violencia familiar,1,3506
+2017,Chiapas,Homicidio,1,1353
+2017,Chiapas,Delitos Sexuales,0,928
+2017,Chiapas,Narcomenudeo,1,725
+2017,Chiapas,Extorsión,1,159
+2017,Chiapas,Feminicidio,1,29
+2017,Chiapas,Secuestro,1,21
+2017,Chihuahua,Otros Delitos Contra el Patrimonio,0,27022
+2017,Chihuahua,Otros Delitos,0,15955
+2017,Chihuahua,Violencia familiar,1,11583
+2017,Chihuahua,Narcomenudeo,1,8019
+2017,Chihuahua,Delitos Sexuales,0,2341
+2017,Chihuahua,Robo con violencia,1,1949
+2017,Chihuahua,Homicidio,1,1908
+2017,Chihuahua,Extorsión,1,16
+2017,Chihuahua,Secuestro,1,15
+2017,Chihuahua,Feminicidio,1,11
+2017,Ciudad de México,Otros Delitos Contra el Patrimonio,0,111562
+2017,Ciudad de México,Otros Delitos,0,38653
+2017,Ciudad de México,Robo con violencia,1,28456
+2017,Ciudad de México,Violencia familiar,1,18360
+2017,Ciudad de México,Narcomenudeo,1,2625
+2017,Ciudad de México,Delitos Sexuales,0,2039
+2017,Ciudad de México,Homicidio,1,1816
+2017,Ciudad de México,Extorsión,1,490
+2017,Ciudad de México,Secuestro,1,40
+2017,Ciudad de México,Feminicidio,1,37
+2017,Coahuila de Zaragoza,Otros Delitos,0,21311
+2017,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,19832
+2017,Coahuila de Zaragoza,Violencia familiar,1,8968
+2017,Coahuila de Zaragoza,Narcomenudeo,1,3256
+2017,Coahuila de Zaragoza,Robo con violencia,1,1471
+2017,Coahuila de Zaragoza,Delitos Sexuales,0,954
+2017,Coahuila de Zaragoza,Homicidio,1,476
+2017,Coahuila de Zaragoza,Extorsión,1,21
+2017,Coahuila de Zaragoza,Secuestro,1,13
+2017,Coahuila de Zaragoza,Feminicidio,1,9
+2017,Colima,Otros Delitos Contra el Patrimonio,0,12252
+2017,Colima,Otros Delitos,0,6682
+2017,Colima,Violencia familiar,1,2299
+2017,Colima,Robo con violencia,1,1136
+2017,Colima,Narcomenudeo,1,939
+2017,Colima,Homicidio,1,789
+2017,Colima,Delitos Sexuales,0,304
+2017,Colima,Extorsión,1,16
+2017,Colima,Feminicidio,1,4
+2017,Colima,Secuestro,1,4
+2017,Durango,Otros Delitos Contra el Patrimonio,0,17088
+2017,Durango,Otros Delitos,0,9746
+2017,Durango,Violencia familiar,1,5196
+2017,Durango,Robo con violencia,1,1001
+2017,Durango,Narcomenudeo,1,788
+2017,Durango,Delitos Sexuales,0,495
+2017,Durango,Homicidio,1,441
+2017,Durango,Extorsión,1,72
+2017,Durango,Secuestro,1,15
+2017,Durango,Feminicidio,1,9
+2017,Guanajuato,Otros Delitos Contra el Patrimonio,0,43311
+2017,Guanajuato,Otros Delitos,0,41574
+2017,Guanajuato,Violencia familiar,1,11253
+2017,Guanajuato,Robo con violencia,1,10257
+2017,Guanajuato,Narcomenudeo,1,6567
+2017,Guanajuato,Homicidio,1,3366
+2017,Guanajuato,Delitos Sexuales,0,1509
+2017,Guanajuato,Feminicidio,1,12
+2017,Guanajuato,Extorsión,1,4
+2017,Guanajuato,Secuestro,1,4
+2017,Guerrero,Otros Delitos,0,12424
+2017,Guerrero,Otros Delitos Contra el Patrimonio,0,8140
+2017,Guerrero,Robo con violencia,1,5530
+2017,Guerrero,Homicidio,1,2868
+2017,Guerrero,Violencia familiar,1,2696
+2017,Guerrero,Delitos Sexuales,0,493
+2017,Guerrero,Narcomenudeo,1,381
+2017,Guerrero,Extorsión,1,175
+2017,Guerrero,Secuestro,1,69
+2017,Guerrero,Feminicidio,1,21
+2017,Hidalgo,Otros Delitos Contra el Patrimonio,0,18323
+2017,Hidalgo,Otros Delitos,0,15428
+2017,Hidalgo,Violencia familiar,1,4417
+2017,Hidalgo,Robo con violencia,1,3634
+2017,Hidalgo,Delitos Sexuales,0,1029
+2017,Hidalgo,Homicidio,1,700
+2017,Hidalgo,Narcomenudeo,1,256
+2017,Hidalgo,Extorsión,1,133
+2017,Hidalgo,Feminicidio,1,22
+2017,Hidalgo,Secuestro,1,21
+2017,Jalisco,Otros Delitos Contra el Patrimonio,0,80630
+2017,Jalisco,Otros Delitos,0,38238
+2017,Jalisco,Robo con violencia,1,30525
+2017,Jalisco,Violencia familiar,1,9557
+2017,Jalisco,Delitos Sexuales,0,3076
+2017,Jalisco,Homicidio,1,2109
+2017,Jalisco,Narcomenudeo,1,1868
+2017,Jalisco,Extorsión,1,556
+2017,Jalisco,Feminicidio,1,27
+2017,Jalisco,Secuestro,1,13
+2017,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,16267
+2017,Michoacán de Ocampo,Otros Delitos,0,12531
+2017,Michoacán de Ocampo,Robo con violencia,1,6884
+2017,Michoacán de Ocampo,Homicidio,1,2246
+2017,Michoacán de Ocampo,Narcomenudeo,1,2016
+2017,Michoacán de Ocampo,Violencia familiar,1,1158
+2017,Michoacán de Ocampo,Delitos Sexuales,0,655
+2017,Michoacán de Ocampo,Feminicidio,1,29
+2017,Michoacán de Ocampo,Secuestro,1,29
+2017,Michoacán de Ocampo,Extorsión,1,21
+2017,Morelos,Otros Delitos Contra el Patrimonio,0,19427
+2017,Morelos,Otros Delitos,0,12209
+2017,Morelos,Violencia familiar,1,5069
+2017,Morelos,Robo con violencia,1,4967
+2017,Morelos,Delitos Sexuales,0,941
+2017,Morelos,Homicidio,1,828
+2017,Morelos,Narcomenudeo,1,776
+2017,Morelos,Extorsión,1,43
+2017,Morelos,Secuestro,1,42
+2017,Morelos,Feminicidio,1,27
+2017,México,Otros Delitos,0,141613
+2017,México,Robo con violencia,1,93723
+2017,México,Otros Delitos Contra el Patrimonio,0,93584
+2017,México,Violencia familiar,1,6860
+2017,México,Delitos Sexuales,0,3957
+2017,México,Homicidio,1,3248
+2017,México,Extorsión,1,1385
+2017,México,Narcomenudeo,1,1080
+2017,México,Secuestro,1,173
+2017,México,Feminicidio,1,70
+2017,Nayarit,Otros Delitos,0,1247
+2017,Nayarit,Otros Delitos Contra el Patrimonio,0,773
+2017,Nayarit,Violencia familiar,1,432
+2017,Nayarit,Homicidio,1,289
+2017,Nayarit,Narcomenudeo,1,269
+2017,Nayarit,Robo con violencia,1,121
+2017,Nayarit,Delitos Sexuales,0,81
+2017,Nayarit,Feminicidio,1,5
+2017,Nayarit,Secuestro,1,2
+2017,Nayarit,Extorsión,1,1
+2017,Nuevo León,Otros Delitos,0,28028
+2017,Nuevo León,Otros Delitos Contra el Patrimonio,0,27961
+2017,Nuevo León,Violencia familiar,1,17145
+2017,Nuevo León,Robo con violencia,1,4398
+2017,Nuevo León,Narcomenudeo,1,2599
+2017,Nuevo León,Delitos Sexuales,0,1988
+2017,Nuevo León,Homicidio,1,1099
+2017,Nuevo León,Extorsión,1,678
+2017,Nuevo León,Feminicidio,1,43
+2017,Nuevo León,Secuestro,1,35
+2017,Oaxaca,Otros Delitos Contra el Patrimonio,0,11850
+2017,Oaxaca,Otros Delitos,0,9160
+2017,Oaxaca,Violencia familiar,1,4212
+2017,Oaxaca,Robo con violencia,1,3782
+2017,Oaxaca,Homicidio,1,1662
+2017,Oaxaca,Delitos Sexuales,0,838
+2017,Oaxaca,Narcomenudeo,1,246
+2017,Oaxaca,Extorsión,1,80
+2017,Oaxaca,Feminicidio,1,57
+2017,Oaxaca,Secuestro,1,51
+2017,Puebla,Otros Delitos Contra el Patrimonio,0,19891
+2017,Puebla,Robo con violencia,1,14862
+2017,Puebla,Otros Delitos,0,9434
+2017,Puebla,Violencia familiar,1,6327
+2017,Puebla,Homicidio,1,1647
+2017,Puebla,Delitos Sexuales,0,749
+2017,Puebla,Narcomenudeo,1,713
+2017,Puebla,Extorsión,1,115
+2017,Puebla,Secuestro,1,35
+2017,Puebla,Feminicidio,1,27
+2017,Querétaro,Otros Delitos Contra el Patrimonio,0,33280
+2017,Querétaro,Otros Delitos,0,14009
+2017,Querétaro,Robo con violencia,1,2682
+2017,Querétaro,Violencia familiar,1,1186
+2017,Querétaro,Narcomenudeo,1,942
+2017,Querétaro,Delitos Sexuales,0,779
+2017,Querétaro,Homicidio,1,471
+2017,Querétaro,Extorsión,1,18
+2017,Querétaro,Secuestro,1,11
+2017,Querétaro,Feminicidio,1,1
+2017,Quintana Roo,Otros Delitos Contra el Patrimonio,0,14363
+2017,Quintana Roo,Otros Delitos,0,5366
+2017,Quintana Roo,Violencia familiar,1,2633
+2017,Quintana Roo,Robo con violencia,1,2614
+2017,Quintana Roo,Delitos Sexuales,0,611
+2017,Quintana Roo,Homicidio,1,497
+2017,Quintana Roo,Narcomenudeo,1,333
+2017,Quintana Roo,Extorsión,1,77
+2017,Quintana Roo,Secuestro,1,20
+2017,Quintana Roo,Feminicidio,1,4
+2017,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,15226
+2017,San Luis Potosí,Otros Delitos,0,9298
+2017,San Luis Potosí,Violencia familiar,1,5723
+2017,San Luis Potosí,Robo con violencia,1,2777
+2017,San Luis Potosí,Delitos Sexuales,0,977
+2017,San Luis Potosí,Homicidio,1,712
+2017,San Luis Potosí,Narcomenudeo,1,269
+2017,San Luis Potosí,Extorsión,1,151
+2017,San Luis Potosí,Secuestro,1,28
+2017,San Luis Potosí,Feminicidio,1,18
+2017,Sinaloa,Otros Delitos Contra el Patrimonio,0,7753
+2017,Sinaloa,Otros Delitos,0,4721
+2017,Sinaloa,Robo con violencia,1,4622
+2017,Sinaloa,Violencia familiar,1,2612
+2017,Sinaloa,Homicidio,1,1839
+2017,Sinaloa,Narcomenudeo,1,857
+2017,Sinaloa,Delitos Sexuales,0,380
+2017,Sinaloa,Feminicidio,1,82
+2017,Sinaloa,Extorsión,1,51
+2017,Sinaloa,Secuestro,1,14
+2017,Sonora,Otros Delitos Contra el Patrimonio,0,8968
+2017,Sonora,Otros Delitos,0,7124
+2017,Sonora,Robo con violencia,1,4675
+2017,Sonora,Violencia familiar,1,2428
+2017,Sonora,Homicidio,1,1149
+2017,Sonora,Narcomenudeo,1,936
+2017,Sonora,Delitos Sexuales,0,620
+2017,Sonora,Extorsión,1,35
+2017,Sonora,Feminicidio,1,32
+2017,Sonora,Secuestro,1,2
+2017,Tabasco,Otros Delitos,0,21169
+2017,Tabasco,Otros Delitos Contra el Patrimonio,0,20099
+2017,Tabasco,Robo con violencia,1,10586
+2017,Tabasco,Violencia familiar,1,6596
+2017,Tabasco,Homicidio,1,888
+2017,Tabasco,Delitos Sexuales,0,653
+2017,Tabasco,Extorsión,1,258
+2017,Tabasco,Secuestro,1,77
+2017,Tabasco,Narcomenudeo,1,41
+2017,Tabasco,Feminicidio,1,28
+2017,Tamaulipas,Otros Delitos Contra el Patrimonio,0,17277
+2017,Tamaulipas,Otros Delitos,0,13616
+2017,Tamaulipas,Violencia familiar,1,7030
+2017,Tamaulipas,Robo con violencia,1,5953
+2017,Tamaulipas,Homicidio,1,1618
+2017,Tamaulipas,Delitos Sexuales,0,990
+2017,Tamaulipas,Narcomenudeo,1,351
+2017,Tamaulipas,Extorsión,1,182
+2017,Tamaulipas,Secuestro,1,140
+2017,Tamaulipas,Feminicidio,1,6
+2017,Tlaxcala,Otros Delitos Contra el Patrimonio,0,3656
+2017,Tlaxcala,Robo con violencia,1,2066
+2017,Tlaxcala,Otros Delitos,0,752
+2017,Tlaxcala,Homicidio,1,318
+2017,Tlaxcala,Delitos Sexuales,0,81
+2017,Tlaxcala,Narcomenudeo,1,48
+2017,Tlaxcala,Violencia familiar,1,24
+2017,Tlaxcala,Extorsión,1,8
+2017,Tlaxcala,Secuestro,1,8
+2017,Tlaxcala,Feminicidio,1,3
+2017,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,25006
+2017,Veracruz de Ignacio de la Llave,Otros Delitos,0,17666
+2017,Veracruz de Ignacio de la Llave,Robo con violencia,1,12911
+2017,Veracruz de Ignacio de la Llave,Violencia familiar,1,6326
+2017,Veracruz de Ignacio de la Llave,Homicidio,1,2688
+2017,Veracruz de Ignacio de la Llave,Extorsión,1,609
+2017,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,605
+2017,Veracruz de Ignacio de la Llave,Narcomenudeo,1,296
+2017,Veracruz de Ignacio de la Llave,Secuestro,1,172
+2017,Veracruz de Ignacio de la Llave,Feminicidio,1,100
+2017,Yucatán,Otros Delitos,0,12647
+2017,Yucatán,Otros Delitos Contra el Patrimonio,0,7866
+2017,Yucatán,Violencia familiar,1,2670
+2017,Yucatán,Delitos Sexuales,0,644
+2017,Yucatán,Narcomenudeo,1,370
+2017,Yucatán,Homicidio,1,85
+2017,Yucatán,Robo con violencia,1,66
+2017,Yucatán,Extorsión,1,33
+2017,Yucatán,Feminicidio,1,9
+2017,Yucatán,Secuestro,1,0
+2017,Zacatecas,Otros Delitos Contra el Patrimonio,0,8864
+2017,Zacatecas,Otros Delitos,0,5094
+2017,Zacatecas,Robo con violencia,1,1775
+2017,Zacatecas,Violencia familiar,1,1610
+2017,Zacatecas,Homicidio,1,690
+2017,Zacatecas,Delitos Sexuales,0,343
+2017,Zacatecas,Narcomenudeo,1,232
+2017,Zacatecas,Extorsión,1,188
+2017,Zacatecas,Secuestro,1,67
+2017,Zacatecas,Feminicidio,1,11
+2018,Aguascalientes,Otros Delitos Contra el Patrimonio,0,21663
+2018,Aguascalientes,Otros Delitos,0,11850
+2018,Aguascalientes,Narcomenudeo,1,1716
+2018,Aguascalientes,Violencia familiar,1,1610
+2018,Aguascalientes,Robo con violencia,1,1245
+2018,Aguascalientes,Delitos Sexuales,0,315
+2018,Aguascalientes,Homicidio,1,283
+2018,Aguascalientes,Extorsión,1,138
+2018,Aguascalientes,Secuestro,1,10
+2018,Aguascalientes,Feminicidio,1,4
+2018,Baja California,Otros Delitos Contra el Patrimonio,0,42468
+2018,Baja California,Otros Delitos,0,27179
+2018,Baja California,Robo con violencia,1,9908
+2018,Baja California,Violencia familiar,1,9904
+2018,Baja California,Narcomenudeo,1,7855
+2018,Baja California,Homicidio,1,3169
+2018,Baja California,Delitos Sexuales,0,2368
+2018,Baja California,Extorsión,1,135
+2018,Baja California,Feminicidio,1,27
+2018,Baja California,Secuestro,1,15
+2018,Baja California Sur,Otros Delitos Contra el Patrimonio,0,12989
+2018,Baja California Sur,Otros Delitos,0,5857
+2018,Baja California Sur,Violencia familiar,1,2110
+2018,Baja California Sur,Robo con violencia,1,924
+2018,Baja California Sur,Narcomenudeo,1,641
+2018,Baja California Sur,Delitos Sexuales,0,475
+2018,Baja California Sur,Homicidio,1,244
+2018,Baja California Sur,Extorsión,1,198
+2018,Baja California Sur,Feminicidio,1,0
+2018,Baja California Sur,Secuestro,1,0
+2018,Campeche,Otros Delitos Contra el Patrimonio,0,953
+2018,Campeche,Otros Delitos,0,422
+2018,Campeche,Delitos Sexuales,0,228
+2018,Campeche,Robo con violencia,1,226
+2018,Campeche,Homicidio,1,155
+2018,Campeche,Narcomenudeo,1,90
+2018,Campeche,Violencia familiar,1,52
+2018,Campeche,Extorsión,1,18
+2018,Campeche,Secuestro,1,8
+2018,Campeche,Feminicidio,1,5
+2018,Chiapas,Otros Delitos Contra el Patrimonio,0,7587
+2018,Chiapas,Otros Delitos,0,6400
+2018,Chiapas,Violencia familiar,1,6032
+2018,Chiapas,Robo con violencia,1,5528
+2018,Chiapas,Homicidio,1,1279
+2018,Chiapas,Delitos Sexuales,0,928
+2018,Chiapas,Narcomenudeo,1,909
+2018,Chiapas,Extorsión,1,184
+2018,Chiapas,Secuestro,1,24
+2018,Chiapas,Feminicidio,1,21
+2018,Chihuahua,Otros Delitos Contra el Patrimonio,0,26731
+2018,Chihuahua,Otros Delitos,0,17198
+2018,Chihuahua,Violencia familiar,1,11227
+2018,Chihuahua,Narcomenudeo,1,7532
+2018,Chihuahua,Delitos Sexuales,0,2495
+2018,Chihuahua,Homicidio,1,2089
+2018,Chihuahua,Robo con violencia,1,1562
+2018,Chihuahua,Feminicidio,1,44
+2018,Chihuahua,Secuestro,1,10
+2018,Chihuahua,Extorsión,1,8
+2018,Ciudad de México,Otros Delitos Contra el Patrimonio,0,125864
+2018,Ciudad de México,Robo con violencia,1,42686
+2018,Ciudad de México,Otros Delitos,0,39327
+2018,Ciudad de México,Violencia familiar,1,19929
+2018,Ciudad de México,Narcomenudeo,1,5974
+2018,Ciudad de México,Delitos Sexuales,0,4407
+2018,Ciudad de México,Homicidio,1,1979
+2018,Ciudad de México,Extorsión,1,536
+2018,Ciudad de México,Secuestro,1,280
+2018,Ciudad de México,Feminicidio,1,47
+2018,Coahuila de Zaragoza,Otros Delitos,0,18776
+2018,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,18449
+2018,Coahuila de Zaragoza,Violencia familiar,1,9791
+2018,Coahuila de Zaragoza,Narcomenudeo,1,6490
+2018,Coahuila de Zaragoza,Delitos Sexuales,0,1142
+2018,Coahuila de Zaragoza,Robo con violencia,1,1124
+2018,Coahuila de Zaragoza,Homicidio,1,479
+2018,Coahuila de Zaragoza,Extorsión,1,32
+2018,Coahuila de Zaragoza,Feminicidio,1,13
+2018,Coahuila de Zaragoza,Secuestro,1,11
+2018,Colima,Otros Delitos Contra el Patrimonio,0,11814
+2018,Colima,Otros Delitos,0,6923
+2018,Colima,Violencia familiar,1,2453
+2018,Colima,Narcomenudeo,1,1148
+2018,Colima,Robo con violencia,1,1015
+2018,Colima,Homicidio,1,726
+2018,Colima,Delitos Sexuales,0,331
+2018,Colima,Extorsión,1,55
+2018,Colima,Secuestro,1,17
+2018,Colima,Feminicidio,1,12
+2018,Durango,Otros Delitos Contra el Patrimonio,0,15478
+2018,Durango,Otros Delitos,0,7629
+2018,Durango,Violencia familiar,1,5595
+2018,Durango,Narcomenudeo,1,1079
+2018,Durango,Robo con violencia,1,1016
+2018,Durango,Delitos Sexuales,0,614
+2018,Durango,Homicidio,1,408
+2018,Durango,Extorsión,1,74
+2018,Durango,Secuestro,1,6
+2018,Durango,Feminicidio,1,4
+2018,Guanajuato,Otros Delitos Contra el Patrimonio,0,48413
+2018,Guanajuato,Otros Delitos,0,47413
+2018,Guanajuato,Robo con violencia,1,12737
+2018,Guanajuato,Violencia familiar,1,10356
+2018,Guanajuato,Narcomenudeo,1,8739
+2018,Guanajuato,Homicidio,1,4298
+2018,Guanajuato,Delitos Sexuales,0,1755
+2018,Guanajuato,Feminicidio,1,21
+2018,Guanajuato,Extorsión,1,13
+2018,Guanajuato,Secuestro,1,4
+2018,Guerrero,Otros Delitos,0,9010
+2018,Guerrero,Otros Delitos Contra el Patrimonio,0,7352
+2018,Guerrero,Robo con violencia,1,4733
+2018,Guerrero,Violencia familiar,1,2834
+2018,Guerrero,Homicidio,1,2716
+2018,Guerrero,Delitos Sexuales,0,478
+2018,Guerrero,Narcomenudeo,1,281
+2018,Guerrero,Extorsión,1,202
+2018,Guerrero,Secuestro,1,57
+2018,Guerrero,Feminicidio,1,33
+2018,Hidalgo,Otros Delitos,0,20587
+2018,Hidalgo,Otros Delitos Contra el Patrimonio,0,18577
+2018,Hidalgo,Violencia familiar,1,5083
+2018,Hidalgo,Robo con violencia,1,4609
+2018,Hidalgo,Delitos Sexuales,0,1180
+2018,Hidalgo,Homicidio,1,733
+2018,Hidalgo,Narcomenudeo,1,270
+2018,Hidalgo,Extorsión,1,142
+2018,Hidalgo,Secuestro,1,21
+2018,Hidalgo,Feminicidio,1,20
+2018,Jalisco,Otros Delitos Contra el Patrimonio,0,78969
+2018,Jalisco,Otros Delitos,0,37215
+2018,Jalisco,Robo con violencia,1,28849
+2018,Jalisco,Violencia familiar,1,8850
+2018,Jalisco,Delitos Sexuales,0,2897
+2018,Jalisco,Homicidio,1,2761
+2018,Jalisco,Narcomenudeo,1,2387
+2018,Jalisco,Extorsión,1,778
+2018,Jalisco,Feminicidio,1,34
+2018,Jalisco,Secuestro,1,16
+2018,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,16923
+2018,Michoacán de Ocampo,Otros Delitos,0,14311
+2018,Michoacán de Ocampo,Robo con violencia,1,7379
+2018,Michoacán de Ocampo,Homicidio,1,2276
+2018,Michoacán de Ocampo,Narcomenudeo,1,2240
+2018,Michoacán de Ocampo,Violencia familiar,1,1273
+2018,Michoacán de Ocampo,Delitos Sexuales,0,730
+2018,Michoacán de Ocampo,Secuestro,1,34
+2018,Michoacán de Ocampo,Feminicidio,1,21
+2018,Michoacán de Ocampo,Extorsión,1,3
+2018,Morelos,Otros Delitos Contra el Patrimonio,0,20012
+2018,Morelos,Otros Delitos,0,13067
+2018,Morelos,Violencia familiar,1,4953
+2018,Morelos,Robo con violencia,1,4083
+2018,Morelos,Homicidio,1,1000
+2018,Morelos,Delitos Sexuales,0,989
+2018,Morelos,Narcomenudeo,1,734
+2018,Morelos,Secuestro,1,46
+2018,Morelos,Feminicidio,1,28
+2018,Morelos,Extorsión,1,24
+2018,México,Otros Delitos,0,127336
+2018,México,Otros Delitos Contra el Patrimonio,0,98427
+2018,México,Robo con violencia,1,97255
+2018,México,Violencia familiar,1,6496
+2018,México,Delitos Sexuales,0,4293
+2018,México,Homicidio,1,3339
+2018,México,Narcomenudeo,1,1964
+2018,México,Extorsión,1,1629
+2018,México,Secuestro,1,174
+2018,México,Feminicidio,1,115
+2018,Nayarit,Otros Delitos,0,1838
+2018,Nayarit,Otros Delitos Contra el Patrimonio,0,1239
+2018,Nayarit,Homicidio,1,446
+2018,Nayarit,Violencia familiar,1,404
+2018,Nayarit,Narcomenudeo,1,332
+2018,Nayarit,Robo con violencia,1,191
+2018,Nayarit,Delitos Sexuales,0,78
+2018,Nayarit,Secuestro,1,9
+2018,Nayarit,Extorsión,1,4
+2018,Nayarit,Feminicidio,1,4
+2018,Nuevo León,Otros Delitos Contra el Patrimonio,0,27229
+2018,Nuevo León,Otros Delitos,0,26839
+2018,Nuevo León,Violencia familiar,1,16410
+2018,Nuevo León,Robo con violencia,1,3752
+2018,Nuevo León,Narcomenudeo,1,2547
+2018,Nuevo León,Delitos Sexuales,0,2421
+2018,Nuevo León,Homicidio,1,1284
+2018,Nuevo León,Extorsión,1,536
+2018,Nuevo León,Feminicidio,1,79
+2018,Nuevo León,Secuestro,1,28
+2018,Oaxaca,Otros Delitos Contra el Patrimonio,0,14814
+2018,Oaxaca,Otros Delitos,0,13352
+2018,Oaxaca,Violencia familiar,1,5682
+2018,Oaxaca,Robo con violencia,1,4683
+2018,Oaxaca,Homicidio,1,1743
+2018,Oaxaca,Delitos Sexuales,0,1201
+2018,Oaxaca,Narcomenudeo,1,328
+2018,Oaxaca,Extorsión,1,130
+2018,Oaxaca,Feminicidio,1,29
+2018,Oaxaca,Secuestro,1,27
+2018,Puebla,Otros Delitos Contra el Patrimonio,0,19132
+2018,Puebla,Robo con violencia,1,18552
+2018,Puebla,Otros Delitos,0,12141
+2018,Puebla,Violencia familiar,1,7296
+2018,Puebla,Homicidio,1,1983
+2018,Puebla,Delitos Sexuales,0,1569
+2018,Puebla,Narcomenudeo,1,253
+2018,Puebla,Extorsión,1,168
+2018,Puebla,Secuestro,1,46
+2018,Puebla,Feminicidio,1,32
+2018,Querétaro,Otros Delitos Contra el Patrimonio,0,34617
+2018,Querétaro,Otros Delitos,0,15971
+2018,Querétaro,Robo con violencia,1,2718
+2018,Querétaro,Violencia familiar,1,1865
+2018,Querétaro,Narcomenudeo,1,1149
+2018,Querétaro,Delitos Sexuales,0,876
+2018,Querétaro,Homicidio,1,490
+2018,Querétaro,Extorsión,1,104
+2018,Querétaro,Secuestro,1,12
+2018,Querétaro,Feminicidio,1,7
+2018,Quintana Roo,Otros Delitos Contra el Patrimonio,0,16371
+2018,Quintana Roo,Otros Delitos,0,7127
+2018,Quintana Roo,Robo con violencia,1,4297
+2018,Quintana Roo,Violencia familiar,1,4025
+2018,Quintana Roo,Homicidio,1,936
+2018,Quintana Roo,Delitos Sexuales,0,639
+2018,Quintana Roo,Narcomenudeo,1,500
+2018,Quintana Roo,Extorsión,1,126
+2018,Quintana Roo,Secuestro,1,14
+2018,Quintana Roo,Feminicidio,1,8
+2018,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,17333
+2018,San Luis Potosí,Otros Delitos,0,8906
+2018,San Luis Potosí,Violencia familiar,1,6048
+2018,San Luis Potosí,Robo con violencia,1,3396
+2018,San Luis Potosí,Delitos Sexuales,0,1108
+2018,San Luis Potosí,Homicidio,1,899
+2018,San Luis Potosí,Narcomenudeo,1,503
+2018,San Luis Potosí,Extorsión,1,122
+2018,San Luis Potosí,Feminicidio,1,27
+2018,San Luis Potosí,Secuestro,1,20
+2018,Sinaloa,Otros Delitos Contra el Patrimonio,0,6391
+2018,Sinaloa,Otros Delitos,0,5563
+2018,Sinaloa,Robo con violencia,1,4669
+2018,Sinaloa,Violencia familiar,1,3800
+2018,Sinaloa,Homicidio,1,1608
+2018,Sinaloa,Narcomenudeo,1,793
+2018,Sinaloa,Delitos Sexuales,0,542
+2018,Sinaloa,Extorsión,1,64
+2018,Sinaloa,Feminicidio,1,48
+2018,Sinaloa,Secuestro,1,8
+2018,Sonora,Otros Delitos Contra el Patrimonio,0,6483
+2018,Sonora,Otros Delitos,0,3893
+2018,Sonora,Robo con violencia,1,3213
+2018,Sonora,Violencia familiar,1,2195
+2018,Sonora,Homicidio,1,1157
+2018,Sonora,Narcomenudeo,1,698
+2018,Sonora,Delitos Sexuales,0,515
+2018,Sonora,Feminicidio,1,31
+2018,Sonora,Extorsión,1,10
+2018,Sonora,Secuestro,1,2
+2018,Tabasco,Otros Delitos,0,19701
+2018,Tabasco,Otros Delitos Contra el Patrimonio,0,15527
+2018,Tabasco,Robo con violencia,1,14303
+2018,Tabasco,Violencia familiar,1,6448
+2018,Tabasco,Homicidio,1,1001
+2018,Tabasco,Delitos Sexuales,0,686
+2018,Tabasco,Extorsión,1,331
+2018,Tabasco,Narcomenudeo,1,131
+2018,Tabasco,Secuestro,1,103
+2018,Tabasco,Feminicidio,1,40
+2018,Tamaulipas,Otros Delitos Contra el Patrimonio,0,16002
+2018,Tamaulipas,Otros Delitos,0,12521
+2018,Tamaulipas,Violencia familiar,1,7029
+2018,Tamaulipas,Robo con violencia,1,5173
+2018,Tamaulipas,Homicidio,1,1607
+2018,Tamaulipas,Delitos Sexuales,0,1195
+2018,Tamaulipas,Narcomenudeo,1,261
+2018,Tamaulipas,Extorsión,1,138
+2018,Tamaulipas,Secuestro,1,109
+2018,Tamaulipas,Feminicidio,1,13
+2018,Tlaxcala,Otros Delitos Contra el Patrimonio,0,2638
+2018,Tlaxcala,Robo con violencia,1,2101
+2018,Tlaxcala,Otros Delitos,0,1002
+2018,Tlaxcala,Delitos Sexuales,0,212
+2018,Tlaxcala,Homicidio,1,167
+2018,Tlaxcala,Violencia familiar,1,130
+2018,Tlaxcala,Narcomenudeo,1,107
+2018,Tlaxcala,Feminicidio,1,8
+2018,Tlaxcala,Secuestro,1,3
+2018,Tlaxcala,Extorsión,1,1
+2018,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,21120
+2018,Veracruz de Ignacio de la Llave,Otros Delitos,0,17534
+2018,Veracruz de Ignacio de la Llave,Robo con violencia,1,11496
+2018,Veracruz de Ignacio de la Llave,Violencia familiar,1,6219
+2018,Veracruz de Ignacio de la Llave,Homicidio,1,2439
+2018,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,745
+2018,Veracruz de Ignacio de la Llave,Extorsión,1,578
+2018,Veracruz de Ignacio de la Llave,Narcomenudeo,1,351
+2018,Veracruz de Ignacio de la Llave,Secuestro,1,175
+2018,Veracruz de Ignacio de la Llave,Feminicidio,1,101
+2018,Yucatán,Otros Delitos Contra el Patrimonio,0,5327
+2018,Yucatán,Otros Delitos,0,5142
+2018,Yucatán,Violencia familiar,1,1935
+2018,Yucatán,Delitos Sexuales,0,339
+2018,Yucatán,Narcomenudeo,1,227
+2018,Yucatán,Homicidio,1,88
+2018,Yucatán,Robo con violencia,1,59
+2018,Yucatán,Feminicidio,1,7
+2018,Yucatán,Extorsión,1,5
+2018,Yucatán,Secuestro,1,0
+2018,Zacatecas,Otros Delitos Contra el Patrimonio,0,9747
+2018,Zacatecas,Otros Delitos,0,5587
+2018,Zacatecas,Violencia familiar,1,2151
+2018,Zacatecas,Robo con violencia,1,1796
+2018,Zacatecas,Homicidio,1,700
+2018,Zacatecas,Delitos Sexuales,0,434
+2018,Zacatecas,Narcomenudeo,1,359
+2018,Zacatecas,Extorsión,1,235
+2018,Zacatecas,Secuestro,1,41
+2018,Zacatecas,Feminicidio,1,20
+2019,Aguascalientes,Otros Delitos Contra el Patrimonio,0,19684
+2019,Aguascalientes,Otros Delitos,0,12381
+2019,Aguascalientes,Narcomenudeo,1,2206
+2019,Aguascalientes,Violencia familiar,1,2152
+2019,Aguascalientes,Robo con violencia,1,1198
+2019,Aguascalientes,Delitos Sexuales,0,406
+2019,Aguascalientes,Homicidio,1,269
+2019,Aguascalientes,Extorsión,1,116
+2019,Aguascalientes,Secuestro,1,12
+2019,Aguascalientes,Feminicidio,1,5
+2019,Baja California,Otros Delitos Contra el Patrimonio,0,39779
+2019,Baja California,Otros Delitos,0,27154
+2019,Baja California,Robo con violencia,1,10497
+2019,Baja California,Violencia familiar,1,10455
+2019,Baja California,Narcomenudeo,1,10307
+2019,Baja California,Homicidio,1,3065
+2019,Baja California,Delitos Sexuales,0,2505
+2019,Baja California,Extorsión,1,218
+2019,Baja California,Feminicidio,1,23
+2019,Baja California,Secuestro,1,10
+2019,Baja California Sur,Otros Delitos Contra el Patrimonio,0,11249
+2019,Baja California Sur,Otros Delitos,0,6443
+2019,Baja California Sur,Violencia familiar,1,2612
+2019,Baja California Sur,Robo con violencia,1,889
+2019,Baja California Sur,Delitos Sexuales,0,612
+2019,Baja California Sur,Narcomenudeo,1,479
+2019,Baja California Sur,Extorsión,1,185
+2019,Baja California Sur,Homicidio,1,168
+2019,Baja California Sur,Secuestro,1,5
+2019,Baja California Sur,Feminicidio,1,2
+2019,Campeche,Otros Delitos Contra el Patrimonio,0,1038
+2019,Campeche,Otros Delitos,0,387
+2019,Campeche,Delitos Sexuales,0,331
+2019,Campeche,Robo con violencia,1,210
+2019,Campeche,Homicidio,1,134
+2019,Campeche,Narcomenudeo,1,116
+2019,Campeche,Violencia familiar,1,62
+2019,Campeche,Extorsión,1,25
+2019,Campeche,Feminicidio,1,6
+2019,Campeche,Secuestro,1,3
+2019,Chiapas,Otros Delitos Contra el Patrimonio,0,5713
+2019,Chiapas,Otros Delitos,0,5553
+2019,Chiapas,Violencia familiar,1,5108
+2019,Chiapas,Robo con violencia,1,3883
+2019,Chiapas,Homicidio,1,1186
+2019,Chiapas,Narcomenudeo,1,852
+2019,Chiapas,Delitos Sexuales,0,820
+2019,Chiapas,Extorsión,1,138
+2019,Chiapas,Secuestro,1,21
+2019,Chiapas,Feminicidio,1,20
+2019,Chihuahua,Otros Delitos Contra el Patrimonio,0,28368
+2019,Chihuahua,Otros Delitos,0,18072
+2019,Chihuahua,Violencia familiar,1,10968
+2019,Chihuahua,Narcomenudeo,1,7602
+2019,Chihuahua,Delitos Sexuales,0,2691
+2019,Chihuahua,Homicidio,1,2463
+2019,Chihuahua,Robo con violencia,1,1626
+2019,Chihuahua,Feminicidio,1,30
+2019,Chihuahua,Extorsión,1,18
+2019,Chihuahua,Secuestro,1,16
+2019,Ciudad de México,Otros Delitos Contra el Patrimonio,0,118346
+2019,Ciudad de México,Otros Delitos,0,45518
+2019,Ciudad de México,Robo con violencia,1,37550
+2019,Ciudad de México,Violencia familiar,1,25774
+2019,Ciudad de México,Delitos Sexuales,0,6448
+2019,Ciudad de México,Narcomenudeo,1,6097
+2019,Ciudad de México,Homicidio,1,1997
+2019,Ciudad de México,Extorsión,1,856
+2019,Ciudad de México,Secuestro,1,180
+2019,Ciudad de México,Feminicidio,1,72
+2019,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,16536
+2019,Coahuila de Zaragoza,Otros Delitos,0,15018
+2019,Coahuila de Zaragoza,Violencia familiar,1,10647
+2019,Coahuila de Zaragoza,Narcomenudeo,1,8610
+2019,Coahuila de Zaragoza,Delitos Sexuales,0,1095
+2019,Coahuila de Zaragoza,Robo con violencia,1,511
+2019,Coahuila de Zaragoza,Homicidio,1,449
+2019,Coahuila de Zaragoza,Extorsión,1,37
+2019,Coahuila de Zaragoza,Feminicidio,1,24
+2019,Coahuila de Zaragoza,Secuestro,1,10
+2019,Colima,Otros Delitos Contra el Patrimonio,0,12469
+2019,Colima,Otros Delitos,0,7430
+2019,Colima,Violencia familiar,1,3226
+2019,Colima,Narcomenudeo,1,1699
+2019,Colima,Homicidio,1,780
+2019,Colima,Robo con violencia,1,447
+2019,Colima,Delitos Sexuales,0,401
+2019,Colima,Extorsión,1,74
+2019,Colima,Secuestro,1,18
+2019,Colima,Feminicidio,1,10
+2019,Durango,Otros Delitos Contra el Patrimonio,0,14872
+2019,Durango,Violencia familiar,1,6320
+2019,Durango,Otros Delitos,0,6265
+2019,Durango,Narcomenudeo,1,893
+2019,Durango,Delitos Sexuales,0,804
+2019,Durango,Robo con violencia,1,694
+2019,Durango,Homicidio,1,365
+2019,Durango,Extorsión,1,114
+2019,Durango,Feminicidio,1,10
+2019,Durango,Secuestro,1,1
+2019,Guanajuato,Otros Delitos,0,48609
+2019,Guanajuato,Otros Delitos Contra el Patrimonio,0,46919
+2019,Guanajuato,Robo con violencia,1,14903
+2019,Guanajuato,Violencia familiar,1,11142
+2019,Guanajuato,Narcomenudeo,1,9440
+2019,Guanajuato,Homicidio,1,4494
+2019,Guanajuato,Delitos Sexuales,0,2105
+2019,Guanajuato,Extorsión,1,18
+2019,Guanajuato,Feminicidio,1,18
+2019,Guanajuato,Secuestro,1,10
+2019,Guerrero,Otros Delitos,0,9450
+2019,Guerrero,Otros Delitos Contra el Patrimonio,0,7543
+2019,Guerrero,Robo con violencia,1,3655
+2019,Guerrero,Violencia familiar,1,3027
+2019,Guerrero,Homicidio,1,2032
+2019,Guerrero,Delitos Sexuales,0,674
+2019,Guerrero,Narcomenudeo,1,642
+2019,Guerrero,Extorsión,1,259
+2019,Guerrero,Secuestro,1,44
+2019,Guerrero,Feminicidio,1,18
+2019,Hidalgo,Otros Delitos,0,19214
+2019,Hidalgo,Otros Delitos Contra el Patrimonio,0,17291
+2019,Hidalgo,Violencia familiar,1,5619
+2019,Hidalgo,Robo con violencia,1,4830
+2019,Hidalgo,Delitos Sexuales,0,1468
+2019,Hidalgo,Homicidio,1,646
+2019,Hidalgo,Narcomenudeo,1,422
+2019,Hidalgo,Extorsión,1,210
+2019,Hidalgo,Secuestro,1,30
+2019,Hidalgo,Feminicidio,1,20
+2019,Jalisco,Otros Delitos Contra el Patrimonio,0,71355
+2019,Jalisco,Otros Delitos,0,38225
+2019,Jalisco,Robo con violencia,1,27472
+2019,Jalisco,Violencia familiar,1,11055
+2019,Jalisco,Delitos Sexuales,0,3235
+2019,Jalisco,Homicidio,1,2751
+2019,Jalisco,Narcomenudeo,1,1734
+2019,Jalisco,Extorsión,1,742
+2019,Jalisco,Feminicidio,1,65
+2019,Jalisco,Secuestro,1,20
+2019,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,16964
+2019,Michoacán de Ocampo,Otros Delitos,0,15856
+2019,Michoacán de Ocampo,Robo con violencia,1,6971
+2019,Michoacán de Ocampo,Homicidio,1,2686
+2019,Michoacán de Ocampo,Narcomenudeo,1,2327
+2019,Michoacán de Ocampo,Delitos Sexuales,0,946
+2019,Michoacán de Ocampo,Violencia familiar,1,941
+2019,Michoacán de Ocampo,Secuestro,1,47
+2019,Michoacán de Ocampo,Feminicidio,1,14
+2019,Michoacán de Ocampo,Extorsión,1,2
+2019,Morelos,Otros Delitos Contra el Patrimonio,0,18894
+2019,Morelos,Otros Delitos,0,12311
+2019,Morelos,Violencia familiar,1,5132
+2019,Morelos,Robo con violencia,1,3510
+2019,Morelos,Homicidio,1,1162
+2019,Morelos,Delitos Sexuales,0,993
+2019,Morelos,Narcomenudeo,1,894
+2019,Morelos,Extorsión,1,184
+2019,Morelos,Secuestro,1,72
+2019,Morelos,Feminicidio,1,39
+2019,México,Otros Delitos,0,140983
+2019,México,Otros Delitos Contra el Patrimonio,0,102000
+2019,México,Robo con violencia,1,86549
+2019,México,Violencia familiar,1,9249
+2019,México,Delitos Sexuales,0,5583
+2019,México,Narcomenudeo,1,3952
+2019,México,Homicidio,1,3472
+2019,México,Extorsión,1,2487
+2019,México,Secuestro,1,206
+2019,México,Feminicidio,1,121
+2019,Nayarit,Otros Delitos,0,1969
+2019,Nayarit,Otros Delitos Contra el Patrimonio,0,982
+2019,Nayarit,Violencia familiar,1,768
+2019,Nayarit,Narcomenudeo,1,337
+2019,Nayarit,Homicidio,1,270
+2019,Nayarit,Robo con violencia,1,163
+2019,Nayarit,Delitos Sexuales,0,141
+2019,Nayarit,Feminicidio,1,5
+2019,Nayarit,Extorsión,1,4
+2019,Nayarit,Secuestro,1,3
+2019,Nuevo León,Otros Delitos Contra el Patrimonio,0,24280
+2019,Nuevo León,Otros Delitos,0,24050
+2019,Nuevo León,Violencia familiar,1,16339
+2019,Nuevo León,Narcomenudeo,1,3485
+2019,Nuevo León,Robo con violencia,1,3072
+2019,Nuevo León,Delitos Sexuales,0,2589
+2019,Nuevo León,Homicidio,1,1454
+2019,Nuevo León,Extorsión,1,509
+2019,Nuevo León,Feminicidio,1,67
+2019,Nuevo León,Secuestro,1,26
+2019,Oaxaca,Otros Delitos Contra el Patrimonio,0,15325
+2019,Oaxaca,Otros Delitos,0,13934
+2019,Oaxaca,Violencia familiar,1,6439
+2019,Oaxaca,Robo con violencia,1,4170
+2019,Oaxaca,Homicidio,1,1853
+2019,Oaxaca,Delitos Sexuales,0,1509
+2019,Oaxaca,Narcomenudeo,1,376
+2019,Oaxaca,Extorsión,1,131
+2019,Oaxaca,Feminicidio,1,28
+2019,Oaxaca,Secuestro,1,23
+2019,Puebla,Otros Delitos Contra el Patrimonio,0,25721
+2019,Puebla,Robo con violencia,1,19754
+2019,Puebla,Otros Delitos,0,17540
+2019,Puebla,Violencia familiar,1,9077
+2019,Puebla,Delitos Sexuales,0,1998
+2019,Puebla,Homicidio,1,1664
+2019,Puebla,Narcomenudeo,1,484
+2019,Puebla,Extorsión,1,192
+2019,Puebla,Secuestro,1,69
+2019,Puebla,Feminicidio,1,57
+2019,Querétaro,Otros Delitos Contra el Patrimonio,0,32277
+2019,Querétaro,Otros Delitos,0,18410
+2019,Querétaro,Violencia familiar,1,3135
+2019,Querétaro,Robo con violencia,1,2953
+2019,Querétaro,Narcomenudeo,1,1579
+2019,Querétaro,Delitos Sexuales,0,1381
+2019,Querétaro,Homicidio,1,503
+2019,Querétaro,Extorsión,1,259
+2019,Querétaro,Feminicidio,1,10
+2019,Querétaro,Secuestro,1,8
+2019,Quintana Roo,Otros Delitos Contra el Patrimonio,0,21255
+2019,Quintana Roo,Otros Delitos,0,9370
+2019,Quintana Roo,Robo con violencia,1,5910
+2019,Quintana Roo,Violencia familiar,1,5508
+2019,Quintana Roo,Homicidio,1,1500
+2019,Quintana Roo,Narcomenudeo,1,1028
+2019,Quintana Roo,Delitos Sexuales,0,1009
+2019,Quintana Roo,Extorsión,1,276
+2019,Quintana Roo,Secuestro,1,24
+2019,Quintana Roo,Feminicidio,1,16
+2019,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,23277
+2019,San Luis Potosí,Otros Delitos,0,14002
+2019,San Luis Potosí,Violencia familiar,1,8233
+2019,San Luis Potosí,Robo con violencia,1,3562
+2019,San Luis Potosí,Delitos Sexuales,0,1409
+2019,San Luis Potosí,Homicidio,1,853
+2019,San Luis Potosí,Narcomenudeo,1,779
+2019,San Luis Potosí,Extorsión,1,121
+2019,San Luis Potosí,Feminicidio,1,28
+2019,San Luis Potosí,Secuestro,1,24
+2019,Sinaloa,Otros Delitos,0,6311
+2019,Sinaloa,Otros Delitos Contra el Patrimonio,0,6103
+2019,Sinaloa,Violencia familiar,1,4460
+2019,Sinaloa,Robo con violencia,1,3827
+2019,Sinaloa,Homicidio,1,1407
+2019,Sinaloa,Delitos Sexuales,0,632
+2019,Sinaloa,Narcomenudeo,1,614
+2019,Sinaloa,Extorsión,1,46
+2019,Sinaloa,Feminicidio,1,37
+2019,Sinaloa,Secuestro,1,6
+2019,Sonora,Otros Delitos Contra el Patrimonio,0,6526
+2019,Sonora,Otros Delitos,0,5973
+2019,Sonora,Violencia familiar,1,3587
+2019,Sonora,Robo con violencia,1,3552
+2019,Sonora,Narcomenudeo,1,1610
+2019,Sonora,Homicidio,1,1421
+2019,Sonora,Delitos Sexuales,0,704
+2019,Sonora,Feminicidio,1,37
+2019,Sonora,Extorsión,1,16
+2019,Sonora,Secuestro,1,12
+2019,Tabasco,Otros Delitos,0,21408
+2019,Tabasco,Otros Delitos Contra el Patrimonio,0,13684
+2019,Tabasco,Robo con violencia,1,11973
+2019,Tabasco,Violencia familiar,1,7215
+2019,Tabasco,Homicidio,1,997
+2019,Tabasco,Delitos Sexuales,0,862
+2019,Tabasco,Extorsión,1,232
+2019,Tabasco,Narcomenudeo,1,123
+2019,Tabasco,Secuestro,1,40
+2019,Tabasco,Feminicidio,1,27
+2019,Tamaulipas,Otros Delitos Contra el Patrimonio,0,14912
+2019,Tamaulipas,Otros Delitos,0,11960
+2019,Tamaulipas,Violencia familiar,1,7509
+2019,Tamaulipas,Robo con violencia,1,4908
+2019,Tamaulipas,Homicidio,1,1448
+2019,Tamaulipas,Delitos Sexuales,0,1283
+2019,Tamaulipas,Narcomenudeo,1,223
+2019,Tamaulipas,Extorsión,1,123
+2019,Tamaulipas,Secuestro,1,31
+2019,Tamaulipas,Feminicidio,1,16
+2019,Tlaxcala,Otros Delitos Contra el Patrimonio,0,2089
+2019,Tlaxcala,Robo con violencia,1,1120
+2019,Tlaxcala,Otros Delitos,0,771
+2019,Tlaxcala,Homicidio,1,189
+2019,Tlaxcala,Narcomenudeo,1,151
+2019,Tlaxcala,Delitos Sexuales,0,48
+2019,Tlaxcala,Violencia familiar,1,17
+2019,Tlaxcala,Secuestro,1,14
+2019,Tlaxcala,Feminicidio,1,10
+2019,Tlaxcala,Extorsión,1,2
+2019,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,29209
+2019,Veracruz de Ignacio de la Llave,Otros Delitos,0,28799
+2019,Veracruz de Ignacio de la Llave,Robo con violencia,1,15880
+2019,Veracruz de Ignacio de la Llave,Violencia familiar,1,10324
+2019,Veracruz de Ignacio de la Llave,Homicidio,1,2399
+2019,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,1526
+2019,Veracruz de Ignacio de la Llave,Extorsión,1,794
+2019,Veracruz de Ignacio de la Llave,Narcomenudeo,1,495
+2019,Veracruz de Ignacio de la Llave,Secuestro,1,298
+2019,Veracruz de Ignacio de la Llave,Feminicidio,1,98
+2019,Yucatán,Otros Delitos,0,7979
+2019,Yucatán,Otros Delitos Contra el Patrimonio,0,6268
+2019,Yucatán,Violencia familiar,1,1295
+2019,Yucatán,Narcomenudeo,1,388
+2019,Yucatán,Delitos Sexuales,0,251
+2019,Yucatán,Homicidio,1,133
+2019,Yucatán,Robo con violencia,1,95
+2019,Yucatán,Extorsión,1,7
+2019,Yucatán,Feminicidio,1,3
+2019,Yucatán,Secuestro,1,0
+2019,Zacatecas,Otros Delitos Contra el Patrimonio,0,10007
+2019,Zacatecas,Otros Delitos,0,7422
+2019,Zacatecas,Violencia familiar,1,2794
+2019,Zacatecas,Robo con violencia,1,1710
+2019,Zacatecas,Homicidio,1,666
+2019,Zacatecas,Delitos Sexuales,0,626
+2019,Zacatecas,Extorsión,1,339
+2019,Zacatecas,Narcomenudeo,1,330
+2019,Zacatecas,Secuestro,1,47
+2019,Zacatecas,Feminicidio,1,11
+2020,Aguascalientes,Otros Delitos Contra el Patrimonio,0,16673
+2020,Aguascalientes,Otros Delitos,0,11011
+2020,Aguascalientes,Violencia familiar,1,2153
+2020,Aguascalientes,Narcomenudeo,1,2099
+2020,Aguascalientes,Robo con violencia,1,976
+2020,Aguascalientes,Delitos Sexuales,0,374
+2020,Aguascalientes,Homicidio,1,221
+2020,Aguascalientes,Extorsión,1,104
+2020,Aguascalientes,Secuestro,1,12
+2020,Aguascalientes,Feminicidio,1,3
+2020,Baja California,Otros Delitos Contra el Patrimonio,0,31515
+2020,Baja California,Otros Delitos,0,26059
+2020,Baja California,Violencia familiar,1,10781
+2020,Baja California,Narcomenudeo,1,9916
+2020,Baja California,Robo con violencia,1,8316
+2020,Baja California,Homicidio,1,3067
+2020,Baja California,Delitos Sexuales,0,2342
+2020,Baja California,Extorsión,1,127
+2020,Baja California,Feminicidio,1,31
+2020,Baja California,Secuestro,1,14
+2020,Baja California Sur,Otros Delitos Contra el Patrimonio,0,8114
+2020,Baja California Sur,Otros Delitos,0,5743
+2020,Baja California Sur,Violencia familiar,1,2490
+2020,Baja California Sur,Delitos Sexuales,0,631
+2020,Baja California Sur,Robo con violencia,1,624
+2020,Baja California Sur,Narcomenudeo,1,436
+2020,Baja California Sur,Homicidio,1,118
+2020,Baja California Sur,Extorsión,1,89
+2020,Baja California Sur,Secuestro,1,5
+2020,Baja California Sur,Feminicidio,1,4
+2020,Campeche,Otros Delitos Contra el Patrimonio,0,865
+2020,Campeche,Otros Delitos,0,336
+2020,Campeche,Delitos Sexuales,0,257
+2020,Campeche,Robo con violencia,1,249
+2020,Campeche,Homicidio,1,122
+2020,Campeche,Narcomenudeo,1,111
+2020,Campeche,Violencia familiar,1,45
+2020,Campeche,Extorsión,1,13
+2020,Campeche,Feminicidio,1,3
+2020,Campeche,Secuestro,1,2
+2020,Chiapas,Otros Delitos,0,4547
+2020,Chiapas,Violencia familiar,1,4474
+2020,Chiapas,Otros Delitos Contra el Patrimonio,0,3741
+2020,Chiapas,Robo con violencia,1,1519
+2020,Chiapas,Narcomenudeo,1,1103
+2020,Chiapas,Homicidio,1,1065
+2020,Chiapas,Delitos Sexuales,0,707
+2020,Chiapas,Extorsión,1,72
+2020,Chiapas,Feminicidio,1,28
+2020,Chiapas,Secuestro,1,13
+2020,Chihuahua,Otros Delitos Contra el Patrimonio,0,24842
+2020,Chihuahua,Otros Delitos,0,16038
+2020,Chihuahua,Violencia familiar,1,11293
+2020,Chihuahua,Narcomenudeo,1,7995
+2020,Chihuahua,Homicidio,1,2567
+2020,Chihuahua,Delitos Sexuales,0,2535
+2020,Chihuahua,Robo con violencia,1,1501
+2020,Chihuahua,Feminicidio,1,30
+2020,Chihuahua,Secuestro,1,20
+2020,Chihuahua,Extorsión,1,16
+2020,Ciudad de México,Otros Delitos Contra el Patrimonio,0,92384
+2020,Ciudad de México,Otros Delitos,0,39886
+2020,Ciudad de México,Violencia familiar,1,27765
+2020,Ciudad de México,Robo con violencia,1,24774
+2020,Ciudad de México,Delitos Sexuales,0,5691
+2020,Ciudad de México,Narcomenudeo,1,5404
+2020,Ciudad de México,Homicidio,1,1761
+2020,Ciudad de México,Extorsión,1,344
+2020,Ciudad de México,Feminicidio,1,78
+2020,Ciudad de México,Secuestro,1,68
+2020,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,14792
+2020,Coahuila de Zaragoza,Otros Delitos,0,12161
+2020,Coahuila de Zaragoza,Narcomenudeo,1,10072
+2020,Coahuila de Zaragoza,Violencia familiar,1,9281
+2020,Coahuila de Zaragoza,Delitos Sexuales,0,1116
+2020,Coahuila de Zaragoza,Robo con violencia,1,580
+2020,Coahuila de Zaragoza,Homicidio,1,390
+2020,Coahuila de Zaragoza,Extorsión,1,37
+2020,Coahuila de Zaragoza,Feminicidio,1,24
+2020,Coahuila de Zaragoza,Secuestro,1,8
+2020,Colima,Otros Delitos Contra el Patrimonio,0,11340
+2020,Colima,Otros Delitos,0,7085
+2020,Colima,Violencia familiar,1,4338
+2020,Colima,Narcomenudeo,1,1201
+2020,Colima,Homicidio,1,657
+2020,Colima,Delitos Sexuales,0,506
+2020,Colima,Robo con violencia,1,131
+2020,Colima,Extorsión,1,98
+2020,Colima,Feminicidio,1,7
+2020,Colima,Secuestro,1,7
+2020,Durango,Otros Delitos Contra el Patrimonio,0,12160
+2020,Durango,Otros Delitos,0,6043
+2020,Durango,Violencia familiar,1,5219
+2020,Durango,Delitos Sexuales,0,746
+2020,Durango,Narcomenudeo,1,746
+2020,Durango,Robo con violencia,1,682
+2020,Durango,Homicidio,1,314
+2020,Durango,Extorsión,1,101
+2020,Durango,Feminicidio,1,12
+2020,Durango,Secuestro,1,1
+2020,Guanajuato,Otros Delitos,0,41795
+2020,Guanajuato,Otros Delitos Contra el Patrimonio,0,36045
+2020,Guanajuato,Narcomenudeo,1,14932
+2020,Guanajuato,Robo con violencia,1,13097
+2020,Guanajuato,Violencia familiar,1,10035
+2020,Guanajuato,Homicidio,1,4940
+2020,Guanajuato,Delitos Sexuales,0,1976
+2020,Guanajuato,Feminicidio,1,19
+2020,Guanajuato,Extorsión,1,17
+2020,Guanajuato,Secuestro,1,14
+2020,Guerrero,Otros Delitos,0,8421
+2020,Guerrero,Otros Delitos Contra el Patrimonio,0,6391
+2020,Guerrero,Violencia familiar,1,2996
+2020,Guerrero,Robo con violencia,1,2795
+2020,Guerrero,Homicidio,1,1469
+2020,Guerrero,Narcomenudeo,1,766
+2020,Guerrero,Delitos Sexuales,0,760
+2020,Guerrero,Extorsión,1,241
+2020,Guerrero,Secuestro,1,22
+2020,Guerrero,Feminicidio,1,13
+2020,Hidalgo,Otros Delitos,0,16462
+2020,Hidalgo,Otros Delitos Contra el Patrimonio,0,12783
+2020,Hidalgo,Violencia familiar,1,5724
+2020,Hidalgo,Robo con violencia,1,3749
+2020,Hidalgo,Delitos Sexuales,0,1466
+2020,Hidalgo,Homicidio,1,539
+2020,Hidalgo,Narcomenudeo,1,363
+2020,Hidalgo,Extorsión,1,133
+2020,Hidalgo,Secuestro,1,22
+2020,Hidalgo,Feminicidio,1,19
+2020,Jalisco,Otros Delitos Contra el Patrimonio,0,51823
+2020,Jalisco,Otros Delitos,0,34220
+2020,Jalisco,Robo con violencia,1,21329
+2020,Jalisco,Violencia familiar,1,11892
+2020,Jalisco,Delitos Sexuales,0,2829
+2020,Jalisco,Homicidio,1,2626
+2020,Jalisco,Narcomenudeo,1,1067
+2020,Jalisco,Extorsión,1,730
+2020,Jalisco,Feminicidio,1,70
+2020,Jalisco,Secuestro,1,13
+2020,Michoacán de Ocampo,Otros Delitos,0,17201
+2020,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,15495
+2020,Michoacán de Ocampo,Robo con violencia,1,5878
+2020,Michoacán de Ocampo,Homicidio,1,2921
+2020,Michoacán de Ocampo,Narcomenudeo,1,2010
+2020,Michoacán de Ocampo,Violencia familiar,1,1185
+2020,Michoacán de Ocampo,Delitos Sexuales,0,1100
+2020,Michoacán de Ocampo,Secuestro,1,48
+2020,Michoacán de Ocampo,Extorsión,1,29
+2020,Michoacán de Ocampo,Feminicidio,1,21
+2020,Morelos,Otros Delitos Contra el Patrimonio,0,16779
+2020,Morelos,Otros Delitos,0,11484
+2020,Morelos,Violencia familiar,1,4946
+2020,Morelos,Robo con violencia,1,4150
+2020,Morelos,Homicidio,1,1033
+2020,Morelos,Delitos Sexuales,0,988
+2020,Morelos,Narcomenudeo,1,884
+2020,Morelos,Extorsión,1,135
+2020,Morelos,Secuestro,1,57
+2020,Morelos,Feminicidio,1,35
+2020,México,Otros Delitos,0,137804
+2020,México,Otros Delitos Contra el Patrimonio,0,94680
+2020,México,Robo con violencia,1,75006
+2020,México,Violencia familiar,1,16915
+2020,México,Delitos Sexuales,0,6056
+2020,México,Narcomenudeo,1,3941
+2020,México,Homicidio,1,3575
+2020,México,Extorsión,1,2995
+2020,México,Secuestro,1,155
+2020,México,Feminicidio,1,151
+2020,Nayarit,Otros Delitos,0,1585
+2020,Nayarit,Otros Delitos Contra el Patrimonio,0,952
+2020,Nayarit,Violencia familiar,1,864
+2020,Nayarit,Homicidio,1,308
+2020,Nayarit,Delitos Sexuales,0,161
+2020,Nayarit,Robo con violencia,1,143
+2020,Nayarit,Narcomenudeo,1,129
+2020,Nayarit,Feminicidio,1,12
+2020,Nayarit,Extorsión,1,8
+2020,Nayarit,Secuestro,1,3
+2020,Nuevo León,Otros Delitos Contra el Patrimonio,0,25417
+2020,Nuevo León,Otros Delitos,0,24332
+2020,Nuevo León,Violencia familiar,1,17940
+2020,Nuevo León,Narcomenudeo,1,3869
+2020,Nuevo León,Delitos Sexuales,0,2892
+2020,Nuevo León,Robo con violencia,1,2680
+2020,Nuevo León,Homicidio,1,1347
+2020,Nuevo León,Extorsión,1,389
+2020,Nuevo León,Feminicidio,1,67
+2020,Nuevo León,Secuestro,1,16
+2020,Oaxaca,Otros Delitos Contra el Patrimonio,0,12949
+2020,Oaxaca,Otros Delitos,0,12505
+2020,Oaxaca,Violencia familiar,1,6476
+2020,Oaxaca,Robo con violencia,1,3587
+2020,Oaxaca,Homicidio,1,1651
+2020,Oaxaca,Delitos Sexuales,0,1459
+2020,Oaxaca,Narcomenudeo,1,254
+2020,Oaxaca,Extorsión,1,113
+2020,Oaxaca,Feminicidio,1,36
+2020,Oaxaca,Secuestro,1,31
+2020,Puebla,Otros Delitos Contra el Patrimonio,0,21265
+2020,Puebla,Otros Delitos,0,15989
+2020,Puebla,Robo con violencia,1,12691
+2020,Puebla,Violencia familiar,1,9124
+2020,Puebla,Delitos Sexuales,0,1755
+2020,Puebla,Narcomenudeo,1,1273
+2020,Puebla,Homicidio,1,1266
+2020,Puebla,Extorsión,1,145
+2020,Puebla,Feminicidio,1,52
+2020,Puebla,Secuestro,1,27
+2020,Querétaro,Otros Delitos Contra el Patrimonio,0,25562
+2020,Querétaro,Otros Delitos,0,16219
+2020,Querétaro,Violencia familiar,1,3552
+2020,Querétaro,Robo con violencia,1,3117
+2020,Querétaro,Delitos Sexuales,0,1715
+2020,Querétaro,Narcomenudeo,1,1134
+2020,Querétaro,Homicidio,1,465
+2020,Querétaro,Extorsión,1,242
+2020,Querétaro,Feminicidio,1,11
+2020,Querétaro,Secuestro,1,9
+2020,Quintana Roo,Otros Delitos Contra el Patrimonio,0,17886
+2020,Quintana Roo,Otros Delitos,0,9591
+2020,Quintana Roo,Violencia familiar,1,4813
+2020,Quintana Roo,Robo con violencia,1,4405
+2020,Quintana Roo,Delitos Sexuales,0,1441
+2020,Quintana Roo,Homicidio,1,1364
+2020,Quintana Roo,Narcomenudeo,1,1028
+2020,Quintana Roo,Extorsión,1,197
+2020,Quintana Roo,Feminicidio,1,15
+2020,Quintana Roo,Secuestro,1,11
+2020,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,18724
+2020,San Luis Potosí,Otros Delitos,0,12243
+2020,San Luis Potosí,Violencia familiar,1,7781
+2020,San Luis Potosí,Robo con violencia,1,3181
+2020,San Luis Potosí,Delitos Sexuales,0,1361
+2020,San Luis Potosí,Narcomenudeo,1,1357
+2020,San Luis Potosí,Homicidio,1,967
+2020,San Luis Potosí,Extorsión,1,151
+2020,San Luis Potosí,Feminicidio,1,27
+2020,San Luis Potosí,Secuestro,1,16
+2020,Sinaloa,Otros Delitos,0,6643
+2020,Sinaloa,Otros Delitos Contra el Patrimonio,0,6510
+2020,Sinaloa,Violencia familiar,1,5138
+2020,Sinaloa,Robo con violencia,1,3265
+2020,Sinaloa,Homicidio,1,1313
+2020,Sinaloa,Delitos Sexuales,0,677
+2020,Sinaloa,Narcomenudeo,1,269
+2020,Sinaloa,Extorsión,1,58
+2020,Sinaloa,Feminicidio,1,26
+2020,Sinaloa,Secuestro,1,11
+2020,Sonora,Otros Delitos Contra el Patrimonio,0,7667
+2020,Sonora,Otros Delitos,0,7240
+2020,Sonora,Violencia familiar,1,5450
+2020,Sonora,Robo con violencia,1,5288
+2020,Sonora,Narcomenudeo,1,2772
+2020,Sonora,Homicidio,1,1712
+2020,Sonora,Delitos Sexuales,0,873
+2020,Sonora,Extorsión,1,55
+2020,Sonora,Feminicidio,1,30
+2020,Sonora,Secuestro,1,3
+2020,Tabasco,Otros Delitos,0,19447
+2020,Tabasco,Otros Delitos Contra el Patrimonio,0,9955
+2020,Tabasco,Robo con violencia,1,7440
+2020,Tabasco,Violencia familiar,1,6445
+2020,Tabasco,Homicidio,1,832
+2020,Tabasco,Delitos Sexuales,0,656
+2020,Tabasco,Extorsión,1,105
+2020,Tabasco,Narcomenudeo,1,87
+2020,Tabasco,Secuestro,1,32
+2020,Tabasco,Feminicidio,1,15
+2020,Tamaulipas,Otros Delitos Contra el Patrimonio,0,10494
+2020,Tamaulipas,Otros Delitos,0,8713
+2020,Tamaulipas,Violencia familiar,1,6467
+2020,Tamaulipas,Robo con violencia,1,3474
+2020,Tamaulipas,Homicidio,1,1264
+2020,Tamaulipas,Delitos Sexuales,0,1069
+2020,Tamaulipas,Narcomenudeo,1,194
+2020,Tamaulipas,Extorsión,1,137
+2020,Tamaulipas,Secuestro,1,21
+2020,Tamaulipas,Feminicidio,1,11
+2020,Tlaxcala,Otros Delitos Contra el Patrimonio,0,2075
+2020,Tlaxcala,Robo con violencia,1,868
+2020,Tlaxcala,Otros Delitos,0,721
+2020,Tlaxcala,Narcomenudeo,1,218
+2020,Tlaxcala,Homicidio,1,148
+2020,Tlaxcala,Delitos Sexuales,0,68
+2020,Tlaxcala,Violencia familiar,1,18
+2020,Tlaxcala,Secuestro,1,15
+2020,Tlaxcala,Feminicidio,1,8
+2020,Tlaxcala,Extorsión,1,2
+2020,Veracruz de Ignacio de la Llave,Otros Delitos,0,27007
+2020,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,26812
+2020,Veracruz de Ignacio de la Llave,Violencia familiar,1,10386
+2020,Veracruz de Ignacio de la Llave,Robo con violencia,1,9930
+2020,Veracruz de Ignacio de la Llave,Homicidio,1,2181
+2020,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,1390
+2020,Veracruz de Ignacio de la Llave,Extorsión,1,714
+2020,Veracruz de Ignacio de la Llave,Narcomenudeo,1,644
+2020,Veracruz de Ignacio de la Llave,Secuestro,1,122
+2020,Veracruz de Ignacio de la Llave,Feminicidio,1,73
+2020,Yucatán,Otros Delitos,0,3979
+2020,Yucatán,Otros Delitos Contra el Patrimonio,0,3245
+2020,Yucatán,Violencia familiar,1,726
+2020,Yucatán,Narcomenudeo,1,165
+2020,Yucatán,Homicidio,1,153
+2020,Yucatán,Delitos Sexuales,0,112
+2020,Yucatán,Robo con violencia,1,30
+2020,Yucatán,Feminicidio,1,6
+2020,Yucatán,Extorsión,1,1
+2020,Yucatán,Secuestro,1,0
+2020,Zacatecas,Otros Delitos Contra el Patrimonio,0,8203
+2020,Zacatecas,Otros Delitos,0,7578
+2020,Zacatecas,Violencia familiar,1,3316
+2020,Zacatecas,Robo con violencia,1,1456
+2020,Zacatecas,Homicidio,1,920
+2020,Zacatecas,Delitos Sexuales,0,560
+2020,Zacatecas,Extorsión,1,362
+2020,Zacatecas,Narcomenudeo,1,302
+2020,Zacatecas,Secuestro,1,35
+2020,Zacatecas,Feminicidio,1,10
+2021,Aguascalientes,Otros Delitos Contra el Patrimonio,0,17924
+2021,Aguascalientes,Otros Delitos,0,12650
+2021,Aguascalientes,Violencia familiar,1,2288
+2021,Aguascalientes,Narcomenudeo,1,1113
+2021,Aguascalientes,Robo con violencia,1,870
+2021,Aguascalientes,Delitos Sexuales,0,480
+2021,Aguascalientes,Homicidio,1,220
+2021,Aguascalientes,Extorsión,1,88
+2021,Aguascalientes,Feminicidio,1,9
+2021,Aguascalientes,Secuestro,1,3
+2021,Baja California,Otros Delitos Contra el Patrimonio,0,34579
+2021,Baja California,Otros Delitos,0,26928
+2021,Baja California,Violencia familiar,1,12568
+2021,Baja California,Robo con violencia,1,10090
+2021,Baja California,Narcomenudeo,1,8051
+2021,Baja California,Homicidio,1,3225
+2021,Baja California,Delitos Sexuales,0,2445
+2021,Baja California,Extorsión,1,169
+2021,Baja California,Feminicidio,1,20
+2021,Baja California,Secuestro,1,15
+2021,Baja California Sur,Otros Delitos Contra el Patrimonio,0,7905
+2021,Baja California Sur,Otros Delitos,0,6424
+2021,Baja California Sur,Violencia familiar,1,2493
+2021,Baja California Sur,Delitos Sexuales,0,705
+2021,Baja California Sur,Robo con violencia,1,484
+2021,Baja California Sur,Narcomenudeo,1,435
+2021,Baja California Sur,Homicidio,1,120
+2021,Baja California Sur,Extorsión,1,99
+2021,Baja California Sur,Feminicidio,1,7
+2021,Baja California Sur,Secuestro,1,5
+2021,Campeche,Otros Delitos Contra el Patrimonio,0,2303
+2021,Campeche,Otros Delitos,0,1784
+2021,Campeche,Robo con violencia,1,468
+2021,Campeche,Delitos Sexuales,0,384
+2021,Campeche,Violencia familiar,1,314
+2021,Campeche,Homicidio,1,172
+2021,Campeche,Narcomenudeo,1,145
+2021,Campeche,Extorsión,1,33
+2021,Campeche,Feminicidio,1,7
+2021,Campeche,Secuestro,1,1
+2021,Chiapas,Otros Delitos,0,4988
+2021,Chiapas,Violencia familiar,1,3971
+2021,Chiapas,Otros Delitos Contra el Patrimonio,0,3667
+2021,Chiapas,Narcomenudeo,1,1487
+2021,Chiapas,Homicidio,1,1166
+2021,Chiapas,Robo con violencia,1,889
+2021,Chiapas,Delitos Sexuales,0,857
+2021,Chiapas,Extorsión,1,49
+2021,Chiapas,Feminicidio,1,46
+2021,Chiapas,Secuestro,1,10
+2021,Chihuahua,Otros Delitos Contra el Patrimonio,0,29746
+2021,Chihuahua,Otros Delitos,0,18008
+2021,Chihuahua,Violencia familiar,1,12968
+2021,Chihuahua,Narcomenudeo,1,5101
+2021,Chihuahua,Delitos Sexuales,0,3268
+2021,Chihuahua,Homicidio,1,2388
+2021,Chihuahua,Robo con violencia,1,1430
+2021,Chihuahua,Feminicidio,1,44
+2021,Chihuahua,Secuestro,1,33
+2021,Chihuahua,Extorsión,1,20
+2021,Ciudad de México,Otros Delitos Contra el Patrimonio,0,103367
+2021,Ciudad de México,Otros Delitos,0,48373
+2021,Ciudad de México,Violencia familiar,1,34848
+2021,Ciudad de México,Robo con violencia,1,22470
+2021,Ciudad de México,Delitos Sexuales,0,7576
+2021,Ciudad de México,Narcomenudeo,1,4923
+2021,Ciudad de México,Homicidio,1,1537
+2021,Ciudad de México,Extorsión,1,532
+2021,Ciudad de México,Feminicidio,1,68
+2021,Ciudad de México,Secuestro,1,48
+2021,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,17819
+2021,Coahuila de Zaragoza,Otros Delitos,0,14200
+2021,Coahuila de Zaragoza,Violencia familiar,1,11772
+2021,Coahuila de Zaragoza,Narcomenudeo,1,9724
+2021,Coahuila de Zaragoza,Delitos Sexuales,0,1705
+2021,Coahuila de Zaragoza,Robo con violencia,1,403
+2021,Coahuila de Zaragoza,Homicidio,1,361
+2021,Coahuila de Zaragoza,Extorsión,1,36
+2021,Coahuila de Zaragoza,Feminicidio,1,22
+2021,Coahuila de Zaragoza,Secuestro,1,3
+2021,Colima,Otros Delitos Contra el Patrimonio,0,13878
+2021,Colima,Otros Delitos,0,7360
+2021,Colima,Violencia familiar,1,4258
+2021,Colima,Narcomenudeo,1,1420
+2021,Colima,Homicidio,1,620
+2021,Colima,Delitos Sexuales,0,599
+2021,Colima,Robo con violencia,1,129
+2021,Colima,Extorsión,1,93
+2021,Colima,Secuestro,1,7
+2021,Colima,Feminicidio,1,4
+2021,Durango,Otros Delitos Contra el Patrimonio,0,12978
+2021,Durango,Otros Delitos,0,7829
+2021,Durango,Violencia familiar,1,5531
+2021,Durango,Delitos Sexuales,0,995
+2021,Durango,Narcomenudeo,1,955
+2021,Durango,Robo con violencia,1,716
+2021,Durango,Homicidio,1,369
+2021,Durango,Extorsión,1,96
+2021,Durango,Feminicidio,1,10
+2021,Durango,Secuestro,1,0
+2021,Guanajuato,Otros Delitos,0,43522
+2021,Guanajuato,Otros Delitos Contra el Patrimonio,0,39148
+2021,Guanajuato,Narcomenudeo,1,23976
+2021,Guanajuato,Violencia familiar,1,11624
+2021,Guanajuato,Robo con violencia,1,9900
+2021,Guanajuato,Homicidio,1,3673
+2021,Guanajuato,Delitos Sexuales,0,2451
+2021,Guanajuato,Extorsión,1,291
+2021,Guanajuato,Feminicidio,1,30
+2021,Guanajuato,Secuestro,1,11
+2021,Guerrero,Otros Delitos,0,7781
+2021,Guerrero,Otros Delitos Contra el Patrimonio,0,7197
+2021,Guerrero,Violencia familiar,1,3273
+2021,Guerrero,Robo con violencia,1,2662
+2021,Guerrero,Homicidio,1,1546
+2021,Guerrero,Narcomenudeo,1,1073
+2021,Guerrero,Delitos Sexuales,0,854
+2021,Guerrero,Extorsión,1,212
+2021,Guerrero,Feminicidio,1,17
+2021,Guerrero,Secuestro,1,14
+2021,Hidalgo,Otros Delitos,0,21539
+2021,Hidalgo,Otros Delitos Contra el Patrimonio,0,12299
+2021,Hidalgo,Violencia familiar,1,5870
+2021,Hidalgo,Robo con violencia,1,3786
+2021,Hidalgo,Delitos Sexuales,0,1497
+2021,Hidalgo,Narcomenudeo,1,786
+2021,Hidalgo,Homicidio,1,530
+2021,Hidalgo,Extorsión,1,108
+2021,Hidalgo,Secuestro,1,28
+2021,Hidalgo,Feminicidio,1,21
+2021,Jalisco,Otros Delitos Contra el Patrimonio,0,53366
+2021,Jalisco,Otros Delitos,0,35944
+2021,Jalisco,Robo con violencia,1,18879
+2021,Jalisco,Violencia familiar,1,12619
+2021,Jalisco,Delitos Sexuales,0,3251
+2021,Jalisco,Homicidio,1,2734
+2021,Jalisco,Narcomenudeo,1,1134
+2021,Jalisco,Extorsión,1,565
+2021,Jalisco,Feminicidio,1,77
+2021,Jalisco,Secuestro,1,19
+2021,Michoacán de Ocampo,Otros Delitos,0,16916
+2021,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,16311
+2021,Michoacán de Ocampo,Robo con violencia,1,5303
+2021,Michoacán de Ocampo,Homicidio,1,3237
+2021,Michoacán de Ocampo,Narcomenudeo,1,2514
+2021,Michoacán de Ocampo,Delitos Sexuales,0,1343
+2021,Michoacán de Ocampo,Violencia familiar,1,1184
+2021,Michoacán de Ocampo,Extorsión,1,61
+2021,Michoacán de Ocampo,Feminicidio,1,28
+2021,Michoacán de Ocampo,Secuestro,1,28
+2021,Morelos,Otros Delitos Contra el Patrimonio,0,17581
+2021,Morelos,Otros Delitos,0,12002
+2021,Morelos,Violencia familiar,1,4938
+2021,Morelos,Robo con violencia,1,4357
+2021,Morelos,Homicidio,1,1323
+2021,Morelos,Delitos Sexuales,0,1139
+2021,Morelos,Narcomenudeo,1,765
+2021,Morelos,Extorsión,1,151
+2021,Morelos,Feminicidio,1,23
+2021,Morelos,Secuestro,1,22
+2021,México,Otros Delitos,0,169975
+2021,México,Otros Delitos Contra el Patrimonio,0,103316
+2021,México,Robo con violencia,1,74788
+2021,México,Violencia familiar,1,22139
+2021,México,Delitos Sexuales,0,8403
+2021,México,Homicidio,1,3718
+2021,México,Narcomenudeo,1,3576
+2021,México,Extorsión,1,3302
+2021,México,Feminicidio,1,145
+2021,México,Secuestro,1,130
+2021,Nayarit,Otros Delitos,0,1954
+2021,Nayarit,Otros Delitos Contra el Patrimonio,0,1109
+2021,Nayarit,Violencia familiar,1,1063
+2021,Nayarit,Homicidio,1,375
+2021,Nayarit,Delitos Sexuales,0,214
+2021,Nayarit,Narcomenudeo,1,182
+2021,Nayarit,Robo con violencia,1,147
+2021,Nayarit,Extorsión,1,14
+2021,Nayarit,Feminicidio,1,7
+2021,Nayarit,Secuestro,1,7
+2021,Nuevo León,Otros Delitos,0,31578
+2021,Nuevo León,Otros Delitos Contra el Patrimonio,0,28696
+2021,Nuevo León,Violencia familiar,1,21029
+2021,Nuevo León,Narcomenudeo,1,4369
+2021,Nuevo León,Delitos Sexuales,0,3700
+2021,Nuevo León,Robo con violencia,1,2575
+2021,Nuevo León,Homicidio,1,1688
+2021,Nuevo León,Extorsión,1,601
+2021,Nuevo León,Feminicidio,1,66
+2021,Nuevo León,Secuestro,1,19
+2021,Oaxaca,Otros Delitos Contra el Patrimonio,0,13832
+2021,Oaxaca,Otros Delitos,0,13263
+2021,Oaxaca,Violencia familiar,1,6893
+2021,Oaxaca,Robo con violencia,1,3833
+2021,Oaxaca,Homicidio,1,1721
+2021,Oaxaca,Delitos Sexuales,0,1572
+2021,Oaxaca,Narcomenudeo,1,281
+2021,Oaxaca,Extorsión,1,125
+2021,Oaxaca,Feminicidio,1,43
+2021,Oaxaca,Secuestro,1,27
+2021,Puebla,Otros Delitos Contra el Patrimonio,0,29062
+2021,Puebla,Otros Delitos,0,19568
+2021,Puebla,Robo con violencia,1,12643
+2021,Puebla,Violencia familiar,1,8717
+2021,Puebla,Delitos Sexuales,0,2067
+2021,Puebla,Narcomenudeo,1,1740
+2021,Puebla,Homicidio,1,1171
+2021,Puebla,Extorsión,1,117
+2021,Puebla,Feminicidio,1,37
+2021,Puebla,Secuestro,1,19
+2021,Querétaro,Otros Delitos Contra el Patrimonio,0,26432
+2021,Querétaro,Otros Delitos,0,17353
+2021,Querétaro,Violencia familiar,1,3784
+2021,Querétaro,Robo con violencia,1,2350
+2021,Querétaro,Delitos Sexuales,0,2058
+2021,Querétaro,Narcomenudeo,1,1154
+2021,Querétaro,Homicidio,1,532
+2021,Querétaro,Extorsión,1,257
+2021,Querétaro,Secuestro,1,15
+2021,Querétaro,Feminicidio,1,9
+2021,Quintana Roo,Otros Delitos Contra el Patrimonio,0,21581
+2021,Quintana Roo,Otros Delitos,0,12319
+2021,Quintana Roo,Violencia familiar,1,5848
+2021,Quintana Roo,Robo con violencia,1,3013
+2021,Quintana Roo,Delitos Sexuales,0,2070
+2021,Quintana Roo,Homicidio,1,1494
+2021,Quintana Roo,Narcomenudeo,1,1279
+2021,Quintana Roo,Extorsión,1,109
+2021,Quintana Roo,Feminicidio,1,25
+2021,Quintana Roo,Secuestro,1,15
+2021,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,21684
+2021,San Luis Potosí,Otros Delitos,0,12944
+2021,San Luis Potosí,Violencia familiar,1,9034
+2021,San Luis Potosí,Robo con violencia,1,3782
+2021,San Luis Potosí,Delitos Sexuales,0,1591
+2021,San Luis Potosí,Narcomenudeo,1,1022
+2021,San Luis Potosí,Homicidio,1,853
+2021,San Luis Potosí,Extorsión,1,122
+2021,San Luis Potosí,Feminicidio,1,24
+2021,San Luis Potosí,Secuestro,1,14
+2021,Sinaloa,Otros Delitos,0,7838
+2021,Sinaloa,Otros Delitos Contra el Patrimonio,0,7741
+2021,Sinaloa,Violencia familiar,1,5733
+2021,Sinaloa,Robo con violencia,1,3762
+2021,Sinaloa,Homicidio,1,1228
+2021,Sinaloa,Delitos Sexuales,0,833
+2021,Sinaloa,Narcomenudeo,1,145
+2021,Sinaloa,Extorsión,1,61
+2021,Sinaloa,Feminicidio,1,40
+2021,Sinaloa,Secuestro,1,5
+2021,Sonora,Otros Delitos,0,10649
+2021,Sonora,Otros Delitos Contra el Patrimonio,0,8057
+2021,Sonora,Violencia familiar,1,7225
+2021,Sonora,Robo con violencia,1,5095
+2021,Sonora,Narcomenudeo,1,3013
+2021,Sonora,Homicidio,1,1968
+2021,Sonora,Delitos Sexuales,0,1161
+2021,Sonora,Extorsión,1,80
+2021,Sonora,Feminicidio,1,42
+2021,Sonora,Secuestro,1,11
+2021,Tabasco,Otros Delitos,0,21707
+2021,Tabasco,Otros Delitos Contra el Patrimonio,0,13224
+2021,Tabasco,Violencia familiar,1,7791
+2021,Tabasco,Robo con violencia,1,4193
+2021,Tabasco,Homicidio,1,837
+2021,Tabasco,Delitos Sexuales,0,780
+2021,Tabasco,Extorsión,1,104
+2021,Tabasco,Narcomenudeo,1,48
+2021,Tabasco,Secuestro,1,16
+2021,Tabasco,Feminicidio,1,15
+2021,Tamaulipas,Otros Delitos Contra el Patrimonio,0,12028
+2021,Tamaulipas,Otros Delitos,0,10665
+2021,Tamaulipas,Violencia familiar,1,7844
+2021,Tamaulipas,Robo con violencia,1,3172
+2021,Tamaulipas,Delitos Sexuales,0,1388
+2021,Tamaulipas,Homicidio,1,1251
+2021,Tamaulipas,Narcomenudeo,1,164
+2021,Tamaulipas,Extorsión,1,96
+2021,Tamaulipas,Secuestro,1,23
+2021,Tamaulipas,Feminicidio,1,5
+2021,Tlaxcala,Otros Delitos Contra el Patrimonio,0,2398
+2021,Tlaxcala,Robo con violencia,1,902
+2021,Tlaxcala,Otros Delitos,0,720
+2021,Tlaxcala,Narcomenudeo,1,186
+2021,Tlaxcala,Homicidio,1,157
+2021,Tlaxcala,Violencia familiar,1,78
+2021,Tlaxcala,Delitos Sexuales,0,62
+2021,Tlaxcala,Feminicidio,1,10
+2021,Tlaxcala,Secuestro,1,10
+2021,Tlaxcala,Extorsión,1,4
+2021,Veracruz de Ignacio de la Llave,Otros Delitos,0,31527
+2021,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,30314
+2021,Veracruz de Ignacio de la Llave,Violencia familiar,1,11706
+2021,Veracruz de Ignacio de la Llave,Robo con violencia,1,9070
+2021,Veracruz de Ignacio de la Llave,Homicidio,1,2064
+2021,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,1785
+2021,Veracruz de Ignacio de la Llave,Narcomenudeo,1,977
+2021,Veracruz de Ignacio de la Llave,Extorsión,1,744
+2021,Veracruz de Ignacio de la Llave,Feminicidio,1,67
+2021,Veracruz de Ignacio de la Llave,Secuestro,1,52
+2021,Yucatán,Otros Delitos,0,4565
+2021,Yucatán,Otros Delitos Contra el Patrimonio,0,2507
+2021,Yucatán,Violencia familiar,1,884
+2021,Yucatán,Homicidio,1,231
+2021,Yucatán,Narcomenudeo,1,223
+2021,Yucatán,Delitos Sexuales,0,107
+2021,Yucatán,Robo con violencia,1,39
+2021,Yucatán,Feminicidio,1,5
+2021,Yucatán,Extorsión,1,3
+2021,Yucatán,Secuestro,1,1
+2021,Zacatecas,Otros Delitos Contra el Patrimonio,0,8802
+2021,Zacatecas,Otros Delitos,0,8115
+2021,Zacatecas,Violencia familiar,1,3453
+2021,Zacatecas,Robo con violencia,1,1741
+2021,Zacatecas,Homicidio,1,1467
+2021,Zacatecas,Delitos Sexuales,0,704
+2021,Zacatecas,Extorsión,1,486
+2021,Zacatecas,Narcomenudeo,1,314
+2021,Zacatecas,Secuestro,1,17
+2021,Zacatecas,Feminicidio,1,11
+2022,Aguascalientes,Otros Delitos Contra el Patrimonio,0,19370
+2022,Aguascalientes,Otros Delitos,0,13724
+2022,Aguascalientes,Violencia familiar,1,2534
+2022,Aguascalientes,Narcomenudeo,1,2079
+2022,Aguascalientes,Robo con violencia,1,1028
+2022,Aguascalientes,Delitos Sexuales,0,497
+2022,Aguascalientes,Homicidio,1,226
+2022,Aguascalientes,Extorsión,1,97
+2022,Aguascalientes,Feminicidio,1,10
+2022,Aguascalientes,Secuestro,1,5
+2022,Baja California,Otros Delitos Contra el Patrimonio,0,38416
+2022,Baja California,Otros Delitos,0,32741
+2022,Baja California,Violencia familiar,1,13262
+2022,Baja California,Narcomenudeo,1,9655
+2022,Baja California,Robo con violencia,1,9270
+2022,Baja California,Delitos Sexuales,0,3176
+2022,Baja California,Homicidio,1,2993
+2022,Baja California,Extorsión,1,172
+2022,Baja California,Feminicidio,1,26
+2022,Baja California,Secuestro,1,18
+2022,Baja California Sur,Otros Delitos Contra el Patrimonio,0,8991
+2022,Baja California Sur,Otros Delitos,0,6748
+2022,Baja California Sur,Violencia familiar,1,2620
+2022,Baja California Sur,Delitos Sexuales,0,843
+2022,Baja California Sur,Narcomenudeo,1,519
+2022,Baja California Sur,Robo con violencia,1,480
+2022,Baja California Sur,Extorsión,1,164
+2022,Baja California Sur,Homicidio,1,112
+2022,Baja California Sur,Feminicidio,1,6
+2022,Baja California Sur,Secuestro,1,3
+2022,Campeche,Otros Delitos Contra el Patrimonio,0,10668
+2022,Campeche,Otros Delitos,0,10592
+2022,Campeche,Violencia familiar,1,1957
+2022,Campeche,Robo con violencia,1,964
+2022,Campeche,Delitos Sexuales,0,824
+2022,Campeche,Narcomenudeo,1,224
+2022,Campeche,Homicidio,1,203
+2022,Campeche,Extorsión,1,90
+2022,Campeche,Feminicidio,1,11
+2022,Campeche,Secuestro,1,3
+2022,Chiapas,Otros Delitos,0,5988
+2022,Chiapas,Otros Delitos Contra el Patrimonio,0,3450
+2022,Chiapas,Narcomenudeo,1,1893
+2022,Chiapas,Violencia familiar,1,1776
+2022,Chiapas,Homicidio,1,1122
+2022,Chiapas,Robo con violencia,1,951
+2022,Chiapas,Delitos Sexuales,0,738
+2022,Chiapas,Feminicidio,1,44
+2022,Chiapas,Extorsión,1,29
+2022,Chiapas,Secuestro,1,11
+2022,Chihuahua,Otros Delitos Contra el Patrimonio,0,32819
+2022,Chihuahua,Otros Delitos,0,15953
+2022,Chihuahua,Violencia familiar,1,13513
+2022,Chihuahua,Delitos Sexuales,0,3847
+2022,Chihuahua,Narcomenudeo,1,3525
+2022,Chihuahua,Homicidio,1,2066
+2022,Chihuahua,Robo con violencia,1,1420
+2022,Chihuahua,Feminicidio,1,43
+2022,Chihuahua,Secuestro,1,21
+2022,Chihuahua,Extorsión,1,6
+2022,Ciudad de México,Otros Delitos Contra el Patrimonio,0,107425
+2022,Ciudad de México,Otros Delitos,0,54813
+2022,Ciudad de México,Violencia familiar,1,37024
+2022,Ciudad de México,Robo con violencia,1,18430
+2022,Ciudad de México,Delitos Sexuales,0,8662
+2022,Ciudad de México,Narcomenudeo,1,4394
+2022,Ciudad de México,Homicidio,1,1437
+2022,Ciudad de México,Extorsión,1,357
+2022,Ciudad de México,Feminicidio,1,75
+2022,Ciudad de México,Secuestro,1,27
+2022,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,19484
+2022,Coahuila de Zaragoza,Otros Delitos,0,18446
+2022,Coahuila de Zaragoza,Violencia familiar,1,12718
+2022,Coahuila de Zaragoza,Narcomenudeo,1,11032
+2022,Coahuila de Zaragoza,Delitos Sexuales,0,2037
+2022,Coahuila de Zaragoza,Robo con violencia,1,441
+2022,Coahuila de Zaragoza,Homicidio,1,392
+2022,Coahuila de Zaragoza,Extorsión,1,34
+2022,Coahuila de Zaragoza,Feminicidio,1,23
+2022,Coahuila de Zaragoza,Secuestro,1,4
+2022,Colima,Otros Delitos Contra el Patrimonio,0,12856
+2022,Colima,Otros Delitos,0,7686
+2022,Colima,Violencia familiar,1,4405
+2022,Colima,Narcomenudeo,1,1965
+2022,Colima,Homicidio,1,901
+2022,Colima,Delitos Sexuales,0,630
+2022,Colima,Extorsión,1,142
+2022,Colima,Robo con violencia,1,109
+2022,Colima,Feminicidio,1,18
+2022,Colima,Secuestro,1,7
+2022,Durango,Otros Delitos Contra el Patrimonio,0,10891
+2022,Durango,Otros Delitos,0,7237
+2022,Durango,Violencia familiar,1,5079
+2022,Durango,Delitos Sexuales,0,1012
+2022,Durango,Robo con violencia,1,955
+2022,Durango,Narcomenudeo,1,831
+2022,Durango,Homicidio,1,345
+2022,Durango,Extorsión,1,65
+2022,Durango,Feminicidio,1,18
+2022,Durango,Secuestro,1,1
+2022,Guanajuato,Otros Delitos,0,46468
+2022,Guanajuato,Otros Delitos Contra el Patrimonio,0,42319
+2022,Guanajuato,Narcomenudeo,1,22359
+2022,Guanajuato,Violencia familiar,1,13724
+2022,Guanajuato,Robo con violencia,1,9557
+2022,Guanajuato,Homicidio,1,3513
+2022,Guanajuato,Delitos Sexuales,0,2847
+2022,Guanajuato,Extorsión,1,523
+2022,Guanajuato,Feminicidio,1,21
+2022,Guanajuato,Secuestro,1,9
+2022,Guerrero,Otros Delitos,0,9591
+2022,Guerrero,Otros Delitos Contra el Patrimonio,0,7665
+2022,Guerrero,Violencia familiar,1,3467
+2022,Guerrero,Robo con violencia,1,2665
+2022,Guerrero,Homicidio,1,1574
+2022,Guerrero,Delitos Sexuales,0,1077
+2022,Guerrero,Narcomenudeo,1,791
+2022,Guerrero,Extorsión,1,260
+2022,Guerrero,Secuestro,1,16
+2022,Guerrero,Feminicidio,1,12
+2022,Hidalgo,Otros Delitos,0,24092
+2022,Hidalgo,Otros Delitos Contra el Patrimonio,0,14861
+2022,Hidalgo,Violencia familiar,1,6929
+2022,Hidalgo,Robo con violencia,1,3576
+2022,Hidalgo,Delitos Sexuales,0,1834
+2022,Hidalgo,Homicidio,1,545
+2022,Hidalgo,Narcomenudeo,1,485
+2022,Hidalgo,Extorsión,1,232
+2022,Hidalgo,Feminicidio,1,19
+2022,Hidalgo,Secuestro,1,15
+2022,Jalisco,Otros Delitos Contra el Patrimonio,0,50427
+2022,Jalisco,Otros Delitos,0,39464
+2022,Jalisco,Robo con violencia,1,15826
+2022,Jalisco,Violencia familiar,1,13747
+2022,Jalisco,Delitos Sexuales,0,4238
+2022,Jalisco,Homicidio,1,2648
+2022,Jalisco,Narcomenudeo,1,1322
+2022,Jalisco,Extorsión,1,663
+2022,Jalisco,Feminicidio,1,41
+2022,Jalisco,Secuestro,1,22
+2022,Michoacán de Ocampo,Otros Delitos,0,17190
+2022,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,15830
+2022,Michoacán de Ocampo,Robo con violencia,1,4231
+2022,Michoacán de Ocampo,Homicidio,1,3034
+2022,Michoacán de Ocampo,Narcomenudeo,1,2031
+2022,Michoacán de Ocampo,Delitos Sexuales,0,1467
+2022,Michoacán de Ocampo,Violencia familiar,1,1444
+2022,Michoacán de Ocampo,Extorsión,1,65
+2022,Michoacán de Ocampo,Feminicidio,1,43
+2022,Michoacán de Ocampo,Secuestro,1,39
+2022,Morelos,Otros Delitos Contra el Patrimonio,0,18450
+2022,Morelos,Otros Delitos,0,12761
+2022,Morelos,Violencia familiar,1,5206
+2022,Morelos,Robo con violencia,1,4341
+2022,Morelos,Homicidio,1,1350
+2022,Morelos,Delitos Sexuales,0,1310
+2022,Morelos,Narcomenudeo,1,665
+2022,Morelos,Extorsión,1,147
+2022,Morelos,Feminicidio,1,32
+2022,Morelos,Secuestro,1,23
+2022,México,Otros Delitos,0,166246
+2022,México,Otros Delitos Contra el Patrimonio,0,107631
+2022,México,Robo con violencia,1,71551
+2022,México,Violencia familiar,1,27449
+2022,México,Delitos Sexuales,0,13320
+2022,México,Extorsión,1,4153
+2022,México,Homicidio,1,3822
+2022,México,Narcomenudeo,1,3111
+2022,México,Feminicidio,1,138
+2022,México,Secuestro,1,92
+2022,Nayarit,Otros Delitos,0,3713
+2022,Nayarit,Otros Delitos Contra el Patrimonio,0,2051
+2022,Nayarit,Violencia familiar,1,1947
+2022,Nayarit,Narcomenudeo,1,470
+2022,Nayarit,Homicidio,1,352
+2022,Nayarit,Delitos Sexuales,0,345
+2022,Nayarit,Robo con violencia,1,252
+2022,Nayarit,Extorsión,1,17
+2022,Nayarit,Secuestro,1,3
+2022,Nayarit,Feminicidio,1,2
+2022,Nuevo León,Otros Delitos,0,36078
+2022,Nuevo León,Otros Delitos Contra el Patrimonio,0,31610
+2022,Nuevo León,Violencia familiar,1,22480
+2022,Nuevo León,Narcomenudeo,1,5361
+2022,Nuevo León,Delitos Sexuales,0,4412
+2022,Nuevo León,Robo con violencia,1,2984
+2022,Nuevo León,Homicidio,1,1937
+2022,Nuevo León,Extorsión,1,746
+2022,Nuevo León,Feminicidio,1,102
+2022,Nuevo León,Secuestro,1,22
+2022,Oaxaca,Otros Delitos Contra el Patrimonio,0,14063
+2022,Oaxaca,Otros Delitos,0,13843
+2022,Oaxaca,Violencia familiar,1,7083
+2022,Oaxaca,Robo con violencia,1,4382
+2022,Oaxaca,Homicidio,1,1873
+2022,Oaxaca,Delitos Sexuales,0,1596
+2022,Oaxaca,Narcomenudeo,1,310
+2022,Oaxaca,Extorsión,1,118
+2022,Oaxaca,Feminicidio,1,40
+2022,Oaxaca,Secuestro,1,31
+2022,Puebla,Otros Delitos Contra el Patrimonio,0,29377
+2022,Puebla,Otros Delitos,0,19691
+2022,Puebla,Robo con violencia,1,13810
+2022,Puebla,Violencia familiar,1,8191
+2022,Puebla,Narcomenudeo,1,2435
+2022,Puebla,Delitos Sexuales,0,2070
+2022,Puebla,Homicidio,1,1369
+2022,Puebla,Extorsión,1,126
+2022,Puebla,Feminicidio,1,20
+2022,Puebla,Secuestro,1,17
+2022,Querétaro,Otros Delitos Contra el Patrimonio,0,27487
+2022,Querétaro,Otros Delitos,0,18787
+2022,Querétaro,Violencia familiar,1,5032
+2022,Querétaro,Robo con violencia,1,2898
+2022,Querétaro,Delitos Sexuales,0,2218
+2022,Querétaro,Narcomenudeo,1,1505
+2022,Querétaro,Homicidio,1,498
+2022,Querétaro,Extorsión,1,224
+2022,Querétaro,Secuestro,1,15
+2022,Querétaro,Feminicidio,1,12
+2022,Quintana Roo,Otros Delitos Contra el Patrimonio,0,22658
+2022,Quintana Roo,Otros Delitos,0,14454
+2022,Quintana Roo,Violencia familiar,1,6161
+2022,Quintana Roo,Delitos Sexuales,0,2305
+2022,Quintana Roo,Robo con violencia,1,2266
+2022,Quintana Roo,Narcomenudeo,1,1881
+2022,Quintana Roo,Homicidio,1,1472
+2022,Quintana Roo,Extorsión,1,85
+2022,Quintana Roo,Feminicidio,1,14
+2022,Quintana Roo,Secuestro,1,1
+2022,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,23277
+2022,San Luis Potosí,Otros Delitos,0,13976
+2022,San Luis Potosí,Violencia familiar,1,8861
+2022,San Luis Potosí,Robo con violencia,1,4846
+2022,San Luis Potosí,Narcomenudeo,1,2408
+2022,San Luis Potosí,Delitos Sexuales,0,1629
+2022,San Luis Potosí,Homicidio,1,760
+2022,San Luis Potosí,Extorsión,1,122
+2022,San Luis Potosí,Feminicidio,1,12
+2022,San Luis Potosí,Secuestro,1,11
+2022,Sinaloa,Otros Delitos,0,8851
+2022,Sinaloa,Otros Delitos Contra el Patrimonio,0,8728
+2022,Sinaloa,Violencia familiar,1,6746
+2022,Sinaloa,Robo con violencia,1,3619
+2022,Sinaloa,Homicidio,1,1106
+2022,Sinaloa,Delitos Sexuales,0,1029
+2022,Sinaloa,Narcomenudeo,1,146
+2022,Sinaloa,Extorsión,1,61
+2022,Sinaloa,Feminicidio,1,20
+2022,Sinaloa,Secuestro,1,5
+2022,Sonora,Otros Delitos,0,10400
+2022,Sonora,Otros Delitos Contra el Patrimonio,0,7211
+2022,Sonora,Violencia familiar,1,6345
+2022,Sonora,Robo con violencia,1,4321
+2022,Sonora,Narcomenudeo,1,2341
+2022,Sonora,Homicidio,1,1753
+2022,Sonora,Delitos Sexuales,0,1035
+2022,Sonora,Extorsión,1,62
+2022,Sonora,Feminicidio,1,35
+2022,Sonora,Secuestro,1,8
+2022,Tabasco,Otros Delitos,0,20534
+2022,Tabasco,Otros Delitos Contra el Patrimonio,0,12370
+2022,Tabasco,Violencia familiar,1,7426
+2022,Tabasco,Robo con violencia,1,3286
+2022,Tabasco,Delitos Sexuales,0,905
+2022,Tabasco,Homicidio,1,726
+2022,Tabasco,Extorsión,1,134
+2022,Tabasco,Narcomenudeo,1,38
+2022,Tabasco,Feminicidio,1,17
+2022,Tabasco,Secuestro,1,12
+2022,Tamaulipas,Otros Delitos Contra el Patrimonio,0,12434
+2022,Tamaulipas,Otros Delitos,0,11460
+2022,Tamaulipas,Violencia familiar,1,7863
+2022,Tamaulipas,Robo con violencia,1,2907
+2022,Tamaulipas,Delitos Sexuales,0,1459
+2022,Tamaulipas,Homicidio,1,1190
+2022,Tamaulipas,Narcomenudeo,1,159
+2022,Tamaulipas,Extorsión,1,114
+2022,Tamaulipas,Feminicidio,1,19
+2022,Tamaulipas,Secuestro,1,18
+2022,Tlaxcala,Otros Delitos Contra el Patrimonio,0,2184
+2022,Tlaxcala,Robo con violencia,1,958
+2022,Tlaxcala,Otros Delitos,0,601
+2022,Tlaxcala,Violencia familiar,1,275
+2022,Tlaxcala,Homicidio,1,164
+2022,Tlaxcala,Narcomenudeo,1,160
+2022,Tlaxcala,Delitos Sexuales,0,58
+2022,Tlaxcala,Extorsión,1,6
+2022,Tlaxcala,Feminicidio,1,5
+2022,Tlaxcala,Secuestro,1,4
+2022,Veracruz de Ignacio de la Llave,Otros Delitos,0,31894
+2022,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,28712
+2022,Veracruz de Ignacio de la Llave,Violencia familiar,1,11747
+2022,Veracruz de Ignacio de la Llave,Robo con violencia,1,7380
+2022,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,1937
+2022,Veracruz de Ignacio de la Llave,Homicidio,1,1847
+2022,Veracruz de Ignacio de la Llave,Narcomenudeo,1,1703
+2022,Veracruz de Ignacio de la Llave,Extorsión,1,834
+2022,Veracruz de Ignacio de la Llave,Feminicidio,1,65
+2022,Veracruz de Ignacio de la Llave,Secuestro,1,35
+2022,Yucatán,Otros Delitos,0,2009
+2022,Yucatán,Otros Delitos Contra el Patrimonio,0,1406
+2022,Yucatán,Narcomenudeo,1,281
+2022,Yucatán,Homicidio,1,198
+2022,Yucatán,Delitos Sexuales,0,137
+2022,Yucatán,Violencia familiar,1,125
+2022,Yucatán,Robo con violencia,1,38
+2022,Yucatán,Extorsión,1,10
+2022,Yucatán,Feminicidio,1,5
+2022,Yucatán,Secuestro,1,0
+2022,Zacatecas,Otros Delitos Contra el Patrimonio,0,9200
+2022,Zacatecas,Otros Delitos,0,8121
+2022,Zacatecas,Violencia familiar,1,3408
+2022,Zacatecas,Robo con violencia,1,1918
+2022,Zacatecas,Homicidio,1,1360
+2022,Zacatecas,Delitos Sexuales,0,724
+2022,Zacatecas,Extorsión,1,485
+2022,Zacatecas,Narcomenudeo,1,307
+2022,Zacatecas,Feminicidio,1,15
+2022,Zacatecas,Secuestro,1,8
+2023,Aguascalientes,Otros Delitos Contra el Patrimonio,0,19326
+2023,Aguascalientes,Otros Delitos,0,15330
+2023,Aguascalientes,Violencia familiar,1,3214
+2023,Aguascalientes,Narcomenudeo,1,2181
+2023,Aguascalientes,Robo con violencia,1,1297
+2023,Aguascalientes,Delitos Sexuales,0,608
+2023,Aguascalientes,Homicidio,1,249
+2023,Aguascalientes,Extorsión,1,106
+2023,Aguascalientes,Feminicidio,1,3
+2023,Aguascalientes,Secuestro,1,2
+2023,Baja California,Otros Delitos Contra el Patrimonio,0,43332
+2023,Baja California,Otros Delitos,0,37824
+2023,Baja California,Violencia familiar,1,14626
+2023,Baja California,Narcomenudeo,1,9839
+2023,Baja California,Robo con violencia,1,8240
+2023,Baja California,Delitos Sexuales,0,4450
+2023,Baja California,Homicidio,1,2619
+2023,Baja California,Extorsión,1,110
+2023,Baja California,Feminicidio,1,20
+2023,Baja California,Secuestro,1,10
+2023,Baja California Sur,Otros Delitos Contra el Patrimonio,0,9810
+2023,Baja California Sur,Otros Delitos,0,7789
+2023,Baja California Sur,Violencia familiar,1,2946
+2023,Baja California Sur,Delitos Sexuales,0,926
+2023,Baja California Sur,Narcomenudeo,1,708
+2023,Baja California Sur,Robo con violencia,1,444
+2023,Baja California Sur,Extorsión,1,112
+2023,Baja California Sur,Homicidio,1,111
+2023,Baja California Sur,Feminicidio,1,2
+2023,Baja California Sur,Secuestro,1,1
+2023,Campeche,Otros Delitos,0,10744
+2023,Campeche,Otros Delitos Contra el Patrimonio,0,10619
+2023,Campeche,Violencia familiar,1,2151
+2023,Campeche,Robo con violencia,1,948
+2023,Campeche,Delitos Sexuales,0,789
+2023,Campeche,Narcomenudeo,1,272
+2023,Campeche,Homicidio,1,216
+2023,Campeche,Extorsión,1,96
+2023,Campeche,Feminicidio,1,12
+2023,Campeche,Secuestro,1,2
+2023,Chiapas,Otros Delitos,0,7028
+2023,Chiapas,Otros Delitos Contra el Patrimonio,0,3939
+2023,Chiapas,Homicidio,1,1277
+2023,Chiapas,Violencia familiar,1,972
+2023,Chiapas,Robo con violencia,1,825
+2023,Chiapas,Delitos Sexuales,0,599
+2023,Chiapas,Narcomenudeo,1,385
+2023,Chiapas,Feminicidio,1,35
+2023,Chiapas,Extorsión,1,18
+2023,Chiapas,Secuestro,1,17
+2023,Chihuahua,Otros Delitos Contra el Patrimonio,0,32074
+2023,Chihuahua,Otros Delitos,0,17129
+2023,Chihuahua,Violencia familiar,1,14165
+2023,Chihuahua,Delitos Sexuales,0,3889
+2023,Chihuahua,Narcomenudeo,1,3211
+2023,Chihuahua,Homicidio,1,2085
+2023,Chihuahua,Robo con violencia,1,1328
+2023,Chihuahua,Secuestro,1,48
+2023,Chihuahua,Feminicidio,1,47
+2023,Chihuahua,Extorsión,1,5
+2023,Ciudad de México,Otros Delitos Contra el Patrimonio,0,109439
+2023,Ciudad de México,Otros Delitos,0,56910
+2023,Ciudad de México,Violencia familiar,1,37578
+2023,Ciudad de México,Robo con violencia,1,14960
+2023,Ciudad de México,Delitos Sexuales,0,9157
+2023,Ciudad de México,Narcomenudeo,1,4379
+2023,Ciudad de México,Homicidio,1,1467
+2023,Ciudad de México,Extorsión,1,496
+2023,Ciudad de México,Feminicidio,1,59
+2023,Ciudad de México,Secuestro,1,29
+2023,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,18075
+2023,Coahuila de Zaragoza,Otros Delitos,0,17474
+2023,Coahuila de Zaragoza,Violencia familiar,1,12379
+2023,Coahuila de Zaragoza,Narcomenudeo,1,9054
+2023,Coahuila de Zaragoza,Delitos Sexuales,0,1905
+2023,Coahuila de Zaragoza,Robo con violencia,1,433
+2023,Coahuila de Zaragoza,Homicidio,1,407
+2023,Coahuila de Zaragoza,Extorsión,1,30
+2023,Coahuila de Zaragoza,Feminicidio,1,11
+2023,Coahuila de Zaragoza,Secuestro,1,3
+2023,Colima,Otros Delitos Contra el Patrimonio,0,12196
+2023,Colima,Otros Delitos,0,7688
+2023,Colima,Violencia familiar,1,4069
+2023,Colima,Narcomenudeo,1,2243
+2023,Colima,Homicidio,1,936
+2023,Colima,Delitos Sexuales,0,667
+2023,Colima,Extorsión,1,143
+2023,Colima,Robo con violencia,1,110
+2023,Colima,Feminicidio,1,21
+2023,Colima,Secuestro,1,5
+2023,Durango,Otros Delitos Contra el Patrimonio,0,8352
+2023,Durango,Otros Delitos,0,6215
+2023,Durango,Violencia familiar,1,5018
+2023,Durango,Delitos Sexuales,0,944
+2023,Durango,Narcomenudeo,1,912
+2023,Durango,Robo con violencia,1,423
+2023,Durango,Homicidio,1,291
+2023,Durango,Extorsión,1,40
+2023,Durango,Feminicidio,1,10
+2023,Durango,Secuestro,1,0
+2023,Guanajuato,Otros Delitos,0,52349
+2023,Guanajuato,Otros Delitos Contra el Patrimonio,0,43942
+2023,Guanajuato,Narcomenudeo,1,19876
+2023,Guanajuato,Violencia familiar,1,14695
+2023,Guanajuato,Robo con violencia,1,9059
+2023,Guanajuato,Homicidio,1,3640
+2023,Guanajuato,Delitos Sexuales,0,2917
+2023,Guanajuato,Extorsión,1,801
+2023,Guanajuato,Feminicidio,1,26
+2023,Guanajuato,Secuestro,1,6
+2023,Guerrero,Otros Delitos,0,10058
+2023,Guerrero,Otros Delitos Contra el Patrimonio,0,7540
+2023,Guerrero,Violencia familiar,1,3472
+2023,Guerrero,Robo con violencia,1,2326
+2023,Guerrero,Homicidio,1,1822
+2023,Guerrero,Delitos Sexuales,0,1023
+2023,Guerrero,Narcomenudeo,1,781
+2023,Guerrero,Extorsión,1,150
+2023,Guerrero,Feminicidio,1,15
+2023,Guerrero,Secuestro,1,14
+2023,Hidalgo,Otros Delitos,0,27102
+2023,Hidalgo,Otros Delitos Contra el Patrimonio,0,15557
+2023,Hidalgo,Violencia familiar,1,7535
+2023,Hidalgo,Robo con violencia,1,3677
+2023,Hidalgo,Delitos Sexuales,0,1995
+2023,Hidalgo,Narcomenudeo,1,580
+2023,Hidalgo,Homicidio,1,379
+2023,Hidalgo,Extorsión,1,365
+2023,Hidalgo,Feminicidio,1,20
+2023,Hidalgo,Secuestro,1,15
+2023,Jalisco,Otros Delitos Contra el Patrimonio,0,46070
+2023,Jalisco,Otros Delitos,0,43837
+2023,Jalisco,Violencia familiar,1,16904
+2023,Jalisco,Robo con violencia,1,13916
+2023,Jalisco,Delitos Sexuales,0,6089
+2023,Jalisco,Homicidio,1,2495
+2023,Jalisco,Narcomenudeo,1,1735
+2023,Jalisco,Extorsión,1,588
+2023,Jalisco,Feminicidio,1,37
+2023,Jalisco,Secuestro,1,16
+2023,Michoacán de Ocampo,Otros Delitos,0,18876
+2023,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,16352
+2023,Michoacán de Ocampo,Robo con violencia,1,4580
+2023,Michoacán de Ocampo,Homicidio,1,2680
+2023,Michoacán de Ocampo,Narcomenudeo,1,2159
+2023,Michoacán de Ocampo,Violencia familiar,1,1479
+2023,Michoacán de Ocampo,Delitos Sexuales,0,1447
+2023,Michoacán de Ocampo,Extorsión,1,241
+2023,Michoacán de Ocampo,Secuestro,1,23
+2023,Michoacán de Ocampo,Feminicidio,1,16
+2023,Morelos,Otros Delitos Contra el Patrimonio,0,18802
+2023,Morelos,Otros Delitos,0,13626
+2023,Morelos,Violencia familiar,1,5877
+2023,Morelos,Robo con violencia,1,4756
+2023,Morelos,Homicidio,1,1594
+2023,Morelos,Delitos Sexuales,0,1207
+2023,Morelos,Narcomenudeo,1,531
+2023,Morelos,Extorsión,1,236
+2023,Morelos,Feminicidio,1,45
+2023,Morelos,Secuestro,1,29
+2023,México,Otros Delitos,0,160231
+2023,México,Otros Delitos Contra el Patrimonio,0,108818
+2023,México,Robo con violencia,1,63013
+2023,México,Violencia familiar,1,28650
+2023,México,Delitos Sexuales,0,14427
+2023,México,Extorsión,1,4010
+2023,México,Homicidio,1,3754
+2023,México,Narcomenudeo,1,2792
+2023,México,Feminicidio,1,89
+2023,México,Secuestro,1,69
+2023,Nayarit,Otros Delitos,0,4810
+2023,Nayarit,Otros Delitos Contra el Patrimonio,0,3029
+2023,Nayarit,Violencia familiar,1,2310
+2023,Nayarit,Delitos Sexuales,0,764
+2023,Nayarit,Narcomenudeo,1,750
+2023,Nayarit,Homicidio,1,366
+2023,Nayarit,Robo con violencia,1,288
+2023,Nayarit,Extorsión,1,37
+2023,Nayarit,Feminicidio,1,6
+2023,Nayarit,Secuestro,1,5
+2023,Nuevo León,Otros Delitos,0,33650
+2023,Nuevo León,Otros Delitos Contra el Patrimonio,0,25800
+2023,Nuevo León,Violencia familiar,1,20320
+2023,Nuevo León,Narcomenudeo,1,7677
+2023,Nuevo León,Delitos Sexuales,0,4331
+2023,Nuevo León,Robo con violencia,1,2426
+2023,Nuevo León,Homicidio,1,1944
+2023,Nuevo León,Extorsión,1,797
+2023,Nuevo León,Feminicidio,1,73
+2023,Nuevo León,Secuestro,1,17
+2023,Oaxaca,Otros Delitos,0,13887
+2023,Oaxaca,Otros Delitos Contra el Patrimonio,0,13019
+2023,Oaxaca,Violencia familiar,1,7428
+2023,Oaxaca,Robo con violencia,1,3270
+2023,Oaxaca,Homicidio,1,2062
+2023,Oaxaca,Delitos Sexuales,0,1703
+2023,Oaxaca,Narcomenudeo,1,626
+2023,Oaxaca,Extorsión,1,140
+2023,Oaxaca,Feminicidio,1,39
+2023,Oaxaca,Secuestro,1,25
+2023,Puebla,Otros Delitos Contra el Patrimonio,0,28477
+2023,Puebla,Otros Delitos,0,19218
+2023,Puebla,Robo con violencia,1,15184
+2023,Puebla,Violencia familiar,1,8804
+2023,Puebla,Delitos Sexuales,0,2183
+2023,Puebla,Narcomenudeo,1,1984
+2023,Puebla,Homicidio,1,1228
+2023,Puebla,Extorsión,1,117
+2023,Puebla,Feminicidio,1,35
+2023,Puebla,Secuestro,1,14
+2023,Querétaro,Otros Delitos Contra el Patrimonio,0,29123
+2023,Querétaro,Otros Delitos,0,20952
+2023,Querétaro,Violencia familiar,1,5865
+2023,Querétaro,Robo con violencia,1,2631
+2023,Querétaro,Delitos Sexuales,0,2251
+2023,Querétaro,Narcomenudeo,1,1783
+2023,Querétaro,Homicidio,1,538
+2023,Querétaro,Extorsión,1,169
+2023,Querétaro,Secuestro,1,13
+2023,Querétaro,Feminicidio,1,9
+2023,Quintana Roo,Otros Delitos Contra el Patrimonio,0,23174
+2023,Quintana Roo,Otros Delitos,0,15870
+2023,Quintana Roo,Violencia familiar,1,6745
+2023,Quintana Roo,Robo con violencia,1,2458
+2023,Quintana Roo,Narcomenudeo,1,2202
+2023,Quintana Roo,Delitos Sexuales,0,2145
+2023,Quintana Roo,Homicidio,1,1596
+2023,Quintana Roo,Extorsión,1,116
+2023,Quintana Roo,Feminicidio,1,17
+2023,Quintana Roo,Secuestro,1,4
+2023,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,21710
+2023,San Luis Potosí,Otros Delitos,0,15253
+2023,San Luis Potosí,Violencia familiar,1,9320
+2023,San Luis Potosí,Narcomenudeo,1,6715
+2023,San Luis Potosí,Robo con violencia,1,5189
+2023,San Luis Potosí,Delitos Sexuales,0,1707
+2023,San Luis Potosí,Homicidio,1,740
+2023,San Luis Potosí,Extorsión,1,107
+2023,San Luis Potosí,Feminicidio,1,12
+2023,San Luis Potosí,Secuestro,1,8
+2023,Sinaloa,Otros Delitos,0,9656
+2023,Sinaloa,Otros Delitos Contra el Patrimonio,0,9618
+2023,Sinaloa,Violencia familiar,1,7601
+2023,Sinaloa,Robo con violencia,1,4134
+2023,Sinaloa,Homicidio,1,1150
+2023,Sinaloa,Delitos Sexuales,0,1140
+2023,Sinaloa,Narcomenudeo,1,266
+2023,Sinaloa,Extorsión,1,47
+2023,Sinaloa,Feminicidio,1,29
+2023,Sinaloa,Secuestro,1,4
+2023,Sonora,Otros Delitos,0,10716
+2023,Sonora,Violencia familiar,1,8101
+2023,Sonora,Otros Delitos Contra el Patrimonio,0,7695
+2023,Sonora,Robo con violencia,1,4245
+2023,Sonora,Narcomenudeo,1,2738
+2023,Sonora,Homicidio,1,1386
+2023,Sonora,Delitos Sexuales,0,1125
+2023,Sonora,Extorsión,1,73
+2023,Sonora,Feminicidio,1,30
+2023,Sonora,Secuestro,1,16
+2023,Tabasco,Otros Delitos,0,20488
+2023,Tabasco,Otros Delitos Contra el Patrimonio,0,11950
+2023,Tabasco,Violencia familiar,1,7514
+2023,Tabasco,Robo con violencia,1,2358
+2023,Tabasco,Delitos Sexuales,0,801
+2023,Tabasco,Homicidio,1,718
+2023,Tabasco,Extorsión,1,102
+2023,Tabasco,Narcomenudeo,1,30
+2023,Tabasco,Feminicidio,1,18
+2023,Tabasco,Secuestro,1,12
+2023,Tamaulipas,Otros Delitos Contra el Patrimonio,0,13823
+2023,Tamaulipas,Otros Delitos,0,12728
+2023,Tamaulipas,Violencia familiar,1,8785
+2023,Tamaulipas,Robo con violencia,1,3198
+2023,Tamaulipas,Delitos Sexuales,0,1646
+2023,Tamaulipas,Homicidio,1,1113
+2023,Tamaulipas,Narcomenudeo,1,210
+2023,Tamaulipas,Extorsión,1,111
+2023,Tamaulipas,Feminicidio,1,17
+2023,Tamaulipas,Secuestro,1,17
+2023,Tlaxcala,Otros Delitos Contra el Patrimonio,0,2041
+2023,Tlaxcala,Robo con violencia,1,1095
+2023,Tlaxcala,Otros Delitos,0,441
+2023,Tlaxcala,Homicidio,1,141
+2023,Tlaxcala,Narcomenudeo,1,102
+2023,Tlaxcala,Delitos Sexuales,0,24
+2023,Tlaxcala,Violencia familiar,1,18
+2023,Tlaxcala,Feminicidio,1,12
+2023,Tlaxcala,Extorsión,1,3
+2023,Tlaxcala,Secuestro,1,2
+2023,Veracruz de Ignacio de la Llave,Otros Delitos,0,32381
+2023,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,28601
+2023,Veracruz de Ignacio de la Llave,Violencia familiar,1,11796
+2023,Veracruz de Ignacio de la Llave,Robo con violencia,1,6143
+2023,Veracruz de Ignacio de la Llave,Narcomenudeo,1,2662
+2023,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,2169
+2023,Veracruz de Ignacio de la Llave,Homicidio,1,1814
+2023,Veracruz de Ignacio de la Llave,Extorsión,1,881
+2023,Veracruz de Ignacio de la Llave,Feminicidio,1,45
+2023,Veracruz de Ignacio de la Llave,Secuestro,1,28
+2023,Yucatán,Otros Delitos,0,1843
+2023,Yucatán,Otros Delitos Contra el Patrimonio,0,1477
+2023,Yucatán,Narcomenudeo,1,391
+2023,Yucatán,Violencia familiar,1,193
+2023,Yucatán,Delitos Sexuales,0,166
+2023,Yucatán,Homicidio,1,165
+2023,Yucatán,Robo con violencia,1,23
+2023,Yucatán,Extorsión,1,14
+2023,Yucatán,Feminicidio,1,8
+2023,Yucatán,Secuestro,1,0
+2023,Zacatecas,Otros Delitos,0,9714
+2023,Zacatecas,Otros Delitos Contra el Patrimonio,0,9178
+2023,Zacatecas,Violencia familiar,1,3673
+2023,Zacatecas,Robo con violencia,1,1882
+2023,Zacatecas,Homicidio,1,1051
+2023,Zacatecas,Delitos Sexuales,0,753
+2023,Zacatecas,Narcomenudeo,1,297
+2023,Zacatecas,Extorsión,1,76
+2023,Zacatecas,Feminicidio,1,13
+2023,Zacatecas,Secuestro,1,9
+2024,Aguascalientes,Otros Delitos Contra el Patrimonio,0,19143
+2024,Aguascalientes,Otros Delitos,0,15983
+2024,Aguascalientes,Violencia familiar,1,3358
+2024,Aguascalientes,Narcomenudeo,1,2182
+2024,Aguascalientes,Robo con violencia,1,1391
+2024,Aguascalientes,Delitos Sexuales,0,567
+2024,Aguascalientes,Homicidio,1,246
+2024,Aguascalientes,Extorsión,1,110
+2024,Aguascalientes,Feminicidio,1,7
+2024,Aguascalientes,Secuestro,1,2
+2024,Baja California,Otros Delitos Contra el Patrimonio,0,37587
+2024,Baja California,Otros Delitos,0,32495
+2024,Baja California,Violencia familiar,1,14729
+2024,Baja California,Narcomenudeo,1,8180
+2024,Baja California,Robo con violencia,1,7172
+2024,Baja California,Delitos Sexuales,0,4541
+2024,Baja California,Homicidio,1,2542
+2024,Baja California,Extorsión,1,98
+2024,Baja California,Feminicidio,1,38
+2024,Baja California,Secuestro,1,15
+2024,Baja California Sur,Otros Delitos Contra el Patrimonio,0,10025
+2024,Baja California Sur,Otros Delitos,0,8956
+2024,Baja California Sur,Violencia familiar,1,3344
+2024,Baja California Sur,Narcomenudeo,1,1054
+2024,Baja California Sur,Delitos Sexuales,0,931
+2024,Baja California Sur,Robo con violencia,1,445
+2024,Baja California Sur,Homicidio,1,142
+2024,Baja California Sur,Extorsión,1,93
+2024,Baja California Sur,Feminicidio,1,8
+2024,Baja California Sur,Secuestro,1,2
+2024,Campeche,Otros Delitos,0,5115
+2024,Campeche,Otros Delitos Contra el Patrimonio,0,4473
+2024,Campeche,Violencia familiar,1,1186
+2024,Campeche,Delitos Sexuales,0,549
+2024,Campeche,Robo con violencia,1,503
+2024,Campeche,Narcomenudeo,1,350
+2024,Campeche,Homicidio,1,197
+2024,Campeche,Extorsión,1,55
+2024,Campeche,Feminicidio,1,6
+2024,Campeche,Secuestro,1,0
+2024,Chiapas,Otros Delitos,0,6153
+2024,Chiapas,Otros Delitos Contra el Patrimonio,0,3525
+2024,Chiapas,Homicidio,1,1426
+2024,Chiapas,Robo con violencia,1,924
+2024,Chiapas,Violencia familiar,1,845
+2024,Chiapas,Delitos Sexuales,0,500
+2024,Chiapas,Narcomenudeo,1,255
+2024,Chiapas,Feminicidio,1,32
+2024,Chiapas,Secuestro,1,23
+2024,Chiapas,Extorsión,1,22
+2024,Chihuahua,Otros Delitos Contra el Patrimonio,0,33221
+2024,Chihuahua,Otros Delitos,0,18919
+2024,Chihuahua,Violencia familiar,1,14235
+2024,Chihuahua,Narcomenudeo,1,5061
+2024,Chihuahua,Delitos Sexuales,0,3872
+2024,Chihuahua,Homicidio,1,2014
+2024,Chihuahua,Robo con violencia,1,1367
+2024,Chihuahua,Secuestro,1,51
+2024,Chihuahua,Feminicidio,1,47
+2024,Chihuahua,Extorsión,1,6
+2024,Ciudad de México,Otros Delitos Contra el Patrimonio,0,99885
+2024,Ciudad de México,Otros Delitos,0,56585
+2024,Ciudad de México,Violencia familiar,1,36256
+2024,Ciudad de México,Robo con violencia,1,14153
+2024,Ciudad de México,Delitos Sexuales,0,8332
+2024,Ciudad de México,Narcomenudeo,1,4900
+2024,Ciudad de México,Homicidio,1,1663
+2024,Ciudad de México,Extorsión,1,473
+2024,Ciudad de México,Feminicidio,1,68
+2024,Ciudad de México,Secuestro,1,23
+2024,Coahuila de Zaragoza,Otros Delitos,0,19060
+2024,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,18052
+2024,Coahuila de Zaragoza,Violencia familiar,1,13022
+2024,Coahuila de Zaragoza,Narcomenudeo,1,8731
+2024,Coahuila de Zaragoza,Delitos Sexuales,0,1917
+2024,Coahuila de Zaragoza,Homicidio,1,399
+2024,Coahuila de Zaragoza,Robo con violencia,1,383
+2024,Coahuila de Zaragoza,Extorsión,1,51
+2024,Coahuila de Zaragoza,Feminicidio,1,20
+2024,Coahuila de Zaragoza,Secuestro,1,2
+2024,Colima,Otros Delitos Contra el Patrimonio,0,10085
+2024,Colima,Otros Delitos,0,7659
+2024,Colima,Violencia familiar,1,4245
+2024,Colima,Narcomenudeo,1,1549
+2024,Colima,Homicidio,1,877
+2024,Colima,Delitos Sexuales,0,681
+2024,Colima,Extorsión,1,138
+2024,Colima,Robo con violencia,1,79
+2024,Colima,Feminicidio,1,6
+2024,Colima,Secuestro,1,6
+2024,Durango,Otros Delitos Contra el Patrimonio,0,6764
+2024,Durango,Otros Delitos,0,5656
+2024,Durango,Violencia familiar,1,5004
+2024,Durango,Delitos Sexuales,0,901
+2024,Durango,Narcomenudeo,1,807
+2024,Durango,Robo con violencia,1,396
+2024,Durango,Homicidio,1,284
+2024,Durango,Extorsión,1,35
+2024,Durango,Feminicidio,1,11
+2024,Durango,Secuestro,1,0
+2024,Guanajuato,Otros Delitos,0,55844
+2024,Guanajuato,Otros Delitos Contra el Patrimonio,0,44486
+2024,Guanajuato,Narcomenudeo,1,20211
+2024,Guanajuato,Violencia familiar,1,15958
+2024,Guanajuato,Robo con violencia,1,9974
+2024,Guanajuato,Homicidio,1,3772
+2024,Guanajuato,Delitos Sexuales,0,2812
+2024,Guanajuato,Extorsión,1,1027
+2024,Guanajuato,Feminicidio,1,15
+2024,Guanajuato,Secuestro,1,9
+2024,Guerrero,Otros Delitos,0,9210
+2024,Guerrero,Otros Delitos Contra el Patrimonio,0,7590
+2024,Guerrero,Violencia familiar,1,2785
+2024,Guerrero,Robo con violencia,1,2475
+2024,Guerrero,Homicidio,1,1800
+2024,Guerrero,Delitos Sexuales,0,895
+2024,Guerrero,Narcomenudeo,1,718
+2024,Guerrero,Extorsión,1,139
+2024,Guerrero,Feminicidio,1,22
+2024,Guerrero,Secuestro,1,10
+2024,Hidalgo,Otros Delitos,0,27542
+2024,Hidalgo,Otros Delitos Contra el Patrimonio,0,14142
+2024,Hidalgo,Violencia familiar,1,6802
+2024,Hidalgo,Robo con violencia,1,2872
+2024,Hidalgo,Delitos Sexuales,0,1763
+2024,Hidalgo,Narcomenudeo,1,635
+2024,Hidalgo,Homicidio,1,428
+2024,Hidalgo,Extorsión,1,311
+2024,Hidalgo,Feminicidio,1,20
+2024,Hidalgo,Secuestro,1,14
+2024,Jalisco,Otros Delitos Contra el Patrimonio,0,43641
+2024,Jalisco,Otros Delitos,0,41595
+2024,Jalisco,Violencia familiar,1,14550
+2024,Jalisco,Robo con violencia,1,13021
+2024,Jalisco,Delitos Sexuales,0,6289
+2024,Jalisco,Homicidio,1,2411
+2024,Jalisco,Narcomenudeo,1,1983
+2024,Jalisco,Extorsión,1,543
+2024,Jalisco,Feminicidio,1,36
+2024,Jalisco,Secuestro,1,16
+2024,Michoacán de Ocampo,Otros Delitos,0,20150
+2024,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,15865
+2024,Michoacán de Ocampo,Robo con violencia,1,4758
+2024,Michoacán de Ocampo,Homicidio,1,2519
+2024,Michoacán de Ocampo,Narcomenudeo,1,1781
+2024,Michoacán de Ocampo,Violencia familiar,1,1456
+2024,Michoacán de Ocampo,Delitos Sexuales,0,1362
+2024,Michoacán de Ocampo,Extorsión,1,295
+2024,Michoacán de Ocampo,Secuestro,1,29
+2024,Michoacán de Ocampo,Feminicidio,1,14
+2024,Morelos,Otros Delitos Contra el Patrimonio,0,18019
+2024,Morelos,Otros Delitos,0,14053
+2024,Morelos,Violencia familiar,1,5759
+2024,Morelos,Robo con violencia,1,4646
+2024,Morelos,Homicidio,1,1627
+2024,Morelos,Delitos Sexuales,0,1148
+2024,Morelos,Narcomenudeo,1,493
+2024,Morelos,Extorsión,1,322
+2024,Morelos,Feminicidio,1,50
+2024,Morelos,Secuestro,1,7
+2024,México,Otros Delitos,0,149742
+2024,México,Otros Delitos Contra el Patrimonio,0,109628
+2024,México,Robo con violencia,1,59275
+2024,México,Violencia familiar,1,27976
+2024,México,Delitos Sexuales,0,11687
+2024,México,Homicidio,1,3562
+2024,México,Extorsión,1,3439
+2024,México,Narcomenudeo,1,2489
+2024,México,Feminicidio,1,73
+2024,México,Secuestro,1,51
+2024,Nayarit,Otros Delitos,0,4768
+2024,Nayarit,Otros Delitos Contra el Patrimonio,0,3012
+2024,Nayarit,Violencia familiar,1,2513
+2024,Nayarit,Delitos Sexuales,0,713
+2024,Nayarit,Narcomenudeo,1,615
+2024,Nayarit,Homicidio,1,386
+2024,Nayarit,Robo con violencia,1,219
+2024,Nayarit,Extorsión,1,15
+2024,Nayarit,Feminicidio,1,11
+2024,Nayarit,Secuestro,1,2
+2024,Nuevo León,Otros Delitos,0,31359
+2024,Nuevo León,Otros Delitos Contra el Patrimonio,0,22197
+2024,Nuevo León,Violencia familiar,1,19184
+2024,Nuevo León,Narcomenudeo,1,8158
+2024,Nuevo León,Delitos Sexuales,0,3878
+2024,Nuevo León,Robo con violencia,1,2349
+2024,Nuevo León,Homicidio,1,2111
+2024,Nuevo León,Extorsión,1,866
+2024,Nuevo León,Feminicidio,1,60
+2024,Nuevo León,Secuestro,1,25
+2024,Oaxaca,Otros Delitos,0,13942
+2024,Oaxaca,Otros Delitos Contra el Patrimonio,0,11109
+2024,Oaxaca,Violencia familiar,1,5694
+2024,Oaxaca,Homicidio,1,2203
+2024,Oaxaca,Robo con violencia,1,2123
+2024,Oaxaca,Delitos Sexuales,0,1517
+2024,Oaxaca,Narcomenudeo,1,529
+2024,Oaxaca,Extorsión,1,132
+2024,Oaxaca,Feminicidio,1,20
+2024,Oaxaca,Secuestro,1,19
+2024,Puebla,Otros Delitos Contra el Patrimonio,0,29115
+2024,Puebla,Otros Delitos,0,20070
+2024,Puebla,Robo con violencia,1,14339
+2024,Puebla,Violencia familiar,1,10461
+2024,Puebla,Delitos Sexuales,0,2245
+2024,Puebla,Homicidio,1,1847
+2024,Puebla,Narcomenudeo,1,1736
+2024,Puebla,Extorsión,1,129
+2024,Puebla,Feminicidio,1,42
+2024,Puebla,Secuestro,1,21
+2024,Querétaro,Otros Delitos Contra el Patrimonio,0,27157
+2024,Querétaro,Otros Delitos,0,19295
+2024,Querétaro,Violencia familiar,1,5562
+2024,Querétaro,Robo con violencia,1,2611
+2024,Querétaro,Delitos Sexuales,0,2266
+2024,Querétaro,Narcomenudeo,1,1685
+2024,Querétaro,Homicidio,1,548
+2024,Querétaro,Extorsión,1,236
+2024,Querétaro,Secuestro,1,7
+2024,Querétaro,Feminicidio,1,4
+2024,Quintana Roo,Otros Delitos Contra el Patrimonio,0,21816
+2024,Quintana Roo,Otros Delitos,0,15941
+2024,Quintana Roo,Violencia familiar,1,7195
+2024,Quintana Roo,Narcomenudeo,1,2476
+2024,Quintana Roo,Robo con violencia,1,2376
+2024,Quintana Roo,Delitos Sexuales,0,2139
+2024,Quintana Roo,Homicidio,1,1487
+2024,Quintana Roo,Extorsión,1,175
+2024,Quintana Roo,Feminicidio,1,12
+2024,Quintana Roo,Secuestro,1,11
+2024,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,20116
+2024,San Luis Potosí,Otros Delitos,0,14705
+2024,San Luis Potosí,Violencia familiar,1,9562
+2024,San Luis Potosí,Narcomenudeo,1,7426
+2024,San Luis Potosí,Robo con violencia,1,4427
+2024,San Luis Potosí,Delitos Sexuales,0,1663
+2024,San Luis Potosí,Homicidio,1,696
+2024,San Luis Potosí,Extorsión,1,128
+2024,San Luis Potosí,Feminicidio,1,13
+2024,San Luis Potosí,Secuestro,1,4
+2024,Sinaloa,Otros Delitos,0,10342
+2024,Sinaloa,Otros Delitos Contra el Patrimonio,0,9663
+2024,Sinaloa,Violencia familiar,1,7336
+2024,Sinaloa,Robo con violencia,1,4237
+2024,Sinaloa,Homicidio,1,1419
+2024,Sinaloa,Delitos Sexuales,0,1161
+2024,Sinaloa,Narcomenudeo,1,209
+2024,Sinaloa,Extorsión,1,89
+2024,Sinaloa,Feminicidio,1,26
+2024,Sinaloa,Secuestro,1,7
+2024,Sonora,Otros Delitos,0,11021
+2024,Sonora,Violencia familiar,1,8366
+2024,Sonora,Otros Delitos Contra el Patrimonio,0,7242
+2024,Sonora,Narcomenudeo,1,3999
+2024,Sonora,Robo con violencia,1,2985
+2024,Sonora,Homicidio,1,1423
+2024,Sonora,Delitos Sexuales,0,1187
+2024,Sonora,Extorsión,1,64
+2024,Sonora,Secuestro,1,27
+2024,Sonora,Feminicidio,1,25
+2024,Tabasco,Otros Delitos,0,20257
+2024,Tabasco,Otros Delitos Contra el Patrimonio,0,11065
+2024,Tabasco,Violencia familiar,1,7288
+2024,Tabasco,Robo con violencia,1,3495
+2024,Tabasco,Homicidio,1,1180
+2024,Tabasco,Delitos Sexuales,0,728
+2024,Tabasco,Narcomenudeo,1,330
+2024,Tabasco,Extorsión,1,144
+2024,Tabasco,Secuestro,1,36
+2024,Tabasco,Feminicidio,1,28
+2024,Tamaulipas,Otros Delitos Contra el Patrimonio,0,13465
+2024,Tamaulipas,Otros Delitos,0,12367
+2024,Tamaulipas,Violencia familiar,1,8331
+2024,Tamaulipas,Robo con violencia,1,3155
+2024,Tamaulipas,Delitos Sexuales,0,1468
+2024,Tamaulipas,Homicidio,1,1018
+2024,Tamaulipas,Narcomenudeo,1,231
+2024,Tamaulipas,Extorsión,1,103
+2024,Tamaulipas,Feminicidio,1,26
+2024,Tamaulipas,Secuestro,1,19
+2024,Tlaxcala,Otros Delitos Contra el Patrimonio,0,1619
+2024,Tlaxcala,Robo con violencia,1,1130
+2024,Tlaxcala,Otros Delitos,0,356
+2024,Tlaxcala,Homicidio,1,158
+2024,Tlaxcala,Narcomenudeo,1,73
+2024,Tlaxcala,Delitos Sexuales,0,40
+2024,Tlaxcala,Violencia familiar,1,28
+2024,Tlaxcala,Feminicidio,1,13
+2024,Tlaxcala,Secuestro,1,12
+2024,Tlaxcala,Extorsión,1,1
+2024,Veracruz de Ignacio de la Llave,Otros Delitos,0,30832
+2024,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,26234
+2024,Veracruz de Ignacio de la Llave,Violencia familiar,1,11321
+2024,Veracruz de Ignacio de la Llave,Robo con violencia,1,5304
+2024,Veracruz de Ignacio de la Llave,Narcomenudeo,1,2539
+2024,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,2187
+2024,Veracruz de Ignacio de la Llave,Homicidio,1,1767
+2024,Veracruz de Ignacio de la Llave,Extorsión,1,938
+2024,Veracruz de Ignacio de la Llave,Feminicidio,1,53
+2024,Veracruz de Ignacio de la Llave,Secuestro,1,28
+2024,Yucatán,Otros Delitos,0,1589
+2024,Yucatán,Otros Delitos Contra el Patrimonio,0,1389
+2024,Yucatán,Narcomenudeo,1,462
+2024,Yucatán,Violencia familiar,1,301
+2024,Yucatán,Homicidio,1,201
+2024,Yucatán,Delitos Sexuales,0,177
+2024,Yucatán,Robo con violencia,1,20
+2024,Yucatán,Feminicidio,1,7
+2024,Yucatán,Extorsión,1,1
+2024,Yucatán,Secuestro,1,0
+2024,Zacatecas,Otros Delitos,0,9267
+2024,Zacatecas,Otros Delitos Contra el Patrimonio,0,9063
+2024,Zacatecas,Violencia familiar,1,3624
+2024,Zacatecas,Robo con violencia,1,1658
+2024,Zacatecas,Delitos Sexuales,0,823
+2024,Zacatecas,Homicidio,1,792
+2024,Zacatecas,Narcomenudeo,1,409
+2024,Zacatecas,Extorsión,1,62
+2024,Zacatecas,Secuestro,1,9
+2024,Zacatecas,Feminicidio,1,8
+2025,Aguascalientes,Otros Delitos Contra el Patrimonio,0,14846
+2025,Aguascalientes,Otros Delitos,0,12124
+2025,Aguascalientes,Violencia familiar,1,2339
+2025,Aguascalientes,Narcomenudeo,1,2260
+2025,Aguascalientes,Robo con violencia,1,994
+2025,Aguascalientes,Delitos Sexuales,0,446
+2025,Aguascalientes,Homicidio,1,190
+2025,Aguascalientes,Extorsión,1,71
+2025,Aguascalientes,Feminicidio,1,3
+2025,Aguascalientes,Secuestro,1,0
+2025,Baja California,Otros Delitos,0,24053
+2025,Baja California,Otros Delitos Contra el Patrimonio,0,23545
+2025,Baja California,Violencia familiar,1,13065
+2025,Baja California,Narcomenudeo,1,7408
+2025,Baja California,Robo con violencia,1,3569
+2025,Baja California,Delitos Sexuales,0,3408
+2025,Baja California,Homicidio,1,1665
+2025,Baja California,Extorsión,1,81
+2025,Baja California,Feminicidio,1,27
+2025,Baja California,Secuestro,1,3
+2025,Baja California Sur,Otros Delitos Contra el Patrimonio,0,8239
+2025,Baja California Sur,Otros Delitos,0,7727
+2025,Baja California Sur,Violencia familiar,1,2781
+2025,Baja California Sur,Narcomenudeo,1,922
+2025,Baja California Sur,Delitos Sexuales,0,724
+2025,Baja California Sur,Robo con violencia,1,322
+2025,Baja California Sur,Homicidio,1,192
+2025,Baja California Sur,Extorsión,1,111
+2025,Baja California Sur,Feminicidio,1,5
+2025,Baja California Sur,Secuestro,1,1
+2025,Campeche,Otros Delitos,0,1982
+2025,Campeche,Otros Delitos Contra el Patrimonio,0,1373
+2025,Campeche,Violencia familiar,1,455
+2025,Campeche,Delitos Sexuales,0,360
+2025,Campeche,Narcomenudeo,1,331
+2025,Campeche,Homicidio,1,157
+2025,Campeche,Robo con violencia,1,138
+2025,Campeche,Extorsión,1,19
+2025,Campeche,Feminicidio,1,9
+2025,Campeche,Secuestro,1,1
+2025,Chiapas,Otros Delitos,0,3618
+2025,Chiapas,Otros Delitos Contra el Patrimonio,0,2329
+2025,Chiapas,Narcomenudeo,1,1293
+2025,Chiapas,Homicidio,1,931
+2025,Chiapas,Violencia familiar,1,693
+2025,Chiapas,Robo con violencia,1,414
+2025,Chiapas,Delitos Sexuales,0,412
+2025,Chiapas,Extorsión,1,80
+2025,Chiapas,Feminicidio,1,23
+2025,Chiapas,Secuestro,1,10
+2025,Chihuahua,Otros Delitos Contra el Patrimonio,0,25018
+2025,Chihuahua,Otros Delitos,0,16552
+2025,Chihuahua,Violencia familiar,1,12146
+2025,Chihuahua,Delitos Sexuales,0,3309
+2025,Chihuahua,Narcomenudeo,1,3128
+2025,Chihuahua,Homicidio,1,1515
+2025,Chihuahua,Robo con violencia,1,1051
+2025,Chihuahua,Secuestro,1,58
+2025,Chihuahua,Feminicidio,1,40
+2025,Chihuahua,Extorsión,1,10
+2025,Ciudad de México,Otros Delitos Contra el Patrimonio,0,80256
+2025,Ciudad de México,Otros Delitos,0,44026
+2025,Ciudad de México,Violencia familiar,1,28718
+2025,Ciudad de México,Robo con violencia,1,9723
+2025,Ciudad de México,Delitos Sexuales,0,6365
+2025,Ciudad de México,Narcomenudeo,1,5266
+2025,Ciudad de México,Extorsión,1,1400
+2025,Ciudad de México,Homicidio,1,1243
+2025,Ciudad de México,Feminicidio,1,40
+2025,Ciudad de México,Secuestro,1,25
+2025,Coahuila de Zaragoza,Otros Delitos,0,21981
+2025,Coahuila de Zaragoza,Otros Delitos Contra el Patrimonio,0,16943
+2025,Coahuila de Zaragoza,Violencia familiar,1,12634
+2025,Coahuila de Zaragoza,Narcomenudeo,1,4601
+2025,Coahuila de Zaragoza,Delitos Sexuales,0,1617
+2025,Coahuila de Zaragoza,Robo con violencia,1,462
+2025,Coahuila de Zaragoza,Homicidio,1,257
+2025,Coahuila de Zaragoza,Extorsión,1,60
+2025,Coahuila de Zaragoza,Feminicidio,1,8
+2025,Coahuila de Zaragoza,Secuestro,1,0
+2025,Colima,Otros Delitos Contra el Patrimonio,0,8161
+2025,Colima,Otros Delitos,0,7331
+2025,Colima,Violencia familiar,1,3541
+2025,Colima,Narcomenudeo,1,1904
+2025,Colima,Homicidio,1,577
+2025,Colima,Delitos Sexuales,0,559
+2025,Colima,Extorsión,1,113
+2025,Colima,Robo con violencia,1,96
+2025,Colima,Feminicidio,1,3
+2025,Colima,Secuestro,1,1
+2025,Durango,Otros Delitos Contra el Patrimonio,0,4908
+2025,Durango,Otros Delitos,0,4634
+2025,Durango,Violencia familiar,1,4207
+2025,Durango,Narcomenudeo,1,828
+2025,Durango,Delitos Sexuales,0,722
+2025,Durango,Homicidio,1,219
+2025,Durango,Robo con violencia,1,218
+2025,Durango,Extorsión,1,16
+2025,Durango,Feminicidio,1,6
+2025,Durango,Secuestro,1,0
+2025,Guanajuato,Otros Delitos,0,53405
+2025,Guanajuato,Otros Delitos Contra el Patrimonio,0,41272
+2025,Guanajuato,Narcomenudeo,1,18977
+2025,Guanajuato,Violencia familiar,1,14226
+2025,Guanajuato,Robo con violencia,1,7923
+2025,Guanajuato,Homicidio,1,2800
+2025,Guanajuato,Delitos Sexuales,0,2775
+2025,Guanajuato,Extorsión,1,1060
+2025,Guanajuato,Feminicidio,1,11
+2025,Guanajuato,Secuestro,1,10
+2025,Guerrero,Otros Delitos,0,8430
+2025,Guerrero,Otros Delitos Contra el Patrimonio,0,6165
+2025,Guerrero,Violencia familiar,1,2208
+2025,Guerrero,Robo con violencia,1,1698
+2025,Guerrero,Homicidio,1,1243
+2025,Guerrero,Delitos Sexuales,0,808
+2025,Guerrero,Narcomenudeo,1,702
+2025,Guerrero,Extorsión,1,100
+2025,Guerrero,Feminicidio,1,14
+2025,Guerrero,Secuestro,1,5
+2025,Hidalgo,Otros Delitos,0,21506
+2025,Hidalgo,Otros Delitos Contra el Patrimonio,0,14484
+2025,Hidalgo,Violencia familiar,1,6442
+2025,Hidalgo,Robo con violencia,1,2931
+2025,Hidalgo,Delitos Sexuales,0,1629
+2025,Hidalgo,Narcomenudeo,1,711
+2025,Hidalgo,Homicidio,1,358
+2025,Hidalgo,Extorsión,1,169
+2025,Hidalgo,Feminicidio,1,14
+2025,Hidalgo,Secuestro,1,5
+2025,Jalisco,Otros Delitos,0,35202
+2025,Jalisco,Otros Delitos Contra el Patrimonio,0,32446
+2025,Jalisco,Violencia familiar,1,10511
+2025,Jalisco,Robo con violencia,1,9205
+2025,Jalisco,Delitos Sexuales,0,5383
+2025,Jalisco,Narcomenudeo,1,2040
+2025,Jalisco,Homicidio,1,1674
+2025,Jalisco,Extorsión,1,372
+2025,Jalisco,Feminicidio,1,30
+2025,Jalisco,Secuestro,1,12
+2025,Michoacán de Ocampo,Otros Delitos,0,16574
+2025,Michoacán de Ocampo,Otros Delitos Contra el Patrimonio,0,12845
+2025,Michoacán de Ocampo,Robo con violencia,1,4007
+2025,Michoacán de Ocampo,Homicidio,1,1965
+2025,Michoacán de Ocampo,Narcomenudeo,1,1715
+2025,Michoacán de Ocampo,Violencia familiar,1,1445
+2025,Michoacán de Ocampo,Delitos Sexuales,0,1244
+2025,Michoacán de Ocampo,Extorsión,1,238
+2025,Michoacán de Ocampo,Secuestro,1,36
+2025,Michoacán de Ocampo,Feminicidio,1,20
+2025,Morelos,Otros Delitos Contra el Patrimonio,0,13774
+2025,Morelos,Otros Delitos,0,12103
+2025,Morelos,Violencia familiar,1,4833
+2025,Morelos,Robo con violencia,1,3941
+2025,Morelos,Homicidio,1,1151
+2025,Morelos,Delitos Sexuales,0,1022
+2025,Morelos,Narcomenudeo,1,878
+2025,Morelos,Extorsión,1,339
+2025,Morelos,Feminicidio,1,32
+2025,Morelos,Secuestro,1,20
+2025,México,Otros Delitos,0,141915
+2025,México,Otros Delitos Contra el Patrimonio,0,80078
+2025,México,Robo con violencia,1,40176
+2025,México,Violencia familiar,1,21873
+2025,México,Delitos Sexuales,0,9130
+2025,México,Narcomenudeo,1,3036
+2025,México,Homicidio,1,2347
+2025,México,Extorsión,1,1927
+2025,México,Feminicidio,1,47
+2025,México,Secuestro,1,29
+2025,Nayarit,Otros Delitos,0,3936
+2025,Nayarit,Otros Delitos Contra el Patrimonio,0,2208
+2025,Nayarit,Violencia familiar,1,1744
+2025,Nayarit,Delitos Sexuales,0,522
+2025,Nayarit,Narcomenudeo,1,516
+2025,Nayarit,Homicidio,1,354
+2025,Nayarit,Robo con violencia,1,172
+2025,Nayarit,Extorsión,1,37
+2025,Nayarit,Feminicidio,1,10
+2025,Nayarit,Secuestro,1,6
+2025,Nuevo León,Otros Delitos,0,22104
+2025,Nuevo León,Violencia familiar,1,16378
+2025,Nuevo León,Otros Delitos Contra el Patrimonio,0,12463
+2025,Nuevo León,Narcomenudeo,1,6992
+2025,Nuevo León,Delitos Sexuales,0,3280
+2025,Nuevo León,Robo con violencia,1,1730
+2025,Nuevo León,Homicidio,1,1089
+2025,Nuevo León,Extorsión,1,806
+2025,Nuevo León,Secuestro,1,13
+2025,Nuevo León,Feminicidio,1,12
+2025,Oaxaca,Otros Delitos,0,10087
+2025,Oaxaca,Otros Delitos Contra el Patrimonio,0,6850
+2025,Oaxaca,Violencia familiar,1,3257
+2025,Oaxaca,Homicidio,1,1439
+2025,Oaxaca,Robo con violencia,1,1362
+2025,Oaxaca,Delitos Sexuales,0,1158
+2025,Oaxaca,Narcomenudeo,1,613
+2025,Oaxaca,Extorsión,1,64
+2025,Oaxaca,Secuestro,1,16
+2025,Oaxaca,Feminicidio,1,14
+2025,Puebla,Otros Delitos Contra el Patrimonio,0,27737
+2025,Puebla,Otros Delitos,0,16928
+2025,Puebla,Robo con violencia,1,10609
+2025,Puebla,Violencia familiar,1,8810
+2025,Puebla,Delitos Sexuales,0,1891
+2025,Puebla,Homicidio,1,1359
+2025,Puebla,Narcomenudeo,1,1309
+2025,Puebla,Extorsión,1,207
+2025,Puebla,Feminicidio,1,22
+2025,Puebla,Secuestro,1,19
+2025,Querétaro,Otros Delitos Contra el Patrimonio,0,21371
+2025,Querétaro,Otros Delitos,0,16169
+2025,Querétaro,Violencia familiar,1,4127
+2025,Querétaro,Narcomenudeo,1,2033
+2025,Querétaro,Delitos Sexuales,0,1822
+2025,Querétaro,Robo con violencia,1,1512
+2025,Querétaro,Homicidio,1,398
+2025,Querétaro,Extorsión,1,227
+2025,Querétaro,Feminicidio,1,11
+2025,Querétaro,Secuestro,1,0
+2025,Quintana Roo,Otros Delitos Contra el Patrimonio,0,18477
+2025,Quintana Roo,Otros Delitos,0,15157
+2025,Quintana Roo,Violencia familiar,1,6268
+2025,Quintana Roo,Narcomenudeo,1,2288
+2025,Quintana Roo,Delitos Sexuales,0,1762
+2025,Quintana Roo,Robo con violencia,1,1651
+2025,Quintana Roo,Homicidio,1,1045
+2025,Quintana Roo,Extorsión,1,182
+2025,Quintana Roo,Feminicidio,1,14
+2025,Quintana Roo,Secuestro,1,0
+2025,San Luis Potosí,Otros Delitos Contra el Patrimonio,0,14561
+2025,San Luis Potosí,Otros Delitos,0,12214
+2025,San Luis Potosí,Narcomenudeo,1,10386
+2025,San Luis Potosí,Violencia familiar,1,8438
+2025,San Luis Potosí,Robo con violencia,1,2707
+2025,San Luis Potosí,Delitos Sexuales,0,1389
+2025,San Luis Potosí,Homicidio,1,428
+2025,San Luis Potosí,Extorsión,1,141
+2025,San Luis Potosí,Feminicidio,1,5
+2025,San Luis Potosí,Secuestro,1,3
+2025,Sinaloa,Otros Delitos,0,10154
+2025,Sinaloa,Otros Delitos Contra el Patrimonio,0,7919
+2025,Sinaloa,Robo con violencia,1,6228
+2025,Sinaloa,Violencia familiar,1,5773
+2025,Sinaloa,Homicidio,1,1619
+2025,Sinaloa,Delitos Sexuales,0,933
+2025,Sinaloa,Narcomenudeo,1,314
+2025,Sinaloa,Extorsión,1,88
+2025,Sinaloa,Feminicidio,1,48
+2025,Sinaloa,Secuestro,1,10
+2025,Sonora,Otros Delitos,0,9186
+2025,Sonora,Otros Delitos Contra el Patrimonio,0,6282
+2025,Sonora,Violencia familiar,1,4593
+2025,Sonora,Narcomenudeo,1,4522
+2025,Sonora,Robo con violencia,1,1935
+2025,Sonora,Homicidio,1,1000
+2025,Sonora,Delitos Sexuales,0,862
+2025,Sonora,Extorsión,1,55
+2025,Sonora,Secuestro,1,30
+2025,Sonora,Feminicidio,1,20
+2025,Tabasco,Otros Delitos,0,19357
+2025,Tabasco,Otros Delitos Contra el Patrimonio,0,8218
+2025,Tabasco,Violencia familiar,1,5993
+2025,Tabasco,Robo con violencia,1,2272
+2025,Tabasco,Homicidio,1,880
+2025,Tabasco,Narcomenudeo,1,831
+2025,Tabasco,Delitos Sexuales,0,584
+2025,Tabasco,Extorsión,1,154
+2025,Tabasco,Secuestro,1,32
+2025,Tabasco,Feminicidio,1,23
+2025,Tamaulipas,Otros Delitos Contra el Patrimonio,0,11427
+2025,Tamaulipas,Otros Delitos,0,11197
+2025,Tamaulipas,Violencia familiar,1,6973
+2025,Tamaulipas,Robo con violencia,1,1916
+2025,Tamaulipas,Delitos Sexuales,0,1222
+2025,Tamaulipas,Homicidio,1,752
+2025,Tamaulipas,Narcomenudeo,1,470
+2025,Tamaulipas,Extorsión,1,108
+2025,Tamaulipas,Feminicidio,1,22
+2025,Tamaulipas,Secuestro,1,8
+2025,Tlaxcala,Otros Delitos Contra el Patrimonio,0,881
+2025,Tlaxcala,Robo con violencia,1,563
+2025,Tlaxcala,Otros Delitos,0,429
+2025,Tlaxcala,Homicidio,1,102
+2025,Tlaxcala,Narcomenudeo,1,102
+2025,Tlaxcala,Violencia familiar,1,41
+2025,Tlaxcala,Delitos Sexuales,0,29
+2025,Tlaxcala,Extorsión,1,12
+2025,Tlaxcala,Secuestro,1,10
+2025,Tlaxcala,Feminicidio,1,7
+2025,Veracruz de Ignacio de la Llave,Otros Delitos,0,23983
+2025,Veracruz de Ignacio de la Llave,Otros Delitos Contra el Patrimonio,0,20046
+2025,Veracruz de Ignacio de la Llave,Violencia familiar,1,9037
+2025,Veracruz de Ignacio de la Llave,Robo con violencia,1,4484
+2025,Veracruz de Ignacio de la Llave,Narcomenudeo,1,2118
+2025,Veracruz de Ignacio de la Llave,Delitos Sexuales,0,1751
+2025,Veracruz de Ignacio de la Llave,Homicidio,1,1543
+2025,Veracruz de Ignacio de la Llave,Extorsión,1,662
+2025,Veracruz de Ignacio de la Llave,Feminicidio,1,33
+2025,Veracruz de Ignacio de la Llave,Secuestro,1,24
+2025,Yucatán,Otros Delitos,0,1734
+2025,Yucatán,Otros Delitos Contra el Patrimonio,0,1683
+2025,Yucatán,Narcomenudeo,1,271
+2025,Yucatán,Violencia familiar,1,251
+2025,Yucatán,Delitos Sexuales,0,169
+2025,Yucatán,Homicidio,1,156
+2025,Yucatán,Robo con violencia,1,39
+2025,Yucatán,Feminicidio,1,6
+2025,Yucatán,Extorsión,1,2
+2025,Yucatán,Secuestro,1,0
+2025,Zacatecas,Otros Delitos Contra el Patrimonio,0,7371
+2025,Zacatecas,Otros Delitos,0,7138
+2025,Zacatecas,Violencia familiar,1,2911
+2025,Zacatecas,Robo con violencia,1,1005
+2025,Zacatecas,Delitos Sexuales,0,639
+2025,Zacatecas,Narcomenudeo,1,473
+2025,Zacatecas,Homicidio,1,428
+2025,Zacatecas,Extorsión,1,54
+2025,Zacatecas,Feminicidio,1,5
+2025,Zacatecas,Secuestro,1,2
