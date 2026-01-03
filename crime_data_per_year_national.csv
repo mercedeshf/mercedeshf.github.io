@@ -5,7 +5,7 @@ year,type_of_crime,is_high_impact,total
 2015,Domestic violence,1,127424
 2015,Drug dealing,1,32398
 2015,Homicide,1,31331
-2015,Sexual crimes,0,26492
+2015,Sexual crimes,1,26492
 2015,Extortion,1,6008
 2015,Kidnapping,1,1062
 2015,Feminicide,1,413
@@ -14,7 +14,7 @@ year,type_of_crime,is_high_impact,total
 2016,Theft with violence,1,195439
 2016,Domestic violence,1,154272
 2016,Homicide,1,35410
-2016,Sexual crimes,0,30912
+2016,Sexual crimes,1,30912
 2016,Drug dealing,1,30032
 2016,Extortion,1,5739
 2016,Kidnapping,1,1128
@@ -25,7 +25,7 @@ year,type_of_crime,is_high_impact,total
 2017,Domestic violence,1,169579
 2017,Drug dealing,1,45181
 2017,Homicide,1,41323
-2017,Sexual crimes,0,32171
+2017,Sexual crimes,1,32171
 2017,Extortion,1,6143
 2017,Kidnapping,1,1149
 2017,Feminicide,1,745
@@ -35,7 +35,7 @@ year,type_of_crime,is_high_impact,total
 2018,Domestic violence,1,180185
 2018,Drug dealing,1,58588
 2018,Homicide,1,44482
-2018,Sexual crimes,0,38185
+2018,Sexual crimes,1,38185
 2018,Extortion,1,6721
 2018,Kidnapping,1,1330
 2018,Feminicide,1,903
@@ -44,7 +44,7 @@ year,type_of_crime,is_high_impact,total
 2019,Theft with violence,1,288044
 2019,Domestic violence,1,210189
 2019,Drug dealing,1,70274
-2019,Sexual crimes,0,47085
+2019,Sexual crimes,1,47085
 2019,Homicide,1,44876
 2019,Extortion,1,8734
 2019,Kidnapping,1,1330
@@ -54,7 +54,7 @@ year,type_of_crime,is_high_impact,total
 2020,Theft with violence,1,226911
 2020,Domestic violence,1,220028
 2020,Drug dealing,1,76741
-2020,Sexual crimes,0,46269
+2020,Sexual crimes,1,46269
 2020,Homicide,1,43276
 2020,Extortion,1,7960
 2020,Feminicide,1,947
@@ -64,7 +64,7 @@ year,type_of_crime,is_high_impact,total
 2021,Domestic violence,1,253740
 2021,Theft with violence,1,213941
 2021,Drug dealing,1,82275
-2021,Sexual crimes,0,58044
+2021,Sexual crimes,1,58044
 2021,Homicide,1,43976
 2021,Extortion,1,8828
 2021,Feminicide,1,984
@@ -74,7 +74,7 @@ year,type_of_crime,is_high_impact,total
 2022,Domestic violence,1,270544
 2022,Theft with violence,1,201660
 2022,Drug dealing,1,86386
-2022,Sexual crimes,0,70218
+2022,Sexual crimes,1,70218
 2022,Homicide,1,42888
 2022,Extortion,1,10343
 2022,Feminicide,1,963
@@ -84,7 +84,7 @@ year,type_of_crime,is_high_impact,total
 2023,Domestic violence,1,284203
 2023,Theft with violence,1,184859
 2023,Drug dealing,1,90071
-2023,Sexual crimes,0,75947
+2023,Sexual crimes,1,75947
 2023,Homicide,1,42034
 2023,Extortion,1,10337
 2023,Feminicide,1,831
@@ -94,7 +94,7 @@ year,type_of_crime,is_high_impact,total
 2024,Domestic violence,1,278276
 2024,Theft with violence,1,174262
 2024,Drug dealing,1,92256
-2024,Sexual crimes,0,70939
+2024,Sexual crimes,1,70939
 2024,Homicide,1,43145
 2024,Extortion,1,10240
 2024,Feminicide,1,821
@@ -104,7 +104,7 @@ year,type_of_crime,is_high_impact,total
 2025,Domestic violence,1,226711
 2025,Theft with violence,1,125053
 2025,Drug dealing,1,89238
-2025,Sexual crimes,0,57926
+2025,Sexual crimes,1,57926
 2025,Homicide,1,31076
 2025,Extortion,1,8965
 2025,Feminicide,1,584
