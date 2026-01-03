@@ -22,7 +22,7 @@
           "data": {
             "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/kidnappingdata_peryear.csv"
           },
-          "transform": [{"filter": "datum.Año >= 2015 && datum.Año <= 2024"}],
+          "transform": [{"filter": "datum.year >= 2015 && datum.year <= 2024"}],
           "mark": {
             "type": "line",
             "point": {"filled": true, "size": 60, "color": "#E4007C"},
@@ -31,7 +31,7 @@
           },
           "encoding": {
             "x": {
-              "field": "Año",
+              "field": "year",
               "type": "quantitative",
               "title": "Year",
               "axis": {
@@ -62,7 +62,7 @@
           "data": {
             "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/extortiondata_peryear.csv"
           },
-          "transform": [{"filter": "datum.Año >= 2015 && datum.Año <= 2024"}],
+          "transform": [{"filter": "datum.year >= 2015 && datum.year <= 2024"}],
           "mark": {
             "type": "line",
             "point": {"filled": true, "size": 60, "color": "#2E294E"},
@@ -71,7 +71,7 @@
           },
           "encoding": {
             "x": {
-              "field": "Año",
+              "field": "year",
               "type": "quantitative",
               "title": "Year",
               "axis": {
@@ -106,7 +106,7 @@
           "data": {
             "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/homicidedata_peryear.csv"
           },
-          "transform": [{"filter": "datum.Año >= 2015 && datum.Año <= 2024"}],
+          "transform": [{"filter": "datum.year >= 2015 && datum.year <= 2024"}],
           "mark": {
             "type": "line",
             "point": {"filled": true, "size": 60, "color": "#1B998B"},
@@ -115,7 +115,7 @@
           },
           "encoding": {
             "x": {
-              "field": "Año",
+              "field": "year",
               "type": "quantitative",
               "title": "Year",
               "axis": {
@@ -146,7 +146,7 @@
           "data": {
             "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/feminicidedata_peryear.csv"
           },
-          "transform": [{"filter": "datum.Año >= 2015 && datum.Año <= 2024"}],
+          "transform": [{"filter": "datum.year >= 2015 && datum.year <= 2024"}],
           "mark": {
             "type": "line",
             "point": {"filled": true, "size": 60, "color": "#F1BF3A"},
@@ -155,7 +155,7 @@
           },
           "encoding": {
             "x": {
-              "field": "Año",
+              "field": "year",
               "type": "quantitative",
               "title": "Year",
               "axis": {
