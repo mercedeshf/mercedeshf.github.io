@@ -1,111 +1,111 @@
 year,type_of_crime,is_high_impact,total
-2015,Otros Delitos Contra el Patrimonio,0,677243
-2015,Otros Delitos,0,540910
-2015,Robo con violencia,1,214523
-2015,Violencia familiar,1,127424
-2015,Narcomenudeo,1,32398
-2015,Homicidio,1,31331
-2015,Delitos Sexuales,0,26492
-2015,Extorsión,1,6008
-2015,Secuestro,1,1062
-2015,Feminicidio,1,413
-2016,Otros Delitos Contra el Patrimonio,0,742239
-2016,Otros Delitos,0,568400
-2016,Robo con violencia,1,195439
-2016,Violencia familiar,1,154272
-2016,Homicidio,1,35410
-2016,Delitos Sexuales,0,30912
-2016,Narcomenudeo,1,30032
-2016,Extorsión,1,5739
-2016,Secuestro,1,1128
-2016,Feminicidio,1,608
-2017,Otros Delitos Contra el Patrimonio,0,782251
-2017,Otros Delitos,0,577409
-2017,Robo con violencia,1,283544
-2017,Violencia familiar,1,169579
-2017,Narcomenudeo,1,45181
-2017,Homicidio,1,41323
-2017,Delitos Sexuales,0,32171
-2017,Extorsión,1,6143
-2017,Secuestro,1,1149
-2017,Feminicidio,1,745
-2018,Otros Delitos Contra el Patrimonio,0,786639
-2018,Otros Delitos,0,567617
-2018,Robo con violencia,1,305278
-2018,Violencia familiar,1,180185
-2018,Narcomenudeo,1,58588
-2018,Homicidio,1,44482
-2018,Delitos Sexuales,0,38185
-2018,Extorsión,1,6721
-2018,Secuestro,1,1330
-2018,Feminicidio,1,903
-2019,Otros Delitos Contra el Patrimonio,0,780935
-2019,Otros Delitos,0,618767
-2019,Robo con violencia,1,288044
-2019,Violencia familiar,1,210189
-2019,Narcomenudeo,1,70274
-2019,Delitos Sexuales,0,47085
-2019,Homicidio,1,44876
-2019,Extorsión,1,8734
-2019,Secuestro,1,1330
-2019,Feminicidio,1,947
-2020,Otros Delitos Contra el Patrimonio,0,648138
-2020,Otros Delitos,0,570088
-2020,Robo con violencia,1,226911
-2020,Violencia familiar,1,220028
-2020,Narcomenudeo,1,76741
-2020,Delitos Sexuales,0,46269
-2020,Homicidio,1,43276
-2020,Extorsión,1,7960
-2020,Feminicidio,1,947
-2020,Secuestro,1,833
-2021,Otros Delitos Contra el Patrimonio,0,720851
-2021,Otros Delitos,0,660988
-2021,Violencia familiar,1,253740
-2021,Robo con violencia,1,213941
-2021,Narcomenudeo,1,82275
-2021,Delitos Sexuales,0,58044
-2021,Homicidio,1,43976
-2021,Extorsión,1,8828
-2021,Feminicidio,1,984
-2021,Secuestro,1,628
-2022,Otros Delitos Contra el Patrimonio,0,754321
-2022,Otros Delitos,0,704152
-2022,Violencia familiar,1,270544
-2022,Robo con violencia,1,201660
-2022,Narcomenudeo,1,86386
-2022,Delitos Sexuales,0,70218
-2022,Homicidio,1,42888
-2022,Extorsión,1,10343
-2022,Feminicidio,1,963
-2022,Secuestro,1,506
-2023,Otros Delitos Contra el Patrimonio,0,752958
-2023,Otros Delitos,0,731817
-2023,Violencia familiar,1,284203
-2023,Robo con violencia,1,184859
-2023,Narcomenudeo,1,90071
-2023,Delitos Sexuales,0,75947
-2023,Homicidio,1,42034
-2023,Extorsión,1,10337
-2023,Feminicidio,1,831
-2023,Secuestro,1,463
-2024,Otros Delitos,0,710828
-2024,Otros Delitos Contra el Patrimonio,0,710393
-2024,Violencia familiar,1,278276
-2024,Robo con violencia,1,174262
-2024,Narcomenudeo,1,92256
-2024,Delitos Sexuales,0,70939
-2024,Homicidio,1,43145
-2024,Extorsión,1,10240
-2024,Feminicidio,1,821
-2024,Secuestro,1,487
-2025,Otros Delitos,0,612936
-2025,Otros Delitos Contra el Patrimonio,0,554176
-2025,Violencia familiar,1,226711
-2025,Robo con violencia,1,125053
-2025,Narcomenudeo,1,89238
-2025,Delitos Sexuales,0,57926
-2025,Homicidio,1,31076
-2025,Extorsión,1,8965
-2025,Feminicidio,1,584
-2025,Secuestro,1,389
+2015,Other crimes against property,0,677243
+2015,Other crimes,0,540910
+2015,Theft with violence,1,214523
+2015,Domestic violence,1,127424
+2015,Drug dealing,1,32398
+2015,Homicide,1,31331
+2015,Sexual crimes,0,26492
+2015,Extortion,1,6008
+2015,Kidnapping,1,1062
+2015,Feminicide,1,413
+2016,Other crimes against property,0,742239
+2016,Other crimes,0,568400
+2016,Theft with violence,1,195439
+2016,Domestic violence,1,154272
+2016,Homicide,1,35410
+2016,Sexual crimes,0,30912
+2016,Drug dealing,1,30032
+2016,Extortion,1,5739
+2016,Kidnapping,1,1128
+2016,Feminicide,1,608
+2017,Other crimes against property,0,782251
+2017,Other crimes,0,577409
+2017,Theft with violence,1,283544
+2017,Domestic violence,1,169579
+2017,Drug dealing,1,45181
+2017,Homicide,1,41323
+2017,Sexual crimes,0,32171
+2017,Extortion,1,6143
+2017,Kidnapping,1,1149
+2017,Feminicide,1,745
+2018,Other crimes against property,0,786639
+2018,Other crimes,0,567617
+2018,Theft with violence,1,305278
+2018,Domestic violence,1,180185
+2018,Drug dealing,1,58588
+2018,Homicide,1,44482
+2018,Sexual crimes,0,38185
+2018,Extortion,1,6721
+2018,Kidnapping,1,1330
+2018,Feminicide,1,903
+2019,Other crimes against property,0,780935
+2019,Other crimes,0,618767
+2019,Theft with violence,1,288044
+2019,Domestic violence,1,210189
+2019,Drug dealing,1,70274
+2019,Sexual crimes,0,47085
+2019,Homicide,1,44876
+2019,Extortion,1,8734
+2019,Kidnapping,1,1330
+2019,Feminicide,1,947
+2020,Other crimes against property,0,648138
+2020,Other crimes,0,570088
+2020,Theft with violence,1,226911
+2020,Domestic violence,1,220028
+2020,Drug dealing,1,76741
+2020,Sexual crimes,0,46269
+2020,Homicide,1,43276
+2020,Extortion,1,7960
+2020,Feminicide,1,947
+2020,Kidnapping,1,833
+2021,Other crimes against property,0,720851
+2021,Other crimes,0,660988
+2021,Domestic violence,1,253740
+2021,Theft with violence,1,213941
+2021,Drug dealing,1,82275
+2021,Sexual crimes,0,58044
+2021,Homicide,1,43976
+2021,Extortion,1,8828
+2021,Feminicide,1,984
+2021,Kidnapping,1,628
+2022,Other crimes against property,0,754321
+2022,Other crimes,0,704152
+2022,Domestic violence,1,270544
+2022,Theft with violence,1,201660
+2022,Drug dealing,1,86386
+2022,Sexual crimes,0,70218
+2022,Homicide,1,42888
+2022,Extortion,1,10343
+2022,Feminicide,1,963
+2022,Kidnapping,1,506
+2023,Other crimes against property,0,752958
+2023,Other crimes,0,731817
+2023,Domestic violence,1,284203
+2023,Theft with violence,1,184859
+2023,Drug dealing,1,90071
+2023,Sexual crimes,0,75947
+2023,Homicide,1,42034
+2023,Extortion,1,10337
+2023,Feminicide,1,831
+2023,Kidnapping,1,463
+2024,Other crimes,0,710828
+2024,Other crimes against property,0,710393
+2024,Domestic violence,1,278276
+2024,Theft with violence,1,174262
+2024,Drug dealing,1,92256
+2024,Sexual crimes,0,70939
+2024,Homicide,1,43145
+2024,Extortion,1,10240
+2024,Feminicide,1,821
+2024,Kidnapping,1,487
+2025,Other crimes,0,612936
+2025,Other crimes against property,0,554176
+2025,Domestic violence,1,226711
+2025,Theft with violence,1,125053
+2025,Drug dealing,1,89238
+2025,Sexual crimes,0,57926
+2025,Homicide,1,31076
+2025,Extortion,1,8965
+2025,Feminicide,1,584
+2025,Kidnapping,1,389
