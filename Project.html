@@ -407,230 +407,324 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                <div class="space-y-6">
+                <div>
                     <h4 class="text-xl font-bold text-mexicano dark:text-mexicano border-b border-mexicano/30 pb-2">
-                        Data Used</h4>
+                        Data Used
+                    </h4>
+                </div>
+                <div class="hidden md:block">
+                    <h4 class="text-xl font-bold text-mexicano dark:text-mexicano border-b border-mexicano/30 pb-2">
+                        Data Challenges
+                    </h4>
+                </div>
 
-                    <div
-                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
-                        <p class="text-sm text-slate-600 dark:text-slate-400">
-                            Mexican official data was used from the Instituto Nacional de Estadística y Geografía
-                            (INEGI) and the Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP).
-                            Homicide data from the World Bank API was used for Graph 5. The information used is crime
-                            data from SESNSP; homicide data from World Bank Data; insecurity perception data and
-                            population census data from INEGI.
-                        </p>
+                <div
+                    class="h-full bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
+                    <p class="text-sm text-slate-600 dark:text-slate-400">
+                        Mexican official data was used from the Instituto Nacional de Estadística y Geografía
+                        (INEGI) and the Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP).
+                        Homicide data from the World Bank API was used for Graph 5. The information used is crime
+                        data from SESNSP; homicide data from World Bank Data; insecurity perception data and
+                        population census data from INEGI.
+                    </p>
+                </div>
+
+                <div class="md:hidden mt-6">
+                    <h4 class="text-xl font-bold text-mexicano dark:text-mexicano border-b border-mexicano/30 pb-2">
+                        Data Challenges
+                    </h4>
+                </div>
+
+                <div
+                    class="h-full bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
+                    <p class="text-sm text-slate-700 dark:text-slate-300">
+                        A key challenge was coherently representing high impact and total crime using SENSP data,
+                        which classifies over 40 crimes with multiple subtypes. Transparency was ensured by first
+                        presenting general crime categories (Graph 2) before focusing on high impact crimes, and by
+                        documenting all grouping decisions in the Google Colab notebook “Crime data_SESNSP
+                        2015–2024.”
+                    </p>
+                </div>
+
+                <div
+                    class="h-full bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
+                    <p class="text-sm text-slate-600 dark:text-slate-400">
+                        As this project deals with a question relating to reducing violence and fear, I propose an
+                        approach dealing with high impact crimes only, as defined above. Therefore, the data was
+                        cleaned and crimes were aggregated into the high impact categories proposed.
+                    </p>
+                </div>
+                <div
+                    class="h-full bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
+                    <p class="text-sm text-slate-700 dark:text-slate-300">
+                        A second challenge is that INEGI population census data is updated every five years, with
+                        the most recent data from 2020. As a result, crime rates per 100,000 inhabitants for
+                        2015-2024 are normalized using the 2020 census.
+                    </p>
+                </div>
+
+                <div
+                    class="h-full bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
+                    <p class="text-sm text-slate-600 dark:text-slate-400">
+                        All data cleaning work can be accessed through Google Colab notebooks referenced below. All
+                        data (csvs, jsons, xlsx) used in this project can be found in my <a
+                            class="text-indigo-500 hover:underline"
+                            href="//github.com/mercedeshf/mercedeshf.github.io/tree/main" target="_blank"> Github
+                            repository</a>, where files are referenced with the same name for accessibility and
+                        transparency.
+                    </p>
+                </div>
+                <div
+                    class="h-full bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
+                    <p class="text-sm text-slate-700 dark:text-slate-300">
+                        When comparing insecurity perception with high impact crimes (Map 1), crimes were not
+                        weighted by severity, despite their unequal influence on fear (e.g., homicide versus violent
+                        robbery), to avoid methodological disputes over relative importance.
+                    </p>
+                </div>
+
+                <div
+                    class="h-full bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
+                    <p class="text-sm text-slate-600 dark:text-slate-400">
+                        Note on automation: To avoid system instability, Mexican data APIs were not used directly.
+                        Instead, a World Bank API was used, with homicide data that matches INEGI figures.
+                    </p>
+                </div>
+                <div
+                    class="h-full bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
+                    <p class="text-sm text-slate-700 dark:text-slate-300">
+                        Finally, all crime data suffers from underreporting: approximately, 90% of crimes are not
+                        reported in Mexico (INEGI, 2025). This project does not resolve this limitation and relies
+                        solely on officially reported data.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section id="references"
+            class="max-w-[1600px] mx-auto pt-16 border-t border-slate-200 dark:border-slate-800 scroll-mt-24">
+
+            <div class="max-w-4xl">
+
+                <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-6">References</h3>
+
+                <div class="space-y-6">
+                    <div>
+                        <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Encuesta Nacional de
+                                    Victimización y Percepción sobre Seguridad Pública 2025 (ENVIPE).</span> (2025).
+                                Instituto Nacional de Estadística y Geografía (INEGI).
+                                <a href="https://www.inegi.org.mx/contenidos/programas/envipe/2025/doc/envipe2025_presentacion_nacional.pdf"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://www.inegi.org.mx/contenidos/programas/envipe/2025/doc/envipe2025_presentacion_nacional.pdf</a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div
-                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
-                        <p class="text-sm text-slate-600 dark:text-slate-400">
-                            As this project deals with a question relating to reducing violence and fear, I propose an
-                            approach dealing with high impact crimes only, as defined above. Therefore, the data was
-                            cleaned and crimes were aggregated into the high impact categories proposed.
-                        </p>
+                    <div>
+                        <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data on security
+                            perception</h4>
+                        <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Percepción de seguridad
+                                    en su estado por entidad y por sexo.</span> (2025). Instituto Nacional de
+                                Estadística y Geografía (INEGI).
+                                <a href="https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=ENVIPE_ENVIPE_SEGURIDAD_ESTADO_3936e46b-55a6-4ee9-b135-38a6437971ae"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=ENVIPE_ENVIPE_SEGURIDAD_ESTADO_3936e46b-55a6-4ee9-b135-38a6437971ae</a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div
-                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
-                        <p class="text-sm text-slate-600 dark:text-slate-400">
-                            All data cleaning work can be accessed through Google Colab notebooks referenced below. All
-                            data (csvs, jsons, xlsx) used in this project can be found in my <a
-                                class="text-indigo-500 hover:underline"
-                                href="//github.com/mercedeshf/mercedeshf.github.io/tree/main" target="_blank"> Github
-                                repository</a>, where files are referenced with the same name for accessibility and
-                            transparency.
-
-                        </p>
+                    <div>
+                        <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data on crimes
+                            (2015-2024)</h4>
+                        <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Datos abiertos de
+                                    incidencia delictiva.</span> (2025). Secretariado Ejecutivo del Sistema Nacional de
+                                Seguridad Pública (SESNSP).
+                                <a href="https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva</a>
+                            </li>
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">2015 - 2025 (Fuero
+                                    Común - Delitos). Incidencia delictiva estatal.</span> (2025). Secretariado
+                                Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP).
+                                <a href="https://sspcgob-my.sharepoint.com/personal/cni_sspc_gob_mx/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcni_sspc_gob_mx%2FDocuments%2FID%2F08.ID_DA%2FEstatal-Delitos-2015-2025_nov2025.zip&parent=%2Fpersonal%2Fcni_sspc_gob_mx%2FDocuments%2FID%2F08.ID_DA&ga=1"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://sspcgob-my.sharepoint.com/.../Estatal-Delitos-2015-2025.zip</a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div
-                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
-                        <p class="text-sm text-slate-600 dark:text-slate-400">
-                            Note on automation: To avoid system instability, Mexican data APIs were not used directly.
-                            Instead, a World Bank API was used, with homicide data that matches INEGI figures.
-                        </p>
+                    <div>
+                        <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data on homicides
+                            (1990-2024)</h4>
+                        <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Defunciones por
+                                    homicidio.</span> (2025). Instituto Nacional de Estadística y Geografía (INEGI).
+                                <a href="https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/DH2024_RR_Ene-dic.pdf"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/DH2024_RR_Ene-dic.pdf</a>
+                            </li>
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Tasa bruta de
+                                    homicidios por cada 100 mil habitantes.</span> (2025). Banco de indicadores.
+                                Instituto Nacional de Estadística y Geografía (INEGI).
+                                <a href="https://www.inegi.org.mx/app/indicadores/?ind=6200002200&tm=6#D6200002200_127"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://www.inegi.org.mx/app/indicadores/?ind=6200002200&tm=6#D6200002200_127</a>
+                            </li>
+                        </ul>
                     </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data for Mexico
+                            state base map</h4>
+                        <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Mexico - Subnational
+                                    Administrative Boundaries.</span> (2020). HDX.
+                                <a href="https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-mexico"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-mexico</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data for
+                            population census</h4>
+                        <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Población total por
+                                    entidad federativa y grupo quinquenal de edad según sexo, serie de años censales
+                                    de 1990 a 2020.</span> (2020). Instituto Nacional de Estadística y Geografía
+                                (INEGI).
+                                <a href="https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Poblacion_Poblacion_01_e60cd8cf-927f-4b94-823e-972457a12d4b&idrt=123&opc=t"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Poblacion_Poblacion_01...</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-8">
+                        <h4 class="text-lg font-semibold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-mexicano" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                            </svg>
+                            Google Colab Notebooks
+                        </h4>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                            <a href="https://colab.research.google.com/drive/1j6woFwvuvBFhWyk5Y6A8sskGW3o6Z2Dp?usp=sharing"
+                                target="_blank" rel="noopener noreferrer"
+                                class="group relative flex flex-col p-5 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-mexicano/50 dark:hover:border-mexicano/50 shadow-sm hover:shadow-md transition-all duration-300">
+
+                                <div class="flex items-center justify-between mb-3">
+                                    <span
+                                        class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-mexicano bg-mexicano/10 dark:bg-mexicano/20 rounded">
+                                        Colab Notebook
+                                    </span>
+                                    <svg class="w-4 h-4 text-slate-400 group-hover:text-mexicano transition-colors"
+                                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                        </path>
+                                    </svg>
+                                </div>
+
+                                <h5
+                                    class="text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-mexicano transition-colors mb-2">
+                                    Crime Data Cleaning
+                                </h5>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                                    Cleaning and grouping of raw crime statistics.
+                                </p>
+                            </a>
+
+                            <a href="https://colab.research.google.com/drive/1ng70Xm85cDJBVFr73kQbbsJ_N67hObEs?usp=drive_link"
+                                target="_blank" rel="noopener noreferrer"
+                                class="group relative flex flex-col p-5 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-mexicano/50 dark:hover:border-mexicano/50 shadow-sm hover:shadow-md transition-all duration-300">
+
+                                <div class="flex items-center justify-between mb-3">
+                                    <span
+                                        class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-mexicano bg-mexicano/10 dark:bg-mexicano/20 rounded">
+                                        Colab Notebook
+                                    </span>
+                                    <svg class="w-4 h-4 text-slate-400 group-hover:text-mexicano transition-colors"
+                                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                        </path>
+                                    </svg>
+                                </div>
+
+                                <h5
+                                    class="text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-mexicano transition-colors mb-2">
+                                    High Impact & Population
+                                </h5>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                                    Joining crime data with population census to calculate rates per 100k.
+                                </p>
+                            </a>
+
+                            <a href="https://colab.research.google.com/drive/1iE9hklPe_D4j48HE3cIWmTGM6_o4AmZq?usp=drive_link"
+                                target="_blank" rel="noopener noreferrer"
+                                class="group relative flex flex-col p-5 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-mexicano/50 dark:hover:border-mexicano/50 shadow-sm hover:shadow-md transition-all duration-300">
+
+                                <div class="flex items-center justify-between mb-3">
+                                    <span
+                                        class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-mexicano bg-mexicano/10 dark:bg-mexicano/20 rounded">
+                                        Colab Notebook
+                                    </span>
+                                    <svg class="w-4 h-4 text-slate-400 group-hover:text-mexicano transition-colors"
+                                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                        </path>
+                                    </svg>
+                                </div>
+
+                                <h5
+                                    class="text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-mexicano transition-colors mb-2">
+                                    Insecurity Perception
+                                </h5>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                                    Cleaning and grouping of perception surveys (ENVIPE).
+                                </p>
+                            </a>
+
+                            <a href="https://drive.google.com/drive/folders/1qFORdFUtcD7RTb-d2WPs7wcfPRzEdOcg?usp=drive_link"
+                                target="_blank" rel="noopener noreferrer"
+                                class="md:col-span-2 lg:col-span-3 mt-2 flex items-center justify-center space-x-2 text-sm text-slate-500 hover:text-mexicano transition-colors p-2 border border-dashed border-slate-300 dark:border-slate-700 rounded-lg hover:bg-mexicano/5 dark:hover:bg-slate-800/50">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z">
+                                    </path>
+                                </svg>
+                                <span>View full Google Drive folder</span>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+
+
 
                 </div>
-                <div class="space-y-6">
-                    <h4 class="text-xl font-bold text-mexicano dark:text-mexicano border-b border-mexicano/30 pb-2">
-                        Data Challenges</h4>
 
-                    <div
-                        class="bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
-                        <p class="text-sm text-slate-700 dark:text-slate-300">
-                            A key challenge was coherently representing high impact and total crime using SENSP data,
-                            which classifies over 40 crimes with multiple subtypes. Transparency was ensured by first
-                            presenting general crime categories (Graph 2) before focusing on high impact crimes, and by
-                            documenting all grouping decisions in the Google Colab notebook “Crime data_SESNSP
-                            2015–2024.”
-
-                        </p>
-                    </div>
-
-                    <div
-                        class="bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
-                        <p class="text-sm text-slate-700 dark:text-slate-300">
-                            A second challenge is that INEGI population census data is updated every five years, with
-                            the most recent data from 2020. As a result, crime rates per 100,000 inhabitants for
-                            2015-2024 are normalized using the 2020 census.
-
-                        </p>
-                    </div>
-
-                    <div
-                        class="bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
-                        <p class="text-sm text-slate-700 dark:text-slate-300">
-                            When comparing insecurity perception with high impact crimes (Map 1), crimes were not
-                            weighted by severity, despite their unequal influence on fear (e.g., homicide versus violent
-                            robbery), to avoid methodological disputes over relative importance.
-                        </p>
-                    </div>
-
-                    <div
-                        class="bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
-                        <p class="text-sm text-slate-700 dark:text-slate-300">
-                            Finally, all crime data suffers from underreporting: approximately, 90% of crimes are not
-                            reported in Mexico (INEGI, 2025). This project does not resolve this limitation and relies
-                            solely on officially reported data.
-
-                        </p>
-                    </div>
-                </div>
             </div>
         </section>
 
-<section id="references"
-    class="max-w-[1600px] mx-auto pt-16 border-t border-slate-200 dark:border-slate-800 scroll-mt-24">
-    <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-6">References</h3>
-    
-    <div class="space-y-6">
-        <div>
-            <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública 2025 (ENVIPE).</span> (2025). Instituto Nacional de Estadística y Geografía (INEGI). 
-                    <a href="https://www.inegi.org.mx/contenidos/programas/envipe/2025/doc/envipe2025_presentacion_nacional.pdf" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://www.inegi.org.mx/contenidos/programas/envipe/2025/doc/envipe2025_presentacion_nacional.pdf</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data on security perception</h4>
-            <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">Percepción de seguridad en su estado por entidad y por sexo.</span> (2025). Instituto Nacional de Estadística y Geografía (INEGI). 
-                    <a href="https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=ENVIPE_ENVIPE_SEGURIDAD_ESTADO_3936e46b-55a6-4ee9-b135-38a6437971ae" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=ENVIPE_ENVIPE_SEGURIDAD_ESTADO_3936e46b-55a6-4ee9-b135-38a6437971ae</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data on crimes (2015-2024)</h4>
-            <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">Datos abiertos de incidencia delictiva.</span> (2025). Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP). 
-                    <a href="https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva</a>
-                </li>
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">2015 - 2025 (Fuero Común - Delitos). Incidencia delictiva estatal.</span> (2025). Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP). 
-                    <a href="https://sspcgob-my.sharepoint.com/personal/cni_sspc_gob_mx/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcni_sspc_gob_mx%2FDocuments%2FID%2F08.ID_DA%2FEstatal-Delitos-2015-2025_nov2025.zip&parent=%2Fpersonal%2Fcni_sspc_gob_mx%2FDocuments%2FID%2F08.ID_DA&ga=1" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://sspcgob-my.sharepoint.com/personal/cni_sspc_gob_mx/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcni_sspc_gob_mx%2FDocuments%2FID%2F08.ID_DA%2FEstatal-Delitos-2015-2025_nov2025.zip&parent=%2Fpersonal%2Fcni_sspc_gob_mx%2FDocuments%2FID%2F08.ID_DA&ga=1</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data on homicides (1990-2024)</h4>
-            <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">Defunciones por homicidio.</span> (2025). Instituto Nacional de Estadística y Geografía (INEGI). 
-                    <a href="https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/DH2024_RR_Ene-dic.pdf" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/DH2024_RR_Ene-dic.pdf</a>
-                </li>
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">Tasa bruta de homicidios por cada 100 mil habitantes.</span> (2025). Banco de indicadores. Instituto Nacional de Estadística y Geografía (INEGI). 
-                    <a href="https://www.inegi.org.mx/app/indicadores/?ind=6200002200&tm=6#D6200002200_127" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://www.inegi.org.mx/app/indicadores/?ind=6200002200&tm=6#D6200002200_127</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data for Mexico state base map</h4>
-            <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">Mexico - Subnational Administrative Boundaries.</span> (2020). HDX. 
-                    <a href="https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-mexico" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-mexico</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data for population census</h4>
-            <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
-                <li>
-                    <span class="font-semibold text-slate-800 dark:text-slate-200">Población total por entidad federativa y grupo quinquenal de edad según sexo, serie de años censales de 1990 a 2020.</span> (2020). Instituto Nacional de Estadística y Geografía (INEGI). 
-                    <a href="https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Poblacion_Poblacion_01_e60cd8cf-927f-4b94-823e-972457a12d4b&idrt=123&opc=t" 
-                       class="text-mexicano hover:underline underline break-all" 
-                       target="_blank" 
-                       rel="noopener noreferrer">https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Poblacion_Poblacion_01_e60cd8cf-927f-4b94-823e-972457a12d4b&idrt=123&opc=t</a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-    <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Google Colab notebooks</h4>
-    <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
-        <li>
-            <a href="https://drive.google.com/drive/folders/1qFORdFUtcD7RTb-d2WPs7wcfPRzEdOcg?usp=drive_link" 
-               class="text-mexicano hover:underline underline" 
-               target="_blank" 
-               rel="noopener noreferrer">Access Google Colab notebooks here</a>
-            <ul class="mt-2 space-y-2 list-disc pl-5">
-                <li>
-                    <a href="https://colab.research.google.com/drive/1j6woFwvuvBFhWyk5Y6A8sskGW3o6Z2Dp?usp=sharing" 
-                       class="text-mexicano hover:underline underline" 
-                       target="_blank" 
-                       rel="noopener noreferrer">Crime data cleaning and grouping</a>
-                </li>
-                <li>
-                    <a href="https://colab.research.google.com/drive/1ng70Xm85cDJBVFr73kQbbsJ_N67hObEs?usp=drive_link" 
-                       class="text-mexicano hover:underline underline" 
-                       target="_blank" 
-                       rel="noopener noreferrer">High impact crime data and population data joining to obtain crime per state per 100k</a>
-                </li>
-                <li>
-                    <a href="https://colab.research.google.com/drive/1iE9hklPe_D4j48HE3cIWmTGM6_o4AmZq?usp=drive_link" 
-                       class="text-mexicano hover:underline underline" 
-                       target="_blank" 
-                       rel="noopener noreferrer">Insecurity perception data cleaning and grouping</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
-    </div>
-</section>
-        
 
     </main>
 
