@@ -15,7 +15,7 @@
   "spacing": 20,
   "vconcat": [
     {
-      "width": 600,
+      "width": 800,
       "height": 400,
       "data": {
         "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crimedata_peryear.csv"
