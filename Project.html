@@ -747,17 +747,55 @@
     </footer>
 
     <script>
-        function toggleTheme() {
-            if (document.documentElement.classList.contains('dark')) {
-                document.documentElement.classList.remove('dark');
-                localStorage.theme = 'light';
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.theme = 'dark';
-            }
-        }
+        const lightConfig = {
+            background: "transparent",
+            view: { stroke: "transparent" },
+            title: {
+                color: "#1e293b",
+                subtitleColor: "#475569"
+            },
+            axis: {
+                domainColor: "#94a3b8",
+                gridColor: "#cbd5e1",
+                labelColor: "#475569",
+                titleColor: "#1e293b",
+                gridOpacity: 1
+            },
+            legend: {
+                labelColor: "#475569",
+                titleColor: "#1e293b",
+                fillColor: "transparent",
+                strokeColor: "transparent"
+            },
+            text: { fill: "#475569" },
+            rule: { stroke: "#cbd5e1" }
+        };
 
-        // Vega-Lite charts
+        const darkConfig = {
+            background: "transparent",
+            view: { stroke: "transparent" },
+            title: {
+                color: "#f8fafc",
+                subtitleColor: "#94a3b8"
+            },
+            axis: {
+                domainColor: "#cbd5e1",
+                gridColor: "#64748b",
+                labelColor: "#cbd5e1",
+                titleColor: "#f8fafc",
+                tickColor: "#cbd5e1",
+                gridOpacity: 1
+            },
+            legend: {
+                labelColor: "#cbd5e1",
+                titleColor: "#f8fafc",
+                fillColor: "transparent",
+                strokeColor: "transparent"
+            },
+            text: { fill: "#cbd5e1" },
+            rule: { stroke: "#64748b" }
+        };
+
         const charts = [
             { id: '#viz1', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crimes_mexico_total.json' },
             { id: '#viz2', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crime_by_type_national_bar.json' },
@@ -768,19 +806,119 @@
             { id: '#viz7', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_vs_perception_states.json' }
         ];
 
-        charts.forEach(chart => {
-            fetch(chart.spec)
-                .then(response => response.json())
-                .then(spec => {
+        const loadedSpecs = {};
+
+        function swapSpecificColors(obj, isDark) {
+            if (!obj || typeof obj !== 'object') return;
+
+            const issueColor = "#2E294E";
+            const replacementColor = "#cbd5e1";
+
+            if (Array.isArray(obj)) {
+                for (let i = 0; i < obj.length; i++) {
+                    if (typeof obj[i] === 'string' && obj[i].toUpperCase() === issueColor) {
+                        if (isDark) obj[i] = replacementColor;
+                    } else if (typeof obj[i] === 'object') {
+                        swapSpecificColors(obj[i], isDark);
+                    }
+                }
+                return;
+            }
+
+            for (let key in obj) {
+                const val = obj[key];
+                if (typeof val === 'string' && val.toUpperCase() === issueColor) {
+                    if (isDark) obj[key] = replacementColor;
+                } else if (typeof val === 'object') {
+                    swapSpecificColors(val, isDark);
+                }
+            }
+        }
+
+        function cleanSpec(obj) {
+            if (!obj || typeof obj !== 'object') return;
+
+            if (obj.background) delete obj.background;
+            if (obj.title) {
+                delete obj.title.color;
+                delete obj.title.subtitleColor;
+            }
+
+            if (obj.axis) {
+                delete obj.axis.gridColor;
+                delete obj.axis.gridOpacity;
+                delete obj.axis.domainColor;
+                delete obj.axis.labelColor;
+                delete obj.axis.titleColor;
+                delete obj.axis.tickColor;
+            }
+
+            if (obj.legend) {
+                delete obj.legend.fillColor;
+                delete obj.legend.strokeColor;
+                delete obj.legend.titleColor;
+                delete obj.legend.labelColor;
+            }
+
+            if (obj.mark && (obj.mark === 'text' || obj.mark.type === 'text')) {
+                if (obj.mark.color && obj.mark.color !== "#2E294E") delete obj.mark.color;
+            }
+            for (let key in obj) {
+                if (typeof obj[key] === 'object') {
+                    cleanSpec(obj[key]);
+                }
+            }
+        }
+
+        function renderCharts() {
+            const isDark = document.documentElement.classList.contains('dark');
+            const currentConfig = isDark ? darkConfig : lightConfig;
+
+            charts.forEach(chart => {
+                const embed = (originalSpec) => {
+                    const spec = JSON.parse(JSON.stringify(originalSpec));
+
+                    swapSpecificColors(spec, isDark);
+                    cleanSpec(spec);
+
                     spec.width = "container";
                     spec.height = 400;
                     spec.autosize = { type: "fit", contains: "padding" };
-                    return vegaEmbed(chart.id, spec, {
+
+                    vegaEmbed(chart.id, spec, {
                         actions: false,
-                        renderer: 'svg'
-                    });
-                })
-                .catch(console.error);
+                        renderer: 'svg',
+                        config: currentConfig
+                    }).catch(console.error);
+                };
+
+                if (loadedSpecs[chart.id]) {
+                    embed(loadedSpecs[chart.id]);
+                } else {
+                    fetch(chart.spec)
+                        .then(response => response.json())
+                        .then(spec => {
+                            loadedSpecs[chart.id] = spec;
+                            embed(spec);
+                        })
+                        .catch(console.error);
+                }
+            });
+        }
+
+        function toggleTheme() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+            renderCharts();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderCharts();
         });
     </script>
 </body>
