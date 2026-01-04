@@ -21,7 +21,7 @@
                         surface: '#ffffff',
                         // Color Palette for charts/highlights
                         mexicano: '#E4007C', // Rosa Mexicano
-                        jade: '#1B998B',     // Verde Jade
+                        jade: '#1B998B',     // Verde mexicano
                         maiz: '#F1BF3A',     // Maíz
                     }
                 }
@@ -124,6 +124,11 @@
             max-width: 100% !important;
             height: auto !important;
         }
+
+        input[type="range"] {
+            accent-color: #1B998B;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -143,11 +148,11 @@
 
                     <span class="text-slate-300 dark:text-slate-600">|</span>
 
-                    <a href="#overview" class="hover:text-jade transition-colors">Overview</a>
-                    <a href="#analysis" class="hover:text-jade transition-colors">Analysis</a>
-                    <a href="#conclusions" class="hover:text-jade transition-colors">Conclusions</a>
-                    <a href="#data" class="hover:text-jade transition-colors">Data & Challenges</a>
-                    <a href="#references" class="hover:text-jade transition-colors">References</a>
+                    <a href="#overview" class="hover:text-mexicano transition-colors">Overview</a>
+                    <a href="#analysis" class="hover:text-mexicano transition-colors">Analysis</a>
+                    <a href="#conclusions" class="hover:text-mexicano transition-colors">Conclusions</a>
+                    <a href="#data" class="hover:text-mexicano transition-colors">Data & Challenges</a>
+                    <a href="#references" class="hover:text-mexicano transition-colors">References</a>
                 </div>
 
                 <button id="theme-toggle"
@@ -174,7 +179,7 @@
 
         <section id="overview" class="max-w-[1000px] mx-auto pt-20 md:pt-28 mb-32 scroll-mt-24">
             <div class="text-center mb-16">
-                <span class="text-jade font-mono text-sm tracking-wider uppercase mb-4 block">Project
+                <span class="text-mexicano font-mono text-sm tracking-wider uppercase mb-4 block">Project
                     Overview</span>
                 <h1
                     class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-8 leading-tight">
@@ -182,10 +187,9 @@
 
                 </h1>
 
-                <h2
-                    class="text-3xl md:text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-8 leading-tight">
+                <h2 class="text-3xl md:text-3xl font-extrabold tracking-tight text-mexicano mb-8 leading-tight">
                     Has Mexico’s security situation improved in ways that
-                        meaningfully reduce violence and fear? <br>
+                    meaningfully reduce violence and fear? <br>
 
                 </h2>
 
@@ -193,7 +197,7 @@
                 <div
                     class="flex justify-center items-center space-x-4 text-sm text-slate-500 dark:text-slate-400 mb-12">
                     <span
-                        class="bg-jade/10 dark:bg-jade/20 text-jade dark:text-jade px-3 py-1 rounded-full font-medium">Data
+                        class="bg-mexicano/10 dark:bg-mexicano/20 text-mexicano dark:text-mexicano px-3 py-1 rounded-full font-medium">Data
                         Visualization</span>
                     <span>•</span>
                     <span>Mercedes Hernández Ferrer</span>
@@ -232,8 +236,8 @@
         <section id="analysis" class="scroll-mt-24 space-y-32 mb-32">
             <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-5 space-y-6">
-                    <div class="flex items-center space-x-3 text-jade font-bold tracking-wider uppercase text-xs">
-                        <span class="w-8 h-px bg-jade"></span>
+                    <div class="flex items-center space-x-3 text-mexicano font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-mexicano"></span>
                         <span>General picture</span>
                     </div>
                     <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Crime in Mexico</h2>
@@ -253,8 +257,8 @@
                     <figure id="viz2" class="w-full min-h-[400px]"></figure>
                 </div>
                 <div class="lg:col-span-5 space-y-6 order-1 lg:order-2">
-                    <div class="flex items-center space-x-3 text-jade font-bold tracking-wider uppercase text-xs">
-                        <span class="w-8 h-px bg-jade"></span>
+                    <div class="flex items-center space-x-3 text-mexicano font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-mexicano"></span>
                         <span>Property Crime</span>
                     </div>
                     <h2 class="text-3xl font-bold text-slate-900 dark:text-white">The Decline in Theft</h2>
@@ -287,8 +291,8 @@
                     <figure id="viz4" class="w-full min-h-[400px]"></figure>
                 </div>
                 <div class="lg:col-span-5 space-y-6 order-1 lg:order-2">
-                    <div class="flex items-center space-x-3 text-jade font-bold tracking-wider uppercase text-xs">
-                        <span class="w-8 h-px bg-jade"></span>
+                    <div class="flex items-center space-x-3 text-mexicano font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-mexicano"></span>
                         <span>Property Crime</span>
                     </div>
                     <h2 class="text-3xl font-bold text-slate-900 dark:text-white">The Decline in Theft</h2>
@@ -321,8 +325,8 @@
                     <figure id="viz6" class="w-full min-h-[400px]"></figure>
                 </div>
                 <div class="lg:col-span-5 space-y-6 order-1 lg:order-2">
-                    <div class="flex items-center space-x-3 text-jade font-bold tracking-wider uppercase text-xs">
-                        <span class="w-8 h-px bg-jade"></span>
+                    <div class="flex items-center space-x-3 text-mexicano font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-mexicano"></span>
                         <span>Property Crime</span>
                     </div>
                     <h2 class="text-3xl font-bold text-slate-900 dark:text-white">The Decline in Theft</h2>
@@ -382,11 +386,11 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
                 <div class="space-y-6">
-                    <h4 class="text-xl font-bold text-jade dark:text-jade border-b border-jade/30 pb-2">
+                    <h4 class="text-xl font-bold text-mexicano dark:text-mexicano border-b border-mexicano/30 pb-2">
                         Data Sources</h4>
 
                     <div
-                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm hover:border-jade transition-colors">
+                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm hover:border-mexicano transition-colors">
                         <h5 class="font-bold text-slate-900 dark:text-white mb-2">World Bank API</h5>
                         <p class="text-sm text-slate-600 dark:text-slate-400">
                             Indicator <code>VC.IHR.PSRC.P5</code>. Used for international comparisons to standardize
@@ -395,7 +399,7 @@
                     </div>
 
                     <div
-                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm hover:border-jade transition-colors">
+                        class="bg-white dark:bg-white/5 p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm hover:border-mexicano transition-colors">
                         <h5 class="font-bold text-slate-900 dark:text-white mb-2">INEGI (National Statistics)</h5>
                         <p class="text-sm text-slate-600 dark:text-slate-400">
                             Vital Statistics and Public Security Census (1990-2024). This provided the granular domestic
@@ -440,7 +444,7 @@
                 <li>
                     <span class="font-semibold text-slate-800 dark:text-slate-200">World Bank.</span> (2023).
                     <em>Intentional Homicide Data</em>. World Bank Open Data. Retrieved from <a href="#"
-                        class="text-jade hover:underline break-all">data.worldbank.org</a>
+                        class="text-mexicano hover:underline break-all">data.worldbank.org</a>
                 </li>
                 <li>
                     <span class="font-semibold text-slate-800 dark:text-slate-200">SESNSP.</span> (2024). <em>Incidencia
