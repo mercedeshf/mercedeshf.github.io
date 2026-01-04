@@ -408,28 +408,22 @@
           "width": 280,
           "height": 200,
           "title": {
-            "text": "Average of 'High-Impact' Crimes",
+            "text": "Sexual Crimes",
             "fontSize": 14,
-            "color": "#6D6D6D"
+            "color": "#8B5A9C"
           },
           "data": {
             "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crime_data_per_year_national.csv"
           },
           "transform": [
-            {"filter": "datum.is_high_impact == 1"},
-            {"filter": "datum.year >= 2015 && datum.year < 2025"},
-            {
-              "aggregate": [
-                {"op": "mean", "field": "total", "as": "avg_total"}
-              ],
-              "groupby": ["year"]
-            }
+            {"filter": "datum.type_of_crime == 'Sexual crimes'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
           ],
           "mark": {
             "type": "line",
-            "point": {"filled": true, "size": 60, "color": "#6D6D6D"},
+            "point": {"filled": true, "size": 60, "color": "#8B5A9C"},
             "strokeWidth": 3,
-            "color": "#6D6D6D"
+            "color": "#8B5A9C"
           },
           "encoding": {
             "x": {
@@ -444,9 +438,9 @@
               }
             },
             "y": {
-              "field": "avg_total",
+              "field": "total",
               "type": "quantitative",
-              "title": "Average Total",
+              "title": "Total Crimes",
               "axis": {
                 "labelFontSize": 10,
                 "titleFontSize": 11,
@@ -458,9 +452,9 @@
             "tooltip": [
               {"field": "year", "type": "quantitative", "title": "Year"},
               {
-                "field": "avg_total",
+                "field": "total",
                 "type": "quantitative",
-                "title": "Average Total",
+                "title": "Total Crimes",
                 "format": ",.0f"
               }
             ]
