@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "description": "Theft data",
+  "description": "Intentional homicides trends - Mexico",
   "title": {
-    "text": "Homicides in Mexico",
-    "subtitle": "Per 100,000 people, 1990-2024",
+    "text": "Intentional homicides in Mexico",
+    "subtitle": "Homicides per 100,000 people",
     "subtitleColor": "#2E294E",
     "fontSize": 18,
     "font": "sans-serif",
@@ -11,60 +11,56 @@
     "offset": 20
   },
   "background": "#F5F2EB",
-  "padding": {"left": 10, "top": 10, "right": 10, "bottom": 10},
+  "padding": {"left": 10, "right": 10, "top": 10, "bottom": 10},
   "spacing": 20,
   "vconcat": [
     {
       "width": 600,
       "height": 400,
       "data": {
-        "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/Homicides%20per%20100k_INEGI.csv"
+        "url": "https://api.worldbank.org/v2/country/mex/indicator/VC.IHR.PSRC.P5?date=1990:2023&format=json",
+        "format": {"type": "json", "property": "1"}
       },
       "mark": {
         "type": "line",
-        "point": {"filled": true, "size": 80, "color": "#E4007C"},
-        "color": "#E4007C",
+        "point": {"filled": true, "size": 60, "color": "#E4007C"},
         "strokeWidth": 3,
-        "tooltip": true
+        "color": "#E4007C"
       },
       "encoding": {
         "x": {
-          "field": "Year",
+          "field": "date",
           "type": "quantitative",
           "title": "Year",
           "axis": {
             "format": "d",
-            "labelFontSize": 11,
-            "titleFontSize": 12,
+            "labelFontSize": 10,
+            "titleFontSize": 11,
             "grid": false
           }
         },
         "y": {
-          "field": "Homicides 100",
+          "field": "value",
           "type": "quantitative",
-          "title": "",
+          "title": "Rate per 100k",
+          "scale": {"domain": [0, 40]},
           "axis": {
-            "labelFontSize": 11,
-            "titleFontSize": 12,
+            "labelFontSize": 10,
+            "titleFontSize": 11,
             "grid": true,
             "gridColor": "#2E294E",
             "gridOpacity": 0.1
           }
         },
         "tooltip": [
-          {"field": "Year", "type": "quantitative", "title": "Year"},
-          {
-            "field": "Homicides 100",
-            "type": "quantitative",
-            "title": "Homicides per 100k",
-            "format": ".1f"
-          }
+          {"field": "date", "title": "Year"},
+          {"field": "value", "title": "Homicide Rate", "format": ".2f"}
         ]
       }
     },
     {
-      "width": 600,
-      "height": 20,
+      "width": 400,
+      "height": 0,
       "layer": [
         {
           "data": {"values": [{}]},
@@ -72,23 +68,10 @@
             "type": "text",
             "align": "left",
             "baseline": "top",
-            "dx": 50,
+            "dx": 280,
             "fontSize": 10,
             "color": "#2E294E",
-            "text": "Source:"
-          }
-        },
-        {
-          "data": {"values": [{}]},
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "top",
-            "dx": 90,
-            "fontSize": 10,
-            "fontStyle": "italic",
-            "color": "#2E294E",
-            "text": "Instituto Nacional de Estadística y Geografía (INEGI)"
+            "text": "Source: World Bank Data API"
           }
         }
       ]
