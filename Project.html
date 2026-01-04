@@ -212,10 +212,8 @@
                     Mexico has a long history of insecurity. After the War on Drugs declared by President Felipe
                     Calderón (2006–2012), which generated extreme levels of violence, subsequent administrations
                     campaigned on promises to pacify the country. However, in 2025, 64% of Mexicans identified
-                    insecurity as their main concern, almost double the share citing health (34%), according to INEGI
-                    (2025).
-                    <br><br>
-                    This leads to the central question of this project:
+                    insecurity as their main concern, according to INEGI
+                    (2025). This leads to the central question of this project:
                     <br><br>
 
                     <strong class="text-mexicano font-medium">Has Mexico’s security situation improved in ways that
@@ -239,7 +237,7 @@
                         <span class="w-8 h-px bg-mexicano"></span>
                         <span>General picture</span>
                     </div>
-                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 1: Crime in Mexico</h2>
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 1: Crime</h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                         Reported crime shows a generally upward trend since 2015, with only a modest decline between
                         2023 and 2024. This raises the question of which crimes are driving this increase.
@@ -262,7 +260,7 @@
                         <span class="w-8 h-px bg-mexicano"></span>
                         <span>General picture</span>
                     </div>
-                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 2: Types of crime in Mexico</h2>
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 2: Types of crime</h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                         Official institutions measure over 40 types of crime, which I grouped into 10 to simplify. While
                         “other crimes” account for a large share, high impact crimes such as feminicide appear visually
@@ -278,8 +276,7 @@
                         <span class="w-8 h-px bg-mexicano"></span>
                         <span>High Impact Crime</span>
                     </div>
-                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 3: High Impact Crime Trends in
-                        Mexico</h2>
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 3: High Impact Crime Trends</h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                         Focusing on high impact crimes shifts the analysis from total volume to crimes most closely
                         linked to violence and fear.
@@ -302,7 +299,6 @@
                         <span>High Impact Crime</span>
                     </div>
                     <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 4: Average of High Impact Crimes
-                        in Mexico
                     </h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                         High impact crimes closely mirror overall crime trends and represent a substantial share of
@@ -317,7 +313,7 @@
                         <span class="w-8 h-px bg-mexicano"></span>
                         <span>High Impact Crime</span>
                     </div>
-                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 5: Homicides in Mexico
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 5: Homicides
                         (1990-2024)
                     </h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
@@ -360,7 +356,7 @@
                         <span>High Impact Crime vs. Perception</span>
                     </div>
                     <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Graph 6: High Impact Crime vs.
-                        Insecurity Perception in Mexico
+                        Insecurity Perception
                     </h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                         Tracking trends over time shows that only 5 of 32 states have non-increasing high impact crime
@@ -392,8 +388,8 @@
                     <p>
                         At the state level, most entities show parallel trends in high impact crime and insecurity
                         perception, suggesting that public fear largely reflects lived experiences rather than
-                        exaggerated perceptions. The few states where trends diverge highlight the uneven nature of
-                        security outcomes. Overall, recent improvements have not been sufficient to alter the structural
+                        exaggerated perceptions. Overall, recent improvements have not been sufficient to alter the
+                        structural
                         dynamics of violence or widespread insecurity in Mexico.
                     </p>
                 </div>
@@ -438,7 +434,7 @@
                 <div
                     class="h-full bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
                     <p class="text-sm text-slate-700 dark:text-slate-300">
-                        A key challenge was coherently representing high impact and total crime using SENSP data,
+                        A key challenge was coherently representing high impact and total crime using SESNSP data,
                         which classifies over 40 crimes with multiple subtypes. Transparency was ensured by first
                         presenting general crime categories (Graph 2) before focusing on high impact crimes, and by
                         documenting all grouping decisions in a Google Colab notebook.
@@ -476,7 +472,7 @@
                 <div
                     class="h-full bg-mexicano/5 dark:bg-mexicano/10 p-6 rounded-xl border border-mexicano/20 dark:border-mexicano/20">
                     <p class="text-sm text-slate-700 dark:text-slate-300">
-                        When comparing insecurity perception with high impact crimes (Map 1), crimes were not
+                        When comparing insecurity perception with high impact crimes, crimes were not
                         weighted by severity, despite their unequal influence on fear (e.g., homicide versus violent
                         robbery), to avoid methodological disputes over relative importance.
                     </p>
@@ -563,6 +559,13 @@
                         <h4 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-3">Data on homicides
                             (1990-2024)</h4>
                         <ul class="space-y-4 text-slate-600 dark:text-slate-400 text-sm list-disc pl-5">
+                            <li>
+                                <span class="font-semibold text-slate-800 dark:text-slate-200">Intentional homicides
+                                    (per 100,000 people) - Mexico.</span> (2024). World Bank Data.
+                                <a href="https://data.worldbank.org/indicator/VC.IHR.PSRC.P5?locations=MX"
+                                    class="text-mexicano hover:underline underline break-all" target="_blank"
+                                    rel="noopener noreferrer">https://data.worldbank.org/indicator/VC.IHR.PSRC.P5?locations=MX</a>
+                            </li>
                             <li>
                                 <span class="font-semibold text-slate-800 dark:text-slate-200">Defunciones por
                                     homicidio.</span> (2025). Instituto Nacional de Estadística y Geografía (INEGI).
