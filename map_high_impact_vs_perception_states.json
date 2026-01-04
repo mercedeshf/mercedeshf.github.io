@@ -4,7 +4,7 @@
   "padding": {"left": 10, "top": 10, "right": 10, "bottom": 20},
   "title": {
     "text": "High Impact Crime vs. Insecurity Perception in Mexico",
-    "subtitle": "2015-2024. Sources: SENSP & INEGI",
+    "subtitle": "2015-2024. Sources: SESNSP & INEGI",
     "subtitleColor": "#2E294E",
     "anchor": "start",
     "fontSize": 18,
