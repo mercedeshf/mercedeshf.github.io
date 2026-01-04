@@ -80,7 +80,7 @@
           {
             "field": "total_high_impact_rate",
             "type": "quantitative",
-            "title": "Total High Impact Crimes",
+            "title": "High Impact Crimes per 100k inhabitants",
             "format": ".2f"
           }
         ]
