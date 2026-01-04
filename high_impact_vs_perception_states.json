@@ -1,0 +1,224 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#F5F2EB",
+  "padding": {"left": 10, "top": 10, "right": 10, "bottom": 10},
+  "title": {
+    "text": "High Impact Crime vs. Insecurity Perception in Mexico",
+    "subtitle": "2015-2024. Sources: SENSP & INEGI",
+    "subtitleColor": "#2E294E",
+    "fontSize": 18,
+    "font": "sans-serif",
+    "anchor": "start",
+    "offset": 20
+  },
+  "params": [
+    {
+      "name": "selected_state",
+      "value": "Aguascalientes",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Aguascalientes",
+          "Baja California",
+          "Baja California Sur",
+          "Campeche",
+          "Chiapas",
+          "Chihuahua",
+          "Ciudad de México",
+          "Coahuila de Zaragoza",
+          "Colima",
+          "Durango",
+          "Guanajuato",
+          "Guerrero",
+          "Hidalgo",
+          "Jalisco",
+          "México",
+          "Michoacán de Ocampo",
+          "Morelos",
+          "Nayarit",
+          "Nuevo León",
+          "Oaxaca",
+          "Puebla",
+          "Querétaro",
+          "Quintana Roo",
+          "San Luis Potosí",
+          "Sinaloa",
+          "Sonora",
+          "Tabasco",
+          "Tamaulipas",
+          "Tlaxcala",
+          "Veracruz de Ignacio de la Llave",
+          "Yucatán",
+          "Zacatecas"
+        ],
+        "labels": [
+          "Show All",
+          "Aguascalientes",
+          "Baja California",
+          "Baja California Sur",
+          "Campeche",
+          "Chiapas",
+          "Chihuahua",
+          "CDMX",
+          "Coahuila",
+          "Colima",
+          "Durango",
+          "Guanajuato",
+          "Guerrero",
+          "Hidalgo",
+          "Jalisco",
+          "Estado de México",
+          "Michoacán",
+          "Morelos",
+          "Nayarit",
+          "Nuevo León",
+          "Oaxaca",
+          "Puebla",
+          "Querétaro",
+          "Quintana Roo",
+          "San Luis Potosí",
+          "Sinaloa",
+          "Sonora",
+          "Tabasco",
+          "Tamaulipas",
+          "Tlaxcala",
+          "Veracruz",
+          "Yucatán",
+          "Zacatecas"
+        ],
+        "name": "Highlight State: "
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "title": {
+        "text": "High Impact Crime Rate (per 100k)",
+        "fontSize": 16,
+        "anchor": "middle"
+      },
+      "width": 500,
+      "height": 400,
+      "data": {
+        "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crime_data_per_year_states_100k.csv"
+      },
+      "transform": [
+        {"filter": "datum.is_high_impact == 1"},
+        {"filter": "datum['year'] >= 2015 && datum['year'] <= 2024"},
+        {
+          "aggregate": [
+            {"op": "sum", "field": "crime_per_100k", "as": "total_rate"}
+          ],
+          "groupby": ["state", "year"]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {"labelAngle": 0, "labelPadding": 10}
+        },
+        "y": {
+          "field": "total_rate",
+          "type": "quantitative",
+          "title": "Crimes per 100k",
+          "axis": {"gridOpacity": 0.2}
+        },
+        "color": {
+          "field": "state",
+          "type": "nominal",
+          "scale": {"scheme": "tableau20"},
+          "legend": null
+        }
+      },
+      "layer": [
+        {
+          "mark": {"type": "line", "point": {"size": 40}, "strokeWidth": 3},
+          "encoding": {"opacity": {"value": 0.05}, "tooltip": {"value": null}}
+        },
+        {
+          "transform": [
+            {
+              "filter": "selected_state == 'All' || datum.state == selected_state"
+            }
+          ],
+          "mark": {"type": "line", "point": {"size": 40}, "strokeWidth": 3},
+          "encoding": {
+            "opacity": {"value": 1},
+            "tooltip": [
+              {"field": "state", "title": "State"},
+              {"field": "year", "title": "Year"},
+              {
+                "field": "total_rate",
+                "title": "High Impact Crimes per 100k inhabitants",
+                "format": ".1f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "Insecurity Perception (%)",
+        "fontSize": 16,
+        "anchor": "middle"
+      },
+      "width": 500,
+      "height": 400,
+      "data": {
+        "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/security_perception_state.csv"
+      },
+      "transform": [
+        {"filter": "datum.state != 'Estados Unidos Mexicanos'"},
+        {"filter": "datum['year'] >= 2015 && datum['year'] <= 2024"}
+      ],
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {"labelAngle": 0, "labelPadding": 10}
+        },
+        "y": {
+          "field": "insecurity_percentage",
+          "type": "quantitative",
+          "title": "Insecure% Feeling ",
+          "scale": {"domain": [0, 100]},
+          "axis": {"gridOpacity": 0.2}
+        },
+        "color": {"field": "state", "type": "nominal", "legend": null}
+      },
+      "layer": [
+        {
+          "mark": {"type": "line", "point": {"size": 40}, "strokeWidth": 3},
+          "encoding": {"opacity": {"value": 0.05}, "tooltip": {"value": null}}
+        },
+        {
+          "transform": [
+            {
+              "filter": "selected_state == 'All' || datum.state == selected_state"
+            }
+          ],
+          "mark": {"type": "line", "point": {"size": 40}, "strokeWidth": 3},
+          "encoding": {
+            "opacity": {"value": 1},
+            "tooltip": [
+              {"field": "state", "title": "State"},
+              {"field": "year", "title": "Year"},
+              {
+                "field": "insecurity_percentage",
+                "title": "People that feel insecure (%)",
+                "format": ".1f"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": {"scale": {"color": "shared"}},
+  "config": {"view": {"stroke": null}, "font": "sans-serif"}
+}
