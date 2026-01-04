@@ -1,0 +1,147 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#F5F2EB",
+  "padding": {"left": 10, "top": 10, "right": 10, "bottom": 20},
+  "title": {
+    "text": "High Impact Crime vs. Insecurity Perception in Mexico",
+    "subtitle": "2015-2024. Sources: SENSP & INEGI",
+    "subtitleColor": "#2E294E",
+    "anchor": "start",
+    "fontSize": 18,
+    "offset": 20
+  },
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2024,
+        "step": 1,
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "title": {
+        "text": "High Impact Crime Rate (per 100k)",
+        "fontSize": 12,
+        "color": "#2E294E",
+        "anchor": "start"
+      },
+      "width": 400,
+      "height": 300,
+      "data": {
+        "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crime_data_per_year_states_100k.csv"
+      },
+      "transform": [
+        {"filter": "datum.is_high_impact == 1"},
+        {"filter": "datum.year == Year_selection"},
+        {
+          "aggregate": [
+            {
+              "op": "sum",
+              "field": "crime_per_100k",
+              "as": "total_high_impact_rate"
+            }
+          ],
+          "groupby": ["state", "year"]
+        },
+        {
+          "calculate": "datum.state == 'Ciudad de México' ? 'Distrito Federal' : datum.state == 'Querétaro' ? 'Queretaro de Arteaga' : datum.state == 'México' ? 'Mexico' : datum.state == 'Michoacán de Ocampo' ? 'Michoacan de Ocampo' : replace(replace(replace(replace(replace(datum.state, 'á', 'a'), 'é', 'e'), 'í', 'i'), 'ó', 'o'), 'ú', 'u')",
+          "as": "matching_name"
+        },
+        {
+          "lookup": "matching_name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/mexico_states.json",
+              "format": {"type": "topojson", "feature": "mexico_states"}
+            },
+            "key": "properties.shapeName"
+          },
+          "as": "geo"
+        }
+      ],
+      "projection": {"type": "mercator"},
+      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "total_high_impact_rate",
+          "type": "quantitative",
+          "scale": {"range": ["#E8F5F4", "#1B998B"], "domain": [0, 1000]},
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {
+            "field": "total_high_impact_rate",
+            "type": "quantitative",
+            "title": "Total High Impact Crimes",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "text": "Insecurity Perception (%)",
+        "fontSize": 12,
+        "color": "#2E294E",
+        "anchor": "start"
+      },
+      "width": 400,
+      "height": 300,
+      "data": {
+        "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/security_perception_state.csv"
+      },
+      "transform": [
+        {"filter": "datum.year == Year_selection"},
+        {"filter": "datum.state != 'Estados Unidos Mexicanos'"},
+        {
+          "calculate": "datum.state == 'Ciudad de México' ? 'Distrito Federal' : datum.state == 'Querétaro' ? 'Queretaro de Arteaga' : datum.state == 'México' ? 'Mexico' : datum.state == 'Michoacán de Ocampo' ? 'Michoacan de Ocampo' : replace(replace(replace(replace(replace(datum.state, 'á', 'a'), 'é', 'e'), 'í', 'i'), 'ó', 'o'), 'ú', 'u')",
+          "as": "matching_name"
+        },
+        {
+          "lookup": "matching_name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/mexico_states.json",
+              "format": {"type": "topojson", "feature": "mexico_states"}
+            },
+            "key": "properties.shapeName"
+          },
+          "as": "geo"
+        }
+      ],
+      "projection": {"type": "mercator"},
+      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "insecurity_percentage",
+          "type": "quantitative",
+          "scale": {"range": ["#E8F5F4", "#1B998B"], "domain": [0, 100]},
+          "legend": {"title": "", "gradientLength": 200, "values": []}
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {
+            "field": "insecurity_percentage",
+            "type": "quantitative",
+            "title": "People that feel insecure (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    }
+  ],
+  "resolve": {"scale": {"color": "independent"}},
+  "config": {
+    "view": {"stroke": null},
+    "legend": {"titleColor": "#2E294E", "titleFontSize": 10, "titlePadding": 10}
+  }
+}
