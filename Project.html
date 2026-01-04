@@ -19,9 +19,9 @@
                     colors: {
                         background: '#f5f2eb',
                         surface: '#ffffff',
-                        // Your Custom Palette
+                        // Color Palette
                         mexicano: '#E4007C', // Rosa Mexicano
-                        indigo: '#2E294E',   // Deep Indigo (Overwrites default indigo)
+                        indigo: '#2E294E',   // Deep Indigo
                         jade: '#1B998B',     // Verde Jade
                         maiz: '#F1BF3A',     // Maíz
                     }
@@ -43,7 +43,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <style>
-        /* Custom scrollbar matching your theme */
+        /* Scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -139,32 +139,42 @@
 
             <div class="prose prose-lg dark:prose-invert mx-auto text-slate-600 dark:text-slate-300 leading-relaxed">
                 <p class="text-xl font-light mb-6">
-                    This project presents an in-depth analysis of crime trends and public security challenges in Mexico.
-                    By contrasting official statistics with victimisation surveys, we aim to answer a critical question:
-                    <strong class="text-mexicano font-medium">Do falling property crime rates mask the persistence of
-                        high-impact violence?</strong>
+                    Mexico has a history of insecurity concerns. After the War on Drugs declared by President Felipe
+                    Calderon (2006-2012) which caused extreme violence in the country, following administrations
+                    campaigned explicitly on pacifying the country. The most recent official data available (2024) show
+                    a small decline in crimes (SENSP, 2025), as can be seen in Graph 1. Nonetheless, in 2025, 64% of
+                    Mexicans reported insecurity as their main concern, almost doubling health, the second highest worry
+                    (34%), according to the national statistics office (INEGI, 2018).
+                    <br><br>
+                    This leads to the central question of this project:
+                    <br><br>
+
+                    <strong class="text-mexicano font-medium">Has Mexico’s security situation improved in ways that
+                        meaningfully reduce violence and fear?</strong>
+                    <br><br>
+                    To answer the question, the project will focus on high impact crime trends, as well as insecurity
+                    perception trends, both nationally and state-level. High impact crimes are defined here as those
+                    that are the most violent and produce the most fear, which include the following eight types of
+                    crime: kidnapping, extortion, homicide, feminicide, robbery with violence, domestic violence, drug
+                    trafficking and sexual crimes.
                 </p>
                 <p class="mb-6">
-                    Using data spanning from 2010 to 2024, this analysis breaks down the distinct trajectories of theft,
-                    homicide, and gender-based violence, providing a nuanced view often lost in aggregate national
-                    statistics.
+                    xxx
                 </p>
             </div>
         </section>
 
-
+        <!--Viz1-->
         <section id="analysis" class="scroll-mt-24 space-y-32 mb-32">
             <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-5 space-y-6">
                     <div class="flex items-center space-x-3 text-jade font-bold tracking-wider uppercase text-xs">
                         <span class="w-8 h-px bg-jade"></span>
-                        <span>Global Context</span>
+                        <span>General picture</span>
                     </div>
-                    <h2 class="text-3xl font-bold text-indigo dark:text-white">International Homicide Comparison</h2>
+                    <h2 class="text-3xl font-bold text-indigo dark:text-white">Crime in Mexico</h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                        Comparing intentional homicide rates reveals that Mexico's security challenge is part of a
-                        broader regional phenomenon. While Colombia has shown a downward trend, the Latin American
-                        region as a whole remains significantly above the global average.
+                        xxx total reported crimes blabla
                     </p>
                 </div>
                 <div
@@ -173,6 +183,7 @@
                 </div>
             </article>
 
+            <!--Viz2-->
             <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div
                     class="lg:col-span-7 bg-white dark:bg-white/5 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 order-2 lg:order-1">
@@ -192,6 +203,7 @@
                 </div>
             </article>
 
+            <!--Viz3-->
             <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-5 space-y-6">
                     <div class="flex items-center space-x-3 text-mexicano font-bold tracking-wider uppercase text-xs">
@@ -208,6 +220,86 @@
                 <div
                     class="lg:col-span-7 bg-white dark:bg-white/5 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
                     <figure id="viz3" class="w-full min-h-[400px]"></figure>
+                </div>
+            </article>
+
+            <!--Viz4-->
+            <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div
+                    class="lg:col-span-7 bg-white dark:bg-white/5 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 order-2 lg:order-1">
+                    <figure id="viz4" class="w-full min-h-[400px]"></figure>
+                </div>
+                <div class="lg:col-span-5 space-y-6 order-1 lg:order-2">
+                    <div class="flex items-center space-x-3 text-jade font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-jade"></span>
+                        <span>Property Crime</span>
+                    </div>
+                    <h2 class="text-3xl font-bold text-indigo dark:text-white">The Decline in Theft</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                        A distinct success story appears in the data for property crimes. Reported theft incidents have
+                        fallen steadily from their peak in 2017-2018. By 2024, incidents had dropped to approximately
+                        540,000, representing a significant improvement in this specific metric.
+                    </p>
+                </div>
+            </article>
+
+            <!--Viz5-->
+            <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="flex items-center space-x-3 text-mexicano font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-mexicano"></span>
+                        <span>Violent Crime</span>
+                    </div>
+                    <h2 class="text-3xl font-bold text-indigo dark:text-white">High-Impact Crime Persistence</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                        Despite the drop in theft, high-impact crimes paint a worrying picture. Feminicides remain at
+                        persistently high levels, and homicides have not seen the same consistent decline as property
+                        crime.
+                    </p>
+                </div>
+                <div
+                    class="lg:col-span-7 bg-white dark:bg-white/5 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
+                    <figure id="viz5" class="w-full min-h-[400px]"></figure>
+                </div>
+            </article>
+
+            <!--Viz6-->
+            <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div
+                    class="lg:col-span-7 bg-white dark:bg-white/5 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 order-2 lg:order-1">
+                    <figure id="viz6" class="w-full min-h-[400px]"></figure>
+                </div>
+                <div class="lg:col-span-5 space-y-6 order-1 lg:order-2">
+                    <div class="flex items-center space-x-3 text-jade font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-jade"></span>
+                        <span>Property Crime</span>
+                    </div>
+                    <h2 class="text-3xl font-bold text-indigo dark:text-white">The Decline in Theft</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                        A distinct success story appears in the data for property crimes. Reported theft incidents have
+                        fallen steadily from their peak in 2017-2018. By 2024, incidents had dropped to approximately
+                        540,000, representing a significant improvement in this specific metric.
+                    </p>
+                </div>
+            </article>
+
+            <!--Viz7-->
+            <article class="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="flex items-center space-x-3 text-mexicano font-bold tracking-wider uppercase text-xs">
+                        <span class="w-8 h-px bg-mexicano"></span>
+                        <span>Violent Crime</span>
+                    </div>
+                    <h2 class="text-3xl font-bold text-indigo dark:text-white">High-Impact Crime Persistence</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                        Despite the drop in theft, high-impact crimes paint a worrying picture. Feminicides remain at
+                        persistently high levels, and homicides have not seen the same consistent decline as property
+                        crime.
+                    </p>
+                </div>
+                <div
+                    class="lg:col-span-7 bg-white dark:bg-white/5 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
+                    <figure id="viz7" class="w-full min-h-[400px]"></figure>
                 </div>
             </article>
 
@@ -350,12 +442,15 @@
             }
         }
 
-        // Initialize Vega-Lite Charts
+        // Vega-Lite charts
         const charts = [
-            { id: '#viz1', spec: 'homicides_100k_compare_wb.json' },
-            { id: '#viz2', spec: 'theft_crimes_mex.json' },
-            { id: '#viz3', spec: 'crime_trends_mex.json' },
-            { id: '#viz4', spec: 'homicides_100k_new.json' }
+            { id: '#viz1', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crimes_mexico_total.json' },
+            { id: '#viz2', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/crime_by_type_national_bar.json' },
+            { id: '#viz3', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crime_trends.json' },
+            { id: '#viz4', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/average_high_impact_crime_trends.json' },
+            { id: '#viz5', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/homicides_100k_mex.json' },
+            { id: '#viz6', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/map_high_impact_vs_perception_states.json' },
+            { id: '#viz7', spec: 'https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_vs_perception_states.json' }
         ];
 
         charts.forEach(chart => {
