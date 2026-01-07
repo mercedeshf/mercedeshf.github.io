@@ -59,29 +59,26 @@
             background: transparent !important;
         }
 
-        /* Fix for Vega-Lite interactive elements (dropdowns, labels, and menus) */
+        /* Fixes for interactive elements (dropdowns, labels, and menus) */
 
-        /* 1. Fix the labels (e.g., "Region:") to be visible against the dark background */
+        /* Fixes the labels (like Region) to be visible against the dark background */
         .dark .vega-bind {
             color: #e2e8f0 !important;
             /* slate-200 */
         }
 
-        /* 2. Fix the text inside the dropdown/input boxes */
-        /* This makes the dropdown itself dark to match your theme */
+        /* Fixes the text inside the dropdown boxes */
+        /* This makes the dropdown itself dark to match theme */
         .dark .vega-bind select,
         .dark .vega-bind input {
             background-color: #1e293b !important;
-            /* slate-800 */
             color: #f8fafc !important;
-            /* slate-50 */
             border: 1px solid #475569 !important;
-            /* slate-600 */
             border-radius: 4px;
             padding: 2px 4px;
         }
 
-        /* 3. Fix the "..." (Vega actions) button and menu */
+        /* Fixes button and menu */
         .dark .vega-actions-wrapper {
             color: #e2e8f0 !important;
         }
@@ -98,7 +95,6 @@
 
         .dark .vega-actions a:hover {
             background-color: #334155 !important;
-            /* slate-700 */
         }
 
         /* Centers the slider/dropdown for all Vega charts */
@@ -110,7 +106,7 @@
             /* Adds a little space between the chart and the slider */
         }
 
-        /* Ensures the specific label and slider are centered and spaced nicely */
+        /* Centers and spaes label and slider */
         .vega-bind {
             display: flex;
             align-items: center;
