@@ -1,0 +1,682 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Crime data comparison with predictions",
+  "title": {
+    "text": "'High Impact' Crime Trends in Mexico",
+    "subtitle": "Total reported cases (solid) vs Predicted (dashed), 2015-2024",
+    "subtitleColor": "#2E294E",
+    "fontSize": 18,
+    "font": "sans-serif",
+    "anchor": "start",
+    "offset": 20
+  },
+  "background": "#F5F2EB",
+  "padding": {"left": 10, "right": 10, "top": 10, "bottom": 10},
+  "spacing": 20,
+  "vconcat": [
+    {
+      "hconcat": [
+        {
+          "width": 380,
+          "height": 200,
+          "title": {"text": "Kidnapping", "fontSize": 14, "color": "#E4007C"},
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Kidnapping'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#E4007C"},
+                "strokeWidth": 3,
+                "color": "#E4007C"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#E4007C",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        },
+        {
+          "width": 380,
+          "height": 200,
+          "title": {"text": "Extortion", "fontSize": 14, "color": "#2E294E"},
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Extortion'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#2E294E"},
+                "strokeWidth": 3,
+                "color": "#2E294E"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#2E294E",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hconcat": [
+        {
+          "width": 380,
+          "height": 200,
+          "title": {"text": "Homicide", "fontSize": 14, "color": "#1B998B"},
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Homicide'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#1B998B"},
+                "strokeWidth": 3,
+                "color": "#1B998B"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#1B998B",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        },
+        {
+          "width": 380,
+          "height": 200,
+          "title": {"text": "Feminicide", "fontSize": 14, "color": "#F1BF3A"},
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Feminicide'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#F1BF3A"},
+                "strokeWidth": 3,
+                "color": "#F1BF3A"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#F1BF3A",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hconcat": [
+        {
+          "width": 380,
+          "height": 200,
+          "title": {
+            "text": "Robbery with Violence",
+            "fontSize": 14,
+            "color": "#C1666B"
+          },
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Theft with violence'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#C1666B"},
+                "strokeWidth": 3,
+                "color": "#C1666B"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#C1666B",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        },
+        {
+          "width": 380,
+          "height": 200,
+          "title": {
+            "text": "Domestic Violence",
+            "fontSize": 14,
+            "color": "#4ECDC4"
+          },
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Domestic violence'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#4ECDC4"},
+                "strokeWidth": 3,
+                "color": "#4ECDC4"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#4ECDC4",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hconcat": [
+        {
+          "width": 380,
+          "height": 200,
+          "title": {
+            "text": "Drug Trafficking",
+            "fontSize": 14,
+            "color": "#D4A574"
+          },
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Drug dealing'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#D4A574"},
+                "strokeWidth": 3,
+                "color": "#D4A574"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#D4A574",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        },
+        {
+          "width": 380,
+          "height": 200,
+          "title": {
+            "text": "Sexual Crimes",
+            "fontSize": 14,
+            "color": "#8B5A9C"
+          },
+          "data": {
+            "url": "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_crimes_per_year_national_with_predicted.csv"
+          },
+          "transform": [
+            {"filter": "datum.type_of_crime == 'Sexual crimes'"},
+            {"filter": "datum.year >= 2015 && datum.year < 2025"}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "line",
+                "point": {"filled": true, "size": 60, "color": "#8B5A9C"},
+                "strokeWidth": 3,
+                "color": "#8B5A9C"
+              },
+              "encoding": {
+                "x": {
+                  "field": "year",
+                  "type": "quantitative",
+                  "title": "Year",
+                  "axis": {
+                    "format": "d",
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": false
+                  }
+                },
+                "y": {
+                  "field": "total",
+                  "type": "quantitative",
+                  "title": "Total Crimes",
+                  "axis": {
+                    "labelFontSize": 10,
+                    "titleFontSize": 11,
+                    "grid": true,
+                    "gridColor": "#2E294E",
+                    "gridOpacity": 0.1
+                  }
+                },
+                "tooltip": [
+                  {"field": "year", "type": "quantitative", "title": "Year"},
+                  {
+                    "field": "total",
+                    "type": "quantitative",
+                    "title": "Total Crimes",
+                    "format": ",.0f"
+                  },
+                  {
+                    "field": "predicted_total",
+                    "type": "quantitative",
+                    "title": "Predicted",
+                    "format": ",.0f"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {
+                "type": "line",
+                "strokeDash": [5, 5],
+                "strokeWidth": 2,
+                "color": "#8B5A9C",
+                "opacity": 0.7
+              },
+              "encoding": {
+                "x": {"field": "year", "type": "quantitative"},
+                "y": {"field": "predicted_total", "type": "quantitative"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 600,
+      "height": 20,
+      "layer": [
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": -130,
+            "fontSize": 10,
+            "color": "#2E294E",
+            "text": "Source:"
+          }
+        },
+        {
+          "data": {"values": [{}]},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dx": -90,
+            "fontSize": 10,
+            "fontStyle": "italic",
+            "color": "#2E294E",
+            "text": "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública de México, own categorization"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
