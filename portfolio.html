@@ -147,6 +147,7 @@
                     <a href="#task7" class="hover:text-rose-500 transition-colors">Task 7</a>
                     <a href="#task8" class="hover:text-rose-500 transition-colors">Task 8</a>
                     <a href="#task9" class="hover:text-rose-500 transition-colors">Task 9</a>
+                    <a href="#task10" class="hover:text-rose-500 transition-colors">Task 10</a>
                 </div>
 
                 <button id="theme-toggle"
@@ -667,7 +668,7 @@
             <div class="max-w-[1600px] mx-auto mb-12">
                 <div class="mb-8 border-b border-slate-300/50 dark:border-slate-800 pb-4">
                     <span class="text-rose-500 font-mono text-sm tracking-wider uppercase mb-2 block">Task 9</span>
-                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Interactive Charts. Analytics Charts.
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Interactive Charts.
                     </h2>
                 </div>
             </div>
@@ -697,17 +698,62 @@
                     <div class="max-w-[1600px] mx-auto flex items-baseline space-x-3 mb-2">
                         <span
                             class="bg-rose-100/50 border border-rose-200 text-rose-800 dark:bg-rose-900/30 dark:border-transparent dark:text-rose-400 text-xs font-bold px-2 py-1 rounded">02</span>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-900 dark:text-white">High Impact Crime vs.
+                        Insecurity Perception</h3>
+                    </div>
+                    <div class="max-w-[1600px] mx-auto mb-4">
+                    </div>
+                    <div class="w-full flex justify-center overflow-x-auto">
+                        <figure id="Location22"></figure>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+            <section id="task10" class="scroll-mt-24">
+            <div class="max-w-[1600px] mx-auto mb-12">
+                <div class="mb-8 border-b border-slate-300/50 dark:border-slate-800 pb-4">
+                    <span class="text-emerald-500 font-mono text-sm tracking-wider uppercase mb-2 block">Task 10</span>
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Advanced Analytics and Machine Learning.
+                    </h2>
+                </div>
+            </div>
+
+            <div class="space-y-16 w-full">
+                <div class="group">
+                    <div class="max-w-[1600px] mx-auto flex items-baseline space-x-3 mb-2">
+                        <span
+                            class="bg-emerald-100/50 border border-emerald-200 text-emerald-800 dark:bg-emerald-900/30 dark:border-transparent dark:text-emerald-400 text-xs font-bold px-2 py-1 rounded">01</span>
                         <h3 class="text-xl font-semibold mb-2 text-slate-900 dark:text-white">UK Inflation</h3>
                     </div>
                     <div class="max-w-[1600px] mx-auto mb-4">
                         <p class="text-sm text-slate-500 dark:text-slate-400">
                             Source (<a
                                 href="https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23"
-                                target="_blank" class="text-rose-500 hover:underline">ONS data</a>)
+                                target="_blank" class="text-emerald-500 hover:underline">ONS data</a>)
                         </p>
                     </div>
                     <div class="w-full flex justify-center overflow-x-auto">
-                        <figure id="Location22"></figure>
+                        <figure id="Location23"></figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="space-y-16 w-full">
+                <div class="group">
+                    <div class="max-w-[1600px] mx-auto flex items-baseline space-x-3 mb-2">
+                        <span
+                            class="bg-emerald-100/50 border border-emerald-200 text-emerald-800 dark:bg-emerald-900/30 dark:border-transparent dark:text-emerald-400 text-xs font-bold px-2 py-1 rounded">02</span>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-900 dark:text-white">Machine Learning Chart</h3>
+                    </div>
+                    <div class="max-w-[1600px] mx-auto mb-4">
+
+                    </div>
+                    <div class="w-full flex justify-center overflow-x-auto">
+                        <figure id="Location24"></figure>
                     </div>
                 </div>
 
@@ -845,8 +891,19 @@
         let figure_21_spec = "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/uk_unemployment_by_region.json";
         vegaEmbed('#Location21', figure_21_spec);
 
-        let figure_22_spec = "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/cpi_comparison_data.json";
+        let figure_22_spec = "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/high_impact_vs_perception_states.json";
         vegaEmbed('#Location22', figure_22_spec);
+
+        // Task 10 charts
+
+        let figure_23_spec = "https://raw.githubusercontent.com/mercedeshf/mercedeshf.github.io/refs/heads/main/cpi_comparison_data.json";
+        vegaEmbed('#Location23', figure_23_spec);
+
+         let figure_24_spec = "";
+        vegaEmbed('#Location24', figure_24_spec);
+
+
+
     </script>
 </body>
 
