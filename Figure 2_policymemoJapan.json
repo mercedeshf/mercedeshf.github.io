@@ -1,0 +1,238 @@
+{
+  "config": {
+    "background": "#F7F4EF",
+    "font": "DejaVu Sans",
+    "title": {
+      "font": "DejaVu Sans",
+      "fontSize": 18,
+      "fontWeight": "normal",
+      "color": "#1C1C1E",
+      "anchor": "start",
+      "offset": 12
+    },
+    "axis": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "titleColor": "#6B6860",
+      "gridColor": "#E2DDD6",
+      "gridWidth": 1,
+      "domainColor": "#E2DDD6",
+      "tickColor": "#E2DDD6"
+    },
+    "legend": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 11,
+      "titleColor": "#6B6860",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "padding": 8,
+      "symbolSize": 200,
+      "symbolStrokeWidth": 2.5
+    },
+    "view": {"stroke": "transparent", "fill": "#F7F4EF"},
+    "mark": {"tooltip": true}
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "strokeWidth": 2.5},
+      "encoding": {
+        "color": {
+          "field": "Firm size",
+          "legend": {"title": null},
+          "scale": {
+            "domain": [
+              "Large-size firms",
+              "Medium-size firms",
+              "Small-size firms"
+            ],
+            "range": ["#BC002D", "#2C3E50", "#5DADE2"]
+          },
+          "type": "nominal"
+        },
+        "strokeDash": {
+          "field": "Firm size",
+          "legend": {"title": null},
+          "scale": {
+            "domain": [
+              "Large-size firms",
+              "Medium-size firms",
+              "Small-size firms"
+            ],
+            "range": [[1, 0], [6, 3], [2, 2]]
+          },
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {"labelAngle": -45, "title": null},
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "axis": {
+            "format": ",d",
+            "title": "Value added per employee (¥ 10,000)"
+          },
+          "field": "Value",
+          "scale": {"domain": [300, 1850]},
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 40,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "color": {
+          "field": "Firm size",
+          "legend": {"title": null},
+          "scale": {
+            "domain": [
+              "Large-size firms",
+              "Medium-size firms",
+              "Small-size firms"
+            ],
+            "range": ["#BC002D", "#2C3E50", "#5DADE2"]
+          },
+          "type": "nominal"
+        },
+        "strokeDash": {
+          "field": "Firm size",
+          "legend": {"title": null},
+          "scale": {
+            "domain": [
+              "Large-size firms",
+              "Medium-size firms",
+              "Small-size firms"
+            ],
+            "range": [[1, 0], [6, 3], [2, 2]]
+          },
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {"labelAngle": -45, "title": null},
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "axis": {
+            "format": ",d",
+            "title": "Value added per employee (¥ 10,000)"
+          },
+          "field": "Value",
+          "scale": {"domain": [300, 1850]},
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {"name": "data-9881fe95471e88365b33526c40e1e7d3"},
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "font": "DejaVu Sans",
+        "fontSize": 11
+      },
+      "encoding": {
+        "color": {
+          "field": "Firm size",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Large-size firms",
+              "Medium-size firms",
+              "Small-size firms"
+            ],
+            "range": ["#BC002D", "#2C3E50", "#5DADE2"]
+          },
+          "type": "nominal"
+        },
+        "text": {"field": "Value", "format": ",d", "type": "quantitative"},
+        "x": {"field": "Year", "type": "ordinal"},
+        "y": {"field": "Value", "type": "quantitative"}
+      }
+    }
+  ],
+  "data": {"name": "data-2cac1e06e00f694e9cf285e3cc254d08"},
+  "title": {
+    "text": "Figure 2: Value added per employee (labour productivity) by firm size"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-2cac1e06e00f694e9cf285e3cc254d08": [
+      {"Year": 2007, "Value": 1363, "Firm size": "Large-size firms"},
+      {"Year": 2008, "Value": 1104, "Firm size": "Large-size firms"},
+      {"Year": 2009, "Value": 1047, "Firm size": "Large-size firms"},
+      {"Year": 2010, "Value": 1180, "Firm size": "Large-size firms"},
+      {"Year": 2011, "Value": 1120, "Firm size": "Large-size firms"},
+      {"Year": 2012, "Value": 1152, "Firm size": "Large-size firms"},
+      {"Year": 2013, "Value": 1231, "Firm size": "Large-size firms"},
+      {"Year": 2014, "Value": 1258, "Firm size": "Large-size firms"},
+      {"Year": 2015, "Value": 1300, "Firm size": "Large-size firms"},
+      {"Year": 2016, "Value": 1324, "Firm size": "Large-size firms"},
+      {"Year": 2017, "Value": 1355, "Firm size": "Large-size firms"},
+      {"Year": 2018, "Value": 1383, "Firm size": "Large-size firms"},
+      {"Year": 2019, "Value": 1313, "Firm size": "Large-size firms"},
+      {"Year": 2020, "Value": 1232, "Firm size": "Large-size firms"},
+      {"Year": 2021, "Value": 1366, "Firm size": "Large-size firms"},
+      {"Year": 2022, "Value": 1453, "Firm size": "Large-size firms"},
+      {"Year": 2023, "Value": 1589, "Firm size": "Large-size firms"},
+      {"Year": 2024, "Value": 1666, "Firm size": "Large-size firms"},
+      {"Year": 2007, "Value": 693, "Firm size": "Medium-size firms"},
+      {"Year": 2008, "Value": 693, "Firm size": "Medium-size firms"},
+      {"Year": 2009, "Value": 699, "Firm size": "Medium-size firms"},
+      {"Year": 2010, "Value": 702, "Firm size": "Medium-size firms"},
+      {"Year": 2011, "Value": 727, "Firm size": "Medium-size firms"},
+      {"Year": 2012, "Value": 727, "Firm size": "Medium-size firms"},
+      {"Year": 2013, "Value": 743, "Firm size": "Medium-size firms"},
+      {"Year": 2014, "Value": 750, "Firm size": "Medium-size firms"},
+      {"Year": 2015, "Value": 749, "Firm size": "Medium-size firms"},
+      {"Year": 2016, "Value": 784, "Firm size": "Medium-size firms"},
+      {"Year": 2017, "Value": 789, "Firm size": "Medium-size firms"},
+      {"Year": 2018, "Value": 786, "Firm size": "Medium-size firms"},
+      {"Year": 2019, "Value": 766, "Firm size": "Medium-size firms"},
+      {"Year": 2020, "Value": 729, "Firm size": "Medium-size firms"},
+      {"Year": 2021, "Value": 784, "Firm size": "Medium-size firms"},
+      {"Year": 2022, "Value": 801, "Firm size": "Medium-size firms"},
+      {"Year": 2023, "Value": 861, "Firm size": "Medium-size firms"},
+      {"Year": 2024, "Value": 913, "Firm size": "Medium-size firms"},
+      {"Year": 2007, "Value": 529, "Firm size": "Small-size firms"},
+      {"Year": 2008, "Value": 509, "Firm size": "Small-size firms"},
+      {"Year": 2009, "Value": 517, "Firm size": "Small-size firms"},
+      {"Year": 2010, "Value": 523, "Firm size": "Small-size firms"},
+      {"Year": 2011, "Value": 532, "Firm size": "Small-size firms"},
+      {"Year": 2012, "Value": 527, "Firm size": "Small-size firms"},
+      {"Year": 2013, "Value": 533, "Firm size": "Small-size firms"},
+      {"Year": 2014, "Value": 542, "Firm size": "Small-size firms"},
+      {"Year": 2015, "Value": 556, "Firm size": "Small-size firms"},
+      {"Year": 2016, "Value": 556, "Firm size": "Small-size firms"},
+      {"Year": 2017, "Value": 562, "Firm size": "Small-size firms"},
+      {"Year": 2018, "Value": 545, "Firm size": "Small-size firms"},
+      {"Year": 2019, "Value": 534, "Firm size": "Small-size firms"},
+      {"Year": 2020, "Value": 520, "Firm size": "Small-size firms"},
+      {"Year": 2021, "Value": 527, "Firm size": "Small-size firms"},
+      {"Year": 2022, "Value": 543, "Firm size": "Small-size firms"},
+      {"Year": 2023, "Value": 555, "Firm size": "Small-size firms"},
+      {"Year": 2024, "Value": 586, "Firm size": "Small-size firms"}
+    ],
+    "data-9881fe95471e88365b33526c40e1e7d3": [
+      {"Year": 2024, "Value": 1666, "Firm size": "Large-size firms"},
+      {"Year": 2024, "Value": 913, "Firm size": "Medium-size firms"},
+      {"Year": 2024, "Value": 586, "Firm size": "Small-size firms"}
+    ]
+  },
+  "width": 860,
+  "height": 440
+}

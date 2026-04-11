@@ -1,0 +1,113 @@
+{
+  "config": {
+    "background": "#F7F4EF",
+    "font": "DejaVu Sans",
+    "title": {
+      "font": "DejaVu Sans",
+      "fontSize": 18,
+      "fontWeight": "normal",
+      "color": "#1C1C1E",
+      "anchor": "start",
+      "offset": 12
+    },
+    "axis": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "titleColor": "#6B6860",
+      "gridColor": "#E2DDD6",
+      "gridWidth": 1,
+      "domainColor": "#E2DDD6",
+      "tickColor": "#E2DDD6"
+    },
+    "legend": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 11,
+      "titleColor": "#6B6860",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "padding": 8
+    },
+    "view": {"stroke": "transparent", "fill": "#F7F4EF"},
+    "mark": {"tooltip": true}
+  },
+  "data": {"name": "data-main"},
+  "encoding": {
+    "y": {
+      "field": "Age group",
+      "type": "nominal",
+      "sort": ["60 and over", "45–59", "25–44", "15–24"],
+      "axis": {"labelFontSize": 12, "title": null}
+    },
+    "yOffset": {
+      "field": "Type",
+      "type": "nominal",
+      "sort": ["Leaver rate", "Mid-career hiring rate"]
+    },
+    "x": {
+      "field": "Rate",
+      "type": "quantitative",
+      "scale": {"domain": [0, 24]},
+      "axis": {"format": ".1f", "title": "Rate (%)"}
+    },
+    "color": {
+      "field": "Type",
+      "type": "nominal",
+      "legend": {"title": null},
+      "scale": {
+        "domain": ["Leaver rate", "Mid-career hiring rate"],
+        "range": ["#BC002D", "#2C3E50"]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusBottomRight": 3,
+        "cornerRadiusTopRight": 3
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -6,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "white"
+      },
+      "encoding": {
+        "text": {"field": "Rate", "format": ".1f", "type": "quantitative"}
+      }
+    }
+  ],
+  "title": {
+    "text": "Figure 5: Leaver rate and mid-career hiring rate by age group"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-main": [
+      {"Age group": "15–24", "Rate": 19.2, "Type": "Leaver rate"},
+      {"Age group": "25–44", "Rate": 11.7, "Type": "Leaver rate"},
+      {"Age group": "45–59", "Rate": 6.9, "Type": "Leaver rate"},
+      {"Age group": "60 and over", "Rate": 19.2, "Type": "Leaver rate"},
+      {"Age group": "15–24", "Rate": 13.8, "Type": "Mid-career hiring rate"},
+      {"Age group": "25–44", "Rate": 10, "Type": "Mid-career hiring rate"},
+      {"Age group": "45–59", "Rate": 5.6, "Type": "Mid-career hiring rate"},
+      {
+        "Age group": "60 and over",
+        "Rate": 6.5,
+        "Type": "Mid-career hiring rate"
+      }
+    ]
+  },
+  "width": 860,
+  "height": 440
+}

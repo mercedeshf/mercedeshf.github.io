@@ -1,0 +1,300 @@
+{
+  "config": {
+    "background": "#F7F4EF",
+    "font": "DejaVu Sans",
+    "title": {
+      "font": "DejaVu Sans",
+      "fontSize": 18,
+      "fontWeight": "normal",
+      "color": "#1C1C1E",
+      "anchor": "start",
+      "offset": 12
+    },
+    "axis": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "titleColor": "#6B6860",
+      "gridColor": "#E2DDD6",
+      "gridWidth": 1,
+      "domainColor": "#E2DDD6",
+      "tickColor": "#E2DDD6"
+    },
+    "legend": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 11,
+      "titleColor": "#6B6860",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "padding": 8
+    },
+    "view": {"stroke": "transparent", "fill": "#F7F4EF"},
+    "mark": {"tooltip": true}
+  },
+  "layer": [
+    {
+      "data": {"name": "data-4428c3d242e21f69acdea5ca487a7da7"},
+      "mark": {"type": "rect", "color": "#BC002D", "opacity": 0.06},
+      "encoding": {
+        "x": {"field": "x1", "type": "ordinal"},
+        "x2": {"field": "x2"}
+      }
+    },
+    {
+      "data": {"name": "data-a056996128c9ec90d2ac9c1f425fcab4"},
+      "mark": {"type": "bar", "width": 12},
+      "encoding": {
+        "color": {
+          "field": "Component",
+          "legend": {"title": null},
+          "scale": {
+            "domain": ["MFP", "Hours worked", "Capital services"],
+            "range": ["#2C3E50", "#5DADE2", "#BC002D"]
+          },
+          "sort": ["MFP", "Hours worked", "Capital services"],
+          "type": "nominal"
+        },
+        "order": {
+          "field": "Component",
+          "sort": "descending",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {"field": "Year", "type": "ordinal"},
+          {"field": "Component", "type": "nominal"},
+          {
+            "field": "Value",
+            "format": ".2f",
+            "title": "Contribution (pp)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {"labelAngle": -45, "title": null},
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "axis": {"format": ".1f", "title": "Contribution to GDP growth (%)"},
+          "field": "Value",
+          "scale": {"domain": [-7, 8]},
+          "stack": "zero",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {"name": "data-a0a55d106695e8d630baff0f16eee66d"},
+      "mark": {
+        "type": "rule",
+        "color": "#6B6860",
+        "opacity": 0.5,
+        "strokeWidth": 0.8
+      },
+      "encoding": {"y": {"field": "y", "type": "quantitative"}}
+    },
+    {
+      "data": {"name": "data-365142e2bb04ef26c2a8fb32f2212e90"},
+      "mark": {
+        "type": "line",
+        "color": "#34495E",
+        "point": {
+          "color": "#34495E",
+          "filled": true,
+          "size": 25,
+          "stroke": "white",
+          "strokeWidth": 1
+        },
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "tooltip": [
+          {"field": "Year", "type": "ordinal"},
+          {
+            "field": "GDP",
+            "format": ".1f",
+            "title": "GDP growth (%)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {"field": "Year", "type": "ordinal"},
+        "y": {"field": "GDP", "type": "quantitative"}
+      }
+    }
+  ],
+  "title": {
+    "text": "Figure 1: Sources of Japan's GDP growth rate (%) ",
+    "subtitleColor": "#6B6860",
+    "subtitleFont": "DejaVu Sans",
+    "subtitleFontSize": 12
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-4428c3d242e21f69acdea5ca487a7da7": [{"x1": 2008, "x2": 2022}],
+    "data-a056996128c9ec90d2ac9c1f425fcab4": [
+      {"Year": 1985, "Value": 3.3, "Component": "MFP"},
+      {"Year": 1985, "Value": -0.1, "Component": "Hours worked"},
+      {"Year": 1985, "Value": 1.8, "Component": "Capital services"},
+      {"Year": 1986, "Value": 0.9, "Component": "MFP"},
+      {"Year": 1986, "Value": 0.5, "Component": "Hours worked"},
+      {"Year": 1986, "Value": 1.8, "Component": "Capital services"},
+      {"Year": 1987, "Value": 2.5, "Component": "MFP"},
+      {"Year": 1987, "Value": 0.3, "Component": "Hours worked"},
+      {"Year": 1987, "Value": 1.8, "Component": "Capital services"},
+      {"Year": 1988, "Value": 3.8, "Component": "MFP"},
+      {"Year": 1988, "Value": 0.7, "Component": "Hours worked"},
+      {"Year": 1988, "Value": 2, "Component": "Capital services"},
+      {"Year": 1989, "Value": 2.4, "Component": "MFP"},
+      {"Year": 1989, "Value": 0.3, "Component": "Hours worked"},
+      {"Year": 1989, "Value": 2.1, "Component": "Capital services"},
+      {"Year": 1990, "Value": 2.8, "Component": "MFP"},
+      {"Year": 1990, "Value": -0.2, "Component": "Hours worked"},
+      {"Year": 1990, "Value": 2.1, "Component": "Capital services"},
+      {"Year": 1991, "Value": 1.1, "Component": "MFP"},
+      {"Year": 1991, "Value": 0.3, "Component": "Hours worked"},
+      {"Year": 1991, "Value": 2, "Component": "Capital services"},
+      {"Year": 1992, "Value": -0.5, "Component": "MFP"},
+      {"Year": 1992, "Value": -0.4, "Component": "Hours worked"},
+      {"Year": 1992, "Value": 1.7, "Component": "Capital services"},
+      {"Year": 1993, "Value": 0, "Component": "MFP"},
+      {"Year": 1993, "Value": -1.9, "Component": "Hours worked"},
+      {"Year": 1993, "Value": 1.5, "Component": "Capital services"},
+      {"Year": 1994, "Value": 0, "Component": "MFP"},
+      {"Year": 1994, "Value": -0.2, "Component": "Hours worked"},
+      {"Year": 1994, "Value": 1.2, "Component": "Capital services"},
+      {"Year": 1995, "Value": 1.6, "Component": "MFP"},
+      {"Year": 1995, "Value": -0.3, "Component": "Hours worked"},
+      {"Year": 1995, "Value": 1.3, "Component": "Capital services"},
+      {"Year": 1996, "Value": 1.2, "Component": "MFP"},
+      {"Year": 1996, "Value": 0.4, "Component": "Hours worked"},
+      {"Year": 1996, "Value": 1.5, "Component": "Capital services"},
+      {"Year": 1997, "Value": 0, "Component": "MFP"},
+      {"Year": 1997, "Value": -0.5, "Component": "Hours worked"},
+      {"Year": 1997, "Value": 1.4, "Component": "Capital services"},
+      {"Year": 1998, "Value": -0.9, "Component": "MFP"},
+      {"Year": 1998, "Value": -1.6, "Component": "Hours worked"},
+      {"Year": 1998, "Value": 1.3, "Component": "Capital services"},
+      {"Year": 1999, "Value": 0.6, "Component": "MFP"},
+      {"Year": 1999, "Value": -2.1, "Component": "Hours worked"},
+      {"Year": 1999, "Value": 1.2, "Component": "Capital services"},
+      {"Year": 2000, "Value": 1.6, "Component": "MFP"},
+      {"Year": 2000, "Value": -0.1, "Component": "Hours worked"},
+      {"Year": 2000, "Value": 1.2, "Component": "Capital services"},
+      {"Year": 2001, "Value": 0, "Component": "MFP"},
+      {"Year": 2001, "Value": -0.7, "Component": "Hours worked"},
+      {"Year": 2001, "Value": 1, "Component": "Capital services"},
+      {"Year": 2002, "Value": 0.5, "Component": "MFP"},
+      {"Year": 2002, "Value": -1.2, "Component": "Hours worked"},
+      {"Year": 2002, "Value": 0.8, "Component": "Capital services"},
+      {"Year": 2003, "Value": 0.8, "Component": "MFP"},
+      {"Year": 2003, "Value": 0.1, "Component": "Hours worked"},
+      {"Year": 2003, "Value": 0.7, "Component": "Capital services"},
+      {"Year": 2004, "Value": 1.7, "Component": "MFP"},
+      {"Year": 2004, "Value": -0.1, "Component": "Hours worked"},
+      {"Year": 2004, "Value": 0.6, "Component": "Capital services"},
+      {"Year": 2005, "Value": 0.9, "Component": "MFP"},
+      {"Year": 2005, "Value": 0.2, "Component": "Hours worked"},
+      {"Year": 2005, "Value": 0.6, "Component": "Capital services"},
+      {"Year": 2006, "Value": -0.1, "Component": "MFP"},
+      {"Year": 2006, "Value": 0.8, "Component": "Hours worked"},
+      {"Year": 2006, "Value": 0.6, "Component": "Capital services"},
+      {"Year": 2007, "Value": 0.4, "Component": "MFP"},
+      {"Year": 2007, "Value": 0.5, "Component": "Hours worked"},
+      {"Year": 2007, "Value": 0.6, "Component": "Capital services"},
+      {"Year": 2008, "Value": -1, "Component": "MFP"},
+      {"Year": 2008, "Value": -0.6, "Component": "Hours worked"},
+      {"Year": 2008, "Value": 0.5, "Component": "Capital services"},
+      {"Year": 2009, "Value": -3, "Component": "MFP"},
+      {"Year": 2009, "Value": -3, "Component": "Hours worked"},
+      {"Year": 2009, "Value": 0.1, "Component": "Capital services"},
+      {"Year": 2010, "Value": 3.3, "Component": "MFP"},
+      {"Year": 2010, "Value": 0.7, "Component": "Hours worked"},
+      {"Year": 2010, "Value": 0.1, "Component": "Capital services"},
+      {"Year": 2011, "Value": 0.4, "Component": "MFP"},
+      {"Year": 2011, "Value": -0.4, "Component": "Hours worked"},
+      {"Year": 2011, "Value": 0.1, "Component": "Capital services"},
+      {"Year": 2012, "Value": 1, "Component": "MFP"},
+      {"Year": 2012, "Value": 0.2, "Component": "Hours worked"},
+      {"Year": 2012, "Value": 0.1, "Component": "Capital services"},
+      {"Year": 2013, "Value": 1.9, "Component": "MFP"},
+      {"Year": 2013, "Value": -0.2, "Component": "Hours worked"},
+      {"Year": 2013, "Value": 0.2, "Component": "Capital services"},
+      {"Year": 2014, "Value": -0.1, "Component": "MFP"},
+      {"Year": 2014, "Value": 0.1, "Component": "Hours worked"},
+      {"Year": 2014, "Value": 0.3, "Component": "Capital services"},
+      {"Year": 2015, "Value": 1.5, "Component": "MFP"},
+      {"Year": 2015, "Value": -0.3, "Component": "Hours worked"},
+      {"Year": 2015, "Value": 0.3, "Component": "Capital services"},
+      {"Year": 2016, "Value": 0, "Component": "MFP"},
+      {"Year": 2016, "Value": 0.4, "Component": "Hours worked"},
+      {"Year": 2016, "Value": 0.3, "Component": "Capital services"},
+      {"Year": 2017, "Value": 0.9, "Component": "MFP"},
+      {"Year": 2017, "Value": 0.5, "Component": "Hours worked"},
+      {"Year": 2017, "Value": 0.3, "Component": "Capital services"},
+      {"Year": 2018, "Value": 0.4, "Component": "MFP"},
+      {"Year": 2018, "Value": 0, "Component": "Hours worked"},
+      {"Year": 2018, "Value": 0.2, "Component": "Capital services"},
+      {"Year": 2019, "Value": 0.2, "Component": "MFP"},
+      {"Year": 2019, "Value": -0.9, "Component": "Hours worked"},
+      {"Year": 2019, "Value": 0.3, "Component": "Capital services"},
+      {"Year": 2020, "Value": -2, "Component": "MFP"},
+      {"Year": 2020, "Value": -2.4, "Component": "Hours worked"},
+      {"Year": 2020, "Value": 0.1, "Component": "Capital services"},
+      {"Year": 2021, "Value": 2, "Component": "MFP"},
+      {"Year": 2021, "Value": 0.4, "Component": "Hours worked"},
+      {"Year": 2021, "Value": 0.1, "Component": "Capital services"},
+      {"Year": 2022, "Value": 0.7, "Component": "MFP"},
+      {"Year": 2022, "Value": 0.1, "Component": "Hours worked"},
+      {"Year": 2022, "Value": 0.2, "Component": "Capital services"}
+    ],
+    "data-a0a55d106695e8d630baff0f16eee66d": [{"y": 0}],
+    "data-365142e2bb04ef26c2a8fb32f2212e90": [
+      {"Year": 1985, "GDP": 5},
+      {"Year": 1986, "GDP": 3.2},
+      {"Year": 1987, "GDP": 4.5},
+      {"Year": 1988, "GDP": 6.4},
+      {"Year": 1989, "GDP": 4.8},
+      {"Year": 1990, "GDP": 4.7},
+      {"Year": 1991, "GDP": 3.5},
+      {"Year": 1992, "GDP": 0.9},
+      {"Year": 1993, "GDP": -0.5},
+      {"Year": 1994, "GDP": 1.1},
+      {"Year": 1995, "GDP": 2.6},
+      {"Year": 1996, "GDP": 3.1},
+      {"Year": 1997, "GDP": 1},
+      {"Year": 1998, "GDP": -1.3},
+      {"Year": 1999, "GDP": -0.3},
+      {"Year": 2000, "GDP": 2.7},
+      {"Year": 2001, "GDP": 0.4},
+      {"Year": 2002, "GDP": 0},
+      {"Year": 2003, "GDP": 1.5},
+      {"Year": 2004, "GDP": 2.2},
+      {"Year": 2005, "GDP": 1.8},
+      {"Year": 2006, "GDP": 1.4},
+      {"Year": 2007, "GDP": 1.5},
+      {"Year": 2008, "GDP": -1.2},
+      {"Year": 2009, "GDP": -5.9},
+      {"Year": 2010, "GDP": 4},
+      {"Year": 2011, "GDP": 0},
+      {"Year": 2012, "GDP": 1.4},
+      {"Year": 2013, "GDP": 2},
+      {"Year": 2014, "GDP": 0.3},
+      {"Year": 2015, "GDP": 1.5},
+      {"Year": 2016, "GDP": 0.8},
+      {"Year": 2017, "GDP": 1.7},
+      {"Year": 2018, "GDP": 0.6},
+      {"Year": 2019, "GDP": -0.4},
+      {"Year": 2020, "GDP": -4.2},
+      {"Year": 2021, "GDP": 2.5},
+      {"Year": 2022, "GDP": 1}
+    ]
+  },
+  "width": 860,
+  "height": 440
+}

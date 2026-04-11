@@ -1,0 +1,302 @@
+{
+  "config": {
+    "background": "#F7F4EF",
+    "font": "DejaVu Sans",
+    "title": {
+      "font": "DejaVu Sans",
+      "fontSize": 18,
+      "fontWeight": "normal",
+      "color": "#1C1C1E",
+      "anchor": "start",
+      "offset": 12
+    },
+    "axis": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "titleColor": "#6B6860",
+      "gridColor": "#E2DDD6",
+      "gridWidth": 1,
+      "domainColor": "#E2DDD6",
+      "tickColor": "#E2DDD6"
+    },
+    "legend": {
+      "labelFont": "DejaVu Sans",
+      "labelFontSize": 11,
+      "labelColor": "#6B6860",
+      "titleFont": "DejaVu Sans",
+      "titleFontSize": 11,
+      "titleColor": "#6B6860",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "padding": 8
+    },
+    "view": {"stroke": "transparent", "fill": "#F7F4EF"},
+    "mark": {"tooltip": true}
+  },
+  "layer": [
+    {
+      "data": {"name": "data-b43e7133137b618a107f97b9808b3dc1"},
+      "mark": {"type": "bar"},
+      "encoding": {
+        "color": {
+          "field": "Tenure",
+          "legend": {"title": null},
+          "scale": {
+            "domain": ["Less than 1 year", "1 to 9 years", "10 years or over"],
+            "range": ["#BDC3C7", "#2C3E50", "#BC002D"]
+          },
+          "sort": ["Less than 1 year", "1 to 9 years", "10 years or over"],
+          "type": "nominal"
+        },
+        "order": {"field": "TenureOrder", "type": "quantitative"},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Tenure", "type": "nominal"},
+          {
+            "field": "Share",
+            "format": ".1f",
+            "title": "Share (%)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "format": ".0f",
+            "title": "Share of dependent employment (%)"
+          },
+          "field": "Share",
+          "scale": {"domain": [0, 101]},
+          "stack": "zero",
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {"labelFontSize": 12, "title": null},
+          "field": "Country",
+          "sort": [
+            "Japan",
+            "Italy",
+            "France",
+            "Germany",
+            "United Kingdom",
+            "Canada",
+            "United States",
+            "Korea"
+          ],
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {"name": "data-labels"},
+      "mark": {
+        "type": "text",
+        "color": "white",
+        "font": "DejaVu Sans",
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"field": "Label", "type": "nominal"},
+        "x": {"field": "xpos", "type": "quantitative"},
+        "y": {
+          "field": "Country",
+          "sort": [
+            "Japan",
+            "Italy",
+            "France",
+            "Germany",
+            "United Kingdom",
+            "Canada",
+            "United States",
+            "Korea"
+          ],
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Figure 4: Ratio of workers by years of employee tenure (G7+Korea)"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-b43e7133137b618a107f97b9808b3dc1": [
+      {
+        "Country": "Japan",
+        "Share": 8,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "Japan",
+        "Share": 44,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "Japan",
+        "Share": 48,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      },
+      {
+        "Country": "Italy",
+        "Share": 11.1,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "Italy",
+        "Share": 44.5,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "Italy",
+        "Share": 44.3,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      },
+      {
+        "Country": "France",
+        "Share": 17,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "France",
+        "Share": 43.7,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "France",
+        "Share": 39.3,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      },
+      {
+        "Country": "Germany",
+        "Share": 16.1,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "Germany",
+        "Share": 47.1,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "Germany",
+        "Share": 36.8,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      },
+      {
+        "Country": "United Kingdom",
+        "Share": 16,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "United Kingdom",
+        "Share": 55,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "United Kingdom",
+        "Share": 29,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      },
+      {
+        "Country": "Canada",
+        "Share": 17.5,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "Canada",
+        "Share": 54.1,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "Canada",
+        "Share": 28.3,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      },
+      {
+        "Country": "United States",
+        "Share": 22.2,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "United States",
+        "Share": 51.6,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "United States",
+        "Share": 26.2,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      },
+      {
+        "Country": "Korea",
+        "Share": 28.4,
+        "Tenure": "Less than 1 year",
+        "TenureOrder": 1
+      },
+      {
+        "Country": "Korea",
+        "Share": 48.8,
+        "Tenure": "1 to 9 years",
+        "TenureOrder": 2
+      },
+      {
+        "Country": "Korea",
+        "Share": 22.8,
+        "Tenure": "10 years or over",
+        "TenureOrder": 3
+      }
+    ],
+    "data-labels": [
+      {"Country": "Japan", "Label": "8.0", "xpos": 4},
+      {"Country": "Japan", "Label": "44.0", "xpos": 30},
+      {"Country": "Japan", "Label": "48.0", "xpos": 76},
+      {"Country": "Italy", "Label": "11.1", "xpos": 5.55},
+      {"Country": "Italy", "Label": "44.5", "xpos": 33.35},
+      {"Country": "Italy", "Label": "44.3", "xpos": 77.75},
+      {"Country": "France", "Label": "17.0", "xpos": 8.5},
+      {"Country": "France", "Label": "43.7", "xpos": 38.35},
+      {"Country": "France", "Label": "39.3", "xpos": 80.35},
+      {"Country": "Germany", "Label": "16.1", "xpos": 8.05},
+      {"Country": "Germany", "Label": "47.1", "xpos": 39.65},
+      {"Country": "Germany", "Label": "36.8", "xpos": 81.55},
+      {"Country": "United Kingdom", "Label": "16.0", "xpos": 8},
+      {"Country": "United Kingdom", "Label": "55.0", "xpos": 43.5},
+      {"Country": "United Kingdom", "Label": "29.0", "xpos": 85.5},
+      {"Country": "Canada", "Label": "17.5", "xpos": 8.75},
+      {"Country": "Canada", "Label": "54.1", "xpos": 44.55},
+      {"Country": "Canada", "Label": "28.3", "xpos": 85.85},
+      {"Country": "United States", "Label": "22.2", "xpos": 11.1},
+      {"Country": "United States", "Label": "51.6", "xpos": 48},
+      {"Country": "United States", "Label": "26.2", "xpos": 87.1},
+      {"Country": "Korea", "Label": "28.4", "xpos": 14.2},
+      {"Country": "Korea", "Label": "48.8", "xpos": 52.8},
+      {"Country": "Korea", "Label": "22.8", "xpos": 88.6}
+    ]
+  },
+  "width": 860,
+  "height": 440
+}
