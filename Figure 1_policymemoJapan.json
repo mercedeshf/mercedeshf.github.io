@@ -4,7 +4,7 @@
     "font": "DejaVu Sans",
     "title": {
       "font": "DejaVu Sans",
-      "fontSize": 18,
+      "fontSize": 20,
       "fontWeight": "normal",
       "color": "#1C1C1E",
       "anchor": "start",
@@ -12,10 +12,10 @@
     },
     "axis": {
       "labelFont": "DejaVu Sans",
-      "labelFontSize": 11,
+      "labelFontSize": 13,
       "labelColor": "#6B6860",
       "titleFont": "DejaVu Sans",
-      "titleFontSize": 12,
+      "titleFontSize": 15,
       "titleFontWeight": "normal",
       "titleColor": "#6B6860",
       "gridColor": "#E2DDD6",
@@ -25,10 +25,10 @@
     },
     "legend": {
       "labelFont": "DejaVu Sans",
-      "labelFontSize": 11,
+      "labelFontSize": 13,
       "labelColor": "#6B6860",
       "titleFont": "DejaVu Sans",
-      "titleFontSize": 11,
+      "titleFontSize": 13,
       "titleColor": "#6B6860",
       "orient": "bottom",
       "direction": "horizontal",
@@ -132,7 +132,7 @@
     "text": "Figure 1: Sources of Japan's GDP growth rate (%) ",
     "subtitleColor": "#6B6860",
     "subtitleFont": "DejaVu Sans",
-    "subtitleFontSize": 12
+    "subtitleFontSize": 15
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
